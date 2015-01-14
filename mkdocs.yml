@@ -1,0 +1,25 @@
+site_name: Everlaps
+theme: bootstrap
+theme_dir: 'custom_theme'
+markdown_extensions: [extra, admonition, 'iconfonts(prefix=fa-,base=fa)']
+use_directory_urls: false
+
+# https://www.npmjs.com/package/google-fonts-offline
+extra_css: ['css_extra/tables.css','css_extra/admonitions.css','css_extra/fixes.css', 'fonts/opensans.css']
+extra_javascript: []
+
+repo_url: https://github.com/Gusi/docs.everlaps.com
+
+pages:
+- ['index.md', 'Everlaps documentation']
+- ['quick-start.md', 'Inicio rápido']
+- ['user-guide/drivers.md', 'Manual detallado', 'Pilotos']
+- ['user-guide/races.md', 'Manual detallado', 'Carreras']
+- ['user-guide/heats.md', 'Manual detallado', 'Mangas']
+- ['user-guide/config.md', 'Manual detallado', 'Configuracion']
+- ['race-formats/qualify-finals.md', 'Formatos de carrera', 'Clasificatorias y finales']
+- ['race-formats/christmas-tree.md', 'Formatos de carrera', 'Formato piramidal']
+- ['race-formats/free-practice.md', 'Formatos de carrera', 'Entrenamiento libre']
+- ['common-tasks/punishments-corrections.md', 'Tareas frecuentes', 'Sanciones y correcciones']
+- ['common-tasks/change-transponders.md', 'Tareas frecuentes', 'Cambiar transponders']
+- ['common-tasks/late-entries.md', 'Tareas frecuentes', 'Inscripciones con la carrera en marcha']
