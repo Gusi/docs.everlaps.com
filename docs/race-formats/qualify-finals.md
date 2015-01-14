@@ -139,6 +139,11 @@ Permite configurar cada uno de los parámetros.
 
 - **Retardo salida lanzada**: Para el modo de *Salida lanzada*, indica el espacio tiempo entre las llamadas a los pilotos.
 
+- **Orden salida lanzada**: Define si en cada tanda se recalcula el orden de salida a razón de la posición actual en la sesión.
+
+	- **Reordenar cada tanda**: Efectúa la reordenación. Es el funcionamiento habitual cuando se usa la salida lanzada.
+	- **Orden fijo**: Mantiene el orden de salida constante en todas las tandas.
+
 - **Tipo de resultado**: Define los valores que se contabilizan para el resultado de la sesión:
 
 	- **Vueltas / Tiempo**: Se contabiliza el número de vueltas totales y el tiempo en realizarlas.
@@ -169,6 +174,15 @@ Permite configurar cada uno de los parámetros.
 	- **Mejor resultado**: Se elige el mejor resultado en vueltas/tiempo sin importar la posición.
 
 - **Sistema de puntos**: Establece el sistema de puntuación de entre los soportados por el programa.
+
+- **Series con tandas completas**: Establece una división en cuanto al número de mangas que puntúan para cada serie. Esto es útil para, por ejemplo en finales, permitir que la serie A corra 3 finales puntuando 2 de ellas, y las series de la B en adelante sólo una única final.
+
+	- **Todas las series**: Todas las series puntúan exactamente con el mismo número de mangas. No existe distinción entre series respecto al número de tandas y mangas puntuables.
+	
+	- **Primeras series**: Las primeras series puntúan el número de mangas establecido en la configuración general de la sesión y el resto el valor establecido en *Tandas en series inferiores*.
+	
+		- **Hasta la serie**: Define hasta que serie (inclusive) se disputan todas las mangas de forma normal. Por ejemplo si sólo se quieren 3 finales para la serie A, este valor debe ser 1.
+		- **Tandas en series inferiores**: Número de tandas que puntúan para las series inferiores. Por ejemplo 1 para que las series por debajo de la A puntúen sólo una manga.
 	
 !!! info ""
 	Se puede modificar el tipo de resultado en cualquier momento aunque se hayan lanzado mangas con el formato anterior. El sistema recalcula los resultados en función de los nuevos parámetros y de las vueltas almacenadas.
