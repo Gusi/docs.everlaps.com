@@ -8,6 +8,9 @@ Las sesiones anteriores a las finales (entrenos, recolocación y/o clasificació
 
 ![Formato piramidal](img/subfinals.png)
 
+!!! info ""
+	El número de pilotos que se utiliza para el cálculo de la distribución de las subfinales se obtiene de la lista de inscripciones, exceptuando aquellos pilotos excluídos de la carrera o de la sesión clasificatoria. Esto es especialmente útil para afinar la distribución en el caso de existir pilotos que estén inscritos pero no vayan a disputar la carrera, o que hayan abandonado después de las clasificatorias.
+
 - **Nombre**: Define la subfinal o final. Se establece automáticamente.
 
 - **Series**: Número de series que intervienen en las subfinales, calculado automáticamente. Cada subfinal tiene siempre dos series, excepto:

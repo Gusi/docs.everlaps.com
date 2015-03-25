@@ -111,6 +111,9 @@ La pantalla de series se divide horizontalmente en dos partes:
 	- **Copiar de la sesión**: Se copia exactamente la misma distribución de pilotos establecida en la sesión seleccionada en la lista inferior.
 	- **Resultado de la sesión**: El orden de pilotos se define por el resultado de la sesión seleccionada en la lista inferior.
 
+		!!! info ""
+			Al generar las mangas basándose en el resultado de una sesión anterior, se ignoran aquellos pilotos que hayan sido excluídos tanto de la carrera (panel de inscripciones) como de la sesión de la cual se obtiene el resultado para generar la nueva distribución (panel de series).
+
 - **Añadir**: Añade una serie vacía
 
 - **Eliminar**: Elimina la serie seleccionada. Los pilotos que perteneciesen a la serie pasan a la lista de *pilotos sin serie*.

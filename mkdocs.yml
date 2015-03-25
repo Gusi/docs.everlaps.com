@@ -17,6 +17,7 @@ pages:
 - ['user-guide/races.md', 'Manual detallado', 'Carreras']
 - ['user-guide/heats.md', 'Manual detallado', 'Mangas']
 - ['user-guide/config.md', 'Manual detallado', 'Configuracion']
+- ['user-guide/commands.md', 'Manual detallado', 'Línea de comandos']
 - ['race-formats/qualify-finals.md', 'Formatos de carrera', 'Clasificatorias y finales']
 - ['race-formats/christmas-tree.md', 'Formatos de carrera', 'Formato piramidal']
 - ['race-formats/free-practice.md', 'Formatos de carrera', 'Entrenamiento libre']

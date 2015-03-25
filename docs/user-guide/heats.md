@@ -44,6 +44,8 @@ Al activar una manga, se muestra el panel que permite controlar el estado de la 
 	
 ### &fa-list-alt; Mangas
 
+##### Acciones
+
 - &fa-upload; (*Activar manga seleccionada*): Activa la manga seleccionada, mostrando el panel de control e inicializando el resto de paneles de *Situación de la manga activa* y *Resultados*. 
 
 	!!! info ""
@@ -77,6 +79,14 @@ Al activar una manga, se muestra el panel que permite controlar el estado de la 
 
 - **Eliminar**: Borra la manga seleccionada, incluyendo todas sus vueltas y resultados.
 
+##### Menú contextual
+
+Sobre cualquier manga, a excepción de la manga activa, se puede utilizar el botón derecho para acceder al menú contextual con las siguientes opciones:
+
+- **Modificar estado...**
+	- **Por disputar**: Las mangas pendientes de disputar, aunque tengan resultados registrados, no intervienen en el resultado de la sesión.
+	- **Finalizada**: En estado finalizado, la manga interviene en los resultados de sesión. Aunque la manga no contenga resultados se puede marcar como finalizada, lo cual habilita por ejemplo activar las mangas de la tanda siguientes en caso de ser necesario.
+- **Generar contenedores de vueltas vacíos**: Genera los contenedores que aparecen en el panel de vueltas y que permiten hacer correcciones sobre los resultados de los pilotos en esa manga. Es útil cuando se desea introducir resultados directamente sin haber disputado la manga, o si se añade un piloto a la serie después de que ésta se haya disputado, y se desea establecer manualmente su resultado de vueltas y tiempo. 
 
 ---
 
@@ -166,13 +176,17 @@ Muestra el detalle de cada una de las pasadas de los pilotos en orden cronológi
 !!! info ""
 	En el campo de tiempo de vuelta, el **color naranja** indica que el tiempo de esa vuelta el mayor que el doble de tiempo mínimo por vuelta establecido, lo cual puede indicar una vuelta no contabilizada para ese piloto por no haber pasado correctamente por línea de meta.
 
-##### Acciones
+##### Menú contextual
 
 Una vez que la manga termina, es posible asignar o denegar pasadas utilizando el botón derecho sobre la pasada correspondiente.
 
 - **Modificar estado...**: Al modificar el estado de una pasada se recalcula el resultado del piloto en la manga y los tiempos de vuelta correspondientes.
 	- **OK**: La pasada se asigna al piloto cuyo transponder coincida con el de la pasada.
 	- **Denegado**: La vuelta seleccionada se marca como denegado y no se contabiliza.
+- **Asignar todas**: Asigna todas las vueltas marcadas como *prohibidas* o *recuperadas* al piloto cuyo transponder coincida con el de la pasada.
+- **Decodificador**: Permite recuperar pasadas directamente del decodificador AMB *sólamente si está conectado por cable Ethernet*.
+	- **Recuperar pasadas perdidas**: Analiza las pasadas existentes y recupera aquellas que pudiesen haberse perdido debido a algún problema de comunicación con el decodificador.
+	- **Recuperar últimas 10 pasadas**: Recupera 10 pasadas existentes justo después de la última pasada almacenada para la manga. Esta acción se puede repetir tantas veces como se quiera en caso de ser necesario.
 
 ---
 

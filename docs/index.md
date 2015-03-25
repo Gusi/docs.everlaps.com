@@ -37,6 +37,7 @@ Esta documentación está estructurada de la siguiente forma:
 	- [**Carreras**](user-guide/races/index.html)
 	- [**Mangas**](user-guide/heats/index.html)
 	- [**Configuración**](user-guide/config/index.html)
+	- [**Opciones de línea de comandos**](user-guide/commands/index.html)
 
 - **Formatos de carrera**: Descripción de cada uno de los formatos soportados.
  
