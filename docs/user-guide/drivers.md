@@ -1,8 +1,17 @@
 ## &fa-users; Pilotos
 
-Desde aquí se gestionan todos los pilotos disponibles en la base de datos del programa. Un piloto es una persona individual que puede ser inscrita en alguna de las carreras configuradas.
+Permite la gestión de todos los pilotos disponibles en la base de datos del programa.
 
 ![Pilotos](img/drivers.png)
+
+Es importante comprender algunos de los términos referentes a la gestión de pilotos:
+
+- **Piloto**: es una persona individual que puede ser inscrita en alguna de las carreras configuradas
+- **Categoría**: clasifica los diferentes modelos de vehículos
+- **Ranking**: nivel de habilidad de un piloto en relación al resto
+- **Etiqueta**: permite agrupar pilotos respecto a un identificador común    
+
+Un piloto puede tener asignados diferentes valores de transponder y ranking según las categorías en las que participe, así como cualquier número de etiquetas definidas en el programa.
 
 ---
 
@@ -23,7 +32,7 @@ Permite la introducción, modificación y borrado de los pilotos disponibles.
 
 - **Exportar**: Permite el volcado a fichero de la lista completa de pilotos.
 
-- &fa-search; **(Filtro de búsqueda)**: Realiza un filtrado de los pilotos visibles mostrando aquellos en los que alguno de sus campos (Nombre, Apellidos, Apodo, Transponder, etc...) coinciden total o parcialmente con el texto introducido en el campo de búsqueda. 
+- &fa-search; **(Filtro de búsqueda)**: Realiza un filtrado de los pilotos visibles mostrando aquellos en los que alguno de sus campos (Nombre, Apellidos, Apodo, Transponder, Categoría, etc...) coinciden total o parcialmente con el texto introducido en el campo de búsqueda. 
 
 ##### Campos
 
@@ -38,6 +47,18 @@ Permite la introducción, modificación y borrado de los pilotos disponibles.
 
 	Cuando se añaden pilotos de forma manual, es importante introducir correctamente su correo electrónico en caso de que estén ya registrados en [Everlaps](http://everlaps.com) para poder asignar sus resultados de forma correcta.
 
+- **Etiquetas**: Muestra todas las etiquetas asignadas al piloto.
+
+---
+	
+### Ficha del piloto
+
+Muestra el detalle de todos los datos del piloto, incluyendo además de los datos personales enumerados anteriormente, las listas de transponders y rankings por categoría, las carreras activas en las que participa el piloto, y las etiquetas asignadas al mismo.
+
+#### Transponders y rankings
+
+TODO
+
 - **Rank**: Se puede usar como indicador del nivel de los pilotos. Tener los pilotos clasificados por rank es muy útil a la hora de generar las series de forma rápida.
 
 	Puede haber números de rank repetidos o no correlativos, lo importante es que cada piloto esté correctamente situado con respecto a los demás.
@@ -45,10 +66,11 @@ Permite la introducción, modificación y borrado de los pilotos disponibles.
 	!!! info ""
 		El transponder y rank asignados a un piloto en cada carrera puede ser distinto al que aparece en la *lista de pilotos*.
 
----
-	
-### Ficha del piloto
+#### Inscripciones activas
 
-Muestra un resumen de los campos asignados al piloto seleccionado en la lista de pilotos. 
+TODO
 
-En próximas versiones se permitirá la asignación de múltiples transponders a un mismo piloto, así como la asignación de etiquetas que permitirán una mejor gestión de los pilotos disponibles cuando la base de datos es relativamente grande.
+#### Etiquetas
+
+TODO
+

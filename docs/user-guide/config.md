@@ -2,7 +2,9 @@
 
 Permite configurar los parámetros generales de la aplicación.
 
----
+## Opciones de configuración
+
+--- 
 
 #### &fa-microphone; Voces
 
@@ -146,3 +148,8 @@ Permite el cambio de idioma del interfaz y las locuciones de Everlaps
 #### &fa-bug; Depuración
 
 - **Mostrar consola**: Muestra el registro de actividad del programa (mensajes de voz, acciones, errores...). En caso de problemas, puede servir de ayuda para intentar comprender lo sucedido siguiendo la traza de ejecución del programa.
+
+
+## Categorías y etiquetas
+
+TODO
