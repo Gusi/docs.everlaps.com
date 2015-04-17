@@ -4,12 +4,13 @@ Permite la gestión de todos los pilotos disponibles en la base de datos del pro
 
 ![Pilotos](img/drivers.png)
 
-Es importante comprender algunos de los términos referentes a la gestión de pilotos:
+Lista de términos referentes a la gestión de pilotos:
 
-- **Piloto**: es una persona individual que puede ser inscrita en alguna de las carreras configuradas
-- **Categoría**: clasifica los diferentes modelos de vehículos
-- **Ranking**: nivel de habilidad de un piloto en relación al resto
-- **Etiqueta**: permite agrupar pilotos respecto a un identificador común    
+- **Piloto**: Persona individual que puede ser inscrita en alguna de las carreras configuradas
+- **Categoría**: Clasifica las diferentes modalidades según el tipo vehículo
+- **Transponder**: Número del transponder personal que utiliza el sistema de conteo de vueltas para identificar al piloto
+- **Ranking**: Nivel de habilidad de un piloto en relación al resto
+- **Etiqueta**: Permite agrupar pilotos respecto a un identificador común    
 
 Un piloto puede tener asignados diferentes valores de transponder y ranking según las categorías en las que participe, así como cualquier número de etiquetas definidas en el programa.
 
@@ -27,21 +28,15 @@ Permite la introducción, modificación y borrado de los pilotos disponibles.
 
 - **Importar**: Permite cargar una lista de pilotos desde un fichero.
 
-	!!! info ""
-		Al importar la lista de pilotos solamente se añaden aquellos que aparecen en el archivo pero no pertenecen todavía a la base de datos. De los pilotos ya existentes se respetan sus valores de transponder y rank.
-
 - **Exportar**: Permite el volcado a fichero de la lista completa de pilotos.
 
-- &fa-search; **(Filtro de búsqueda)**: Realiza un filtrado de los pilotos visibles mostrando aquellos en los que alguno de sus campos (Nombre, Apellidos, Apodo, Transponder, Categoría, etc...) coinciden total o parcialmente con el texto introducido en el campo de búsqueda. 
+- &fa-search; **(Filtro de búsqueda)**: Realiza un filtrado de los pilotos visibles mostrando aquellos en los que alguno de sus campos (nombre, apellidos, apodo, transponder, categoría, etiquetas, etc...) coinciden total o parcialmente con el texto introducido en el campo de búsqueda. 
 
 ##### Campos
 
 - **Nombre y apellidos**: Aparecerán en los listados para identificar inequívocamente al piloto.
 
 - **Apodo**: El apodo se usará en las locuciones para narrar las posiciones y tiempos de los pilotos, así como en el detalle de vueltas de los informes. Puede haber apodos repetidos en la base de datos, pero en una misma serie no está permitido (el programa avisará de tal situación para que sean modificados).
-
-	!!! info ""
-		Verifica que los apodos de los pilotos participantes sean pronunciables por el sistema locución antes de iniciar la carrera.
 
 - **Correo**: El correo es la forma que utiliza el programa para emparejar inequívocamente a los pilotos entre la base de datos local y la base de datos disponible en la [web de Everlaps](http://everlaps.com), de forma que permite gestionar las inscripciones y resultados de cada piloto de manera bidireccional.
 
@@ -57,20 +52,25 @@ Muestra el detalle de todos los datos del piloto, incluyendo además de los dato
 
 #### Transponders y rankings
 
-TODO
+Gestiona la lista de transponders y rankings del piloto según las categorías en las que participa
 
-- **Rank**: Se puede usar como indicador del nivel de los pilotos. Tener los pilotos clasificados por rank es muy útil a la hora de generar las series de forma rápida.
+- **Categoría**: Permite seleccionar entre las disponibles en la lista de [categorías](./user-guide/config/index.html#categorias)
+- **Transponder y rank**: Permite asignar los valores correspondientes para el piloto en la categoría seleccionada.
 
-	Puede haber números de rank repetidos o no correlativos, lo importante es que cada piloto esté correctamente situado con respecto a los demás.
-
-	!!! info ""
-		El transponder y rank asignados a un piloto en cada carrera puede ser distinto al que aparece en la *lista de pilotos*.
+!!! info ""
+	Al inscribir un piloto manualmente en una carrera, el sistema compara la categoría de la carrera con las categorías asignadas al piloto para asignar el transponder correspondiente. En caso de que no exista coincidencia, se asigna el transponder asignado a la categoría por defecto. 
 
 #### Inscripciones activas
 
-TODO
+Lista de las carreras marcadas como activas en las cuales participa el usuario seleccionado.
+
+Es posible modificar el transponder y rank de la inscripción seleccionada desde aquí, de la misma forma que se haría en la sección de [inscripciones](./user-guide/races/index.html#inscripciones).
 
 #### Etiquetas
 
-TODO
+Muestra las etiquetas asignadas al usuario.
+
+Las etiquetas permiten filtrar y agrupar de forma rápida a los pilotos en las distintas secciones (lista de pilotos, inscripciones, series...).
+
+Se puede asignar cualquier etiqueta seleccionándola del desplegable inferior, y se puede eliminar haciendo clic sobre la *X* que aparece al situar el cursor del ratón sobre la etiqueta que se desea eliminar. La lista completa está definida en la sección de configuración de [etiquetas](./user-guide/config/index.html#etiquetas).
 

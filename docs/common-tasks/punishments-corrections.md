@@ -42,11 +42,11 @@ Todas las sanciones realizadas tienen efecto inmediato y se puede ver el resulta
 
 Se realizan desde la sección de series, para la sesión correspondiente. En la parte derecha de la lista de pilotos, existen las siguientes opciones:
 
-- **MM (Mejor manga)**: Sanciona al piloto con la pérdida de la mejor manga en esa sesión. Como la mejor manga del piloto no se conoce hasta que han concluido todas las tandas, según se van generando los resultados de carrera, se va seleccionando la mejor en el listado de resultados de la sesión, y esa es la que se deshecha. 
+- **Mejor Manga**: Sanciona al piloto con la pérdida de la mejor manga en esa sesión. Como la mejor manga del piloto no se conoce hasta que han concluido todas las tandas, según se van generando los resultados de carrera, se va seleccionando la mejor en el listado de resultados de la sesión, y esa es la que se deshecha. 
 
 	*Como la mejor manga puede ir variando según avanza la sesión, no se produce ascensión de posición de los pilotos que están situados por debajo del piloto sancionado. En caso de querer que sí se produzca la ascensión, habría que esperar al final de sesión y sancionar la mejor manga de forma directa (sanción a nivel de manga).*
 
-- **Excluido**: Sitúa al piloto en último lugar para esa sesión.
+- **Excluído**: Sitúa al piloto en último lugar para esa sesión y evita que participe en la generación automática de nuevas series.
 
 ---
 
@@ -56,5 +56,5 @@ Se realizan desde la sección de series, para la sesión correspondiente. En la 
 
 Se realizan desde la sección de inscripciones del programa. Existe una única opción:
 
-- **Excluir piloto de la carrera**: Sitúa al piloto en último lugar en todas las sesiones en las que participe.
+- **Excluído**: Sitúa al piloto en último lugar en todas las sesiones en las que participe y evita que participe en la generación automática de nuevas series.
 

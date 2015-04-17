@@ -21,4 +21,6 @@ Cuando un piloto llega tarde a la carrera y ésta ya ha comenzado, es posible a�
 
 Una vez generada las series, es posible eliminar pilotos (arrastrándolos al panel de [pilotos sin serie](../user-guide/races/index.html#pilotos-sin-serie)) siempre que no existan resultados de ninguna manga perteneciente a esa serie.
 
-De forma similar, si se desea desinscribir al piloto de la carrera, se puede eliminar su inscripción siempre y cuando el piloto no pertenezca a ninguna serie de entre las sesiones de la carrera. 
+De forma similar, si se desea desinscribir al piloto de la carrera, se puede eliminar su inscripción siempre y cuando el piloto no pertenezca a ninguna serie de entre las sesiones de la carrera.
+
+Si algún piloto está inscrito en alguna manga que ha sido disputada, pero se desea evitar que el piloto participe en las siguientes sesiones, se puede marcar como *excluído* en la [lista de inscripciones](../user-guide/races/index.html#inscripciones).

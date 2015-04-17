@@ -152,4 +152,12 @@ Permite el cambio de idioma del interfaz y las locuciones de Everlaps
 
 ## Categorías y etiquetas
 
-TODO
+![Categorías y etiquetas](img/classes-tags.png)
+
+#### &fa-list; Categorías
+
+Permite añadir, eliminar y modificar categorías. Por defecto se crea una lista con las categorías más habituales, que pueden modificarse a voluntad con la única restricción de la categoría por defecto, que no puede ser eliminada.
+
+#### &fa-list; Etiquetas
+
+Permite añadir, eliminar y modificar etiquetas, asignado un color identificativo junto con su descripción.

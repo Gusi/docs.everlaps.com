@@ -78,7 +78,7 @@ La pantalla se divide verticalmente en dos partes:
 
 - **Transponder y rank**: Estos campos se pueden modificar y sólo afectan a la carrera seleccionada. Si se modifica un transponder, el programa mostrará un diálogo para permitir establecer ese transponder como valor por defecto en la base de datos para próximas carreras, y si el piloto pertenece a la manga activa de carrera, se mostrará otro diálogo para permitir la modificación en caliente del valor. Ver [cambiar transponders](../common-tasks/change-transponders/index.html) para más información.
 
-- **Excluido**: Sanciona al piloto situándolo en último lugar en todos los resultados de la carrera. Ver [sanciones y correcciones](../common-tasks/punishments-corrections/index.html) para más información.
+- **Excluído**: Sanciona al piloto situándolo en último lugar en todos los resultados de la carrera. Los pilotos excluídos no intervienen en la generación automática de nuevas series. Ver [sanciones y correcciones](../common-tasks/punishments-corrections/index.html) para más información.
 
 #### Pilotos disponibles
 
@@ -135,9 +135,9 @@ Los pilotos que aparecen dentro de cada serie pueden arrastrarse dentro de la mi
 
 - **Nombre, apellidos y apodo**: Son los datos del piloto tal y como aparecen en la base de datos.
 
-- **MM** (*Mejor manga*): Permite sancionar la mejor manga del piloto en esa sesión. Ver [sanciones y correcciones](../common-tasks/punishments-corrections/index.html) para más información.
+- **Mejor Manga**: Permite sancionar la mejor manga del piloto en esa sesión. Ver [sanciones y correcciones](../common-tasks/punishments-corrections/index.html) para más información.
 
-- **Ex** (*Excluido*): Sanciona al piloto pasando a ocupar el último puesto en los resultados de esa sesión. Ver [sanciones y correcciones](../common-tasks/punishments-corrections/index.html) para más información.
+- **Excluído**: Sanciona al piloto pasando a ocupar el último puesto en los resultados de esa sesión. Los pilotos excluídos no intervienen en la generación automática de nuevas series. Ver [sanciones y correcciones](../common-tasks/punishments-corrections/index.html) para más información.
 
 #### Pilotos in serie
 

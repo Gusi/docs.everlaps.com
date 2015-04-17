@@ -20,6 +20,8 @@ Por defecto se crean sesiones de entrenamiento, recolocación, clasificatorias y
 
 - **Código web**: El código web se obtiene de la página web de [Everlaps](http://everlaps.com) y permite relacionar la carrera publicada en la página web para que se puedan publicar los resultados y habilitar el envío de datos al sistema de *Live Timing*.
 
+- **Categoría**: Identifica la categoría de la carrera para elegir el transponder más adecuado durante las inscripciones manuales de pilotos.
+
 ##### Locución
 
 - **Nombre corto**: Nombre que usa la locución para indicar a qué carrera pertenece la manga activa. Sólo se recomienda su uso cuando se intercalan mangas de varias carreras distintas (por ejemplo cuando corren dos categorías el mismo día), para que los pilotos puedan identificar a cual de las categorías corresponde la manga en curso.
