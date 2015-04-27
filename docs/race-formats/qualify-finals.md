@@ -156,16 +156,18 @@ Permite configurar cada uno de los parámetros.
 
 - **Alcance de resultado**: Define el grupo de competidores para el resultado de la sesión.
 
-	- **Global**: se tienen en cuenta los resultados de los todos los pilotos para la clasificación final (Clasificatorias).
-	- **Por serie**: se tiene en cuenta solo los resultados de los pilotos pertenecientes a la misma serie (Finales).
+	- **Global**: Se tienen en cuenta los resultados de los todos los pilotos para la clasificación final (Clasificatorias).
+	- **Por serie**: Se tienen en cuenta solo los resultados de los pilotos pertenecientes a la misma serie (Finales).
 
 - **Desempates**: En caso de que varios pilotos obtengan exactamente el mismo resultado en el global de las mangas a contabilizar para la sesión, se establece el siguiente sistema de desempate.
 
-	- **Posición de salida**: Gana el piloto con mejor posición inicial de salida.
-	- **Mangas descartadas**: Se utilizan las mangas descartadas para el desempate. Por ejemplo, en una clasificatorias de 5 tandas en donde puntúan las 3 mejores, en caso de no poder resolver el desempate se utilizaría la cuarta mejor manga de los pilotos, y en caso de seguir el empate, la quinta mejor manga, antes de utilizar la posición de salida como desempate final.
+	- **Mejores resultados**: Utiliza los mejores resultados de las mangas que puntúan para efectuar el desempate (ver recuadro explicativo más abajo).
+	- **Mejores resultados con mangas descartadas**: Utiliza el modo de *Mejores resultados*, y en caso de seguir con el empate se utilizan las mangas descartadas. Por ejemplo, en una clasificatorias de 5 tandas en donde puntúan las 3 mejores y no pudiendo resolver el desempate se utilizaría la cuarta mejor manga de los pilotos, y en caso de seguir el empate, la quinta mejor manga, antes de utilizar la posición de salida como desempate final.
+	- **Mangas descartadas**: Utiliza los mejores resultados de las mangas descartadas para realizar el desempate sin tener en cuenta los mejores resultados de las mangas que puntúan. En caso de que no se hayan corrido el suficiente número de tandas para disponer de mangas de descarte, el utiliza el modo de desempate de *Mejores resultados*.
 
-	!!! info ""
-		Antes de llegar al modo de resolución de desempates, en el caso de que varios pilotos obtengan el mismo resultado en tiempos o puntos, se establece el siguiente proceso de resolución:
+	
+	!!! info "Resolución por mejores resultados"
+		En el caso de que varios pilotos obtengan el mismo resultado en tiempos o puntos, se establece el siguiente proceso de resolución:
 
 		- Gana el piloto con una mejor posición en su mejor manga. Si persiste el empate se compara la segunda mejor manga, y así sucesivamente hasta el número de mangas que puntúan.
 		- Si siguen empatados, gana el piloto con mejor resultado (vueltas/tiempo) en su mejor manga. Si persiste el empate se compara la segunda mejor manga, y así sucesivamente hasta el número de mangas que puntúan. 
