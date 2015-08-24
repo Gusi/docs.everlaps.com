@@ -183,7 +183,13 @@ Una vez que la manga termina, es posible asignar o denegar pasadas utilizando el
 - **Modificar estado...**: Al modificar el estado de una pasada se recalcula el resultado del piloto en la manga y los tiempos de vuelta correspondientes.
 	- **OK**: La pasada se asigna al piloto cuyo transponder coincida con el de la pasada.
 	- **Denegado**: La vuelta seleccionada se marca como denegado y no se contabiliza.
+	
 - **Asignar todas**: Asigna todas las vueltas marcadas como *prohibidas* o *recuperadas* al piloto cuyo transponder coincida con el de la pasada.
+
+- **Revisar tiempos de vuelta**: Comprueba que no haya atajos o pasadas fuera de tiempo contabilizadas como válidas. 
+	
+	*Este proceso se realiza automáticamente cada vez que se modifica el estado de alguna pasada o se añaden todas las pasadas de un piloto.*
+
 - **Decodificador**: Permite recuperar pasadas directamente del decodificador AMB *sólamente si está conectado por cable Ethernet*.
 	- **Recuperar pasadas perdidas**: Analiza las pasadas existentes y recupera aquellas que pudiesen haberse perdido debido a algún problema de comunicación con el decodificador.
 	- **Recuperar últimas 10 pasadas**: Recupera 10 pasadas existentes justo después de la última pasada almacenada para la manga. Esta acción se puede repetir tantas veces como se quiera en caso de ser necesario.

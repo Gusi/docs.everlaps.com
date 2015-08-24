@@ -164,7 +164,7 @@ Permite configurar cada uno de los parámetros.
 	- **Mejores resultados**: Utiliza los mejores resultados de las mangas que puntúan para efectuar el desempate (ver recuadro explicativo más abajo).
 	- **Mejores resultados con mangas descartadas**: Utiliza el modo de *Mejores resultados*, y en caso de seguir con el empate se utilizan las mangas descartadas. Por ejemplo, en una clasificatorias de 5 tandas en donde puntúan las 3 mejores y no pudiendo resolver el desempate se utilizaría la cuarta mejor manga de los pilotos, y en caso de seguir el empate, la quinta mejor manga, antes de utilizar la posición de salida como desempate final.
 	- **Mangas descartadas**: Utiliza los mejores resultados de las mangas descartadas para realizar el desempate sin tener en cuenta los mejores resultados de las mangas que puntúan. En caso de que no se hayan corrido el suficiente número de tandas para disponer de mangas de descarte, el utiliza el modo de desempate de *Mejores resultados*.
-
+	- **Mejores resultados combinados**: Similar al sistema de *mejores resultados*, pero en caso de empate en todas las posiciones de las mangas válidas, el desempate se realiza por la suma de vueltas y tiempo de todas las mangas válidas.
 	
 	!!! info "Resolución por mejores resultados"
 		En el caso de que varios pilotos obtengan el mismo resultado en tiempos o puntos, se establece el siguiente proceso de resolución:
