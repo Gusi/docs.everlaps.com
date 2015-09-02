@@ -2,7 +2,7 @@
 
 Permite la gestión de todos los pilotos disponibles en la base de datos del programa.
 
-![Pilotos](img/drivers.png)
+![Pilotos](../img/drivers.png)
 
 Lista de términos referentes a la gestión de pilotos:
 
@@ -54,7 +54,7 @@ Muestra el detalle de todos los datos del piloto, incluyendo además de los dato
 
 Gestiona la lista de transponders y rankings del piloto según las categorías en las que participa
 
-- **Categoría**: Permite seleccionar entre las disponibles en la lista de [categorías](./user-guide/config/index.html#categorias)
+- **Categoría**: Permite seleccionar entre las disponibles en la lista de [categorías](./config/index.html#categorias)
 - **Transponder y rank**: Permite asignar los valores correspondientes para el piloto en la categoría seleccionada.
 
 !!! info ""
@@ -64,7 +64,7 @@ Gestiona la lista de transponders y rankings del piloto según las categorías e
 
 Lista de las carreras marcadas como activas en las cuales participa el usuario seleccionado.
 
-Es posible modificar el transponder y rank de la inscripción seleccionada desde aquí, de la misma forma que se haría en la sección de [inscripciones](./user-guide/races/index.html#inscripciones).
+Es posible modificar el transponder y rank de la inscripción seleccionada desde aquí, de la misma forma que se haría en la sección de [inscripciones](./races/index.html#inscripciones).
 
 #### Etiquetas
 
@@ -72,5 +72,5 @@ Muestra las etiquetas asignadas al usuario.
 
 Las etiquetas permiten filtrar y agrupar de forma rápida a los pilotos en las distintas secciones (lista de pilotos, inscripciones, series...).
 
-Se puede asignar cualquier etiqueta seleccionándola del desplegable inferior, y se puede eliminar haciendo clic sobre la *X* que aparece al situar el cursor del ratón sobre la etiqueta que se desea eliminar. La lista completa está definida en la sección de configuración de [etiquetas](./user-guide/config/index.html#etiquetas).
+Se puede asignar cualquier etiqueta seleccionándola del desplegable inferior, y se puede eliminar haciendo clic sobre la *X* que aparece al situar el cursor del ratón sobre la etiqueta que se desea eliminar. La lista completa está definida en la sección de configuración de [etiquetas](./config/index.html#etiquetas).
 

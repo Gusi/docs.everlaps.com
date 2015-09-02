@@ -2,7 +2,7 @@
 
 Desde aquí se controla el progreso de las carreras, activando las mangas en el orden establecido por el cronometrador, y generando los informes de resultados correspondientes.
 
-![Mangas](img/heats.png)
+![Mangas](../img/heats.png)
 
 ---
 
@@ -10,11 +10,11 @@ Desde aquí se controla el progreso de las carreras, activando las mangas en el 
 
 Al activar una manga, se muestra el panel que permite controlar el estado de la manga.
 
-![Control de manga](img/heat-control.png)
+![Control de manga](../img/heat-control.png)
 
 ##### Acciones
 
-- **Start**: Inicia la manga con el tiempo de margen establecido en [*prólogo*](./race-formats/qualify-finals/index.html#campos-de-formato), en las opciones de carrera. Cada minuto se avisará del tiempo restante, nombre de manga, pilotos y recogecoches. Se darán los últimos avisos 30, 20 y 10 segundos antes de la salida.
+- **Start**: Inicia la manga con el tiempo de margen establecido en [*prólogo*](../race-formats/qualify-finals/index.html#campos-de-formato), en las opciones de carrera. Cada minuto se avisará del tiempo restante, nombre de manga, pilotos y recogecoches. Se darán los últimos avisos 30, 20 y 10 segundos antes de la salida.
 
 - **30/10**: Inicia la manga con 30 o 10 segundos de margen.
 
@@ -53,7 +53,7 @@ Al activar una manga, se muestra el panel que permite controlar el estado de la 
 
 - &fa-download; (*Desactivar manga activa*): Desactiva la manga activa si no está en progreso, en cuyo caso habrá que esperar a la finalización de la manga, o detenerla con los botones de *Stop* o *Finish*
 
-- &fa-play-circle; (*Activar/Desactivar modo automático*): Activa o desactiva el [modo automático](#modo-automatico). El botón puede estar en uno de estos 3 estados:
+- &fa-play-circle; (*Activar/Desactivar modo automático*): Activa o desactiva el [modo automático](#auto). El botón puede estar en uno de estos 3 estados:
 	
 	- &fa-play-circle; (estático): El modo automático esta desconectado.
 	
@@ -92,7 +92,7 @@ Sobre cualquier manga, a excepción de la manga activa, se puede utilizar el bot
 
 ### &fa-caret-square-o-right; Auto
 
-![Auto](img/auto.png)
+![Auto](../img/auto.png)
 
 Controla el lanzado automático de mangas para la carrera activa.
 
@@ -154,7 +154,7 @@ Los campos mantienen su nombre siempre en inglés para que coincidan exactamente
 - **Progress**: Barra de progreso que indica aproximadamente la situación de vuelta del piloto. Cuando la barra se completa, el piloto debería estar pasando por línea de meta si no ha sufrido ningún percance.
 
 !!! info "Cambio de transponder en caliente"
-	Con el botón derecho sobre cualquier piloto de este panel, es posible acceder al diálogo de cambio de transponder en caliente. Ver [Cambio de transponder](./common-tasks/change-transponders/index.html) para más información.
+	Con el botón derecho sobre cualquier piloto de este panel, es posible acceder al diálogo de cambio de transponder en caliente. Ver [Cambio de transponder](../common-tasks/change-transponders/index.html) para más información.
 
 ---
 
@@ -198,7 +198,7 @@ Una vez que la manga termina, es posible asignar o denegar pasadas utilizando el
 
 ### &fa-mail-forward; Vueltas
 
-![Vueltas](img/laps.png)
+![Vueltas](../img/laps.png)
 
 La pantalla de vueltas muestra el orden cronológico de las pasadas de cada piloto. Desde aquí y una vez finalizada y desactivada la manga, es posible realizar correcciones sobre el resultado de cada piloto. Ver [sanciones y correcciones](../common-tasks/punishments-corrections/index.html) para más información.
 
@@ -211,7 +211,7 @@ Las vueltas pueden ordenarse según el tiempo de vuelta o el orden cronológico,
 
 ### &fa-flag; Resultados
 
-![Resultados](img/heatresults.png)
+![Resultados](../img/heatresults.png)
 
 Muestra los resultados de manga o tanda para la manga seleccionada. Es muy útil en el caso de aplicar correcciones o sanciones a un piloto, ya que permite ver el resultado de cómo quedaría la manga o tanda antes de imprimirla.
 

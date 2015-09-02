@@ -1,6 +1,6 @@
 ## Entrenamiento libre
 
-![Entrenamiento libre](img/freepractice.png)
+![Entrenamiento libre](../img/freepractice.png)
 
 El formato de entrenamiento libre tiene un funcionamiento distinto al del resto de formatos de carrera, en los que hay que inscribir previamente a los participantes y generar series para agruparlos.
 
@@ -22,9 +22,9 @@ En el entrenamiento libre existe una única sesión y serie en donde participan 
 
 - **Puntúan**: Número de mangas que se utilizan para obtener el resultado final de cada piloto.
 
-- **Tipo de resultado/Vueltas resultado**: Identifica cómo establecer el resultado de las mangas. Consultar [clasificatorias y finales](./race-formats/qualify-finals/index.html) para más detalle.
+- **Tipo de resultado/Vueltas resultado**: Identifica cómo establecer el resultado de las mangas. Consultar [clasificatorias y finales](./qualify-finals/index.html) para más detalle.
 
-- **Tipo de puntuación**: Identifica como establecer el resultado general del entrenamiento. Consulta [clasificatorias y finales](./race-formats/qualify-finals/index.html) para más detalle.
+- **Tipo de puntuación**: Identifica como establecer el resultado general del entrenamiento. Consulta [clasificatorias y finales](./qualify-finals/index.html) para más detalle.
 
 - **Descartar transponders desconocidos**: Si está habilitada, las pasadas de los transponders que no figuren en la base de datos son ignoradas.
 

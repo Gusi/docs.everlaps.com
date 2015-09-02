@@ -2,7 +2,7 @@
 
 Desde aquí se gestionan las carreras disponibles, así como la configuración de todos sus parámetros.
 
-![Carreras](img/races.png)
+![Carreras](../img/races.png)
 
 ---
 
@@ -24,7 +24,7 @@ Muestra las carreras disponibles hasta el momento.
 
 - **Carrera**: Nombre identificativo de la carrera. Se usará en la lista de mangas y en todos los informes.
 
-- **Activa**: Indica si la carrera esta activa en el momento actual. Para las carreras activas se muestran sus mangas en la [lista de mangas](./user-guide/heats/index.html#mangas_1) y se pueden realizar planificaciones desde el modo automático.
+- **Activa**: Indica si la carrera esta activa en el momento actual. Para las carreras activas se muestran sus mangas en la [lista de mangas](./heats/index.html#mangas_1) y se pueden realizar planificaciones desde el modo automático.
 
 ---
 
@@ -44,7 +44,7 @@ El resto de los parámetros de configuración de la carrera dependen del tipo de
 
 ### &fa-user; Inscripciones
 
-![Inscripciones](img/registrations.png)
+![Inscripciones](../img/registrations.png)
 
 Permite gestionar las inscripciones de la carrera (excepto para [entrenamiento libre](../race-formats/free-practice/index.html) ya que los pilotos se inscriben automáticamente al pasar por línea de meta).
 
@@ -74,7 +74,7 @@ La pantalla se divide verticalmente en dos partes:
 
 ##### Campos
 
-- **Nombre, apellidos y apodo**: Estos campos se copian directamente de la base de datos. Si se desean modificar hay que hacerlo desde la pantalla de [pilotos](./user-guide/drivers/index.html), teniendo en cuenta que el cambio afecta a todas las carreras en las que está inscrito el piloto.
+- **Nombre, apellidos y apodo**: Estos campos se copian directamente de la base de datos. Si se desean modificar hay que hacerlo desde la pantalla de [pilotos](./drivers/index.html), teniendo en cuenta que el cambio afecta a todas las carreras en las que está inscrito el piloto.
 
 - **Transponder y rank**: Estos campos se pueden modificar y sólo afectan a la carrera seleccionada. Si se modifica un transponder, el programa mostrará un diálogo para permitir establecer ese transponder como valor por defecto en la base de datos para próximas carreras, y si el piloto pertenece a la manga activa de carrera, se mostrará otro diálogo para permitir la modificación en caliente del valor. Ver [cambiar transponders](../common-tasks/change-transponders/index.html) para más información.
 
@@ -92,7 +92,7 @@ En la parte inferior de la pantalla se muestra la lista de pilotos disponibles e
 
 ### &fa-th; Series
 
-![Series](img/series.png)
+![Series](../img/series.png)
 
 La pantalla de series se divide horizontalmente en dos partes:
 
@@ -105,7 +105,7 @@ La pantalla de series se divide horizontalmente en dos partes:
 
 - **Generar**: Genera una distribución automática con el número de pilotos por serie indicado en la configuración de la sesión, y siguiendo el orden de rank o bien el resultado de una sesión anterior, según los parámetros elegidos en el diálogo siguiente:
 	
-	![Generar distribución](img/serie-distribution-selection.png)
+	![Generar distribución](../img/serie-distribution-selection.png)
 
 	- **Rank de pilotos**: El orden de pilotos se define por el número de rank.
 	- **Copiar de la sesión**: Se copia exactamente la misma distribución de pilotos establecida en la sesión seleccionada en la lista inferior.
@@ -139,7 +139,7 @@ Los pilotos que aparecen dentro de cada serie pueden arrastrarse dentro de la mi
 
 - **Excluído**: Sanciona al piloto pasando a ocupar el último puesto en los resultados de esa sesión. Los pilotos excluídos no intervienen en la generación automática de nuevas series. Ver [sanciones y correcciones](../common-tasks/punishments-corrections/index.html) para más información.
 
-#### Pilotos in serie
+#### Pilotos sin serie
 
 Se muestra en la parte derecha de la pantalla, y contiene todos los pilotos inscritos en la carrera que todavía no pertenecen a ninguna serie en la sesión seleccionada. Los pilotos que aparecen en esta lista se pueden arrastrar a las series correspondientes y viceversa.
 
@@ -152,7 +152,7 @@ Se muestra en la parte derecha de la pantalla, y contiene todos los pilotos insc
 
 ### &fa-trophy; Resultados
 
-![Resultados](img/results.png)
+![Resultados](../img/results.png)
 
 Muestra el resultado de la sesión seleccionada, con el detalle por piloto en cada una de las tandas que han concluido hasta el momento, así como el detalle de desempates, correcciones y sanciones establecidas para sesión.
 

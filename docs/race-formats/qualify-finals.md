@@ -1,6 +1,6 @@
 ## Clasificatorias y finales
 
-![Clasificatorias y finales](img/qualy-finals.png)
+![Clasificatorias y finales](../img/qualy-finals.png)
 
 El formato de carrera de clasificatorias y finales define varias sesiones en las que siempre se efectúa una división del total de los pilotos inscritos en series.
 
@@ -57,7 +57,7 @@ Por defecto se crean sesiones de entrenamiento, recolocación, clasificatorias y
 
 #### Parámetros
 
-- **Pilotos/Serie**: Número de pilotos que se desea en cada serie cuando la distribución se realiza de forma automática con la opción *Generar* del panel de [series](./user-guide/races/index.html#series). En la pestaña de gestión de series se puede alterar con total libertad la distribución de pilotos, por lo cual este valor no es definitivo.
+- **Pilotos/Serie**: Número de pilotos que se desea en cada serie cuando la distribución se realiza de forma automática con la opción *Generar* del panel de [series](../user-guide/races/index.html#series). En la pestaña de gestión de series se puede alterar con total libertad la distribución de pilotos, por lo cual este valor no es definitivo.
 
 - **Distribución de series**: Establece cómo se distribuyen de forma automática los pilotos en las series según el valor de *Pilotos/Serie*.
 
