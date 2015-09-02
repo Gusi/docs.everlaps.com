@@ -1,5 +1,5 @@
 
-<div class="bs-docs-header" id="content">
+<div class="bs-docs-header" id="content" style="margin-bottom:0px">
 	<div class="container">
 		<h1>Everlaps</h1>
 		<p>Soluciones profesionales para el cronometraje deportivo</p>
