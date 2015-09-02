@@ -6,6 +6,8 @@
 	</div>
 </div>
 
+![Everlaps](../img/heats.png)
+
 ## Características
 
 - **Sencillez**: Everlaps ha sido diseñado para que su manejo sea extremadamente sencillo e intuitivo, sin restar funcionalidad para acometer cualquier tarea necesaria en un sistema de cronometraje profesional.
