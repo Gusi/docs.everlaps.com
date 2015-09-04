@@ -14,7 +14,7 @@ extra_javascript: []
 repo_url: https://github.com/Gusi/docs.everlaps.com
 
 pages:
-- "&nbsp;": index.md
+- Índice: index.md
 - Inicio rápido: quick-start.md
 - Manual detallado:
     - Pilotos: user-guide/drivers.md
