@@ -30,11 +30,9 @@ Se describen a continuación los pasos básicos para poder instalar y generar un
 
 Requisitos:
 
-- Windows XP / Vista / 7 / 8
+- Windows Vista / 7 / 8 / 10
 
-	*NOTA: El soporte de Windows XP puede abandonarse en próximas versiones*
-
-- Microsoft .NET Framework 4.0 Client Profile o superior
+- Microsoft .NET Framework 4.5 o superior
 
 - Módulo de voz compatible con SAPI 5 (Ivona, Loquendo, ...)
 
