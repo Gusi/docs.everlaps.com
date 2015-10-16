@@ -108,6 +108,8 @@ Por defecto se crean sesiones de entrenamiento, recolocación, clasificatorias y
 	- **Clasificatoria volante (puntos o mejor resultado)**: Similar a la anterior, pero cada piloto busca su hueco en el circuito e inicia su crono en el primer paso por meta.
 
 	- **Finales**: Salida desde parado y en orden de parrilla, con el arranque del cronómetro en el instante de sonido de la bocina.
+	
+	- **Entrenos (puntos o mejor resultado)**: Similar a la clasificatoria volante, pero el crono se inicia con el sonido de la bocina en vez de esperar a la primera pasada.
 
 ##### Formato personalizado
 
