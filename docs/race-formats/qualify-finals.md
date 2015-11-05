@@ -31,10 +31,17 @@ Por defecto se crean sesiones de entrenamiento, recolocación, clasificatorias y
 	- **No llamar**: No nombrar a los recogecoches.
 	- **Manga anterior**: Nombra a los recogecoches de la serie anterior de la misma carrera. Utilizar sólo si los pilotos de la misma carrera recogen justo después de correr su manga.
 
-- **Nombre pilotos**: Establece cómo ha de nombrar el sistema de locución a los pilotos para dar su posición en carrera, resultados finales, etc...
+- **Nombrar pilotos**: Establece cómo ha de nombrar el sistema de locución a los pilotos para dar su posición en carrera, resultados finales, etc...
 	
 	- **Usar apodo**: Utiliza el apodo del piloto.
-	- **Usar número de coche**: Utiliza el número de coche asignado al piloto.
+	- **Usar número de vehículo**: Utiliza el número de vehíulo asignado en la inscripción.
+	
+- **Numeración**: Establece el sistema de numeración de los vehículos durante la carrera.
+
+	- **Renumerar cada serie**: En cada serie se modifica el número de cada vehículo en función de su posición de salida.
+	- **Numeración fija**: Se mantiene el mismo número de vehículo durante toda la carrera. Todos los pilotos deben tener su número único asignado en el panel de inscripciones.
+
+- **Vehículo**: Establece el nombre de vehículo en las locuciones y listados (Coche o Moto)
 
 ##### Común
 

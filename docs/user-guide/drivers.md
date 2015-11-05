@@ -50,12 +50,12 @@ Permite la introducción, modificación y borrado de los pilotos disponibles.
 
 Muestra el detalle de todos los datos del piloto, incluyendo además de los datos personales enumerados anteriormente, las listas de transponders y rankings por categoría, las carreras activas en las que participa el piloto, y las etiquetas asignadas al mismo.
 
-#### Transponders y rankings
+#### Transponders, rankings y números de vehículo
 
-Gestiona la lista de transponders y rankings del piloto según las categorías en las que participa
+Gestiona la lista de transponders, rankings y números de vehículo del piloto según las categorías en las que participa
 
 - **Categoría**: Permite seleccionar entre las disponibles en la lista de [categorías](./config/index.html#categorias)
-- **Transponder y rank**: Permite asignar los valores correspondientes para el piloto en la categoría seleccionada.
+- **Transponder, rank y vehículo**: Permite asignar los valores correspondientes para el piloto en la categoría seleccionada.
 
 !!! info ""
 	Al inscribir un piloto manualmente en una carrera, el sistema compara la categoría de la carrera con las categorías asignadas al piloto para asignar el transponder correspondiente. En caso de que no exista coincidencia, se asigna el transponder asignado a la categoría por defecto. 

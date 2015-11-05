@@ -42,8 +42,14 @@ Las sesiones anteriores a las finales (entrenos, recolocación y/o clasificació
 	- **D**: Número de pilotos que se clasifican directamente por su resultado en las clasificatorias.
 	- **P**: Número de pilotos que ascienden de la subfinal anterior según su posición. 
 	- **T**: Número de pilotos que ascienden de la subfinal anterior según su resultado de *Vueltas/Tiempo*.
+	
+##### Acciones adicionales
 
-!!! warning "Aplicar cambios"
-	Después de realizar las modificaciones pertinentes en cualquiera de los parámetros de configuración de la pirámide es necesario pulsar *Aplicar cambios* para que se generen y/o acualicen la lista de subfinales que componen la carrera.
+- **Generar Subfinales**: Inicializa o actualiza la lista de subfinales según los parámetros de configuración introducidos y el número de inscripciones en la carrera.
 
-	Hasta que no se pulse sobre *Aplicar cambios* al menos una vez no se generará la lista de subfinales para poder generar las series de forma correcta en el panel de [series](../user-guide/races/index.html#series)
+- **Imprimir clasificados directos**: Una vez finalizadas las mangas clasificatorias, permite generar un listado con la asignación de los pilotos en sus subfinales correspondientes.
+
+!!! warning "Generar Subfinales"
+	Después de realizar modificaciones en cualquiera de los parámetros de configuración de la pirámide que hagan variar el número de subfinales, es necesario pulsar *Generar Subfinales* para que se actualice la lista de subfinales que componen la carrera.
+
+	Hasta que no se pulse sobre *Generar Subfinales* al menos una vez no se generará la lista de subfinales para poder generar las series de forma correcta en el panel de [series](../user-guide/races/index.html#series)

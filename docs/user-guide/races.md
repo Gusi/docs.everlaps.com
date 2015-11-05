@@ -70,6 +70,10 @@ La pantalla se divide verticalmente en dos partes:
 
 - **Imprimir**: Imprime la lista de pilotos inscritos junto con su número de transponder.
 
+- **Herramientas**:
+	- **Ranking a número de vehículo**: Copia el valor de ranking al número de vehículo para cada piloto inscrito.
+	- **Número de vehículo a ranking**: Copia el número de vehículo al valor de ranking.
+
 - &fa-search; **(Filtro de búsqueda)**: Realiza un filtrado de los pilotos inscritos mostrando aquellos en los que alguno de sus campos (Nombre, Apellidos, Apodo, etc...) coinciden total o parcialmente con el texto introducido en el campo de búsqueda. 
 
 ##### Campos
