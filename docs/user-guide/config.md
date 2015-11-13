@@ -122,6 +122,10 @@ Aparte de para que tanto los pilotos que están en el box como el público desde
 
 - **Servidores personalizados**: Permite el envío a las diferentes direcciones IP o servidores que se indiquen esta casilla (separadas por espacios).
 
+- **Mostrar relojes de repostaje**: Muestra en el [Live Timing](http://live.everlaps.com) (tanto remoto como local) una lista con las distintas estrategias de repostaje y el tiempo que queda para cada parada.
+
+	- **Tiempos mínimo/máximo entre repostajes**: Según la duración de cada carrera y los valores introducidos, correspondientes a los tiempos que puede circular un vehículo hasta agotar su combustible, se generarán las distintas estrategias de repostaje.
+
 - **Permitir control remoto**: Permite el control remoto de la manga desde un dispositivo conectado a la red local del circuito. *Esta opción se encuentra inhabilitada en la versión actual*.
 
 	- **Usuario/Contraseña**: Campos que deben introducirse desde el cliente de *Live Timing* para conceder permiso de control remoto al usuario.
