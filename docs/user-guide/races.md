@@ -73,6 +73,7 @@ La pantalla se divide verticalmente en dos partes:
 - **Herramientas**:
 	- **Ranking a número de vehículo**: Copia el valor de ranking al número de vehículo para cada piloto inscrito.
 	- **Número de vehículo a ranking**: Copia el número de vehículo al valor de ranking.
+	- **Números de vehículo correlativos**: Renumera la lista completa de vehículos desde el número 1 en adelante, ordenados por ranking.
 
 - &fa-search; **(Filtro de búsqueda)**: Realiza un filtrado de los pilotos inscritos mostrando aquellos en los que alguno de sus campos (Nombre, Apellidos, Apodo, etc...) coinciden total o parcialmente con el texto introducido en el campo de búsqueda. 
 
@@ -130,6 +131,9 @@ La pantalla de series se divide horizontalmente en dos partes:
 		Si después de confirmar las mangas se añaden nuevas series, se puede volver a *Confirmar* y se crearán las mangas pertenecientes a las nuevas series. También es posible reorganizar los pilotos una vez confirmadas las mangas, el programa es totalmente flexible en este aspecto.
 
 - **Imprimir**: Imprime la lista de series junto con los pilotos que pertenecen a cada una de ellas.
+
+- **Herramientas**:
+	- **Reordenar series**: Permite realizar una reordenación manual de las series actuales.
 
 #### Distribución de series
 
