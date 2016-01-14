@@ -8,8 +8,8 @@ use_directory_urls: false
 strict: true
 
 # https://www.npmjs.com/package/google-fonts-offline
-extra_css: ['css_extra/tables.css','css_extra/admonitions.css','css_extra/fixes.css', 'fonts/opensans.css']
-extra_javascript: []
+extra_css: ['css_extra/tables.css','css_extra/admonitions.css','css_extra/fixes.css','css_extra/responsiveimg.css','fonts/opensans.css']
+extra_javascript: ['js_extra/responsiveimg.js']
 
 repo_url: https://github.com/Gusi/docs.everlaps.com
 
