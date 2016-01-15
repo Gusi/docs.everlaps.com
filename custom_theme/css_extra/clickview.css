@@ -1,24 +1,14 @@
 /* Inspired on http://www.w3schools.com/css/css_image_gallery.asp (link: http://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive_js) */
+
 /* The Image */
-.imgresp {
+.clickview {
 	width: 100%;
 	height: auto;
 	cursor: pointer;
 }
-/*
-* {
-	box-sizing: border-box;
-}*/
-
-/* Add Responsiveness */
-.responsiveimg {
-	padding: 0 6px;
-	float: left;
-	width: 25%;
-}
 
 /* The Modal (background) */
-#responsiveimg_modal {
+#clickview_modal {
 	display: none; /* Hidden by default */
 	position: fixed; /* Stay in place */
 	z-index: 9999; /* Sit on top (and over bootstrap nav bar)*/
@@ -29,18 +19,18 @@
 	height: 100%; /* Full height */
 	overflow: auto; /* Enable scroll if needed */
 	background-color: rgb(0,0,0); /* Fallback color */
-	background-color: rgba(0,0,0,0.85); /* Black w/ opacity */
+	background-color: rgba(0,0,0,0.92); /* Black w/ opacity */
 }
 
 /* Modal Content (image) */
-#responsiveimg_content {
+#clickview_content {
 	margin: auto;
 	display: block;
 	cursor: pointer;
 }
 
 /* The Close Button */
-#responsiveimg_close {
+#clickview_close {
 	position: absolute;
 	top: 15px;
 	right: 35px;
@@ -50,30 +40,21 @@
 	transition: 0.3s;
 }
 
-#responsiveimg_close:hover,
-#responsiveimg_close:focus {
+#clickview_close:hover,
+#clickview_close:focus {
 	color: #bbb;
 	text-decoration: none;
 	cursor: pointer;
 }
 
-/* Responsive Columns */
-@media only screen and (max-width: 700px){
-	.responsiveimg {
-		width: 50%;
-		margin: 6px 0;
-	}
+#clickview_caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
 }
 
-@media only screen and (max-width: 500px){
-	.responsiveimg {
-		width: 100%;
-	}
-}
-
-/* Clear Floats */
-.clearfix:after {
-	content: "";
-	display: table;
-	clear: both;
-}
