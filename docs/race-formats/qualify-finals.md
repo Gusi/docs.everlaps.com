@@ -38,7 +38,7 @@ Por defecto se crean sesiones de entrenamiento, recolocación, clasificatorias y
 	
 - **Numeración**: Establece el sistema de numeración de los vehículos durante la carrera.
 
-	- **Renumerar cada serie**: En cada serie se modifica el número de cada vehículo en función de su posición de salida.
+	- **Renumerar cada sesión**: En cada sesión se modifica el número de cada vehículo en función de su posición obtenida.
 	- **Numeración fija**: Se mantiene el mismo número de vehículo durante toda la carrera. Todos los pilotos deben tener su número único asignado en el panel de inscripciones.
 
 - **Vehículo**: Establece el nombre de vehículo en las locuciones y listados (Coche o Moto)
@@ -125,15 +125,15 @@ Permite configurar cada uno de los parámetros.
 !!! info ""
 	Es útil partir de un formato estándar seleccionándolo para que rellene correctamente todos los parámetros, y luego seleccionar el formato personalizado para hacer alguna modificación. Por ejemplo, para definir una clasificatoria lanzada pero luego poder modificar el sistema de puntuación para que el primer clasificado obtenga 1 punto en vez de 0. 
 
-- **Modo crono**: Define la gestión del cronómetro por piloto
-
-	- **Individual**: Cada piloto inicia su propio cronómetro de tiempo (clasificatorias).
-	- **Compartido**: El arranque del cronómetro es compartido por todos los pilotos (finales).
-
 - **Arranque crono**: Define cuándo arranca el cronómetro.
 
 	- **Con la bocina**: El crono arranca con la bocina de salida.
 	- **Con la primera pasada**: El crono arranca con la primera pasada por línea de meta de cualquiera de los pilotos que disputan la manga.
+	
+- **Modo crono**: Define la gestión del cronómetro por piloto
+
+	- **Individual**: Cada piloto inicia su propio cronómetro de tiempo (clasificatorias).
+	- **Compartido**: El arranque del cronómetro es compartido por todos los pilotos (finales).
 
 - **Cronos retrasados**: Define cuando arrancan los cronos de los pilotos que no han realizado su primera pasada por meta.
 
@@ -147,6 +147,10 @@ Permite configurar cada uno de los parámetros.
 	- **Parrilla**: El sistema ejecuta una cuenta atrás, y después de un tiempo aleatorio tras llegar a 3, comienza la manga.
 	- **Lanzada**: El sistema va dando la salida uno a uno a los pilotos.
 	- **Volante**: Se ejecuta una cuenta atrás completa para que cada piloto busque su espacio en la pista.
+
+- **Tiempo mínimo cuenta atrás**: Sólo para el modo de inicio *Parrilla*, tiempo mínimo de espera después del último número de cuenta atrás, antes de la bocina de salida.
+
+- **Tiempo aleatorio cuenta atrás**: Sólo para el modo de inicio *Parrilla*, tiempo aleatorio de espera después del tiempo mínimo de cuenta atrás, antes de la bocina de salida. *Por ejemplo, una configuración de tiempo mínimo de 2 segundos, y tiempo aleatorio de 3 segundos, supone que después de la cuenta atrás de 10 a 3, el programa esperará entre 2 y 5 segundos antes de dar la salida.*
 
 - **Retardo salida lanzada**: Para el modo de *Salida lanzada*, indica el espacio tiempo entre las llamadas a los pilotos.
 
@@ -168,25 +172,31 @@ Permite configurar cada uno de los parámetros.
 	- **Global**: Se tienen en cuenta los resultados de los todos los pilotos para la clasificación final (Clasificatorias).
 	- **Por serie**: Se tienen en cuenta solo los resultados de los pilotos pertenecientes a la misma serie (Finales).
 
-- **Desempates**: En caso de que varios pilotos obtengan exactamente el mismo resultado en el global de las mangas a contabilizar para la sesión, se establece el siguiente sistema de desempate.
-
-	- **Mejores resultados**: Utiliza los mejores resultados de las mangas que puntúan para efectuar el desempate (ver recuadro explicativo más abajo).
-	- **Mejores resultados con mangas descartadas**: Utiliza el modo de *Mejores resultados*, y en caso de seguir con el empate se utilizan las mangas descartadas. Por ejemplo, en una clasificatorias de 5 tandas en donde puntúan las 3 mejores y no pudiendo resolver el desempate se utilizaría la cuarta mejor manga de los pilotos, y en caso de seguir el empate, la quinta mejor manga, antes de utilizar la posición de salida como desempate final.
-	- **Mangas descartadas**: Utiliza los mejores resultados de las mangas descartadas para realizar el desempate sin tener en cuenta los mejores resultados de las mangas que puntúan. En caso de que no se hayan corrido el suficiente número de tandas para disponer de mangas de descarte, el utiliza el modo de desempate de *Mejores resultados*.
-	- **Mejores resultados combinados**: Similar al sistema de *mejores resultados*, pero en caso de empate en todas las posiciones de las mangas válidas, el desempate se realiza por la suma de vueltas y tiempo de todas las mangas válidas.
-	
-	!!! info "Resolución por mejores resultados"
-		En el caso de que varios pilotos obtengan el mismo resultado en tiempos o puntos, se establece el siguiente proceso de resolución:
-
-		- Gana el piloto con una mejor posición en su mejor manga. Si persiste el empate se compara la segunda mejor manga, y así sucesivamente hasta el número de mangas que puntúan.
-		- Si siguen empatados, gana el piloto con mejor resultado (vueltas/tiempo) en su mejor manga. Si persiste el empate se compara la segunda mejor manga, y así sucesivamente hasta el número de mangas que puntúan. 
-
 - **Tipo de puntuación**: Establece el sistema de puntuación de la sesión
 
 	- **Puntos**: Se establece un sistema de puntos para obtener el resultado de las sesión. Por defecto se usa el sistema estándar de eléctricos según la posición obtenida en cada tanda (0, 2, 3… para clasificatorias; 1, 2, 3... para finales)
 	- **Mejor resultado**: Se elige el mejor resultado en vueltas/tiempo sin importar la posición.
 
 - **Sistema de puntos**: Establece el sistema de puntuación de entre los soportados por el programa.
+
+- **Desempates**: En caso de que varios pilotos obtengan exactamente el mismo resultado en el global de las mangas a contabilizar para la sesión, se establece el siguiente sistema de desempate.
+
+	- **Mangas descartadas en desempate**: Cuántas mangas descartadas se utilizarán para resolver el desempate. El valor 0 indica que no se utilizará ninguna manga descartada.
+	- **Uso de mangas descartadas**: Establece en qué momento se utilizan los resultados de las mangas descartadas.
+		- **Antes de la comparación individual de mangas válidas**: Se utiliza la comparación individual de las mangas descartadas ANTES de la comparación individual de las mangas válidas.
+		- **Después de la comparación individual de mangas válidas**: Se utiliza la comparación individual de las mangas descargadas DESPUÉS de la comparación individual de las mangas válidas. *Por ejemplo, en una clasificatorias de 5 tandas en donde puntúan las 3 mejores y no pudiendo resolver el desempate se utilizaría la cuarta mejor manga de los pilotos, y en caso de seguir el empate, la quinta mejor manga, antes de comparar las posiciones de las tres mejores mangas.*
+	- **Desempate por posición**: Establece el modo de comparación individual por posición obtenida en cada una de las mangas (sólo si el resultado es por puntos)
+		- **Mejor posición**: Utiliza el modo de comparación por posición obtenida.
+		- **No usar**: No utilizar el desempate por posición.
+	- **Desempate por resultado**: Establece el modo de comparación individual por resultado en vueltas/tiempo para cada una de las mangas.
+		- **Mejor resultado**: Se realiza la comparación individual de mangas por el resultado en vueltas/tiempo.
+		- **Resultados combinados**: El desempate se realiza por la suma de vueltas y tiempo de todas las mangas válidas.
+		
+	!!! info "Resolución de empates por comparación individual"
+		En el caso de que varios pilotos obtengan el mismo resultado en puntos (o vueltas/tiempo), se establece el siguiente proceso de resolución:
+
+		- Gana el piloto con una mejor posición en su mejor manga. Si persiste el empate se compara la segunda mejor manga, y así sucesivamente hasta el número de mangas que puntúan (sólo si el resultado es por puntos)
+		- Si siguen empatados, gana el piloto con mejor resultado (vueltas/tiempo) en su mejor manga. Si persiste el empate se compara la segunda mejor manga, y así sucesivamente hasta el número de mangas que puntúan. 
 
 - **Series con tandas completas**: Establece una división en cuanto al número de mangas que puntúan para cada serie. Esto es útil para, por ejemplo en finales, permitir que la serie A corra 3 finales puntuando 2 de ellas, y las series de la B en adelante sólo una única final.
 
