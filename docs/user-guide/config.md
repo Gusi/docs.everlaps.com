@@ -165,3 +165,5 @@ Permite añadir, eliminar y modificar categorías. Por defecto se crea una lista
 #### &fa-list; Etiquetas
 
 Permite añadir, eliminar y modificar etiquetas, asignado un color identificativo junto con su descripción.
+
+El uso de las etiquetas se detalla en el apartado [Etiquetas](../common-tasks/tags/index.html)

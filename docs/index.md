@@ -51,6 +51,7 @@ Esta documentación está estructurada de la siguiente forma:
 	- [**Sanciones y correcciones**](common-tasks/punishments-corrections/index.html)
 	- [**Cambiar transponders**](common-tasks/change-transponders/index.html)
 	- [**Inscripciones con la carrera en marcha**](common-tasks/late-entries/index.html)
+	- [**Etiquetas**](common-tasks/tags/index.html)
 
 ## Contacto
 

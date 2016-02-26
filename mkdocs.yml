@@ -30,6 +30,7 @@ pages:
     - Sanciones y correcciones: common-tasks/punishments-corrections.md
     - Cambiar transponders: common-tasks/change-transponders.md
     - Inscripciones con la carrera en marcha: common-tasks/late-entries.md
+    - Etiquetas: common-tasks/tags.md
 
 markdown_extensions:
     - extra:

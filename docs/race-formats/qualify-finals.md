@@ -2,9 +2,7 @@
 
 ![Clasificatorias y finales](../img/qualy-finals.png)
 
-El formato de carrera de clasificatorias y finales define varias sesiones en las que siempre se efectúa una división del total de los pilotos inscritos en series.
-
-Por defecto se crean sesiones de entrenamiento, recolocación, clasificatorias y finales, de las cuales las dos primeras pueden eliminarse si no se van a utilizar durante la carrera.
+El formato de carrera de *Clasificatorias y Finales* define por defecto las sesiones de entrenamiento, recolocación, clasificatorias y finales, de las cuales las dos primeras pueden eliminarse si no se van a utilizar durante la carrera.
 
 ---
 
@@ -64,6 +62,7 @@ Por defecto se crean sesiones de entrenamiento, recolocación, clasificatorias y
 
 ##### Acciones disponibles
 
+- **Añadir**: Permite añadir una nueva sesión de entrenamiento, recolocación (si no existe) o de formato personalizado.
 - **Eliminar**: Permite eliminar la sesión seleccionada.
 
 ---
@@ -127,15 +126,13 @@ Por defecto se crean sesiones de entrenamiento, recolocación, clasificatorias y
 	- **Finales**: Salida desde parado y en orden de parrilla, con el arranque del cronómetro en el instante de sonido de la bocina.
 	
 	- **Entrenos (puntos o mejor resultado)**: Similar a la clasificatoria volante, pero el crono se inicia con el sonido de la bocina en vez de esperar a la primera pasada.
-
----
+	
+!!! info ""
+	Se puede modificar el formato en cualquier momento aunque ya se hayan disputado mangas de la sesión. El sistema recalcula los resultados en función de los nuevos parámetros y de las vueltas almacenadas.
 
 ##### Formato personalizado
 
 Permite configurar cada uno de los parámetros.
-
-!!! info ""
-	Es útil partir de un formato estándar seleccionándolo para que rellene correctamente todos los parámetros, y luego seleccionar el formato personalizado para hacer alguna modificación. Por ejemplo, para definir una clasificatoria lanzada pero luego poder modificar el sistema de puntuación para que el primer clasificado obtenga 1 punto en vez de 0. 
 
 - **Arranque crono**: Define cuándo arranca el cronómetro.
 
@@ -191,14 +188,34 @@ Permite configurar cada uno de los parámetros.
 
 - **Sistema de puntos**: Establece el sistema de puntuación de entre los soportados por el programa.
 
+- **Series con tandas completas**: Establece una división en cuanto al número de mangas que puntúan para cada serie. Esto es útil para, por ejemplo en finales, permitir que la serie A corra 3 finales puntuando 2 de ellas, y las series de la B en adelante sólo una única final.
+
+	- **Todas las series**: Todas las series puntúan exactamente con el mismo número de mangas. No existe distinción entre series respecto al número de tandas y mangas puntuables.
+	
+	- **Primeras series**: Las primeras series puntúan el número de mangas establecido en la configuración general de la sesión y el resto el valor establecido en *Tandas en series inferiores*.
+	
+		- **Hasta la serie**: Define hasta que serie (inclusive) se disputan todas las mangas de forma normal. Por ejemplo si sólo se quieren 3 finales para la serie A, este valor debe ser 1.
+		- **Tandas en series inferiores**: Número de tandas que puntúan para las series inferiores. Por ejemplo 1 para que las series por debajo de la A puntúen sólo una manga.
+
 ---
 
-**DESEMPATES**: En caso de que varios pilotos obtengan exactamente el mismo resultado en el global de las mangas a contabilizar para la sesión, se establece el siguiente sistema de desempate.
+##### Desempates
+
+Permite establecer la forma de solucionar los empates, en caso de que varios pilotos obtengan exactamente la misma puntuación en el global de las mangas a contabilizar para la sesión.
+
+- **Formato de desempate**
+	- **Por defecto**: Se utilizan únicamente las mangas válidas, comparando primero por posición, y en caso de proseguir el empate, por resultado.
+	- **Personalizado**: Permite establecer todas las propiedades de resolución de empates.
+	
+##### Formato personalizado de desempates
 
 - **Mangas descartadas en desempate**: Cuántas mangas descartadas se utilizarán para resolver el desempate. El valor 0 indica que no se utilizará ninguna manga descartada.
 - **Uso de mangas descartadas**: Establece en qué momento se utilizan los resultados de las mangas descartadas.
 	- **Antes de la comparación individual de mangas válidas**: Se utiliza la comparación individual de las mangas descartadas ANTES de la comparación individual de las mangas válidas.
-	- **Después de la comparación individual de mangas válidas**: Se utiliza la comparación individual de las mangas descargadas DESPUÉS de la comparación individual de las mangas válidas. *Por ejemplo, en una clasificatorias de 5 tandas en donde puntúan las 3 mejores y no pudiendo resolver el desempate se utilizaría la cuarta mejor manga de los pilotos, y en caso de seguir el empate, la quinta mejor manga, antes de comparar las posiciones de las tres mejores mangas.*
+	- **Después de la comparación individual de mangas válidas**: Se utiliza la comparación individual de las mangas descargadas DESPUÉS de la comparación individual de las mangas válidas. 
+	
+		*Por ejemplo, en una clasificatorias de 5 tandas en donde puntúan las 3 mejores y no pudiendo resolver el desempate se utilizaría la cuarta mejor manga de los pilotos, y en caso de seguir el empate, la quinta mejor manga, antes de comparar las posiciones de las tres mejores mangas.*
+
 - **Desempate por posición**: Establece el modo de comparación individual por posición obtenida en cada una de las mangas (sólo si el resultado es por puntos)
 	- **Mejor posición**: Utiliza el modo de comparación por posición obtenida.
 	- **No usar**: No utilizar el desempate por posición.
@@ -214,14 +231,6 @@ Permite configurar cada uno de los parámetros.
 
 ---
 
-- **Series con tandas completas**: Establece una división en cuanto al número de mangas que puntúan para cada serie. Esto es útil para, por ejemplo en finales, permitir que la serie A corra 3 finales puntuando 2 de ellas, y las series de la B en adelante sólo una única final.
+#### Etiquetas
 
-	- **Todas las series**: Todas las series puntúan exactamente con el mismo número de mangas. No existe distinción entre series respecto al número de tandas y mangas puntuables.
-	
-	- **Primeras series**: Las primeras series puntúan el número de mangas establecido en la configuración general de la sesión y el resto el valor establecido en *Tandas en series inferiores*.
-	
-		- **Hasta la serie**: Define hasta que serie (inclusive) se disputan todas las mangas de forma normal. Por ejemplo si sólo se quieren 3 finales para la serie A, este valor debe ser 1.
-		- **Tandas en series inferiores**: Número de tandas que puntúan para las series inferiores. Por ejemplo 1 para que las series por debajo de la A puntúen sólo una manga.
-	
-!!! info ""
-	Se puede modificar el tipo de resultado en cualquier momento aunque se hayan lanzado mangas con el formato anterior. El sistema recalcula los resultados en función de los nuevos parámetros y de las vueltas almacenadas.
+Permite asignar etiquetas a la carrera. Más información en la sección de [Etiquetas](../common-tasks/tags/index.html).
