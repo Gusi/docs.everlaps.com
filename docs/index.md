@@ -6,7 +6,7 @@
 	</div>
 </div>
 
-![Everlaps](../img/heats.png)
+![Everlaps](./img/heats.png)
 
 ## Características
 
