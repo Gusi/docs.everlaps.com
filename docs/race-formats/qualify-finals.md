@@ -234,3 +234,5 @@ Permite establecer la forma de solucionar los empates, en caso de que varios pil
 #### Etiquetas
 
 Permite asignar etiquetas a la carrera. Más información en la sección de [Etiquetas](../common-tasks/tags/index.html).
+
+- **Recalcular puntuación al filtrar resultados por etiqueta**: Si está habilitado, al generar un resultado filtrado por etiqueta se recalcula la puntuación de la sesión únicamente con los pilotos que tienen la etiqueta. El resultado podría variar con respecto a no activar la opción y hacer un filtrado sobre el resultado general, ya que al recalcular la puntuación, y dependiendo del formato de puntos, las sumas finales podrían designar posiciones de pilotos diferentes.
