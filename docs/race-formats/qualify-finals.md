@@ -99,8 +99,12 @@ El formato de carrera de *Clasificatorias y Finales* define por defecto las sesi
 			En las mangas clasificatorias, al llevar cada piloto su propio cronómetro, es posible que se efectúen ligeras pausas entre las locuciones de situación de cada piloto. Esto es perfectamente normal y depende de la distancia que haya entre el inicio del cronómetro de cada piloto y la fiabilidad del valor de vuelta mínima establecido para la carrera.
 	
 	- **Posición a paso por meta**: Cada vez que un piloto realiza un paso por meta se nombra la posición del piloto. Este modo sólo es aplicable a las finales, ya que todos los pilotos comparten el mismo cronómetro.
+	
+	- **Mixto (posición a paso por meta + situación de carrera)**: Utiliza el sistema de *posición a paso por meta* y, cada cierto tiempo, se informa de la *situación de carrera*.
+	
+	- **Sin narración**: No se efectúa ninguna narración acerca del estado de la carrera o posición de los pilotos.
 
-- **Primera narración**: Tiempo desde el inicio de la manga hasta que comienza el procedimiento de locución de situación de carrera (con la pasada por meta del líder). 
+- **Primera narración**: Tiempo desde el inicio de la manga hasta que comienza el procedimiento de locución de situación de carrera (generalmente el procedimiento se inicia con la pasada por meta del líder una vez transcurrido el tiempo para iniciar la narración, por lo cual puede haber una ligera demora hasta que comienza realmente la locución). 
 
 - **Intervalo narración**: Tiempo que transcurre entre locuciones una vez realizada la primera narración.
 
