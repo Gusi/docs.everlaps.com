@@ -63,7 +63,7 @@ La pantalla se divide verticalmente en dos partes:
 	- **Desde archivo local**: Carga la lista de inscritos desde un fichero de texto descargado desde la web de [Everlaps](http://everlaps.com) conteniendo la lista de inscripciones de la carrera.
 	- **Desde la web**: Realiza la carga directamente desde la web siempre que se haya introducido el [código web](../race-formats/qualify-finals/index.html#campos-de-formato) de la carrera.
 	
-	!!! info ""
+	!!! note ""
 		Si se importa la lista de pilotos y ya existen pilotos inscritos en la carrera, solamente se añaden aquellos pilotos que aparecen en la lista y que no estuviesen todavía inscritos. De los pilotos ya inscritos se respetan sus valores de transponder y rank.
 	
 - **Exportar**: Permite el volcado a fichero de la lista de pilotos inscritos.
@@ -116,7 +116,7 @@ La pantalla de series se divide horizontalmente en dos partes:
 	- **Copiar de la sesión**: Se copia exactamente la misma distribución de pilotos establecida en la sesión seleccionada en la lista inferior.
 	- **Resultado de la sesión**: El orden de pilotos se define por el resultado de la sesión seleccionada en la lista inferior.
 
-		!!! info ""
+		!!! note ""
 			Al generar las mangas basándose en el resultado de una sesión anterior, se ignoran aquellos pilotos que hayan sido excluídos tanto de la carrera (panel de inscripciones) como de la sesión de la cual se obtiene el resultado para generar la nueva distribución (panel de series).
 
 - **Añadir**: Añade una serie vacía
@@ -127,7 +127,7 @@ La pantalla de series se divide horizontalmente en dos partes:
 
 - **Confirmar**: Genera las mangas según la distribución de series.
 
-	!!! info ""
+	!!! note ""
 		Si después de confirmar las mangas se añaden nuevas series, se puede volver a *Confirmar* y se crearán las mangas pertenecientes a las nuevas series. También es posible reorganizar los pilotos una vez confirmadas las mangas, el programa es totalmente flexible en este aspecto.
 
 - **Imprimir**: Imprime la lista de series junto con los pilotos que pertenecen a cada una de ellas.
@@ -151,7 +151,7 @@ Los pilotos que aparecen dentro de cada serie pueden arrastrarse dentro de la mi
 
 Se muestra en la parte derecha de la pantalla, y contiene todos los pilotos inscritos en la carrera que todavía no pertenecen a ninguna serie en la sesión seleccionada. Los pilotos que aparecen en esta lista se pueden arrastrar a las series correspondientes y viceversa.
 
-!!! info ""
+!!! note ""
 	Si una vez generadas las series se inscriben nuevos pilotos, estos aparecerán en la lista de *pilotos sin serie* y se podrán arrastrar a las series existentes o crear una nueva serie para ellos. En éste último caso habría que volver a ejecutar la acción de *confirmar* para que el programa genere las mangas pertenecientes a las nuevas series.
 	
 	En cualquier caso, no es necesario volver a generar las series ya existentes.

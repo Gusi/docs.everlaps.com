@@ -26,7 +26,7 @@ Al activar una manga, se muestra el panel que permite controlar el estado de la 
 
 - **Finish**: Detiene y finaliza la manga en curso. Los resultados quedan congelados y además el sistema de locución notifica el final de la manga y sus resultados, la manga se desactiva, y en caso de tener configurada la impresión automática de resultados, se envían a la impresora los datos correspondientes.
 
-	!!! info ""
+	!!! note ""
 		Después del sonido de fin de manga, el programa espera el tiempo configurado de *última vuelta* hasta que todos los pilotos que han pasado al menos una vez por línea de meta completan su última vuelta. Si un piloto ha roto el coche y abandonado la manga, el programa seguirá esperando por este piloto hasta que se consuma el tiempo de *última vuelta*. En este caso el botón de *Finish* es especialmente útil porque permitiría finalizar la manga sin alterar el resultado y ahorrar el tiempo de espera por un coche que ya no está en pista.
 
 - &fa-gear; (*Parámetros de manga*): Muestra los parámetros actuales de la manga activa (duración, tiempo de vuelta mínima, tiempo de última vuelta, etc...)
@@ -41,14 +41,16 @@ Al activar una manga, se muestra el panel que permite controlar el estado de la 
 	- **Tiempo de última vuelta**: Se puede modificar excepto cuando la manga entra en el estado de *última vuelta*
 		
 	NOTA: En el modo de [entrenamiento libre](../race-formats/free-practice) es posible incorporar pilotos en caliente, así como modificar los apodos, ya que este formato de carrera realiza un acceso directo a la base de datos.
-	
+
+---
+
 ### &fa-list-alt; Mangas
 
 ##### Acciones
 
 - &fa-upload; (*Activar manga seleccionada*): Activa la manga seleccionada, mostrando el panel de control e inicializando el resto de paneles de *Situación de la manga activa* y *Resultados*. 
 
-	!!! info ""
+	!!! note ""
 		Si la manga que se activa contiene ya vueltas y resultados porque se inició anteriormente, se mostrará un aviso notificando de la situación, y antes de iniciar la manga se volverá a mostrar otro mensaje de aviso, antes de que **los datos guardados sean eliminados** completamente.
 
 - &fa-download; (*Desactivar manga activa*): Desactiva la manga activa si no está en progreso, en cuyo caso habrá que esperar a la finalización de la manga, o detenerla con los botones de *Stop* o *Finish*
@@ -61,14 +63,14 @@ Al activar una manga, se muestra el panel que permite controlar el estado de la 
 	
 	- &fa-play-circle; (parpadeando): La manga está activada y el modo automático está a la espera de su finalización para lanzar la siguiente manga después del tiempo de espera configurado.
 	
-	!!! info ""
+	!!! note ""
 		Con el modo automático activado, si el usuario activa la manga manualmente, o si detiene la manga una vez que ha sido activada automáticamente, debe iniciar la manga **de forma manual**. El modo automático continuará una vez que la manga activada finalice o se desactive manualmente.
 
 - &fa-eye; (*Mostrar/Ocultar mangas finalizadas*): Muestra u oculta las mangas finalizadas de las carreras activas en ese momento.
 		
 - &fa-print; (*Imprimir resultados*): Imprime los resultados correspondiente a la manga seleccionada.
 
-	!!! info ""
+	!!! note ""
 		En cualquier momento es posible imprimir el resultado de manga, tanda o sesión, incluso en mitad del progreso de una manga. El resultado que se mostrará corresponderá con la situación de la manga en ese momento.
 	
 	- **Manga**: Genera el informe de la manga seleccionada.
@@ -153,7 +155,7 @@ Los campos mantienen su nombre siempre en inglés para que coincidan exactamente
 - **Best**: Tiempo de la mejor vuelta.
 - **Progress**: Barra de progreso que indica aproximadamente la situación de vuelta del piloto. Cuando la barra se completa, el piloto debería estar pasando por línea de meta si no ha sufrido ningún percance.
 
-!!! info "Cambio de transponder en caliente"
+!!! note "Cambio de transponder en caliente"
 	Con el botón derecho sobre cualquier piloto de este panel, es posible acceder al diálogo de cambio de transponder en caliente. Ver [Cambio de transponder](../common-tasks/change-transponders/index.html) para más información.
 
 ---
@@ -173,7 +175,7 @@ Muestra el detalle de cada una de las pasadas de los pilotos en orden cronológi
 - **Baja señal**: La pasada no pasó el filtro de señal o hits establecido en la configuración del decodificador.
 - **Margen de inicio**: No se contabiliza porque la pasada se ha producido en una final antes de que finalice el *Tiempo de demora en finales*.
 
-!!! info ""
+!!! note ""
 	En el campo de tiempo de vuelta, el **color naranja** indica que el tiempo de esa vuelta el mayor que el doble de tiempo mínimo por vuelta establecido, lo cual puede indicar una vuelta no contabilizada para ese piloto por no haber pasado correctamente por línea de meta.
 
 ##### Menú contextual
@@ -204,7 +206,7 @@ La pantalla de vueltas muestra el orden cronológico de las pasadas de cada pilo
 
 Las vueltas pueden ordenarse según el tiempo de vuelta o el orden cronológico, pulsando con el ratón sobre el título de la columna correspondiente (*Pasada* o *Vuelta*).
 
-!!! info ""
+!!! note ""
 	Al igual que en el panel de pasadas, en el campo de tiempo de vuelta el color naranja indica que el tiempo de esa vuelta el mayor que el doble de tiempo mínimo por vuelta establecido, lo cual puede indicar una vuelta no contabilizada para ese piloto por no haber pasado correctamente por línea de meta.
 
 ---

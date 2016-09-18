@@ -4,7 +4,7 @@
 
 Existen varios tipos de sanciones y correcciones, y cada una debe realizarse en el apartado del programa destinado para ello.
 
-!!! info "Sanciones frecuentes de un vistazo rápido"
+!!! note "Sanciones frecuentes de un vistazo rápido"
 	- Sancionar/Corregir **una manga concreta**: Ver [sanciones a nivel de manga](#sanciones-a-nivel-de-manga)
 	- Sancionar **la mejor manga**: Ver [sanciones a nivel de sesión](#sanciones-a-nivel-de-sesion)
 

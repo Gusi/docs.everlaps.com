@@ -49,7 +49,7 @@ El formato de carrera de *Clasificatorias y Finales* define por defecto las sesi
 
 - **Vuelta mínima**: Tiempo de la vuelta más rápida permitida para la carrera. Cualquier tiempo por debajo de este valor se interpreta como un atajo y no se contabiliza.
  
-	!!! info ""
+	!!! note ""
 		Es conveniente que el valor de vuelta mínima sea lo más ajustado posible, ya que aparte de para detectar atajos en carrera, es utilizado por el sistema de locución durante las clasificatorias para efectuar los cálculos de situación real de carrera.
 
 - **Última vuelta**: Tiempo para dar la última vuelta desde que se marca el final de manga (o el final del tiempo individual en clasificadoras). Según algunos reglamentos, debe ser el 150% de la vuelta calculada para el trazado.
@@ -95,7 +95,7 @@ El formato de carrera de *Clasificatorias y Finales* define por defecto las sesi
 
 	- **Situación de carrera**: Cada cierto tiempo se informa de la situación de carrera con las posiciones de los pilotos y la distancia entre ellos.
 	
-		!!! info ""
+		!!! note ""
 			En las mangas clasificatorias, al llevar cada piloto su propio cronómetro, es posible que se efectúen ligeras pausas entre las locuciones de situación de cada piloto. Esto es perfectamente normal y depende de la distancia que haya entre el inicio del cronómetro de cada piloto y la fiabilidad del valor de vuelta mínima establecido para la carrera.
 	
 	- **Posición a paso por meta**: Cada vez que un piloto realiza un paso por meta se nombra la posición del piloto. Este modo sólo es aplicable a las finales, ya que todos los pilotos comparten el mismo cronómetro.
@@ -131,7 +131,7 @@ El formato de carrera de *Clasificatorias y Finales* define por defecto las sesi
 	
 	- **Entrenos (puntos o mejor resultado)**: Similar a la clasificatoria volante, pero el crono se inicia con el sonido de la bocina en vez de esperar a la primera pasada.
 	
-!!! info ""
+!!! note ""
 	Se puede modificar el formato en cualquier momento aunque ya se hayan disputado mangas de la sesión. El sistema recalcula los resultados en función de los nuevos parámetros y de las vueltas almacenadas.
 
 ##### Formato personalizado
@@ -227,7 +227,7 @@ Permite establecer la forma de solucionar los empates, en caso de que varios pil
 	- **Mejor resultado**: Se realiza la comparación individual de mangas por el resultado en vueltas/tiempo.
 	- **Resultados combinados**: El desempate se realiza por la suma de vueltas y tiempo de todas las mangas válidas.
 	
-!!! info "Resolución de empates por comparación individual"
+!!! note "Resolución de empates por comparación individual"
 	En el caso de que varios pilotos obtengan el mismo resultado en puntos (o vueltas/tiempo), se establece el siguiente proceso de resolución:
 
 	- Gana el piloto con una mejor posición en su mejor manga. Si persiste el empate se compara la segunda mejor manga, y así sucesivamente hasta el número de mangas que puntúan (sólo si el resultado es por puntos)

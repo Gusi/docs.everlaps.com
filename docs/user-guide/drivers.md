@@ -57,7 +57,7 @@ Gestiona la lista de transponders, rankings y números de vehículo del piloto s
 - **Categoría**: Permite seleccionar entre las disponibles en la lista de [categorías](./config/index.html#categorias)
 - **Transponder, rank y vehículo**: Permite asignar los valores correspondientes para el piloto en la categoría seleccionada.
 
-!!! info ""
+!!! note ""
 	Al inscribir un piloto manualmente en una carrera, el sistema compara la categoría de la carrera con las categorías asignadas al piloto para asignar el transponder correspondiente. En caso de que no exista coincidencia, se asigna el transponder asignado a la categoría por defecto. 
 
 #### Inscripciones activas

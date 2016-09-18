@@ -1,4 +1,5 @@
 /* Common styles for all types */
+/*
 .admonition {
   padding: 20px;
   margin: 20px 0;
@@ -16,14 +17,16 @@
 }
 .admonition code {
   border-radius: 3px;
-}
+}*/
 
 /* Tighten up space between multiple admonitions */
+/*
 .admonition + .admonition {
   margin-top: -5px;
-}
+}*/
 
 /* Variations */
+/*
 .admonition.danger {
   border-left-color: #d9534f;
 }
@@ -41,12 +44,13 @@
 }
 .admonition.info .admonition-title {
   color: #5bc0de;
-}
+}*/
 
 /* Title */
+/*
 .admonition-title {
   font-size: 18px;
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
-}
+}*/

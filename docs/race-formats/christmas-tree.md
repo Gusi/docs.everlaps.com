@@ -8,7 +8,7 @@ Las sesiones anteriores a las finales (entrenos, recolocación y/o clasificació
 
 ![Formato piramidal](../img/subfinals.png)
 
-!!! info ""
+!!! note ""
 	El número de pilotos que se utiliza para el cálculo de la distribución de las subfinales se obtiene de la lista de inscripciones, exceptuando aquellos pilotos excluídos de la carrera o de la sesión clasificatoria. Esto es especialmente útil para afinar la distribución en el caso de existir pilotos que estén inscritos pero no vayan a disputar la carrera, o que hayan abandonado después de las clasificatorias.
 
 - **Nombre**: Define la subfinal o final. Se establece automáticamente.
@@ -33,7 +33,7 @@ Las sesiones anteriores a las finales (entrenos, recolocación y/o clasificació
 	- **Por tiempos**: Se ordenan todos los pilotos de las series A y B según sus *Vueltas/Tiempo* obtenidos en la semifinal y se van añadiendo a la parrilla de salida después de los ascensos directos.
 	- **Intercalada**: Se añaden los pilotos intercalando las series: primer puesto de la serie A, primer puesto de la B, segundo de la A, segundo de la B, etc...
 
-	!!! info ""
+	!!! note ""
 		En el caso de que la suma de clasificados directos más los ascensos por posición no completen el total de pilotos por serie, se ascienden el número de pilotos necesarios para completar la/s final/es según su resultado de *Vueltas/Tiempo*.
 
 - **Distribución de pilotos**: Muestra un resumen de la composición de las subfinales según los pilotos inscritos en la carrera para comprobar que los datos introducidos generan la distribución deseada.

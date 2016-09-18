@@ -39,14 +39,14 @@ Es posible ajustar la forma individual el volumen de cada uno de los sonidos del
 
 - **Cabeza de carrera**: La pasada por línea de meta del coche con mayor número de vueltas en ese momento recibe un sonido más agudo, lo cual ayuda a dirección de carrera y al público a identificar quien es el piloto con mayor número de vueltas. 
 
-	!!! info ""
+	!!! note ""
 		En una *final*, el sonido de cabeza de carrera es equivalente al piloto que va en primera posición.
 	
 		En una *manga clasificatoria*, debido a que cada piloto lleva su propio cronómetro, no implica que el piloto sea el que va en cabeza, sino que es el que primero pasa por meta.
 
 - **Inicio de manga/Fin de manga**: Indica el inicio y final de la manga.
 
-	!!! info ""
+	!!! note ""
 		En una *final*, el sonido de inicio de manga generalmente implica el arranque del crono. El sonido de fin de manga implica que todos los coches terminan en el siguiente paso por meta.
 	
 		En una *manga clasificatoria*, el sonido de inicio de manga indica la apertura de pista pero el inicio del crono lo hace el piloto que pasa primero por línea de meta después de la bocina. El sonido de fin de manga tampoco implica obligatoriamente que los coches terminan en el siguiente paso por meta; la locución avisará de los que coches que vayan terminando según su cronómetro individual.
@@ -93,7 +93,7 @@ El sistema soporta la conexión a diferentes sistemas de detección de pasadas.
 
 - **Invertir numeración en series de entrenos y clasificatorias**: Por defecto las series en las que el piloto lleva su cronómetro individual se numeran del 1 en adelante, siendo la serie 1 la que contiene los pilotos de mayor rank y que se planifica en último lugar dentro de su tanda. Si está marcada esta opción, las series clasificatorias se numeran en orden inverso (la serie 1 será la de pilotos con menor rank y se planificará en primer lugar).
 
-	!!! info ""
+	!!! note ""
 		El orden de ejecución de las mangas en Everlaps no tiene por qué seguirse estrictamente y el cronometrador puede elegir qué manga de la tanda en curso lanzar en cada momento.
 
 ---
@@ -102,7 +102,7 @@ El sistema soporta la conexión a diferentes sistemas de detección de pasadas.
 
 - **Publicar resultados automáticamente en everlaps.com**: Al finalizar cada manga, se actualizan los resultados hasta el momento en la web de [Everlaps](http://everlaps.com) siempre que se haya introducido el *Código Web* correspondiente en la configuración de la carrera.
 
-	!!! info ""
+	!!! note ""
 		Si después de terminar la manga se realiza alguna corrección o sanción sobre la carrera, es necesario volver a publicar los resultados de la carrera de forma manual (Listado de carreras > Botón derecho > Publicar resultados en everlaps.com)
 
 ---
@@ -115,7 +115,7 @@ Aparte de para que tanto los pilotos que están en el box como el público desde
 
 - **Publicar a servidor local**: Habilita el envío de los datos carrera al servidor local que se ejecuta en el mismo ordenador en dónde está instalado Everlaps. *Ésta es la única opción que se permite si el programa se ejecuta en modo gratuito*.
 
-	!!! info "Servidor local"
+	!!! note "Servidor local"
 		El servidor local es un programa independiente que debe de estar en ejecución para que los dispositivos puedan conectarse al sistema de Live Timing dentro de la red WiFi del circuito. Se encuentra en la carpeta Everlaps, dentro de la lista de programas de Windows, así como en el escritorio, y se identifica por un icono verde titulado *Everlaps Live Timing*.
  
 - **Publicar a everlaps.com**: Habilita el envío de los datos a la web de [Live Timing de Everlaps](http://live.everlaps.com), bajo la ruta que se publicará en la página principal de [Everlaps](http://everlaps.com) durante las fechas de realización de la carrera.
@@ -144,7 +144,7 @@ Aparte de para que tanto los pilotos que están en el box como el público desde
 
 Permite el cambio de idioma del interfaz y las locuciones de Everlaps
 
-!!! info ""
+!!! note ""
 	Se necesitan voces configuradas en el mismo idioma en el que se establezca el programa
 
 ---
