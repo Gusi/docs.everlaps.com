@@ -71,6 +71,27 @@ El sistema soporta la conexión a diferentes sistemas de detección de pasadas.
 	
 - **Filtrar si hits/señal menor que...**: Para las conexiones a dispositivos AMB/MyLaps, ignora las pasadas con valores de hits o señal menor que los indicados.
 
+- **Permitir transponders alternativos**: Por defecto en una manga sólo se admiten los transponders que aparecen en la inscripción de los pilotos que corren esa manga. Si se habilita esta opción, se permite que aquellos transponders que pertenezcan a un único usuario en la base de datos puedan usarse durante la carrera además del transponder que aparece en la inscripción.
+
+	!!! note ""
+		Esto puede resultar útil sobre todo en mangas de entreno, en dónde los pilotos en ocasiones prueban varios coches con distintos transponders para ver con cual correrán la carrera, o bien para "solucionar" el que algunos pilotos no se hayan inscrito con el transponder correcto.
+	!!! warning ""
+		También se podrían producir efectos colaterales, como que un piloto le deje prestado su transponder a otro, éste no lo comunique, y corriendo en la misma manga el transponder prestado asignará las pasadas al piloto propietario, junto con las de su transponder que aparece en la inscripción.
+
+- **Permitir que un transponder inválido inicie la manga**: Por defecto sólo los transponders válidos pueden iniciar las mangas en las que se espera por la primera pasada para arrancar el crono (generalmente en clasificatorias con salida lanzada o volante). Si se habilita esta opción, se permite que un transponder inválido pueda arrancar el crono. 
+
+	!!! note ""
+		Al permitir que un transponde inválido pueda arrancar el crono, el transponder inválido podría asignarse más tarde al piloto correcto y todas sus vueltas (incluyendo esta primera pasada) podrían recuperarse de forma automática; en caso contrario, la primera pasada no quedaría registrada (ya que la manga todavía no ha comenzado) y no podría recuperarse de ninguna manera.
+
+- **Permitir conteo manual**: Habilita en el programa las opciones de conteo manual, para poder contabilizar las pasadas de los pilotos sin transponder manualmente.
+
+	- **Detectar atajos en conteo manual**: Si está habilitada se detectan los atajos entre pasadas manuales y estos no serán contabilizados como vueltas válidas.
+
+	- **Permitir atajos de teclado**: Permite el uso de las teclas **F1 hasta F12** (pilotos del 1 al 12) y **Ctrl+1, Ctrl+2 hasta Ctrl+0** (pilotos del 11 al 20) para generar las pasadas manuales sin tener que utilizar el ratón en la vista de vueltas de la manga activa.
+
+		!!! note "Hot Keys en el conteo manual"
+			Las teclas F1 a F11 y todas las combinaciones de Ctrl+número funcionan incluso aunque Everlaps no se encuentre en primer plano, excepto la tecla F12, que es reservada por el sistema operativo, y por ello sólo funciona si Everlaps es la aplicación que se encuentra en primer plano.
+
 ---
 
 #### &fa-print; Impresión
