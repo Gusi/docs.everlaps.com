@@ -71,13 +71,6 @@ El sistema soporta la conexión a diferentes sistemas de detección de pasadas.
 	
 - **Filtrar si hits/señal menor que...**: Para las conexiones a dispositivos AMB/MyLaps, ignora las pasadas con valores de hits o señal menor que los indicados.
 
-- **Permitir transponders alternativos**: Por defecto en una manga sólo se admiten los transponders que aparecen en la inscripción de los pilotos que corren esa manga. Si se habilita esta opción, se permite que aquellos transponders que pertenezcan a un único usuario en la base de datos puedan usarse durante la carrera además del transponder que aparece en la inscripción.
-
-	!!! note ""
-		Esto puede resultar útil sobre todo en mangas de entreno, en dónde los pilotos en ocasiones prueban varios coches con distintos transponders para ver con cual correrán la carrera, o bien para "solucionar" el que algunos pilotos no se hayan inscrito con el transponder correcto.
-	!!! warning ""
-		También se podrían producir efectos colaterales, como que un piloto le deje prestado su transponder a otro, éste no lo comunique, y corriendo en la misma manga el transponder prestado asignará las pasadas al piloto propietario, junto con las de su transponder que aparece en la inscripción.
-
 - **Permitir que un transponder inválido inicie la manga**: Por defecto sólo los transponders válidos pueden iniciar las mangas en las que se espera por la primera pasada para arrancar el crono (generalmente en clasificatorias con salida lanzada o volante). Si se habilita esta opción, se permite que un transponder inválido pueda arrancar el crono. 
 
 	!!! note ""
