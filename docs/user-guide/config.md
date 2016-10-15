@@ -83,7 +83,7 @@ El sistema soporta la conexión a diferentes sistemas de detección de pasadas.
 	- **Permitir teclas de acceso rápido**: Permite el uso de las teclas **F1 hasta F12** (pilotos del 1 al 12) y **Ctrl+1, Ctrl+2 hasta Ctrl+0** (pilotos del 11 al 20) para generar las pasadas manuales sin tener que utilizar el ratón en la vista de vueltas de la manga activa.
 
 		!!! note "Hot Keys en el conteo manual"
-			Las teclas F1 a F11 y todas las combinaciones de Ctrl+número funcionan incluso aunque Everlaps no se encuentre en primer plano, excepto la tecla F12, que es reservada por el sistema operativo, y por ello sólo funciona si Everlaps es la aplicación que se encuentra en primer plano.
+			Las teclas F1 a F12 y todas las combinaciones de Ctrl+NUM funcionan incluso aunque Everlaps no se encuentre en primer plano.
 
 ---
 
