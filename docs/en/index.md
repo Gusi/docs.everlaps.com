@@ -8,51 +8,51 @@
 
 ![Everlaps](en/img/heats.png)
 
-## Características
+##  Characteristics
 
-- **Sencillez**: Everlaps ha sido diseñado para que su manejo sea extremadamente sencillo e intuitivo, sin restar funcionalidad para acometer cualquier tarea necesaria en un sistema de cronometraje profesional.
+- **Simplicity**: Everlaps has been designed so that its use is extremely simple and intuitive, without removing the functionality to accomplish any task necessary in a professional race timing system.
 
-	*Echando un vistazo a la guía de [inicio rápido](quick-start/index.html) se puede instalar y comenzar a manejar el programa en minutos.*
+	*Taking a look at quick [start guide] (quick-start/index.html) you can install and start using the program in a few minutes.*
 
-- **Fiabilidad**: Diseñado y desarrollado con el objetivo de garantizar la máxima fiabilidad y flexibilidad durante el cronometraje.
+- **Reliability**: Designed and developed with the objective of guaranteeing maximum reliability an flexibility during timing.
 
-	*Además de utilizarse en varios de los eventos más relevantes a nivel nacional, es el software oficial de las SNS (Spanish National Series).*
+	*Also being used at some of the most relevant events at national level, it is the official software of the SNS (Spanish National Series).*
 
-- **Locución**: Everlaps utiliza un sintetizador de voz para ofrecer información útil a los pilotos y público durante la carrera (parrilla de salida, tiempo restante, situación actual de carrera, etc...).
+- **Locution**: Everlaps uses a voice synthesizer to offer drivers and public useful information during the race (starting grid, time left, race standings etc...).
  
-	*Es el único programa del mercado capaz de informar de la situación real de carrera en una manga clasificatoria.*
+	*It is the only program on the market capable of informing of real race standings in qualifying heats.*
  
-- **Formatos de cronometraje**: Clasificatoria, final, recolocación a 3 vueltas, formato piramidal, entrenamiento libre...
+- **Timing formats**: Qualifying, finals, 3 lap relocation, Christmas tree, free practice...
 
-- **Tiempos en directo (*Live Timing*)**: Se puede visualizar la situación de carrera en tiempo real en cualquier dispositivo móvil conectado a la red WiFi del circuito o en Internet. 
+- **Live Timing**: You can visualize real time race standings on any mobile device connected to the tracks WiFi net or on the  Internet. 
 
-- **Evolución constante**: A diferencia de la mayoría del software de cronometraje existente, Everlaps sigue evolucionando continuamente con nuevas características y funcionalidades.
+- **Constant evolution**: Unlike the majority of existing timing software, Everlaps keeps continuously evolving with new features and functionality.
 
-## Documentación
+## Documentation
 
-Esta documentación está estructurada de la siguiente forma:
+This documentation is structured in the following manner:
 
-- [**Inicio rápido**](quick-start/index.html): Instala el programa y comienza a cronometrar con un vistazo general a las opciones más relevantes.
+- [**Quick start**](quick-start/index.html): Install the program and start timing with a glance at the most relevant options.
 
-- **Manual detallado**: Descripción de todas las opciones del programa.
-	- [**Pilotos**](user-guide/drivers/index.html)
-	- [**Carreras**](user-guide/races/index.html)
-	- [**Mangas**](user-guide/heats/index.html)
-	- [**Configuración**](user-guide/config/index.html)
-	- [**Opciones de línea de comandos**](user-guide/commands/index.html)
+- **Manual detailed**: Description of all the programs options.
+	- [**Drivers**](user-guide/drivers/index.html)
+	- [**Races**](user-guide/races/index.html)
+	- [**Heats**](user-guide/heats/index.html)
+	- [**Configuration**](user-guide/config/index.html)
+	- [**Command line options**](user-guide/commands/index.html)
 
-- **Formatos de carrera**: Descripción de cada uno de los formatos soportados.
+- **Race formats**: Description of all the supported formats.
  
-	- [**Clasificatorias y finales**](race-formats/qualify-finals/index.html)
-	- [**Formato piramidal**](race-formats/christmas-tree/index.html)
-	- [**Entrenamiento libre**](race-formats/free-practice/index.html)
+	- [**Qualifying and finals**](race-formats/qualify-finals/index.html)
+	- [**Christmas tree**](race-formats/christmas-tree/index.html)
+	- [**Free practice**](race-formats/free-practice/index.html)
 
-- **Tareas frecuentes**: Descripción las tareas habituales a las que se enfrenta el cronometrador durante la carrera.
-	- [**Sanciones y correcciones**](common-tasks/punishments-corrections/index.html)
-	- [**Cambiar transponders**](common-tasks/change-transponders/index.html)
-	- [**Inscripciones con la carrera en marcha**](common-tasks/late-entries/index.html)
-	- [**Etiquetas**](common-tasks/tags/index.html)
+- **Frequent tasks**: Description of frequent tasks that the time keeper faces during a race.
+	- [**Punishments and corrections**](common-tasks/punishments-corrections/index.html)
+	- [**Transponder changes**](common-tasks/change-transponders/index.html)
+	- [**Late entries**](common-tasks/late-entries/index.html)
+	- [**Tags**](common-tasks/tags/index.html)
 
-## Contacto
+## Contact
 
-Puedes contactar con nosotros en [info@everlaps.com](mailto:info@everlaps.com)
+You can contact us at [info@everlaps.com](mailto:info@everlaps.com)
