@@ -18,7 +18,7 @@
 
 	*Also being used at some of the most relevant events at national level, it is the official software of the SNS (Spanish National Series).*
 
-- **Locution**: Everlaps uses a voice synthesizer to offer drivers and public useful information during the race (starting grid, time left, race standings etc...).
+- **Text to speech**: Everlaps uses a voice synthesizer to offer drivers and public useful information during the race (starting grid, time left, race standings etc...).
  
 	*It is the only program on the market capable of informing of real race standings in qualifying heats.*
  

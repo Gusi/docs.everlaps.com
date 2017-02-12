@@ -1,60 +1,60 @@
-## &fa-users; Pilotos
+## &fa-users; Drivers
 
-Permite la gestión de todos los pilotos disponibles en la base de datos del programa.
+Permits you to manage all the drivers available in the programs database.
 
 ![Pilotos](../img/drivers.png)
 
-Lista de términos referentes a la gestión de pilotos:
+Glossary of terms used to manage the driver:
 
-- **Piloto**: Persona individual que puede ser inscrita en alguna de las carreras configuradas
-- **Categoría**: Clasifica las diferentes modalidades según el tipo vehículo
-- **Transponder**: Número del transponder personal que utiliza el sistema de conteo de vueltas para identificar al piloto
-- **Ranking**: Nivel de habilidad de un piloto en relación al resto
-- **Etiqueta**: Permite agrupar pilotos respecto a un identificador común    
+- **Driver**: An Individual that will be taking part in any of the configured races
+- **Category**: The different classes according to vehicle category
+- **Transponder**: Personal transponder number used by the lap counting system to identify a driver
+- **Ranking**: Driver ability in relationship to each other
+- **Tag**: Allows you to group drivers with a common identifier    
 
-Un piloto puede tener asignados diferentes valores de transponder y ranking según las categorías en las que participe, así como cualquier número de etiquetas definidas en el programa.
+A driver can have assigned different transponder or ranking according to the classes that will be raced in, also any tag number defined in the program.
 
 ---
 
-### Lista de pilotos
+### Drivers list
 
-Permite la introducción, modificación y borrado de los pilotos disponibles.
+Permits input, modification or deleting of the available drivers.
 
-##### Acciones
+##### Actions
 
-- **Añadir**: Inserta una nueva entrada en la lista para poder rellenar los campos correspondientes del piloto.
+- **Add**: Inserts a new line in drivers list ready to be filled out with driver data.
 
-- **Eliminar**: Borra de la base de datos el piloto o pilotos seleccionados.
+- **Remove**: Removes selected drivers from the data base. 
 
-- **Importar**: Permite cargar una lista de pilotos desde un fichero.
+- **Import**: loads a list of drivers from a file.
 
-- **Exportar**: Permite el volcado a fichero de la lista completa de pilotos.
+- **Export**: copies a list of drivers to a file.
 
-- &fa-search; **(Filtro de búsqueda)**: Realiza un filtrado de los pilotos visibles mostrando aquellos en los que alguno de sus campos (nombre, apellidos, apodo, transponder, categoría, etiquetas, etc...) coinciden total o parcialmente con el texto introducido en el campo de búsqueda. 
+- &fa-search; **(Search)**: Performs a search upon the drivers visible, showing matches or partial matches (name, surname, transponder, category, tags etc...)  to the text input in the search field.
 
-##### Campos
+##### Fields
 
-- **Nombre y apellidos**: Aparecerán en los listados para identificar inequívocamente al piloto.
+- **Name and Surname**: Will appear in the list to positively identify the driver.
 
-- **Apodo**: El apodo se usará en las locuciones para narrar las posiciones y tiempos de los pilotos, así como en el detalle de vueltas de los informes. Puede haber apodos repetidos en la base de datos, pero en una misma serie no está permitido (el programa avisará de tal situación para que sean modificados).
+- **Nick name**: Nick names will be used by the voice announcements to narrate times and position of the drivers, as on the detailed race reports. There can be duplicate Nick names in the data base, but they are no allowed in the same Heat (The program will issue a warning so that they can be modified).
 
-- **Correo**: El correo es la forma que utiliza el programa para emparejar inequívocamente a los pilotos entre la base de datos local y la base de datos disponible en la [web de Everlaps](http://everlaps.com), de forma que permite gestionar las inscripciones y resultados de cada piloto de manera bidireccional.
+- **email**: The email address is the means by which the program identifies the drivers between the local database and the one available on the internet [Everlaps web site](http://everlaps.com), so that race registration and results can be managed for each driver bidirectionally.
 
-	Cuando se añaden pilotos de forma manual, es importante introducir correctamente su correo electrónico en caso de que estén ya registrados en [Everlaps](http://everlaps.com) para poder asignar sus resultados de forma correcta.
+	When drivers are manually added, it is important to add the email address correctly in case they are already registered on [Everlaps](http://everlaps.com) so that the results are assigned correctly.
 
-- **Etiquetas**: Muestra todas las etiquetas asignadas al piloto.
+- **Tags**: Shows all the tags assigned to a driver.
 
 ---
 	
-### Ficha del piloto
+### Driver data
 
-Muestra el detalle de todos los datos del piloto, incluyendo además de los datos personales enumerados anteriormente, las listas de transponders y rankings por categoría, las carreras activas en las que participa el piloto, y las etiquetas asignadas al mismo.
+Shows all the information about a driver, including besides personal data mentioned earlier, lists of transponders and rankings per category, active races  the driver is participating in, and any tags assigned.
 
-#### Transponders, rankings y números de vehículo
+#### Transponders, rankings and vehicle numbers
 
-Gestiona la lista de transponders, rankings y números de vehículo del piloto según las categorías en las que participa
+Manage the drivers list of transponders, rankings and vehicle numbers according to the categories that are being participated in.
 
-- **Categoría**: Permite seleccionar entre las disponibles en la lista de [categorías](./config/index.html#categorias)
+- **Categories**: Permite seleccionar entre las disponibles en la lista de [categorías](./config/index.html#categorias)
 - **Transponder, rank y vehículo**: Permite asignar los valores correspondientes para el piloto en la categoría seleccionada.
 
 !!! note ""
