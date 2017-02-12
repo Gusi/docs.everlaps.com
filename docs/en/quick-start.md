@@ -1,74 +1,75 @@
 ## Quick start
 
-Se describen a continuación los pasos básicos para poder instalar y generar una carrera en Everlaps. Para información más detallada consulta el resto de la documentación.
+Here are described the basic steps to install and start a race in Everlaps. For more Detailed information see the rest of the documentation.
 
 ---
 
-### Acciones básicas
+### Basic actions
 
-1.  Introduce los datos de los pilotos en [&fa-users; **Pilotos**](./user-guide/drivers/index.html)
+1.  Input the driver data in [&fa-users; **Drivers**](./user-guide/drivers/index.html)
 
-2.  Crea una nueva carrera en [&fa-road; **Carreras**](./user-guide/races/index.html), configura opciones generales y de [&fa-flag; **Sesión**](./race-formats/qualify-finals/index.html)
+2.  Create a new race in [&fa-road; **Races**](./user-guide/races/index.html), configure general options and [&fa-flag; **Session**](./race-formats/qualify-finals/index.html)
 
-3.  Inscribe los pilotos participantes en [&fa-user; **Inscripciones**](./user-guide/races/index.html#inscripciones)
+3.  Driver sign-in in [&fa-user; **Sign-in**](./user-guide/races/index.html#inscripciones)
 
-4.  &fa-check-circle; **Genera** e &fa-print; **imprime** las series de pilotos en [&fa-th; **Series**](./user-guide/races/index.html#series)
+4.  &fa-check-circle; **Generate** e &fa-print; **Print** driver heats in [&fa-th; **Heats**](./user-guide/races/index.html#series)
 
-	*Vuelve aquí al finalizar cada sesión para generar las series de la siguiente. Por ejemplo, para generar las series finales tras completar las clasificatorias*
+	*Returns here at the end of each round to generate the heats for the next. For example, to generate finals round after completing qualifying*
 
-5.  &fa-check-circle-o; **Confirma** las series de pilotos en [&fa-th; **Series**](./user-guide/races/index.html#series)
+5.  &fa-check-circle-o; **Confirm** The drivers heats in [&fa-th; **Heats**](./user-guide/races/index.html#series)
 
-	*Se generarán las mangas de la carrera*
+	*The race Heats are generated*
 
-6.  [&fa-upload; **Activa**](./user-guide/heats/index.html#mangas_1) y arranca ([&fa-check-circle; **Start**](./user-guide/heats/index.html#control-de-la-manga-activa)) las mangas sucesivamente en [&fa-clock-o; **Mangas**](./user-guide/heats/index.html)
+6.  [&fa-upload; **Activate**](./user-guide/heats/index.html#mangas_1) and start ([&fa-check-circle; **Start**](./user-guide/heats/index.html#control-de-la-manga-activa)) The heats one after another in [&fa-clock-o; **Heats
+**](./user-guide/heats/index.html)
 
-7.  Sanciona y corrige si es necesario, e &fa-print; **Imprime** los resultados
+7.  Punish and correct if necessary, e &fa-print; **Print** the results
 
 ---
 
-### Instalación del programa
+### Installation of program
 
-Requisitos:
+System requirements
 
 - Windows Vista / 7 / 8 / 10
 
-- Microsoft .NET Framework 4.5 o superior
+- Microsoft .NET Framework 4.5 or above
 
-- Módulo de voz compatible con SAPI 5 (Ivona, Loquendo, ...)
+- Text to speech compatible with SAPI 5 (Ivona, Loquendo, ...)
 
-- Decodificador compatible AMB/MyLaps con conexión Serie o Ethernet
+- Decoder compatible with AMB/MyLaps with Serial or Ethernet connection
 
-- Recomendado: Lector de ficheros PDF ([Foxit Reader](http://www.foxitsoftware.com/Secure_PDF_Reader/), [Adobe Reader](http://get.adobe.com/reader/), ...)
+- Recommended: PDF file reader ([Foxit Reader](http://www.foxitsoftware.com/Secure_PDF_Reader/), [Adobe Reader](http://get.adobe.com/reader/), ...)
 
-!!! warning "Opciones de ahorro de energía de Windows"
-	Durante el cronometraje es importante que desactives las opciones de ahorro de energía del ordenador (entrada en suspensión, apagado del disco duro, etc...), ya que pueden interrumpir el funcionamiento del equipo durante los períodos de inactividad.  
-
----
-
-### Instalación de las voces
-
-Requiere instalar un módulo de voz externo (puede ser de pago, coste no incluído en la licencia Everlaps). Se recomienda el uso de [Ivona](http://www.ivona.com).
-
-Una vez instaladas las voces se podrán seleccionar en [&fa-gear; **Ajustes**](./user-guide/config/index.html)
+!!! Warning "Windows energy saving options"
+	During timing it is important that all the computers energy saving options are turned off (suspend, hard disk drive idle, etc...), as these can interrupt the proper working during periods of inactivity.  
 
 ---
 
-### Conexión del decodificador
+### Installing the voices
 
-Conectar decodificador AMB/MyLaps al ordenador y configurarlo según las instrucciones del fabricante.
+Requires the installation of a third party text to speech module (The cost is not included in the Everlaps license). The recommended is [Ivona](http://www.ivona.com).
 
-Según el tipo de conexión, habrá que introducir los parámetros correctos en [&fa-gear; **Ajustes**](./user-guide/config/index.html)
+Once the voices are installed they can be selected in [&fa-gear; **Config**](./user-guide/config/index.html)
 
-- Conexión Serie: indicar puerto del ordenador en donde está conectado el decodificador (COM1, COM2, ...)
+---
 
-- Conexión Ethernet: indicar la dirección IP del decodificador (ejemplo: 192.168.1.2)
+### Connecting the decoder
+
+Connect the amb/MyLaps decoder to the computer following the instructions provided with it.
+
+Depending on the type of connection, the correct values will need to be configured in [&fa-gear; **Config**](./user-guide/config/index.html)
+
+- Serial connection: input the computers serial port that the decoder is connected to (COM1, COM2, ...)
+
+- Ethernet connection: input the decoders IP address (example: 192.168.1.2)
 
 
-!!! warning "Conexión por cable de red (Ethernet)"
+!!! warning "(Ethernet) cable connection"
 	
-	- Si conectas el decodificador directamente al ordenador, es posible que necesites un [cable de red cruzado](http://es.wikipedia.org/wiki/RJ-45#Cable_cruzado). Si existe un switch o router intermedio no es necesario.
+	- If you connect the decoder directly to a computer, it is possible that you will need a [crossover cable](https://en.wikipedia.org/wiki/Ethernet_crossover_cable). If there is a switch or router in the middle it will not be necessary.
 	
-	- El decodificador y el ordenador deben estar en la **misma subred IP** (por ejemplo el ordenador en 192.168.0.1 y el decodificador en 192.168.0.2). Si no consigues que la conexión funcione quizá tengas que desactivar la opción de configuración automática DHCP en el decodificador e introducir la dirección IP manualmente utilizando los botones y la pantalla LCD del mismo.
+	- The decoder and the computer must be on the **same subnet** (for example if the computer is 192.168.0.1 and the decoder is 192.168.0.2). If you cannot get the connection to work you may need to disable automatic DHCP on the decoder and input a static IP manually on the LCD screen of the decoder.
 	
 	
 	

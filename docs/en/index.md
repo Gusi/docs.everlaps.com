@@ -12,9 +12,9 @@
 
 - **Simplicity**: Everlaps has been designed so that its use is extremely simple and intuitive, without removing the functionality to accomplish any task necessary in a professional race timing system.
 
-	*Taking a look at [quick start guide](quick-start/index.html) you can install and start using the program in a few minutes.*
+	*Taking a look at the [quick start guide](quick-start/index.html) you can install and start using the program in a few minutes.*
 
-- **Reliability**: Designed and developed with the objective of guaranteeing maximum reliability an flexibility during timing.
+- **Reliability**: Designed and developed with the objective of guaranteeing maximum reliability and flexibility during timing.
 
 	*Also being used at some of the most relevant events at national level, it is the official software of the SNS (Spanish National Series).*
 
