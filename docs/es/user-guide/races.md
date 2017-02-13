@@ -48,7 +48,7 @@ El resto de los parámetros de configuración de la carrera dependen del tipo de
 
 Permite gestionar las inscripciones de la carrera (excepto para [entrenamiento libre](../race-formats/free-practice/index.html) ya que los pilotos se inscriben automáticamente al pasar por línea de meta).
 
-La pantalla se divide verticalmente en dos partes:
+La pantalla se divide horizontalmente en dos partes:
 
 - La parte *superior* contiene los pilotos inscritos en la carrera.
 - La parte *inferior* o *lista de pilotos disponibles*, muestra los pilotos almacenados en la base de datos pero que no forman parte de la carrera.
