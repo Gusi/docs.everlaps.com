@@ -7,9 +7,9 @@ Permits you to manage all the drivers available in the programs database.
 Glossary of terms used to manage the driver:
 
 - **Driver**: An Individual that will be taking part in any of the configured races
-- **Category**: The different classes according to vehicle category
+- **Classes**: The different classes according to vehicle class
 - **Transponder**: Personal transponder number used by the lap counting system to identify a driver
-- **Ranking**: Driver ability in relationship to each other
+- **Ranking**: Driver ability in relation to each other
 - **Tag**: Allows you to group drivers with a common identifier    
 
 A driver can have assigned different transponder or ranking according to the classes that will be raced in, also any tag number defined in the program.
@@ -18,7 +18,7 @@ A driver can have assigned different transponder or ranking according to the cla
 
 ### Drivers list
 
-Permits input, modification or deleting of the available drivers.
+Permits input, modification or removing of the available drivers.
 
 ##### Actions
 
@@ -28,7 +28,7 @@ Permits input, modification or deleting of the available drivers.
 
 - **Import**: loads a list of drivers from a file.
 
-- **Export**: copies a list of drivers to a file.
+- **Export**: saves a list of drivers to a file.
 
 - &fa-search; **(Search)**: Performs a search upon the drivers visible, showing matches or partial matches (name, surname, transponder, category, tags etc...)  to the text input in the search field.
 
@@ -48,29 +48,29 @@ Permits input, modification or deleting of the available drivers.
 	
 ### Driver data
 
-Shows all the information about a driver, including besides personal data mentioned earlier, lists of transponders and rankings per category, active races  the driver is participating in, and any tags assigned.
+Shows all the information about a driver, including personal data mentioned earlier, lists of transponders and rankings per class, active races  the driver is participating in, and any tags assigned.
 
 #### Transponders, rankings and vehicle numbers
 
-Manage the drivers list of transponders, rankings and vehicle numbers according to the categories that are being participated in.
+Manage the drivers list of transponders, rankings and vehicle numbers according to the classes that are being participated in.
 
-- **Categories**: Permite seleccionar entre las disponibles en la lista de [categorías](./config/index.html#categorias)
-- **Transponder, rank y vehículo**: Permite asignar los valores correspondientes para el piloto en la categoría seleccionada.
+- **Classes**: Allows selection of the available  classes, in the list [Classes](./config/ind	ex.html#categorias)
+- **Transponder, rank and class**: Allows assignment of values corresponding to a driver in the class selected.
 
 !!! note ""
-	Al inscribir un piloto manualmente en una carrera, el sistema compara la categoría de la carrera con las categorías asignadas al piloto para asignar el transponder correspondiente. En caso de que no exista coincidencia, se asigna el transponder asignado a la categoría por defecto. 
+	When registering a driver manually in a race, the system compares the classes of the race with the classes assigned to a drivers to assign the corresponding transponder. In case there is no match, the default transponder is assigned for that class. 
 
-#### Inscripciones activas
+#### Active registrations
 
-Lista de las carreras marcadas como activas en las cuales participa el usuario seleccionado.
+List of races marked as active, that a selected driver is participating in.
 
-Es posible modificar el transponder y rank de la inscripción seleccionada desde aquí, de la misma forma que se haría en la sección de [inscripciones](./races/index.html#inscripciones).
+From here you can modify the transponder and rank of the registered driver, the same way that it would be done in [Registrations](./races/index.html#inscripciones)  section.
 
-#### Etiquetas
+#### Tags
 
-Muestra las etiquetas asignadas al usuario.
+Show the tags assigned to a driver.
 
-Las etiquetas permiten filtrar y agrupar de forma rápida a los pilotos en las distintas secciones (lista de pilotos, inscripciones, series...).
+The tags allow the filtering and grouping together of drivers quickly within the different classes. (drivers list, registrations, heats...).
 
-Se puede asignar cualquier etiqueta seleccionándola del desplegable inferior, y se puede eliminar haciendo clic sobre la *X* que aparece al situar el cursor del ratón sobre la etiqueta que se desea eliminar. La lista completa está definida en la sección de configuración de [etiquetas](./config/index.html#etiquetas).
+Any tag can be assigned from the lower drop down, and can be removed by clicking on the *X*  that appears when the cursor is above the tag to be removed. The complete list is defined in the [Tags](./config/index.html#etiquetas)  section.
 

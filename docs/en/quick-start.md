@@ -10,7 +10,7 @@ Here are described the basic steps to install and start a race in Everlaps. For 
 
 2.  Create a new race in [&fa-road; **Races**](./user-guide/races/index.html), configure general options and [&fa-flag; **Session**](./race-formats/qualify-finals/index.html)
 
-3.  Driver sign-in in [&fa-user; **Sign-in**](./user-guide/races/index.html#inscripciones)
+3.  Driver registration [&fa-user; **Sign-in**](./user-guide/races/index.html#inscripciones)
 
 4.  &fa-check-circle; **Generate** e &fa-print; **Print** driver heats in [&fa-th; **Heats**](./user-guide/races/index.html#series)
 
@@ -23,7 +23,7 @@ Here are described the basic steps to install and start a race in Everlaps. For 
 6.  [&fa-upload; **Activate**](./user-guide/heats/index.html#mangas_1) and start ([&fa-check-circle; **Start**](./user-guide/heats/index.html#control-de-la-manga-activa)) The heats one after another in [&fa-clock-o; **Heats
 **](./user-guide/heats/index.html)
 
-7.  Punish and correct if necessary, e &fa-print; **Print** the results
+7.  Penalise and correct if necessary, e &fa-print; **Print** the results
 
 ---
 

@@ -18,7 +18,7 @@
 
 	*Also being used at some of the most relevant events at national level, it is the official software of the SNS (Spanish National Series).*
 
-- **Text to speech**: Everlaps uses a voice synthesizer to offer drivers and public useful information during the race (starting grid, time left, race standings etc...).
+- **Announcements**: Everlaps uses a voice synthesizer to offer drivers and public useful information during the race (starting grid, time left, race standings etc...).
  
 	*It is the only program on the market capable of informing of real race standings in qualifying heats.*
  
@@ -48,7 +48,7 @@ This documentation is structured in the following manner:
 	- [**Free practice**](race-formats/free-practice/index.html)
 
 - **Frequent tasks**: Description of frequent tasks that the time keeper faces during a race.
-	- [**Punishments and corrections**](common-tasks/punishments-corrections/index.html)
+	- [**Penalties and corrections**](common-tasks/punishments-corrections/index.html)
 	- [**Transponder changes**](common-tasks/change-transponders/index.html)
 	- [**Late entries**](common-tasks/late-entries/index.html)
 	- [**Tags**](common-tasks/tags/index.html)
