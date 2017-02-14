@@ -60,28 +60,28 @@ The screen will divide horizontally in two parts:
 - **Remove**: Deletes all selected drivers from the list of those registered (they will return to *list of available drivers*).
 
 - **Import**: 
-	- **from a local file**: Carga la lista de inscritos desde un fichero de texto descargado desde la web de [Everlaps](http://everlaps.com) conteniendo la lista de inscripciones de la carrera.
-	- **from internet**: Realiza la carga directamente desde la web siempre que se haya introducido el [código web](../race-formats/qualify-finals/index.html#campos-de-formato) de la carrera.
+	- **from a local file**: Loads a list of registered drivers from a text file downloaded from internet web site[Everlaps](http://everlaps.com) containing the race registration list.
+	- **from internet**: Loads the list directly from the internet web site, as long as the web [race password](../race-formats/qualify-finals/index.html#campos-de-formato) has been introduced.
 	
 	!!! note ""
-		Si se importa la lista de pilotos y ya existen pilotos inscritos en la carrera, solamente se añaden aquellos pilotos que aparecen en la lista y que no estuviesen todavía inscritos. De los pilotos ya inscritos se respetan sus valores de transponder y rank.
+		If a drivers list is imported and there are already drivers registered for the race, only those drivers that are on the list and have not been previously registered will be added. Transponder and rank values for drivers already registered will be kept.
 	
-- **Exportar**: Permite el volcado a fichero de la lista de pilotos inscritos.
+- **Export**: Allows saving to a file the list of registered drivers.
 
-- **Imprimir**: Imprime la lista de pilotos inscritos junto con su número de transponder.
+- **Print**: Prints the list of registered drivers along with their transponder numbers.
 
-- **Herramientas**:
-	- **Ranking a número de vehículo**: Copia el valor de ranking al número de vehículo para cada piloto inscrito.
-	- **Número de vehículo a ranking**: Copia el número de vehículo al valor de ranking.
-	- **Números de vehículo correlativos**: Renumera la lista completa de vehículos desde el número 1 en adelante, ordenados por ranking.
+- **Tools**:
+	- **Ranking to car number**: Copies ranking value to car number for every registered driver.
+	- **Car number to ranking**: Copies car number to ranking value.
+	- **Consecutive car numbers**: Re-numbers complete list of cars by order of ranking from 1 onward.
 
-- &fa-search; **(Filtro de búsqueda)**: Realiza un filtrado de los pilotos inscritos mostrando aquellos en los que alguno de sus campos (Nombre, Apellidos, Apodo, etc...) coinciden total o parcialmente con el texto introducido en el campo de búsqueda. 
+- &fa-search; **(Search)**: Performs a search among the drivers registered showing those whose data fields (Name, Surname, Nick name, etc...) match totally or partially with the text introduced in the search field. 
 
-##### Campos
+##### Fields
 
-- **Nombre, apellidos y apodo**: Estos campos se copian directamente de la base de datos. Si se desean modificar hay que hacerlo desde la pantalla de [pilotos](./drivers/index.html), teniendo en cuenta que el cambio afecta a todas las carreras en las que está inscrito el piloto.
+- **Name, Surname and Nick name**: These values are copied directly from the database. They can be modified on the [drivers](./drivers/index.html) screen. This change will affect all the races that the driver is registered in.
 
-- **Transponder y rank**: Estos campos se pueden modificar y sólo afectan a la carrera seleccionada. Si se modifica un transponder, el programa mostrará un diálogo para permitir establecer ese transponder como valor por defecto en la base de datos para próximas carreras, y si el piloto pertenece a la manga activa de carrera, se mostrará otro diálogo para permitir la modificación en caliente del valor. Ver [cambiar transponders](../common-tasks/change-transponders/index.html) para más información.
+- **Transponder and rank**: These fields can be changed and will only affect the selected race. If a transponder is changed, a dialog window will ask permission to change it to the default transponder in the database for future races, if the driver belongs to an active heat, a dialogue will ask permission to hot-swap the transponder number. See [transponder changes](../common-tasks/change-transponders/index.html) for more information.
 
 - **Excluído**: Sanciona al piloto situándolo en último lugar en todos los resultados de la carrera. Los pilotos excluídos no intervienen en la generación automática de nuevas series. Ver [sanciones y correcciones](../common-tasks/punishments-corrections/index.html) para más información.
 
