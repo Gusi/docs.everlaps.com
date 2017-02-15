@@ -99,7 +99,7 @@ En la parte inferior de la pantalla se muestra la lista de pilotos disponibles e
 
 ![Series](../img/series.png)
 
-La pantalla de series se divide horizontalmente en dos partes:
+La pantalla de series se divide verticalmente en dos partes:
 
  - La parte derecha, *distribución de series*, contiene la lista de series para la sesión seleccionada y los pilotos que las componen.
  - La parte izquierda, *pilotos sin serie*, contiene la lista de pilotos inscritos en la carrera pero que no pertenecen a ninguna serie de la sesión seleccionada.
