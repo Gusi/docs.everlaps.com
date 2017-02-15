@@ -83,38 +83,38 @@ The screen will divide horizontally in two parts:
 
 - **Transponder and rank**: These fields can be changed and will only affect the selected race. If a transponder is changed, a dialog window will ask permission to change it to the default transponder in the database for future races, if the driver belongs to an active heat, a dialogue will ask permission to hot-swap the transponder number. See [transponder changes](../common-tasks/change-transponders/index.html) for more information.
 
-- **Excluído**: Sanciona al piloto situándolo en último lugar en todos los resultados de la carrera. Los pilotos excluídos no intervienen en la generación automática de nuevas series. Ver [sanciones y correcciones](../common-tasks/punishments-corrections/index.html) para más información.
+- **Excluded**: The penalised driver will be placed last in all race results. The excluded drivers will no longer be included in the automatic generation of new heats.See [penalties and corrections](../common-tasks/punishments-corrections/index.html) for more information.
 
-#### Pilotos disponibles
+#### Available drivers
 
-En la parte inferior de la pantalla se muestra la lista de pilotos disponibles en la base de datos pero que no están inscritos en la carrera seleccionada.
+The database list of available drivers that are not registered can be seen in the lower part of the screen.
 
-##### Acciones
+##### Actions
 
-- &fa-search; **(Filtro de búsqueda)**: Realiza un filtrado de los pilotos que todavía no pertenecen a la carrera mostrando aquellos en los que alguno de sus campos (Nombre, Apellidos, Apodo, etc...) coinciden total o parcialmente con el texto introducido en el campo de búsqueda. 
+- &fa-search; **(Search)**: Performs a search among the drivers not registered showing those whose data fields (Name, Surname, Nick name, etc...) match totally or partially with the text introduced in the search field.  
 
 ---
 
-### &fa-th; Series
+### &fa-th; Heats
 
 ![Series](../img/series.png)
 
-La pantalla de series se divide horizontalmente en dos partes:
+The screen is divided in two vertically:
 
- - La parte derecha, *distribución de series*, contiene la lista de series para la sesión seleccionada y los pilotos que las componen.
- - La parte izquierda, *pilotos sin serie*, contiene la lista de pilotos inscritos en la carrera pero que no pertenecen a ninguna serie de la sesión seleccionada.
+ - The right hand side, *series distribution*, contains the list of series for the selected race and its drivers.
+ - The left hand side, *drivers without a series*, contains the list of registered drivers not assigned a series of the selected race.
 
-##### Acciones
+##### Actions
 
-- **Sesión**: Selecciona la sesión de la cual se mostrar las series
+- **Race**: select the race for which the series will be shown.
 
-- **Generar**: Genera una distribución automática con el número de pilotos por serie indicado en la configuración de la sesión, y siguiendo el orden de rank o bien el resultado de una sesión anterior, según los parámetros elegidos en el diálogo siguiente:
+- **Generate**: Automatically generates a list of heats with the number of drivers per heat indicated in the race configuration, following rank order or based on the results of previous races, according to the parameters selected in the following dialogue:
 	
-	![Generar distribución](../img/serie-distribution-selection.png)
+	![Generate distribution](../img/serie-distribution-selection.png)
 
-	- **Rank de pilotos**: El orden de pilotos se define por el número de rank.
-	- **Copiar de la sesión**: Se copia exactamente la misma distribución de pilotos establecida en la sesión seleccionada en la lista inferior.
-	- **Resultado de la sesión**: El orden de pilotos se define por el resultado de la sesión seleccionada en la lista inferior.
+	- **Drivers rank**: Driver order is defined by ranking.
+	- **Copy from session**: Se copia exactamente la misma distribución de pilotos establecida en la sesión seleccionada en la lista inferior.
+	- **Session result**: El orden de pilotos se define por el resultado de la sesión seleccionada en la lista inferior.
 
 		!!! note ""
 			Al generar las mangas basándose en el resultado de una sesión anterior, se ignoran aquellos pilotos que hayan sido excluídos tanto de la carrera (panel de inscripciones) como de la sesión de la cual se obtiene el resultado para generar la nueva distribución (panel de series).
