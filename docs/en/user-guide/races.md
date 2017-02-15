@@ -97,77 +97,77 @@ The database list of available drivers that are not registered can be seen in th
 
 ### &fa-th; Heats
 
-![Series](../img/series.png)
+![Heats](../img/series.png)
 
 The screen is divided in two vertically:
 
- - The right hand side, *series distribution*, contains the list of series for the selected race and its drivers.
- - The left hand side, *drivers without a series*, contains the list of registered drivers not assigned a series of the selected race.
+ - The right hand side, *heats distribution*, contains the list of heats for the selected race and its drivers.
+ - The left hand side, *drivers without a heat*, contains the list of registered drivers not assigned a heat of the selected race.
 
 ##### Actions
 
-- **Race**: select the race for which the series will be shown.
+- **Race**: select the race for which the heats will be shown.
 
 - **Generate**: Automatically generates a list of heats with the number of drivers per heat indicated in the race configuration, following rank order or based on the results of previous races, according to the parameters selected in the following dialogue:
 	
 	![Generate distribution](../img/serie-distribution-selection.png)
 
 	- **Drivers rank**: Driver order is defined by ranking.
-	- **Copy from session**: Se copia exactamente la misma distribución de pilotos establecida en la sesión seleccionada en la lista inferior.
-	- **Session result**: El orden de pilotos se define por el resultado de la sesión seleccionada en la lista inferior.
+	- **Copy from session**: Driver distribution is copied exactly the same as established in the session/round selected in the lower list.
+	- **Session result**: The driver order is defined by the results of the session/round selected in the lower list.
 
 		!!! note ""
-			Al generar las mangas basándose en el resultado de una sesión anterior, se ignoran aquellos pilotos que hayan sido excluídos tanto de la carrera (panel de inscripciones) como de la sesión de la cual se obtiene el resultado para generar la nueva distribución (panel de series).
+			When generating the rounds based on the results of a previous session, excluded drivers will be ignored.
 
-- **Añadir**: Añade una serie vacía
+- **Add**: Adds an empty heat.
 
-- **Eliminar**: Elimina la serie seleccionada. Los pilotos que perteneciesen a la serie pasan a la lista de *pilotos sin serie*.
+- **Deletes**: Removes a selected heat. The drivers in that heat return to the *drivers without a heat* list.
 
-- **Sin serie**: Añade a la última serie todos los pilotos que todavía no pertenecen a ninguna serie.
+- **No heat**: Adds all *drivers without a heat* to the last heat.
 
-- **Confirmar**: Genera las mangas según la distribución de series.
+- **Confirm**: Generates the rounds according to distribution of heats.
 
 	!!! note ""
-		Si después de confirmar las mangas se añaden nuevas series, se puede volver a *Confirmar* y se crearán las mangas pertenecientes a las nuevas series. También es posible reorganizar los pilotos una vez confirmadas las mangas, el programa es totalmente flexible en este aspecto.
+		If after creating the rounds new heats are added, these can be *confirmed* and the rounds for the new heats will be added. It is also possible to move drivers once the rounds are confirmed, the program is flexible in that way.
 
-- **Imprimir**: Imprime la lista de series junto con los pilotos que pertenecen a cada una de ellas.
+- **Print**: Prints the list of Heats with the drivers that are in each heat.
 
-- **Herramientas**:
-	- **Reordenar series**: Permite realizar una reordenación manual de las series actuales.
+- **Tools**:
+	- **Re-order heats**: Allows manual re-order of the actual heats.
 
-#### Distribución de series
+#### Heats distribution
 
-Los pilotos que aparecen dentro de cada serie pueden arrastrarse dentro de la misma serie o entre series diferentes para modificar su posición.
+Drivers that are in each heat can be dragged within a heat or into another heat to modify their position.
 
-##### Campos
+##### Fields
 
-- **Nombre, apellidos y apodo**: Son los datos del piloto tal y como aparecen en la base de datos.
+- **Name, surname and Nick name**: These are the same as appear in the database.
 
-- **Mejor Manga**: Permite sancionar la mejor manga del piloto en esa sesión. Ver [sanciones y correcciones](../common-tasks/punishments-corrections/index.html) para más información.
+- **Best round**: Allows a driver to be penalised with the loss of *best round*. See [penalties and corrections](../common-tasks/punishments-corrections/index.html) for more information.
 
-- **Excluído**: Sanciona al piloto pasando a ocupar el último puesto en los resultados de esa sesión. Los pilotos excluídos no intervienen en la generación automática de nuevas series. Ver [sanciones y correcciones](../common-tasks/punishments-corrections/index.html) para más información.
+- **Excluded**: A driver will be penalised and will occupy the last place in this round. Excluded drivers will not automatically be added to new heats. See [penalties and correctiones](../common-tasks/punishments-corrections/index.html) for more information
 
-#### Pilotos sin serie
+#### Drivers without a heat
 
-Se muestra en la parte derecha de la pantalla, y contiene todos los pilotos inscritos en la carrera que todavía no pertenecen a ninguna serie en la sesión seleccionada. Los pilotos que aparecen en esta lista se pueden arrastrar a las series correspondientes y viceversa.
+All drivers registered in the race without a heat in the selected session are shown on the right hand side of the screen. Drivers in the list can be dragged into and out of the heats as needed.
 
 !!! note ""
-	Si una vez generadas las series se inscriben nuevos pilotos, estos aparecerán en la lista de *pilotos sin serie* y se podrán arrastrar a las series existentes o crear una nueva serie para ellos. En éste último caso habría que volver a ejecutar la acción de *confirmar* para que el programa genere las mangas pertenecientes a las nuevas series.
+	Once the heats have been generated, late entries can still register and be added to the heats by dragging from the *drivers without a heat* section or a new heat can be created for them. In this case the *confirm* will need to be applied again to generate all the rounds for the new heat.
 	
-	En cualquier caso, no es necesario volver a generar las series ya existentes.
+	It will not be necessary to re-generate existing rounds.
 	
 ---
 
-### &fa-trophy; Resultados
+### &fa-trophy; Results
 
-![Resultados](../img/results.png)
+![Results](../img/results.png)
 
-Muestra el resultado de la sesión seleccionada, con el detalle por piloto en cada una de las tandas que han concluido hasta el momento, así como el detalle de desempates, correcciones y sanciones establecidas para sesión.
+Shows the results for the selected Session, With details for each drivers of all concluded rounds, also shown are details of tie breakers, corrections and penalties established for that session.
 
-##### Acciones
+##### Actions
 
-- **Sesión**: Seleccionar la sesión de la que se quieren consultar los resultados
+- **Session**: Select the session for which the results are required.
 
-- **Recalcular**: Actualiza el resultado para el caso de que haya una manga activa que intervenga en el resultado general de la sesión.
+- **Re-calculate**: Refreshes the result in the case of an active round that influences the general results of that session.
 
-- **Imprimir**: Imprime el resultado de la sesión seleccionada.
+- **Print**: Prints the result of the selected session.
