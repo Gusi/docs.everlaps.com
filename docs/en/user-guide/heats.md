@@ -1,94 +1,94 @@
-## &fa-clock-o; Mangas
+## &fa-clock-o; Heats
 
-Desde aquí se controla el progreso de las carreras, activando las mangas en el orden establecido por el cronometrador, y generando los informes de resultados correspondientes.
+Race progress is controlled from here, heats will be activated in the order established by the timekeeper, and generating the corresponding results sheets.
 
-![Mangas](../img/heats.png)
+![Heats](../img/heats.png)
 
 ---
 
-### Control de la manga activa
+### Controlling the active heat
 
-Al activar una manga, se muestra el panel que permite controlar el estado de la manga.
+Once the heat is activated, the heat can be controlled from the panel.
 
 ![Control de manga](../img/heat-control.png)
 
-##### Acciones
+##### Actions
 
-- **Start**: Inicia la manga con el tiempo de margen establecido en [*prólogo*](../race-formats/qualify-finals/index.html#campos-de-formato), en las opciones de carrera. Cada minuto se avisará del tiempo restante, nombre de manga, pilotos y recogecoches. Se darán los últimos avisos 30, 20 y 10 segundos antes de la salida.
+- **Start**: Starts the heat with the standby time established in [*prologue*](../race-formats/qualify-finals/index.html#campos-de-formato), In the race options. A warning will be given every minute of time left,name of heat, drivers and marshals. The last warnings will be at 30, 20 and 10 seconds before start.
 
-- **30/10**: Inicia la manga con 30 o 10 segundos de margen.
+- **30/10**: Starts the heat with a 30 or 10 second standby time.
 
-- **Go**: Inicia la manga de forma inmediata.
+- **Go**: Immediate start.
 
-- **Grid**: Cuando la manga está activada pero todavía no ha arrancado se puede forzar una lectura del nombre de la manga, pilotos y recogecoches.
+- **Grid**: When the heat is active but has not started, this forces announcement of name of heat, drivers and Marshall's.
 
-- **Stop**: Detiene la manga en curso. Los resultados de la manga quedarán congelados en el momento de la detención.
+- **Stop**: Stops a running heat. The heats results will are frozen at the moment of the halt.
 
-- **Finish**: Detiene y finaliza la manga en curso. Los resultados quedan congelados y además el sistema de locución notifica el final de la manga y sus resultados, la manga se desactiva, y en caso de tener configurada la impresión automática de resultados, se envían a la impresora los datos correspondientes.
+- **Finish**: Stops and finalizes a running heat. The heats results are frozen and the announcement system reports end of heat and its results, The heat become in-active and if automatic results printing is configured the corresponding data is sent to the printer.
 
 	!!! note ""
-		Después del sonido de fin de manga, el programa espera el tiempo configurado de *última vuelta* hasta que todos los pilotos que han pasado al menos una vez por línea de meta completan su última vuelta. Si un piloto ha roto el coche y abandonado la manga, el programa seguirá esperando por este piloto hasta que se consuma el tiempo de *última vuelta*. En este caso el botón de *Finish* es especialmente útil porque permitiría finalizar la manga sin alterar el resultado y ahorrar el tiempo de espera por un coche que ya no está en pista.
+		After the end of heat sound, the program waits the pre-configured *Last lap* time, until all drivers that have passed the finishing line at least once finish their last lap. If a driver breaks and abandons the heat, the program will keep waiting for this driver until the *Last lap* time is up. In this case the *Finish* button is useful to terminate a heat without altering the results and saving time waiting for a car no longer on the track.
 
-- &fa-gear; (*Parámetros de manga*): Muestra los parámetros actuales de la manga activa (duración, tiempo de vuelta mínima, tiempo de última vuelta, etc...)
+- &fa-gear; (*Heat parameters*): Shows the actual parameters of the active heat (duration, minimum lap time, last lap time, etc...)
 
-!!! warning "Modificaciones sobre una manga activa"
-	Cuando una manga se activa, se realiza una copia aislada de todos los datos que intervienen en la manga, como son los transponders de los pilotos, nombres, duración, formato, etc... para garantizar la integridad del programa frente a posibles modificaciones erróneas durante el transcurso de la manga. 
+!!! warning "Modifying an active heat"
+	When a heat is activated, a safe copy of the heat data is made, transponder numbers, driver names, duration, format, etc... to guarantee the integrity of the program from possible erroneous modifications during the course of the heat. 
 	
-	En el caso de que se modifique alguno de los valores de configuración de los pilotos, carrera o sesión a la que pertenece la manga (apodos, duración, tiempo de prólogo, etc...) es necesario desactivar y volver a activar la manga para que estos valores se apliquen, excepto para los siguientes datos que son **modificados en caliente** incluso cuando la manga está activada:
+	To modify any of the drivers configuration values, heat to which they belong, race or session (Nick name, duration, standby time etc...) It will be necessary to deactivate the active heat, and re-activate it so that the new values are applied, except for the following data which can be **hot-swapped** even when the race is active:
 	
-	- **Transponder**: Se puede modificar desde la lista de inscripciones de la carrera, o desde el panel de [situación de la manga activa](#situacion-de-la-manga-activa) utilizando el botón derecho y el diálogo de cambio de transponder.
-	- **Tiempo de vuelta mínima**: Se puede modificar en cualquier momento
-	- **Tiempo de última vuelta**: Se puede modificar excepto cuando la manga entra en el estado de *última vuelta*
+	- **Transponder**: Can be modified in the race registration list, or from the [Active race situation](#situacion-de-la-manga-activa) panel, right clicking and using the change transponder option.
+	- **Minimum lap time**: Can be changed at any time.
+	- **Last lap time**: Can be changed before the race has entered *last lap* time.
 		
-	NOTA: En el modo de [entrenamiento libre](../race-formats/free-practice) es posible incorporar pilotos en caliente, así como modificar los apodos, ya que este formato de carrera realiza un acceso directo a la base de datos.
+	NOTE: In [free practice](../race-formats/free-practice) it is possible to add new drivers on the fly, and modify nick names since this session format can access the database directly.
 
 ---
 
-### &fa-list-alt; Mangas
+### &fa-list-alt; Races
 
-##### Acciones
+##### Actions
 
-- &fa-upload; (*Activar manga seleccionada*): Activa la manga seleccionada, mostrando el panel de control e inicializando el resto de paneles de *Situación de la manga activa* y *Resultados*. 
+- &fa-upload; (*Activate selected race*): Activates the selected race, Showing the control panel and initialising the other panels *Race situation* and *Results*. 
 
 	!!! note ""
-		Si la manga que se activa contiene ya vueltas y resultados porque se inició anteriormente, se mostrará un aviso notificando de la situación, y antes de iniciar la manga se volverá a mostrar otro mensaje de aviso, antes de que **los datos guardados sean eliminados** completamente.
+		If a heat that is activated already contains laps and results because it was started previously, a warning will be shown, and before the race is re-started another warning will be shown, before **the saved data is deleted** completely.
 
-- &fa-download; (*Desactivar manga activa*): Desactiva la manga activa si no está en progreso, en cuyo caso habrá que esperar a la finalización de la manga, o detenerla con los botones de *Stop* o *Finish*
+- &fa-download; (*De-activate the selected race*): De-activates the active race if it is not in progress, in which case the race will need to run its course or by pressing *Stop* or *Finish*
 
-- &fa-play-circle; (*Activar/Desactivar modo automático*): Activa o desactiva el [modo automático](#auto). El botón puede estar en uno de estos 3 estados:
+- &fa-play-circle; (*Activate/De-activate automatic mode*): Activates or de-activates [automatic mode](#auto). The icon can be in one of 3 states:
 	
-	- &fa-play-circle; (estático): El modo automático esta desconectado.
+	- &fa-play-circle; (static): Automatic mode is disabled.
 	
-	- &fa-play-circle:spin; (rotando): Modo automático conectado y en espera de lanzar la siguiente manga. Se mostrará el tiempo restante y se avisará por megafonía cada minuto.
+	- &fa-play-circle:spin; (spinning): Automatic is enabled and in standby to start the next race. Remaining time will be shown and announcements made every minute.
 	
-	- &fa-play-circle; (parpadeando): La manga está activada y el modo automático está a la espera de su finalización para lanzar la siguiente manga después del tiempo de espera configurado.
+	- &fa-play-circle; (blinking): The race is active and in automatic and waiting to finalise before next race is  started after the pre-configured standby time.
 	
 	!!! note ""
-		Con el modo automático activado, si el usuario activa la manga manualmente, o si detiene la manga una vez que ha sido activada automáticamente, debe iniciar la manga **de forma manual**. El modo automático continuará una vez que la manga activada finalice o se desactive manualmente.
+		With automatic enabled, if a user starts the race manually, or stops the race once it has been activated in automatic, it will need to be re-started **manually**. Automatic mode will continue once the active race finishes or is de-activated manually.
 
-- &fa-eye; (*Mostrar/Ocultar mangas finalizadas*): Muestra u oculta las mangas finalizadas de las carreras activas en ese momento.
+- &fa-eye; (*Show/Hide finalised races*): Shows or hides finalised active races.
 		
-- &fa-print; (*Imprimir resultados*): Imprime los resultados correspondiente a la manga seleccionada.
+- &fa-print; (*Print results*): Prints the results which correspond to the selected race.
 
 	!!! note ""
-		En cualquier momento es posible imprimir el resultado de manga, tanda o sesión, incluso en mitad del progreso de una manga. El resultado que se mostrará corresponderá con la situación de la manga en ese momento.
+		It is possible to print race, round or session, even in the middle of a race. The results shown will correspond with the race results up until that moment.
 	
-	- **Manga**: Genera el informe de la manga seleccionada.
+	- **Race**: Generates report for selected race.
 	
-	- **Tanda**: Genera el informe de la tanda a la que pertenece la manga seleccionada, incluyendo todas las mangas que pertenecen a la tanda.
+	- **Round**: Generates report for the round to which the selected race belongs, including all the races which belong to that round.
 	
-	- **Sesión**: Genera el informe de la sesión a la que pertenece la manga seleccionada, incluyendo las tandas desde la primera hasta la tanda a la que pertenece la manga.
+	- **Session**: Generates report for the session, to which the selected race belongs, including all the rounds from the first up until the round that the race belongs to.
 
-- **Eliminar**: Borra la manga seleccionada, incluyendo todas sus vueltas y resultados.
+- **Delete**: Removes the selected race, including all laps and results.
 
-##### Menú contextual
+##### Contextual menu
 
-Sobre cualquier manga, a excepción de la manga activa, se puede utilizar el botón derecho para acceder al menú contextual con las siguientes opciones:
+Right clicking on any race except the active race will access the contextual menu, with the following options:
 
-- **Modificar estado...**
-	- **Por disputar**: Las mangas pendientes de disputar, aunque tengan resultados registrados, no intervienen en el resultado de la sesión.
-	- **Finalizada**: En estado finalizado, la manga interviene en los resultados de sesión. Aunque la manga no contenga resultados se puede marcar como finalizada, lo cual habilita por ejemplo activar las mangas de la tanda siguientes en caso de ser necesario.
-- **Generar contenedores de vueltas vacíos**: Genera los contenedores que aparecen en el panel de vueltas y que permiten hacer correcciones sobre los resultados de los pilotos en esa manga. Es útil cuando se desea introducir resultados directamente sin haber disputado la manga, o si se añade un piloto a la serie después de que ésta se haya disputado, y se desea establecer manualmente su resultado de vueltas y tiempo. 
+- **Modify state...**
+	- **To be started**: Races awaiting to be started, even if they may have results registered, are not included in the session results.
+	- **Finished**: Finished races, The race will be included in session results. Even if they have no results can be marked as finished, which will allow races from the next round to be activated if necessary.
+- **Generate empty lap boxes**: Generates boxes in the lap counting panel that allow result corrections to be made for the drivers in that race. It is useful when results need to be input without running the race, or if drivers are added to a heat after the heat has been run, and manual results need to be established for laps and time. 
 
 ---
 
@@ -96,23 +96,23 @@ Sobre cualquier manga, a excepción de la manga activa, se puede utilizar el bot
 
 ![Auto](../img/auto.png)
 
-Controla el lanzado automático de mangas para la carrera activa.
+Controls automatic launching of races for the active race meeting.
 
-#### Planificación
+#### Scheduling
 
-Permite planificar el lanzamiento de las mangas en base a los parámetros siguientes:
+Enables scheduling of the races according to the following parameters:
 
-- **Fecha de inicio**: Configura la fecha de ejecución de la carrera. Útil si se realiza la planificación en días previos.
+- **Start date**: Configure the start date for the race meeting. Usefull if the race meeting is scheduled a few days in advance.
 
-- **Hora de inicio**: Hora de lanzamiento de la primera manga.
+- **Start time**: Start time of the first race.
 
-- **Tiempo entre mangas**: Tiempo entre el lanzamiento de mangas consecutivas. 
+- **Time between races**: Start time between consecutive races. 
 
-	*Por ejemplo, una final de 7 minutos, con 2 minutos de prólogo y 30 segundos de última vuelta tiene una duración mínima de 9:30 minutos. Teniendo en cuenta el tiempo que los pilotos necesitan para bajar y subir al pódium, un tiempo entre mangas adecuado para este caso podría ser 11 o 12 minutos.*
+	*For ejemplo, a 7 minute final, with a 2 minute  prologue and a  30 second last lap time has a minimum duration of 9.5 minutes. Taking into account the time drivers need to access the rostrum, an adequate time between races could be almost 11 o 12 minutes.*
 
-- **Tiempo entre tandas**: Tiempo entre el lanzamiento de mangas pertenecientes a la misma serie pero de tandas consecutivas. 
+- **Time between rounds**: Time between the start  of races belonging to the same heat but belonging to consecutive rounds. 
 
-	*Por ejemplo, si queremos asegurar que cada serie tiene 40 minutos entre mangas para poder cargar correctamente las baterías, éste es el valor que debemos especificar. El sistema lo respetará como valor mínimo, aunque debido al número de mangas y el tiempo entre ellas, el tiempo entre tandas planificado podría ser mayor.*
+	*For ejemple, assuring that each heat has 40 minute between races so that batteries can be correctely charged, éste es el valor que debemos especificar. El sistema lo respetará como valor mínimo, aunque debido al número de mangas y el tiempo entre ellas, el tiempo entre tandas planificado podría ser mayor.*
 
 - **Tiempo entre sesiones**: Tiempo entre el inicio de dos sesiones diferentes. 
 
