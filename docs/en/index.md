@@ -2,7 +2,7 @@
 <div class="bs-docs-header" id="content" style="margin-bottom:0px">
 	<div class="container">
 		<h1>Everlaps</h1>
-		<p>Professional Solution for Race Timing</p>
+		<p>Professional Race Timing Solutions</p>
 	</div>
 </div>
 
@@ -12,19 +12,19 @@
 
 - **Simplicity**: Everlaps has been designed so that its use is extremely simple and intuitive, without removing the functionality to accomplish any task necessary in a professional race timing system.
 
-	*Taking a look at the [quick start guide](quick-start/index.html) you can install and start using the program in a few minutes.*
+	*Taking a look at the [quick start guide](quick-start/index.html) the program can be installed and running in a few minutes.*
 
 - **Reliability**: Designed and developed with the objective of guaranteeing maximum reliability and flexibility during timing.
 
-	*Also being used at some of the most relevant events at national level, it is the official software of the SNS (Spanish National Series).*
+	*The software of choice at some of the most relevant events at national level, it is the official software of the SNS (Spanish National Series).*
 
 - **Announcements**: Everlaps uses a voice synthesizer to offer drivers and public useful information during the race (starting grid, time left, race standings etc...).
  
-	*It is the only program on the market capable of informing of real race standings in qualifying heats.*
+	*It is the only program on the market capable of reporting real race standings during qualifying heats.*
  
-- **Timing formats**: Qualifying, finals, 3 lap relocation, Christmas tree, free practice...
+- **Timing formats**: Qualifying, finals, 3 lap re-ordering, Christmas tree, free practice...
 
-- **Live Timing**: You can visualize real time race standings on any mobile device connected to the tracks WiFi net or on the  Internet. 
+- **Live Timing**: Real time race standings can be seen on any mobile device connected to the tracks WiFi network or the  Internet. 
 
 - **Constant evolution**: Unlike the majority of existing timing software, Everlaps keeps continuously evolving with new features and functionality.
 
