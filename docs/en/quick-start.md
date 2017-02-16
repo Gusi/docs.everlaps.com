@@ -8,22 +8,22 @@ Here are described the basic steps to install and start a race in Everlaps. For 
 
 1.  Input the driver data in [&fa-users; **Drivers**](./user-guide/drivers/index.html)
 
-2.  Create a new race in [&fa-road; **Races**](./user-guide/races/index.html), configure general options and [&fa-flag; **Session**](./race-formats/qualify-finals/index.html)
+2.  Create a new race in [&fa-road; **Races**](./user-guide/races/index.html), configure general and [&fa-flag; **Session**](./race-formats/qualify-finals/index.html) options
 
-3.  Driver registration [&fa-user; **Sign-in**](./user-guide/races/index.html#inscripciones)
+3.  Register participating drivers in [&fa-user; **Registrations**](./user-guide/races/index.html#inscripciones)
 
-4.  &fa-check-circle; **Generate** e &fa-print; **Print** driver heats in [&fa-th; **Heats**](./user-guide/races/index.html#series)
+4.  &fa-check-circle; **Generate** and &fa-print; **Print** driver series in [&fa-th; **Series**](./user-guide/races/index.html#series)
 
-	*Returns here at the end of each round to generate the heats for the next. For example, to generate finals round after completing qualifying*
+	*Returns here at the end of each session to generate the series for the next. For example, to generate finals series after completing qualifying*
 
-5.  &fa-check-circle-o; **Confirm** The drivers heats in [&fa-th; **Heats**](./user-guide/races/index.html#series)
+5.  &fa-check-circle-o; **Confirm** The drivers series in [&fa-th; **Series**](./user-guide/races/index.html#series)
 
 	*The race Heats are generated*
 
 6.  [&fa-upload; **Activate**](./user-guide/heats/index.html#mangas_1) and start ([&fa-check-circle; **Start**](./user-guide/heats/index.html#control-de-la-manga-activa)) The heats one after another in [&fa-clock-o; **Heats
 **](./user-guide/heats/index.html)
 
-7.  Penalise and correct if necessary, e &fa-print; **Print** the results
+7.  Penalise and correct if necessary, and &fa-print; **Print** the results
 
 ---
 
@@ -48,17 +48,17 @@ System requirements
 
 ### Installing the voices
 
-Requires the installation of a third party text to speech module (The cost is not included in the Everlaps license). The recommended is [Ivona](http://www.ivona.com).
+Requires the installation of a text to speech module (The cost is not included in the Everlaps license). The recommended is [Ivona](http://www.ivona.com).
 
-Once the voices are installed they can be selected in [&fa-gear; **Config**](./user-guide/config/index.html)
+Once the voices are installed they can be selected in [&fa-gear; **Configuration options**](./user-guide/config/index.html)
 
 ---
 
 ### Connecting the decoder
 
-Connect the amb/MyLaps decoder to the computer following the instructions provided with it.
+Connect the amb/MyLaps decoder to the computer following the instructions provided by the manufacturer. 
 
-Depending on the type of connection, the correct values will need to be configured in [&fa-gear; **Config**](./user-guide/config/index.html)
+Depending on the type of connection, the correct values will need to be configured in [&fa-gear; **Configuration options**](./user-guide/config/index.html)
 
 - Serial connection: input the computers serial port that the decoder is connected to (COM1, COM2, ...)
 
