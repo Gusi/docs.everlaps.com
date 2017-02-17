@@ -112,114 +112,116 @@ Enables scheduling of the heats according to the following parameters:
 
 - **Time between rounds**: Time between the start of heat belonging to the same series but belonging to consecutive rounds. 
 
-	*For ample, assuring that each series has 40 minute between heats so that batteries can be correctly charged, this is the value that should be specified. The system will use it as the minimum value, although depending on the number of heats and the time between them, the scheduled time could be greater.*
+	*For example, assuring that each series has 40 minute between heats so that batteries can be correctly charged, this is the value that should be specified. The system will use it as the minimum value, although depending on the number of heats and the time between them, the scheduled time could be greater.*
 
 - **Time between sessions**: Time between the start of different sessions. 
 
-	*Por ejemplo puede ser útil para establecer una separación mínima entre las sesiones de entrenamiento controlado y las de recolocación.*
+	*For example, it can be useful for establishing the minimum separation between the session of controlled practice and the session of re-ordering.*
 
-- **Planificar mangas**: Ejecuta la planificación de las mangas restantes según los parámetros establecidos.
+- **Scheduling heats**:Executes the scheduling of the remaining heats according to the established parameters.
 
-#### Ejecución
+#### Execution
 
-Los parámetros de ejecución se aplican justo antes de lanzar la siguiente manga y permiten controlar, en el caso de que la planificación original sufra algún retraso, cómo se va recuperando el tiempo para seguir la planificación original. 
+The execution parameters are applied just before launching the next heat and allows controlling, in the case that the original schedule suffers delays, how time is made up to follow the original schedule. 
 
-- **Separación mínima mangas**: Tiempo mínimo entre el final de una manga y el lanzamiento de la siguiente. 
+- **Minimum separation between heats**: Minimum time between the end of one heat and the launching of the next. 
 
-	*Teniendo en cuenta que los pilotos de la manga que termina deben abandonar el pódium, y subir los de la siguiente manga, un valor adecuado podría ser entre 1 o 2 minutos.*
+	*Keeping in mind that the outgoing drivers need to abandon the rostrum, and those of the next heat need to access it, an adequate value could be between 1 or 2 minutes.*
 
-- **Separación mínima cambio de tanda**: Tiempo mínimo entre el final de una manga y el lanzamiento de la siguiente, cuando las mangas pertenecen a tandas distintas. 
+- **Minimum separation between rounds**: Minimum time between the end of one heat and the launching of the next, when the heats belong to different rounds. 
 
-- **Separación mínima cambio de sesión**: Tiempo mínimo entre el final de una manga y el lanzamiento de la siguiente, cuando las mangas pertenecen a sesiones distintas.
+- **Minimum separation between sessions**: Minimum time between the end of one heat and the launching of the next, when the heats belong to different sessions.
 
-- **Incluir mangas sin planificar**: Si está marcada, al lanzar el modo automático se incluyen aquellas mangas que no estuviesen planificadas de antemano, respetando únicamente los valores de *Ejecución* entre ellas. También habilita lanzar el modo automático directamente **sin planificar ninguna manga**.
-
----
-
-### Situación de la manga activa
-
-Este panel refleja el estado actual de la manga en curso, y mantiene el resultado hasta que se activa la siguiente manga.
-
-Los campos mantienen su nombre siempre en inglés para que coincidan exactamente con la visualización del *Live Timing* en el navegador web.
-
-- &fa-trophy; (*Posición*): Posición de carrera del piloto en la manga.
-- &fa-flag-o; (*Finalizado*): Si aparece la bandera &fa-flag-checkered; significa que el piloto ha finalizado la manga.
-- &fa-check; (*Verificado*): Un icono &fa-check; verde indica que el piloto ha realizado alguna pasada por línea de meta durante el tiempo de prólogo de la manga. Es útil para verificar, justo antes del inicio del cronómetro, que todos los pilotos tienen su transponder asignado correctamente.
-- &fa-car; (*Número de coche*): Número del coche del piloto.
-- **Driver**: Apodo del piloto.
-- **Laps/Time**: Vueltas y tiempo que lleva el piloto en el momento concreto.
-- **Prediction**: En mangas clasificatorias, indica el resultado previsto en vueltas y tiempo al finalizar la manga.
-- **Gap**: Diferencia en tiempo o vueltas con respecto a la cabeza de carrera.
-- **Diff**: Diferencia en tiempo o vueltas con respecto al piloto anterior.
-- **Last**: Tiempo de la última vuelta.
-- **Best**: Tiempo de la mejor vuelta.
-- **Progress**: Barra de progreso que indica aproximadamente la situación de vuelta del piloto. Cuando la barra se completa, el piloto debería estar pasando por línea de meta si no ha sufrido ningún percance.
-
-!!! note "Cambio de transponder en caliente"
-	Con el botón derecho sobre cualquier piloto de este panel, es posible acceder al diálogo de cambio de transponder en caliente. Ver [Cambio de transponder](../common-tasks/change-transponders/index.html) para más información.
+- **Include heats not scheduled**: If selected, when launched in automatic mode heats not previously scheduled will be included, only *Execution* values between them are upheld. It also enables launching automatic mode directly **without scheduling any heats**.
 
 ---
 
+### Situation of the active heat
 
-### &fa-list; Pasadas
+This panel shows the actual state of the running heat, and maintains the result until the next heat is activated.
 
-Muestra el detalle de cada una de las pasadas de los pilotos en orden cronológico. En caso de que alguna pasada no sea aceptada, se mostrará con un color y estado distintos. Los posibles estados de una pasada pueden ser:
+The fields always maintain their names in english so that they coincide exactly the same as the visualization of the *Live Timing* in the web browser.
 
-- **OK**: La pasada es correcta y se contabiliza para la manga.
-- **Corregido**: La pasada se contabiliza pero el tiempo se ha corregido ya que se ha arrancado el crono del piloto con anterioridad.
-- **Prohibido**: Pasada de un transponder no perteneciente a ningún piloto de la manga activa.
-- **Expirado**: La pasada se realiza fuera del tiempo de última vuelta y no se contabiliza.
-- **Atajado**: Se detecta como un atajo (tiempo de vuelta inferior al establecido en *Vuelta mínima*) y no se contabiliza.
-- **Finalizado**: El piloto ya ha finalizado y no se contabiliza la pasada.
-- **Denegado**: En carreras de relevos, si el piloto no tenía permiso de salir todavía a pista se rechaza la pasada.
-- **Baja señal**: La pasada no pasó el filtro de señal o hits establecido en la configuración del decodificador.
-- **Margen de inicio**: No se contabiliza porque la pasada se ha producido en una final antes de que finalice el *Tiempo de demora en finales*.
+- &fa-trophy; (*Position*): Drivers race position in the heat.
+- &fa-flag-o; (*Finalised*): If the flag appears &fa-flag-checkered; it means that the driver has finished the heat.
+- &fa-check; (*Verified*): a green tick icon &fa-check; indicates that a driver has crossed the finish line during the heats prologue time. It is useful to verify, just before the start of the chrono, that all the drivers have an correctly assigned transponder.
+- &fa-car; (*Vehicle number*): drivers vehicle number.
+- **Driver**: Drivers nick name.
+- **Laps/Time**: Drivers laps and time in any given moment.
+- **Prediction**: In qualifying heats, it indicates a predictive result for laps and time by the end of the heat.
+- **Gap**: Time difference in time or laps to the race leader.
+- **Diff**: Time difference in time or laps to previous driver.
+- **Last**: Drivers last lap time.
+- **Best**: Drivers best lap time.
+- **Progress**: Progress bar that approximately indicates drivers lap progress. When the bar is complete, the driver should be crossing the finish line if no incident has occurred.
+
+!!! note "Transponder change on the fly"
+	Right clicking on any driver in this panel, will show the change transponder dialogue. See [Cambio de transponder](../common-tasks/change-transponders/index.html) for more information.
+
+---
+
+
+### &fa-list; Crossings
+
+Shows details of each drivers crossings in chronological order. In case a crossing is not accepted, it will be shown with a different state and colour. The possible states are:
+
+- **OK**: Correct crossing and is counted in the heat.
+- **Corrected**: The crossing is counted but the time has been corrected because the drivers chrono was previously started.
+- **Prohibited**: The crossing of a transponder not belonging to any driver in the active heat.
+- **Expired**: The crossing is out of last lap time and will not be counted.
+- **short cut**: A short cut is detected (a lap time lower than is established in *minimum lap time*) and will not be counted.
+- **Finalised**: A driver already finalised will not be counted when crossing the finish line.
+- **Denied**: In relay races, if a driver does not have clearance to enter the track the crossing will be rejected.
+- **Low signal**: The crossing did not pass the signal filter or hits established in the decoders configuration.
+- **Start margin**: The crossing is not counted because the crossing has occurred in a final before end of *Finals start time*.
 
 !!! note ""
-	En el campo de tiempo de vuelta, el **color naranja** indica que el tiempo de esa vuelta el mayor que el doble de tiempo mínimo por vuelta establecido, lo cual puede indicar una vuelta no contabilizada para ese piloto por no haber pasado correctamente por línea de meta.
+	In the field lap time, the **orange colour** indicates that the lap time is double the minimum lap time established, which could indicate an uncounted lap for that driver for not having crossed the finishing line correctly.
 
-##### Menú contextual
+##### Contextual menu
 
-Una vez que la manga termina, es posible asignar o denegar pasadas utilizando el botón derecho sobre la pasada correspondiente.
+Once a heat finishes, it is possible to assign crossings or deny them using the right mouse button over the corresponding crossing.
 
-- **Modificar estado...**: Al modificar el estado de una pasada se recalcula el resultado del piloto en la manga y los tiempos de vuelta correspondientes.
-	- **OK**: La pasada se asigna al piloto cuyo transponder coincida con el de la pasada.
-	- **Denegado**: La vuelta seleccionada se marca como denegado y no se contabiliza.
+- **Modify state...**: Modifying the state of a crossing will cause a re-calculation of the drivers lap times and results in the corresponding heat.
+	- **OK**: The crossing is assigned to the driver whose transponder coincides with that of the crossing.
+	- **Denied**: The selected lap is marked as denied and is not counted.
 	
-- **Asignar todas**: Asigna todas las vueltas marcadas como *prohibidas* o *recuperadas* al piloto cuyo transponder coincida con el de la pasada.
+- **Assign all**: Assigns all laps marked as *prohibited* o *recuperated* to the drivers whose transponder coincides with the crossing.
 
-- **Revisar tiempos de vuelta**: Comprueba que no haya atajos o pasadas fuera de tiempo contabilizadas como válidas. 
+- **Verify lap times**: Verifies that there are no *short cuts* or *out of time* counted as valid. 
 	
-	*Este proceso se realiza automáticamente cada vez que se modifica el estado de alguna pasada o se añaden todas las pasadas de un piloto.*
+	*This process occurs each time that a crossing state is modified or all of a drivers crossings are added.*
 
-- **Decodificador**: Permite recuperar pasadas directamente del decodificador AMB *sólamente si está conectado por cable Ethernet*.
-	- **Recuperar pasadas perdidas**: Analiza las pasadas existentes y recupera aquellas que pudiesen haberse perdido debido a algún problema de comunicación con el decodificador.
-	- **Recuperar últimas 10 pasadas**: Recupera 10 pasadas existentes justo después de la última pasada almacenada para la manga. Esta acción se puede repetir tantas veces como se quiera en caso de ser necesario.
+- **Decoder**: Allows the recovery of all crossings directly from AMB decoder *only if it is connected via Ethernet*.
+	- **Recover lost crossings**: Analyses existing crossings and recovers those that could have been lost due to a communication error with the decoder.
+	- **Recover last 10 crossings**: Recovers 10 existing crossing just after the last recorded crossing for the heat. This action can be repeated as many times as may be necessary.
 
 ---
 
-### &fa-mail-forward; Vueltas
+### &fa-mail-forward; Laps
 
 ![Vueltas](../img/laps.png)
 
-La pantalla de vueltas muestra el orden cronológico de las pasadas de cada piloto. Desde aquí y una vez finalizada y desactivada la manga, es posible realizar correcciones sobre el resultado de cada piloto. Ver [sanciones y correcciones](../common-tasks/punishments-corrections/index.html) para más información.
+The laps screen shows the chronological order of the crossings for each driver. From here and once finalised and de-activated the heat, it is possible to make corrections on each drivers results. See [penalties and corrections](../common-tasks/punishments-corrections/index.html) for more information.
 
-Las vueltas pueden ordenarse según el tiempo de vuelta o el orden cronológico, pulsando con el ratón sobre el título de la columna correspondiente (*Pasada* o *Vuelta*).
+The laps can be sorted by lap time or chronological order, clicking with the mouse over the title of the corresponding column (*Crossing* or *Lap*).
 
 !!! note ""
-	Al igual que en el panel de pasadas, en el campo de tiempo de vuelta el color naranja indica que el tiempo de esa vuelta el mayor que el doble de tiempo mínimo por vuelta establecido, lo cual puede indicar una vuelta no contabilizada para ese piloto por no haber pasado correctamente por línea de meta.
+	As in the crossings panel, In the field lap time, the **orange colour** indicates that the lap time is double the minimum lap time established, could indicate an uncounted lap for that driver for not having crossed the finishing line correctly. 
+
+
 
 ---
 
-### &fa-flag; Resultados
+### &fa-flag; Results
 
 ![Resultados](../img/heatresults.png)
 
-Muestra los resultados de manga o tanda para la manga seleccionada. Es muy útil en el caso de aplicar correcciones o sanciones a un piloto, ya que permite ver el resultado de cómo quedaría la manga o tanda antes de imprimirla.
+Shows the heat or round results for the selected heat. It is very useful in the case of applying corrections or penalisations for a driver, as it allows viewing the heat or round results before being printed.
 
-- **Ver resultados de**:
+- **View results of**:
 
-	- **Manga**: Muestra los resultados de la manga seleccionada.
-	- **Tanda**: Muestra los resultados de la tanda completa a la que pertenece la manga seleccionada.
+	- **Heats**: Shows the results for the selected heat.
+	- **Rounds**: Shows the results of the complete round for the selected heat.
 	
-- **Imprimir**: Imprime el resultado de manga o tanda que se está visualizando.
+- **Print**: prints the results for the heat or round that is being visualized.
