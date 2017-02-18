@@ -33,25 +33,25 @@ Everlaps needs a voice synthesizer system *TTS (Text To Speech)* to be able to w
 
 #### &fa-bell-o; Sounds
 
-Es posible ajustar la forma individual el volumen de cada uno de los sonidos del sistema según las necesidades del circuito.
+It is possible to adjust the volume individually for each systems sound according to the needs of the track.
 
-- **Pasada**: Suena al detectarse la pasada válida de un transponder por línea de meta (excepto si es el coche con mayor número de vueltas, o si la manga ha finalizado)
+- **Crossing**: Sounds when a valid crossing is detected across the finishing line (except if it is the vehicle with the most amount of laps, or if the heat has finalised)
 
-- **Cabeza de carrera**: La pasada por línea de meta del coche con mayor número de vueltas en ese momento recibe un sonido más agudo, lo cual ayuda a dirección de carrera y al público a identificar quien es el piloto con mayor número de vueltas. 
-
-	!!! note ""
-		En una *final*, el sonido de cabeza de carrera es equivalente al piloto que va en primera posición.
-	
-		En una *manga clasificatoria*, debido a que cada piloto lleva su propio cronómetro, no implica que el piloto sea el que va en cabeza, sino que es el que primero pasa por meta.
-
-- **Inicio de manga/Fin de manga**: Indica el inicio y final de la manga.
+- **Race leader**: When the vehicle with the most amount of laps crosses the finishing line, a sharper sound is received, which can help the race director and the public identify who is the driver with the most laps. 
 
 	!!! note ""
-		En una *final*, el sonido de inicio de manga generalmente implica el arranque del crono. El sonido de fin de manga implica que todos los coches terminan en el siguiente paso por meta.
+		In a *final*, the race leader sound is equivalent to the first place driver.
 	
-		En una *manga clasificatoria*, el sonido de inicio de manga indica la apertura de pista pero el inicio del crono lo hace el piloto que pasa primero por línea de meta después de la bocina. El sonido de fin de manga tampoco implica obligatoriamente que los coches terminan en el siguiente paso por meta; la locución avisará de los que coches que vayan terminando según su cronómetro individual.
+		In a *qualifying heat*, Since each driver carries their own chrono, it does not imply that the driver is in the lead, only who is across the finishing line first.
 
-- **Transponder inválido**: Suena cuando se detecta una pasada de un transponder que no pertenece a ningún piloto de la manga activa.
+- **Heat start/Heat finish**: Indicates start and finish of a heat.
+
+	!!! note ""
+		In a *final*, The heat start sound generally implies the start of the chrono. The heat finish sound implies that all the vehicles finish on their next crossing of the finish line.
+	
+		In a *qualifying heat*, The heat start sound indicates that the track is open, but the chrono will start when the first driver crosses first across the finishing line after the sound. The heat finish sound doesn't imply that all vehicles finish on their next crossing of the finishing line; the announcements will announce which vehicles have finished according to their individual chrono.
+
+- **Invalid transponder**: Sounds when a crossing is made by a transponder that does not belong to a driver in the active heat.
 
 ---
 
