@@ -1,8 +1,8 @@
-## &fa-info-circle; Opciones de línea de comandos
+## &fa-info-circle; Command line options
 
-Estas son las opciones de línea de comandos que están disponibles para Everlaps.exe
+These are the available command line options for Everlaps.exe
 
-	-a, --auto      Crea y activa una manga de entrenamientos libres automáticamente al iniciar el programa  
-	-d, --delete    Borra todas las mangas de entrenamientos libres existentes
-	-s, --shrink    Compacta el archivo de la base de datos
+	-a, --auto      Creates and activates a free practice session on program start.  
+	-d, --delete    Removes all existing free practice heats.
+	-s, --shrink    Shrinks the database file.
 
