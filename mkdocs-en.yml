@@ -15,23 +15,23 @@ extra_javascript: ['js_extra/clickview.js','js_extra/imagegallery.js']
 repo_url: https://github.com/Gusi/docs.everlaps.com
 
 pages:
-- Índice: en/index.md
-- Inicio rápido: en/quick-start.md
-- Manual detallado:
-    - Pilotos: en/user-guide/drivers.md
-    - Carreras: en/user-guide/races.md
-    - Mangas: en/user-guide/heats.md
-    - Configuración: en/user-guide/config.md
-    - Línea de comandos: en/user-guide/commands.md
-- Formatos de carrera:
-    - Clasificatorias y finales: en/race-formats/qualify-finals.md
-    - Formato piramidal: en/race-formats/christmas-tree.md
-    - Entrenamiento libre: en/race-formats/free-practice.md
-- Tareas frecuentes:
-    - Sanciones y correcciones: en/common-tasks/punishments-corrections.md
-    - Cambiar transponders: en/common-tasks/change-transponders.md
-    - Inscripciones con la carrera en marcha: en/common-tasks/late-entries.md
-    - Etiquetas: en/common-tasks/tags.md
+- Index: en/index.md
+- Quick start: en/quick-start.md
+- Manual detailed:
+    - Drivers: en/user-guide/drivers.md
+    - Races: en/user-guide/races.md
+    - Heats: en/user-guide/heats.md
+    - Config: en/user-guide/config.md
+    - Command line options: en/user-guide/commands.md
+- Race formats:
+    - Qualifying and finals: en/race-formats/qualify-finals.md
+    - Christmas tree: en/race-formats/christmas-tree.md
+    - Free practice: en/race-formats/free-practice.md
+- Common tasks:
+    - Penalties and corrections: en/common-tasks/punishments-corrections.md
+    - Change transponders: en/common-tasks/change-transponders.md
+    - Late entries: en/common-tasks/late-entries.md
+    - Tags: en/common-tasks/tags.md
 
 markdown_extensions:
     - extra:
