@@ -87,7 +87,7 @@ El sistema soporta la conexión a diferentes sistemas de detección de pasadas.
 
 ---
 
-#### &fa-print; Impresión
+#### &fa-print; Printing
 
 - **Imprimir tiempo de carrera en el detalle de vueltas**: En los informes de manga, se incluye el tiempo total de carrera junto al tiempo de vuelta en la información cronológica de cada piloto.
 
@@ -101,7 +101,7 @@ El sistema soporta la conexión a diferentes sistemas de detección de pasadas.
 
 ---
 
-#### &fa-gear; Opciones por defecto
+#### &fa-gear; Default options
 
 - **Prólogo/Vuelta mínima/Última vuelta/Tiempo cronos retrasados/Retardo salida lanzada**: Los valores introducidos en estos campos se asignan automáticamente a las nuevas carreras que se generen en el programa. Cada campo se corresponde con su homólogo en la sección de [configuración de carrera](../race-formats/qualify-finals/index.html#comun)
 
@@ -112,7 +112,7 @@ El sistema soporta la conexión a diferentes sistemas de detección de pasadas.
 
 ---
 
-#### &fa-signal; Red
+#### &fa-signal; Network
 
 - **Publicar resultados automáticamente en everlaps.com**: Al finalizar cada manga, se actualizan los resultados hasta el momento en la web de [Everlaps](http://everlaps.com) siempre que se haya introducido el *Código Web* correspondiente en la configuración de la carrera.
 
@@ -121,7 +121,7 @@ El sistema soporta la conexión a diferentes sistemas de detección de pasadas.
 
 ---
 
-#### &fa-rss; Tiempos en directo (*Live Timing*)
+#### &fa-rss; Live Timing 
 
 Everlaps puede emitir el resultado de una manga en *tiempo real* a través de un servidor web, lo que habilita la posibilidad de visualizar el transcurso de la carrera en cualquier dispositivo con un navegador moderno, como smartphones, tablets y ordenadores.
 
@@ -146,7 +146,7 @@ Aparte de para que tanto los pilotos que están en el box como el público desde
 
 ---
 
-#### &fa-database; Archivos
+#### &fa-database; Files
 
 - **Base de datos**: Muestra la ruta al fichero donde se almacenan todos los datos de pilotos y carreras de la aplicación. Este fichero puede moverse entre máquinas, por ejemplo se podría configurar una carrera en otro ordenador (incluso con la versión gratuita), y copiar la base de datos en el ordenador del circuito para arrancar la carrera de forma inmediata.
 
@@ -154,7 +154,7 @@ Aparte de para que tanto los pilotos que están en el box como el público desde
 
 ---
 
-#### &fa-globe; Idioma
+#### &fa-globe; Language
 
 Permite el cambio de idioma del interfaz y las locuciones de Everlaps
 
@@ -163,20 +163,20 @@ Permite el cambio de idioma del interfaz y las locuciones de Everlaps
 
 ---
 
-#### &fa-bug; Depuración
+#### &fa-bug; Debugging
 
 - **Mostrar consola**: Muestra el registro de actividad del programa (mensajes de voz, acciones, errores...). En caso de problemas, puede servir de ayuda para intentar comprender lo sucedido siguiendo la traza de ejecución del programa.
 
 
-## Categorías y etiquetas
+## Classes and tags 
 
 ![Categorías y etiquetas](../img/classes-tags.png)
 
-#### &fa-list; Categorías
+#### &fa-list; Classes
 
 Permite añadir, eliminar y modificar categorías. Por defecto se crea una lista con las categorías más habituales, que pueden modificarse a voluntad con la única restricción de la categoría por defecto, que no puede ser eliminada.
 
-#### &fa-list; Etiquetas
+#### &fa-list; Tags
 
 Permite añadir, eliminar y modificar etiquetas, asignado un color identificativo junto con su descripción.
 
