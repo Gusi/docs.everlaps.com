@@ -1,37 +1,37 @@
-## &fa-gears; Ajustes
+## &fa-gears; Config
 
-Permite configurar los parámetros generales de la aplicación.
+Allows configuring general application parameters.
 
-## Opciones de configuración
+## Configuration options
 
 --- 
 
-#### &fa-microphone; Voces
+#### &fa-microphone; Voices
 
-Everlaps necesita de un sistema de síntesis de voz *TTS (Text To Speech)* para poder funcionar. Dos de los sistemas más conocidos son *Ivona* y *Loquendo*, aunque Everlaps puede funcionar con cualquier sistema de *TTS* que soporte el estándar SAPI5.
+Everlaps needs a voice synthesizer system *TTS (Text To Speech)* to be able to work. Two of the most well known are *Ivona* and *Loquendo*, although Everlaps can work with any *TTS* system that is SAPI5 compatible.
 
-- **Principal/Secundaria**: Permite seleccionar la voz deseada de entre las disponibles en el sistema. Para mejorar la experiencia se recomienda utilizar una voz femenina como primaria, y una masculina como secundaria (Conchita y Enrique de Ivona, o Carmen y Jorge de Loquendo).
+- **Primary/Secondary**: Allows selecting the desired voice among those available in the system. For a better experience a female voice is recommended as primary, and a male voice as secondary (Amy and Brian with Ivona, or Kate and Simon with Loquendo).
 
-- **Velocidad**: Controla la velocidad de dicción de las voces de forma individual. Ajustar a voluntad según el comportamiento de la voz elegida.
+- **Speed**: Controls the speed of diction of the individual voices. Adjust at will according to chosen voices behavior.
 
-- **Volumen**: Controla el volumen de las voces individualmente.
+- **Volume**: Controls the voices volume individually.
 
-- **Test**: Permite introducir cualquier texto para que sea pronunciado por la voz al pulsar la tecla INTRO. *Muy útil para realizar avisos personalizados a través de la megafonía del circuito*.
+- **Test**: Allows the introduction of any text for the voice to pronounce when enter key is pressed. *very useful for making personal announcements on the track speakers*.
 
-- **Modo de compatibilidad de voz**: Habilitar ***sólo*** en caso de que las voces se queden en silencio. *Ver nota más abajo*.
+- **Voice compatibility mode**: enable  ***only*** if the voices stay silent. *See note further down*.
 
-	!!! warning "Compatibilidad de voz: Loquendo 6.5"
-		Si se usa una versión de Loquendo antigua (6.5 o inferior) hay un defecto en las voces que bloquea la locución debido al uso avanzado que hace Everlaps del control de voz. Solamente en este caso se debe marcar la opción *Modo de compatibilidad de voz*. 
+	!!! warning "Compatibility of voices: Loquendo 6.5"
+		If an old version of Loquendo (6.5 o earlier) there is a bug in the voices that block the announcements due to an advanced use that Everlaps makes of voice control. Only in this case should *Voice compatibility mode* be selected. 
 	
-		Se puede comprobar si ocurre este defecto seleccionando la voz de Loquendo correspondiente y escribiendo en la caja de test lo siguiente:
+		This bug can be tested by selecting the corresponding Loquendo voice and writing the following in the test box:
 	
-			Uno <silence msec="1000"/> Dos
+			One <silence msec="1000"/> Two
 	
-		Si se oye *Uno Dos* con una pausa de 1 segundo entre ambos no existe el defecto y por tanto no es necesario marcar la casilla de compatibilidad; si sólo se oye *Uno* entonces es necesario marcar la casilla.
+		If you here *One Two* with a 1 second pause in between, the bug is not present and selecting compatibility mode will not be necessary; if only *One* is heard then it will be necessary to select it.
 
 ---
 
-#### &fa-bell-o; Sonidos
+#### &fa-bell-o; Sounds
 
 Es posible ajustar la forma individual el volumen de cada uno de los sonidos del sistema según las necesidades del circuito.
 
