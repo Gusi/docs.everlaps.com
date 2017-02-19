@@ -55,7 +55,7 @@ It is possible to adjust the volume individually for each systems sound accordin
 
 ---
 
-#### &fa-bolt; Transponder
+#### &fa-bolt; Transponders
 
 The system supports the connection to different lap counting systems.
 
@@ -74,7 +74,7 @@ The system supports the connection to different lap counting systems.
 - **Permits invalid transponders to start heat**: By defect only valid transponders are allowed to start heats that wait for the first crossing to start the chrono (generally qualifying is started with a rolling start). If this option is enabled, it will permit an invalid transponder to start the chrono. 
 
 	!!! note ""
-		Permitting an invalid transponder to start the chrono, the invalid transponder can be assigned to a driver afterwards and all the laps (including the first crossing) can be recovered automatically; otherwise, the first crossing will not be registered (since the heat has not started yet) and could not be recovered.
+		Permits an invalid transponder to start the chrono, the invalid transponder can be assigned to a driver afterwards and all the laps (including the first crossing) can be recovered automatically; otherwise, the first crossing will not be registered (since the heat has not started yet) and could not be recovered.
 
 - **Permit manual counting**: Enables the program's manual counting option, for counting crossings of drivers without transponders manually.
 
