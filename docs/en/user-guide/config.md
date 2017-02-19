@@ -57,127 +57,127 @@ It is possible to adjust the volume individually for each systems sound accordin
 
 #### &fa-bolt; Transponder
 
-El sistema soporta la conexión a diferentes sistemas de detección de pasadas.
+The system supports the connection to different lap counting systems.
 
-- **Decodificador/Parámetros**: Permite seleccionar el decodificador y/o el sistema del conexión. Las opciones disponibles son:
+- **Decoder/Parameters**: Allows selecting the decoder and or its connection. The available options are:
 
-	- **IPDecoder**: Conexión a dispositivos AMB/MyLaps a través de conexión protocolo IP (conexión de cable de red o Ethernet). En el campo **Parámetros** es necesario indicar la dirección IP del decodificador (por ejemplo, 192.168.0.10)
+	- **IPDecoder**: Connection to AMB/MyLaps devices using a IP protocol connection (Connection via Ethernet cable). In the field **Parameters** It is necessary to indicate the decoders IP address (for example, 192.168.0.10)
 
-	- **SerialDecoder**: Conexión a dispositivos AMB/MyLaps a través de puerto serie. En el campo **Parámetros** es necesario indicar el puerto en el que está conectado del decodificador (COM1, COM2, etc...)
+	- **SerialDecoder**: Connection to AMB/MyLaps devices using serial port. In the field **Parameters** It is necessary to indicate which serial port the decoder is connected to (COM1, COM2, etc...)
 	
-	- **SimulatorDecoder**: Simulador de pasadas que permite probar el funcionamiento del programa generando las pasadas de los pilotos al pulsar sobre los correspondientes botones de transponder o bien configurando el modo automático con el intervalo de tiempo entre pasadas correspondiente.
+	- **SimulatorDecoder**: Crossings simulator that allows testing the program by generating drivers crossings by clicking on the corresponding transponder buttons or by configuring it in automatic with a corresponding gap of time between crossings.
 	
-	- **NullDecoder**: No establece conexión con ningún sistema de decodificación.
+	- **NullDecoder**: No decoder connection is established.
 	
-- **Filtrar si hits/señal menor que...**: Para las conexiones a dispositivos AMB/MyLaps, ignora las pasadas con valores de hits o señal menor que los indicados.
+- **Filter if hits/signal lower than...**: For connections to AMB/MyLaps devices, ignores crossings with hit/signal values lower than indicated.
 
-- **Permitir que un transponder inválido inicie la manga**: Por defecto sólo los transponders válidos pueden iniciar las mangas en las que se espera por la primera pasada para arrancar el crono (generalmente en clasificatorias con salida lanzada o volante). Si se habilita esta opción, se permite que un transponder inválido pueda arrancar el crono. 
+- **Permits invalid transponders to start heat**: By defect only valid transponders are allowed to start heats that wait for the first crossing to start the chrono (generally qualifying is started with a rolling start). If this option is enabled, it will permit an invalid transponder to start the chrono. 
 
 	!!! note ""
-		Al permitir que un transponde inválido pueda arrancar el crono, el transponder inválido podría asignarse más tarde al piloto correcto y todas sus vueltas (incluyendo esta primera pasada) podrían recuperarse de forma automática; en caso contrario, la primera pasada no quedaría registrada (ya que la manga todavía no ha comenzado) y no podría recuperarse de ninguna manera.
+		Permitting an invalid transponder to start the chrono, the invalid transponder can be assigned to a driver afterwards and all the laps (including the first crossing) can be recovered automatically; otherwise, the first crossing will not be registered (since the heat has not started yet) and could not be recovered.
 
-- **Permitir conteo manual**: Habilita en el programa las opciones de conteo manual, para poder contabilizar las pasadas de los pilotos sin transponder manualmente.
+- **Permit manual counting**: Enables the program's manual counting option, for counting crossings of drivers without transponders manually.
 
-	- **Detectar atajos en conteo manual**: Si está habilitada se detectan los atajos entre pasadas manuales y estos no serán contabilizados como vueltas válidas.
+	- **Detect short cuts when manual counting**: If enabled short cuts will be detected in crossings when manual counting and these will not be counted as valid laps.
 
-	- **Permitir teclas de acceso rápido**: Permite el uso de las teclas **F1 hasta F12** (pilotos del 1 al 12) y **Ctrl+1, Ctrl+2 hasta Ctrl+0** (pilotos del 11 al 20) para generar las pasadas manuales sin tener que utilizar el ratón en la vista de vueltas de la manga activa.
+	- **Permit hot keys**: Allows the use of hot keys **F1 to F12** (drivers 1 to 12) and **Ctrl+1, Ctrl+2 to Ctrl+0** (drivers from 11 to 20) to generate manual counting without using the mouse in the lap screen of the active heat.
 
-		!!! note "Hot Keys en el conteo manual"
-			Las teclas F1 a F12 y todas las combinaciones de Ctrl+NUM funcionan incluso aunque Everlaps no se encuentre en primer plano.
+		!!! note "Hot Keys when manual counting"
+			The keys F1 to F12 and all the combinations of Ctrl+NUM function including when Everlaps is not in the foreground.
 
 ---
 
 #### &fa-print; Printing
 
-- **Imprimir tiempo de carrera en el detalle de vueltas**: En los informes de manga, se incluye el tiempo total de carrera junto al tiempo de vuelta en la información cronológica de cada piloto.
+- **Print total race time in lap results**: In heat reports, total race time is included next to the lap time in the chronological information for each driver.
 
-- **Imprimir gráfico en el resultado de manga**: En los informes de manga, muestra un gráfico en donde se ve la evolución de vueltas y posiciones de cada piloto a lo largo del tiempo.
+- **Print graph with heat results**: In the heat reports, a graph will show the evolution of laps and standings for each driver over time.
 
-- **Imprimir automáticamente al terminar cada manga**: Al terminar cada manga, se imprime automáticamente el resultado de la manga, así como el resultado de la tanda (en el caso de que la manga recién terminada completase su tanda) y también el resultado de la sesión (si hay 2 o más tandas completadas).
+- **Print automatically at the end of each heat**: When each heat ends, the heat results will be printed automatically, as well as the round results (in the case that the recently completed heat has finalised the round) and also the session results (if there are 2 or more rounds completed).
 
-- **Usar lector de PDF para vista previa e impresión**: Al imprimir un informe, se envía al visor de PDF configurado por defecto en el sistema operativo ([Foxit Reader](http://www.foxitsoftware.com/Secure_PDF_Reader), [Adobe Reader](http://get.adobe.com/es/reader), etc...) en vez de a la impresora.
+- **Use PDF viewer prior to printing**: When printing a report, it is opened with the default operating system PDF viewer ([Foxit Reader](http://www.foxitsoftware.com/Secure_PDF_Reader), [Adobe Reader](http://get.adobe.com/es/reader), etc...) instead of the printer.
 
-- **Impresora**: Selecciona la impresora del sistema a la que se enviarán los informes, siempre y cuando la opción de *Usar lector de PDF para vista previa e impresión* no esté activada.
+- **Printer**: Selects the system printer which the reports are sent to, as long as the *Use PDF viewer prior to printing* is not enabled.
 
 ---
 
 #### &fa-gear; Default options
 
-- **Prólogo/Vuelta mínima/Última vuelta/Tiempo cronos retrasados/Retardo salida lanzada**: Los valores introducidos en estos campos se asignan automáticamente a las nuevas carreras que se generen en el programa. Cada campo se corresponde con su homólogo en la sección de [configuración de carrera](../race-formats/qualify-finals/index.html#comun)
+- **Prologue/minimum lap/last lap/Delayed chrono time/Delayed launched start**: The values introduced in these fields are automatically assigned to new races that are generated by the program. Each field corresponds to a similar one in [Race configuration](../race-formats/qualify-finals/index.html#comun)
 
-- **Invertir numeración en series de entrenos y clasificatorias**: Por defecto las series en las que el piloto lleva su cronómetro individual se numeran del 1 en adelante, siendo la serie 1 la que contiene los pilotos de mayor rank y que se planifica en último lugar dentro de su tanda. Si está marcada esta opción, las series clasificatorias se numeran en orden inverso (la serie 1 será la de pilotos con menor rank y se planificará en primer lugar).
+- **Invert numbering of practice and qualifying series**: By default the series where each diver has an individual chrono are numbered from 1 on-wards, 1 being the series which contains the drivers of higher ranking and is scheduled to run last in the round. If this option is enabled, The qualifying series are numbered reverse order (series 1 will contain the drivers of least ranking and will be scheduled to run in first).
 
 	!!! note ""
-		El orden de ejecución de las mangas en Everlaps no tiene por qué seguirse estrictamente y el cronometrador puede elegir qué manga de la tanda en curso lanzar en cada momento.
+		The order of the heats execution in Everlaps does not need to be strictly followed and the time keeper can choose which heat from the current round to launch in each moment.
 
 ---
 
 #### &fa-signal; Network
 
-- **Publicar resultados automáticamente en everlaps.com**: Al finalizar cada manga, se actualizan los resultados hasta el momento en la web de [Everlaps](http://everlaps.com) siempre que se haya introducido el *Código Web* correspondiente en la configuración de la carrera.
+- **Publish results automatically in  everlaps.com**: When each heat finishes, the results are updated in [Everlaps](http://everlaps.com) as long as the *Web code* has been introduced that corresponds to that in the race configuration.
 
 	!!! note ""
-		Si después de terminar la manga se realiza alguna corrección o sanción sobre la carrera, es necesario volver a publicar los resultados de la carrera de forma manual (Listado de carreras > Botón derecho > Publicar resultados en everlaps.com)
+		Once the heat has finished and corrections or penalties are applied to the race, it will be necessary to re-publish the race results manually (List of races > Right click > Publish results in everlaps.com)
 
 ---
 
 #### &fa-rss; Live Timing 
 
-Everlaps puede emitir el resultado de una manga en *tiempo real* a través de un servidor web, lo que habilita la posibilidad de visualizar el transcurso de la carrera en cualquier dispositivo con un navegador moderno, como smartphones, tablets y ordenadores.
+Everlaps can transmit the heat results in *Real time* via a web server, which enables the possibility to visualise the course of the race on any device with a modern web browser, like smart-phones, tablets and computers.
 
-Aparte de para que tanto los pilotos que están en el box como el público desde el circuito o sus casas puedan seguir la carrera, el sistema de *Live Timing* es especialmente útil en manos del Director de Carrera, ya que le permite tener una visión directa del estado de la misma, en incluso controlar el arranque y parada de la manga en curso.
+That way drivers in the pits and the public around the track or at home can follow the race, the *Live Timing* system is specially useful in the hands of the race director, since it allows a direct view of the races state, including being able to start and stop the heat in course.
 
-- **Publicar a servidor local**: Habilita el envío de los datos carrera al servidor local que se ejecuta en el mismo ordenador en dónde está instalado Everlaps. *Ésta es la única opción que se permite si el programa se ejecuta en modo gratuito*.
+- **Publish a local server**: Enables sending the race data to a local server which is executed in the same computer where Everlaps is installed. *This is the only option available when executing the program in freeware mode*.
 
-	!!! note "Servidor local"
-		El servidor local es un programa independiente que debe de estar en ejecución para que los dispositivos puedan conectarse al sistema de Live Timing dentro de la red WiFi del circuito. Se encuentra en la carpeta Everlaps, dentro de la lista de programas de Windows, así como en el escritorio, y se identifica por un icono verde titulado *Everlaps Live Timing*.
+	!!! note "Local server"
+		The local server is an independent program that needs to be running so that mobile devices can connect to Live Timing on the track WiFi. It can be found in the Everlaps folder, inside windows Program Files, as on the desktop, and is identified by a green icon labeled *Everlaps Live Timing*.
  
-- **Publicar a everlaps.com**: Habilita el envío de los datos a la web de [Live Timing de Everlaps](http://live.everlaps.com), bajo la ruta que se publicará en la página principal de [Everlaps](http://everlaps.com) durante las fechas de realización de la carrera.
+- **Publish to everlaps.com**: Enables the sending of data to [Everlaps Live Timing](http://live.everlaps.com) web site, beneath the title that is published on the main page of [Everlaps](http://everlaps.com) during the dates of the race.
 
-- **Servidores personalizados**: Permite el envío a las diferentes direcciones IP o servidores que se indiquen esta casilla (separadas por espacios).
+- **Personal servers**: Allow sending to a different IP addresses or servers indicated in this box (separated by spaces).
 
-- **Mostrar relojes de repostaje**: Muestra en el [Live Timing](http://live.everlaps.com) (tanto remoto como local) una lista con las distintas estrategias de repostaje y el tiempo que queda para cada parada.
+- **Show refueling clocks**: Shows in [Live Timing](http://live.everlaps.com) (remotely and locally) a list of different refueling strategies and time remaining for each pit-stop.
 
-	- **Tiempos mínimo/máximo entre repostajes**: Según la duración de cada carrera y los valores introducidos, correspondientes a los tiempos que puede circular un vehículo hasta agotar su combustible, se generarán las distintas estrategias de repostaje.
+	- **Minimum/maximum between refueling**: According to the duration of the race and the values introduced, corresponding to the time a that a vehicle can go without refueling, it generates the different refueling strategies.
 
-- **Permitir control remoto**: Permite el control remoto de la manga desde un dispositivo conectado a la red local del circuito. *Esta opción se encuentra inhabilitada en la versión actual*.
+- **Permits remote control**: Permits remote control of heats from a mobile device connected to the track local network. *This option is currently disabled in this version*.
 
-	- **Usuario/Contraseña**: Campos que deben introducirse desde el cliente de *Live Timing* para conceder permiso de control remoto al usuario.
+	- **User/Password**: Fields that must be introduced in the *Live Timing* client to give permission for remote control to a user.
 
 ---
 
 #### &fa-database; Files
 
-- **Base de datos**: Muestra la ruta al fichero donde se almacenan todos los datos de pilotos y carreras de la aplicación. Este fichero puede moverse entre máquinas, por ejemplo se podría configurar una carrera en otro ordenador (incluso con la versión gratuita), y copiar la base de datos en el ordenador del circuito para arrancar la carrera de forma inmediata.
+- **Database**: Shows the path to the application file where all the driver and races are stored. This file can be moved between machines, for example to configure a race on another computer (including on the freeware version), to copy the database to the track computer to start the race immediately.
 
-- **Logotipo**: Permite mostrar un logotipo personalizado en la parte inferior de los informes.
+- **Logotype**: Allows showing a personalised logotype at the top of the reports.
 
 ---
 
 #### &fa-globe; Language
 
-Permite el cambio de idioma del interfaz y las locuciones de Everlaps
+Allows changing the interface language and announcements of Everlaps
 
 !!! note ""
-	Se necesitan voces configuradas en el mismo idioma en el que se establezca el programa
+	The voices will need to be configured in the same language as that is established for the program.
 
 ---
 
 #### &fa-bug; Debugging
 
-- **Mostrar consola**: Muestra el registro de actividad del programa (mensajes de voz, acciones, errores...). En caso de problemas, puede servir de ayuda para intentar comprender lo sucedido siguiendo la traza de ejecución del programa.
+- **Show Console**: Shows the programs logs (voice announcements, actions, errors...). In case of problems, it can be useful to try and understand what has happened following the programs back-trace.
 
 
 ## Classes and tags 
 
-![Categorías y etiquetas](../img/classes-tags.png)
+![Classes and tags](../img/classes-tags.png)
 
 #### &fa-list; Classes
 
-Permite añadir, eliminar y modificar categorías. Por defecto se crea una lista con las categorías más habituales, que pueden modificarse a voluntad con la única restricción de la categoría por defecto, que no puede ser eliminada.
+Allows adding, deleting and modifying classes. By default a list of the most common classes is created, These can be modified at will, the only restriction being that the default class cannot be removed.
 
 #### &fa-list; Tags
 
-Permite añadir, eliminar y modificar etiquetas, asignado un color identificativo junto con su descripción.
+Allows adding, deleting and modifying tags, assigning an identifying colour as well as a description.
 
-El uso de las etiquetas se detalla en el apartado [Etiquetas](../common-tasks/tags/index.html)
+The use of tags is explained in detail in the [Tags](../common-tasks/tags/index.html) section.
