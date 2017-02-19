@@ -1,22 +1,22 @@
-## Clasificatorias y finales
+## Qualifying and finals
 
-![Clasificatorias y finales](../img/qualy-finals.png)
+![Qualifying and finals](../img/qualy-finals.png)
 
-El formato de carrera de *Clasificatorias y Finales* define por defecto las sesiones de entrenamiento, recolocación, clasificatorias y finales, de las cuales las dos primeras pueden eliminarse si no se van a utilizar durante la carrera.
+The race format *Qualification and Finals* defines by default the practice, re-ordering, qualifying and finals sessions, the first two of which can be removed if they are not going to be used in the race.
 
 ---
 
 ##### General
 
-- **Nombre**: Identifica la carrera. Aparece en la parte superior de los informes y como identificador de las mangas.
+- **Name**: Race name. appears at the top of reports and as an identifier of the heats.
 
-- **Descripción**: Información adicional que aparece en el pie de página de los informes.
+- **Description**: Additional information that appears at the bottom of reports.
 
-- **Tipo**: Identifica el formato de carrera. En este caso mostrará siempre *Clasificatorisa y finales*.
+- **Type**: Identifies the race format. In this case it will show *Qualifying and finals*.
 
-- **Código web**: El código web se obtiene de la página web de [Everlaps](http://everlaps.com) y permite relacionar la carrera publicada en la página web para que se puedan publicar los resultados y habilitar el envío de datos al sistema de *Live Timing*.
+- **Web code**: El código web se obtiene de la página web de [Everlaps](http://everlaps.com) y permite relacionar la carrera publicada en la página web para que se puedan publicar los resultados y habilitar el envío de datos al sistema de *Live Timing*.
 
-- **Categoría**: Identifica la categoría de la carrera para elegir el transponder más adecuado durante las inscripciones manuales de pilotos.
+- **Classes**: Identifica la categoría de la carrera para elegir el transponder más adecuado durante las inscripciones manuales de pilotos.
 
 ---
 
