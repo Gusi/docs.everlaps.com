@@ -14,139 +14,139 @@ The race format *Qualification and Finals* defines by default the practice, re-o
 
 - **Type**: Identifies the race format. In this case it will show *Qualifying and finals*.
 
-- **Web code**: El código web se obtiene de la página web de [Everlaps](http://everlaps.com) y permite relacionar la carrera publicada en la página web para que se puedan publicar los resultados y habilitar el envío de datos al sistema de *Live Timing*.
+- **Web code**: The web code is obtained at the site [Everlaps](http://everlaps.com) and permits connecting with the race published on the web site and publishing its results and enabling the sending of data to *Live Timing*.
 
-- **Classes**: Identifica la categoría de la carrera para elegir el transponder más adecuado durante las inscripciones manuales de pilotos.
-
----
-
-##### Locución
-
-- **Nombre corto**: Nombre que usa la locución para indicar a qué carrera pertenece la manga activa. Sólo se recomienda su uso cuando se intercalan mangas de varias carreras distintas (por ejemplo cuando corren dos categorías el mismo día), para que los pilotos puedan identificar a cual de las categorías corresponde la manga en curso.
-
-- **Recoge-coches**: El sistema de locución permite avisar a los recogecoches desde que se abre la pista hasta el inicio de la manga.
-	
-	- **No llamar**: No nombrar a los recogecoches.
-	- **Manga anterior**: Nombra a los recogecoches de la serie anterior de la misma carrera. Utilizar sólo si los pilotos de la misma carrera recogen justo después de correr su manga.
-
-- **Nombrar pilotos**: Establece cómo ha de nombrar el sistema de locución a los pilotos para dar su posición en carrera, resultados finales, etc...
-	
-	- **Usar apodo**: Utiliza el apodo del piloto.
-	- **Usar número de vehículo**: Utiliza el número de vehíulo asignado en la inscripción.
-	
-- **Numeración**: Establece el sistema de numeración de los vehículos durante la carrera.
-
-	- **Renumerar cada sesión**: En cada sesión se modifica el número de cada vehículo en función de su posición obtenida.
-	- **Numeración fija**: Se mantiene el mismo número de vehículo durante toda la carrera. Todos los pilotos deben tener su número único asignado en el panel de inscripciones.
-
-- **Vehículo**: Establece el nombre de vehículo en las locuciones y listados (Coche o Moto)
+- **Classes**: Identifies the race class so that the appropriate transponder can be chosen during manual driver registration.
 
 ---
 
-##### Común
+##### Announcements
 
-- **Prólogo**: Tiempo que transcurre desde que se pulsa el botón de inicio de manga (Start), hasta que ésta arranca.
+- **Short name**: Short name that the Announcer uses to identify to what race an active heat belongs. Its use is only recommended when heats from different races are mixed. (For example when two classes are run on the same day), so that drivers can identify which of the classes the active heat  belongs to.
 
-- **Vuelta mínima**: Tiempo de la vuelta más rápida permitida para la carrera. Cualquier tiempo por debajo de este valor se interpreta como un atajo y no se contabiliza.
+- **Marshals**: The Announcer can call the marshals once the track is open for a heat until it starts.
+	
+	- **No call**: Does not call the marshals.
+	- **Previous Heat anterior**: Names the drivers from the previous series to marshal. Only use if drivers from the same race marshal after running their heat.
+
+- **Names drivers**: Establishes how the drivers are to be named by the announcer to give race position, final results etc...
+	
+	- **Nick name**: Uses the drivers nick name.
+	- **Uses vehicle number**: Uses the vehicles number assigned at registration.
+	
+- **Numbering**: Establishes the numbering system for vehicles during the race.
+
+	- **Re-number each session**: The vehicle numbers are modified each session depending on results obtained.
+	- **Registration number**: The same vehicle number is kept during all the race. All drivers have their own number and it is assigned on the registration panel.
+
+- **Vehicle**: Establishes vehicle type for announcer and lists (car or bike)
+
+---
+
+##### Common
+
+- **Prologue**: The time that passes from when the heat (Start) button is pressed and the heat launches.
+
+- **Minimum lap time**: minimum fastest lap time allowed by the race. Any time below this is interpreted as a short cut and will not be counted.
  
 	!!! note ""
-		Es conveniente que el valor de vuelta mínima sea lo más ajustado posible, ya que aparte de para detectar atajos en carrera, es utilizado por el sistema de locución durante las clasificatorias para efectuar los cálculos de situación real de carrera.
+		It is convenient that the minimum lap time be as tight as possible, apart from detecting shortcuts it is used by the announcement system during qualifying to calculate the race positions.
 
-- **Última vuelta**: Tiempo para dar la última vuelta desde que se marca el final de manga (o el final del tiempo individual en clasificadoras). Según algunos reglamentos, debe ser el 150% de la vuelta calculada para el trazado.
+- **Last lap**: Time allowed to complete the last lap once the heat has ended (or the end of individual qualifying time). According to some regulations, it should be 150% of the time calculated for a lap.
 
-- **Demora en finales**: Para las finales, establece un tiempo desde el inicio de la manga durante el cual las pasadas por línea de meta no se contabilizan. Ésto es útil para los circuitos en dónde la parrilla de salida atraviesa la línea de meta para evitar que los pilotos que salgan por detrás de la línea de meta reciban una vuelta más tras el comienzo de la manga.
-
----
-
-#### Sesiones
-
-##### Acciones disponibles
-
-- **Añadir**: Permite añadir una nueva sesión de entrenamiento, recolocación (si no existe) o de formato personalizado.
-- **Eliminar**: Permite eliminar la sesión seleccionada.
+- **Finals delay**: For finals, establishes the time from the beginning of the final during which crossings are not counted. This is useful on tracks where the starting grid crosses the finishing line, avoids drivers starting behind it getting a lap counted at the very beginning of the final.
 
 ---
 
-##### Parámetros
+#### Sessions
 
-- **Pilotos/Serie**: Número de pilotos que se desea en cada serie cuando la distribución se realiza de forma automática con la opción *Generar* del panel de [series](../user-guide/races/index.html#series). En la pestaña de gestión de series se puede alterar con total libertad la distribución de pilotos, por lo cual este valor no es definitivo.
+##### Available actions
 
-- **Distribución de series**: Establece cómo se distribuyen de forma automática los pilotos en las series según el valor de *Pilotos/Serie*.
+- **Add**: Allows adding a new practice session or re-ordering (if one does already not exist) or a personalised format.
+- **Delete**: Allows removing a selected session.
 
-	- **Completar en orden**: Completa las series de forma consecutiva con el valor de *Pilotos/Serie*. Se suele utilizar en finales para garantizar que todas las series tienen el máximo número de pilotos excepto la última. 
+---
+
+##### Parameters
+
+- **Drivers/Series**: Number of drivers per series when the distribution is done automatically with the *Generate* option on the [series](../user-guide/races/index.html#series) panel. On the series management tab the driver distribution can be changed with total liberty, so this value is not definitive.
+
+- **Series distribution**: Establishes how the drivers are automatically distributed into heats with the value *Drivers/Series*.
+
+	- **Complete in order**: Completes the series consecutively with the value *Drivers/Series*. Its normally used in finals to guarantee all finals have minimum number of drivers except the last. 
 	 
-		*Por ejemplo, en una carrera de 26 pilotos con 10 pilotos por serie se generarían 3 series A, B y C con 10, 10 y 6 pilotos respectivamente.*
+		*For example, a race with 26 drivers with 10 drivers per series, 3 series are generated A, B and C with 10, 10 and 6 drivers respectively.*
  
-	- **Distribución uniforme**: Realiza una distribución buscando un número similar de pilotos en todas las series sin exceder el valor de *pilotos/serie*. Se suele utilizar en clasificatorias para homogeneizar el número de pilotos en pista.
+	- **Uniform distribution**: Distributes by trying to find a even distribution of drivers in all the series without exceeding the value *Drivers/series*. It can be used in qualifying to even out the number of drivers on the track.
 
-		*Por ejemplo, la misma carrera de 26 pilotos y 10 pilotos por serie en clasificatorias generaría 3 series 1, 2 y 3 con 7, 7 y 8 pilotos respectivamente.* 
+		*For example, The same race with 26 drivers with 10 per qualifying series would generate 3 series 1, 2 and 3 with 7, 7 and 8 drivers respectively.* 
 
-- **Tandas**: Número de mangas que corre cada serie.
+- **Rounds**: The number of heats each series runs.
 
-- **Puntúan**: Número de mangas que puntúan para el resultado de la sesión.
+- **Counted**: The number of heats counted for the results of each session.
 
-- **Duración**: Tiempo de duración de las mangas.
+- **Duration**: Duration of each heat.
 
 ---
 
-##### Locución
+##### Announcements
 
-- **Tipo de narración**: Establece el tipo de información que el sistema de locución generará durante la carrera.
+- **Type of narration**: Establishes the type of information the system announces during the race.
 
-	- **Situación de carrera**: Cada cierto tiempo se informa de la situación de carrera con las posiciones de los pilotos y la distancia entre ellos.
+	- **Race situation**: Periodically the the race situation, drivers positions and distance between them are announced.
 	
 		!!! note ""
-			En las mangas clasificatorias, al llevar cada piloto su propio cronómetro, es posible que se efectúen ligeras pausas entre las locuciones de situación de cada piloto. Esto es perfectamente normal y depende de la distancia que haya entre el inicio del cronómetro de cada piloto y la fiabilidad del valor de vuelta mínima establecido para la carrera.
+			In qualifying heats, as each driver has their own chrono, it is possible that there will be slight pauses between announcements for each driver. This is completely normal and depends on the distance between the start of each drivers chrono and the reliability of the minimum lap value established for the race. 
 	
-	- **Posición a paso por meta**: Cada vez que un piloto realiza un paso por meta se nombra la posición del piloto. Este modo sólo es aplicable a las finales, ya que todos los pilotos comparten el mismo cronómetro.
+	- **Position when passing finishing line**: Each time a driver crosses the finishing line the drivers position is announced. This mode is only applied to finals, since all drivers have a common chrono.
 	
-	- **Mixto (posición a paso por meta + situación de carrera)**: Utiliza el sistema de *posición a paso por meta* y, cada cierto tiempo, se informa de la *situación de carrera*.
+	- **Mixed (position when passing finishing line + race situation)**: Uses the *position when passing finishing line* and, periodically *race situation* is announced.
 	
-	- **Sin narración**: No se efectúa ninguna narración acerca del estado de la carrera o posición de los pilotos.
+	- **No narration**: No announcements are made regarding race situation or drivers positions.
 
-- **Primera narración**: Tiempo desde el inicio de la manga hasta que comienza el procedimiento de locución de situación de carrera (generalmente el procedimiento se inicia con la pasada por meta del líder una vez transcurrido el tiempo para iniciar la narración, por lo cual puede haber una ligera demora hasta que comienza realmente la locución). 
+- **First narration**: Time from the start of the heat until race situation announcements start being made (generally the announcements start once the race leader passes the finish line after the first narration time has elapsed, therefore there can be a slight delay beyond that of the set time). 
 
-- **Intervalo narración**: Tiempo que transcurre entre locuciones una vez realizada la primera narración.
+- **Narration Interval**: Time between announcements once the first has been made.
 
-- **Intervalo tiempo**: Intervalo entre narraciones del tiempo actual de carrera.
+- **Race time interval**: Interval between race time announcements.
 
-- **Modo tiempo**: Establece el valor de tiempo utilizado para la narración establecida en el *Intervalo tiempo*.
+- **Race time mode**: Establishes the race time mode for the time used in *Race time Interval*.
 
-	- **Transcurrido**: Utiliza el tiempo transcurrido desde el inicio de la manga.
-	- **Restante**: Utiliza el tiempo restante para el final de la manga.
+	- **Elapsed**: Uses the time elapsed from beginning of heat.
+	- **Remaining**: Uses the time remaining until the end of heat.
 
 ---
 
-##### Formato
+##### Format
 
-- **Formato de sesión**: Define los parámetros de configuración de sesión más habituales en el cronometraje, y también se permite un ajuste personalizado de cada uno de los parámetros.
+- **Session format**: Defines the configuration parameters most used to chrono, and also allows personalised adjustment of each parameter.
 
-	- **Clasificatoria vueltas consecutivas**: Se suele usar para las mangas de recolocación. Cada piloto inicia su crono en el primer paso por meta y se contabiliza la suma total de las 3 mejores vueltas consecutivas. El valor de vueltas se establece en el campo *Vueltas resultado*.
+	- **qualifying consecutive laps**: This is normally used for re-ordering heats. Each pilots starts their own chrono with the first crossing of the finishing line, the sum of the 3 fastest consecutive laps are counted.These are established as *Laps result* value.
 
-	- **Clasificatoria lanzada (puntos o mejor resultado)**: El sistema va llamando a cada uno de los pilotos según el orden de clasificación de la sesión, con un intervalo configurable de tiempo, indicado en el campo *Retardo salida lanzada*. Las opciones de puntos o mejor resultado establecen la configuración de *Tipo de puntuación* para la sesión.
+	- **Launched qualifying (points or best result)**: The system calls each driver in turn according to session ranking, with a configured time interval, indicted in the field *Launched start delay*. The option for points or best result are established in the field *Session points type* for the session.
 
-	- **Clasificatoria volante (puntos o mejor resultado)**: Similar a la anterior, pero cada piloto busca su hueco en el circuito e inicia su crono en el primer paso por meta.
+	- **flying start qualifying (points or best result)**: Similar to the previous, but each driver can find their own space on the track and starts their own chrono when they cross the finishing line for the first time.
 
-	- **Finales**: Salida desde parado y en orden de parrilla, con el arranque del cronómetro en el instante de sonido de la bocina.
+	- **Finals**: Starting grid launch and in grid order, with the start of the chrono the instant the horn sounds.
 	
-	- **Entrenos (puntos o mejor resultado)**: Similar a la clasificatoria volante, pero el crono se inicia con el sonido de la bocina en vez de esperar a la primera pasada.
+	- **Practice (points or best result)**: Similar to flying start qualifying, but the chrono starts with the sound of the horn instead of waiting for the first passing of the finishing line.
 	
 !!! note ""
-	Se puede modificar el formato en cualquier momento aunque ya se hayan disputado mangas de la sesión. El sistema recalcula los resultados en función de los nuevos parámetros y de las vueltas almacenadas.
+	The format can be modified even thou heats of the session have already been run. The system re-calculates the results according to the new parameters and the laps recorded.
 
-##### Formato personalizado
+##### Personalised Format
 
-Permite configurar cada uno de los parámetros.
+Allows configuring each of the parameters.
 
-- **Arranque crono**: Define cuándo arranca el cronómetro.
+- **Start chrono**: Defines when the chrono starts.
 
-	- **Con la bocina**: El crono arranca con la bocina de salida.
-	- **Con la primera pasada**: El crono arranca con la primera pasada por línea de meta de cualquiera de los pilotos que disputan la manga.
+	- **Start on horn**: The chrono start on the starting horn.
+	- **start on first crossing**: The chrono starts with the first crossing of the finishing line by any of the drivers in the heat.
 	
-- **Modo crono**: Define la gestión del cronómetro por piloto
+- **Chrono mode**: Defines individual chrono management
 
-	- **Individual**: Cada piloto inicia su propio cronómetro de tiempo (clasificatorias).
-	- **Compartido**: El arranque del cronómetro es compartido por todos los pilotos (finales).
+	- **Individual**: Each driver starts their own chrono (qualifying).
+	- **shared**: The chrono start is common to all the drivers (finals).
 
 - **Cronos retrasados**: Define cuando arrancan los cronos de los pilotos que no han realizado su primera pasada por meta.
 
