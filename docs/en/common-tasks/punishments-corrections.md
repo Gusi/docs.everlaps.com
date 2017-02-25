@@ -1,38 +1,38 @@
-## &fa-legal; Sanciones y correcciones
+## &fa-legal; Penalties and corrections
 
 ---
 
-Existen varios tipos de sanciones y correcciones, y cada una debe realizarse en el apartado del programa destinado para ello.
+Various types of penalties and corrections, and each needs to be applied in the appropriate section of the program.
 
-!!! note "Sanciones frecuentes de un vistazo rápido"
-	- Sancionar/Corregir **una manga concreta**: Ver [sanciones a nivel de manga](#sanciones-a-nivel-de-manga)
-	- Sancionar **la mejor manga**: Ver [sanciones a nivel de sesión](#sanciones-a-nivel-de-sesion)
+!!! note "Frequent penalties quick view"
+	- Penalties/Corrections **specific heat**: See [heat level penalties](#sanciones-a-nivel-de-manga)
+	- Penalty **Best heat**: See [Session level penalties](#sanciones-a-nivel-de-sesion)
 
 ---
 
-#### Sanciones a nivel de manga
+#### Heat level penalties
 
-![Sanciones manga](../img/heatpunishments.png)
+![Heat penalties](../img/heatpunishments.png)
 
-Se realizan desde el apartado de [vueltas](../user-guide/heats/index.html#vueltas), en donde aparecen la lista de vueltas de cada piloto y una sección en la parte inferior en dónde realizar las correcciones. Existen dos tipos según el estado de la manga:
+These are performed in the section [laps](../user-guide/heats/index.html#vueltas), where all the drivers laps lists appear and a section beneath where corrections are applied. There are two types according to the heats state:
 
 ##### In-Race
 
-Permite hacer correcciones en el número total de vueltas del piloto mientras que la manga está en curso. Esta opción se suele utilizar cuando una pasada por meta no ha sido detectada por el decodificador.
+Allows making corrections to the total number of laps for a driver while the heat is underway. This option is normally used when a crossing is made that is not detected by the decoder.
 
 ##### Post-Race
 
-Permite hacer correcciones una vez que la manga ha finalizado. Las opciones son:
+Allows making corrections once a heat has finished. The options are:
 
-- **Vueltas**: Permite añadir o quitar vueltas al piloto. Las vueltas modificadas desde la opción In-Race aparecen reflejadas aquí automáticamente al finalizar la manga.
+- **Laps**: Allows adding or removing a drivers laps. The laps modified in the In-Race section appear here automatically once the heat finishes.
 
-- **Tiempo**: Permite añadir o quitar tiempo al total de la manga del piloto.
+- **Time**: Allows adding or removing total time to a drivers heat.
 
-- **Sancionada**: Sanciona la manga con pérdida de la misma para el piloto. 
+- **Penalised**: Penalises a heat with its loss for that driver. 
 	
-	*Al sancionar una manga concreta (generalmente la sanción se aplica a la manga que acaba de concluir), el resto de pilotos que hubiesen quedado por debajo del piloto sancionado, suben de posición.*
+	*When penalising a specific heat (generally the penalty is applied to the heat that has just finished), The drivers that finished behind the penalised driver advance in position.*
 
-Todas las sanciones realizadas tienen efecto inmediato y se puede ver el resultado desde las secciones de resultados del programa (sesión, tanda o manga) o imprimiendo cualquiera de los resultados. Las sanciones aparecerán como notas al pie de los resultados impresos.
+All penalties have a immediate effect and the result can be seen in the results section of the program (session, round or heat) or by printing any of the results. Penalties will appear as foot notes on the printed results.
 
 ---
 
