@@ -1,41 +1,42 @@
-## Entrenamiento libre
+## Free practice 
 
-![Entrenamiento libre](../img/freepractice.png)
+![Free Practice](../img/freepractice.png)
 
-El formato de entrenamiento libre tiene un funcionamiento distinto al del resto de formatos de carrera, en los que hay que inscribir previamente a los participantes y generar series para agruparlos.
+The free practice format works differently from the other race formats, that requires registering participating drivers previously to generate series in which to group them.
 
-En el entrenamiento libre existe una única sesión y serie en donde participan todos los pilotos que van saliendo a pista, en una o varias mangas.
+In free practice there is a single session and series where all the drivers that enter the track participates in one or various heats.
 
 ##### General
 
-- **Nombre**: Título descriptivo de la tanda de entrenamientos libres.
+- **Name**: descriptive title for the round of free practice.
 
-- **Descripción**: Texto que aparece en la parte inferior de los informes.
+- **Description**: Text that appears at the top of reports.
 
-- **Tipo**: Permite identificar el formato de carrera. En este caso mostrará siempre *Entrenamiento libre*.
+- **Type**: Identifies the race format. In this case it will show *Free practice*.
 
-- **Vuelta mínima**: Tiempo mínimo de vuelta al circuito. Una vuelta con tiempo inferior se considera atajo y no se contabiliza.
+- **Minimum lap time**: Minimum lap time for the track. Laps inferior to this will be considered a short cut and will not be counted.
 
-- **Código Web**: Necesario para poder publicar los tiempos en directo en la web de [Everlaps](http://everlaps.com)
+- **Web Code**: Necessary to publish times live on [Everlaps](http://everlaps.com) web site.
 
-##### Resultado
+##### Results
 
-- **Puntúan**: Número de mangas que se utilizan para obtener el resultado final de cada piloto.
+- **Points scoring**: Number of heats that will be used to obtain final results for each driver.
 
-- **Tipo de resultado/Vueltas resultado**: Identifica cómo establecer el resultado de las mangas. Consultar [clasificatorias y finales](./qualify-finals/index.html) para más detalle.
+- **Type of result/Laps result**: Identifies how to establish heat results. See [qualifying and finals](./qualify-finals/index.html) for more details.
 
-- **Tipo de puntuación**: Identifica como establecer el resultado general del entrenamiento. Consulta [clasificatorias y finales](./qualify-finals/index.html) para más detalle.
+- **Type of scoring**: Identifies how to establish the general results of practice. See [qualifying and finals](./qualify-finals/index.html) for more details.
 
-- **Descartar transponders desconocidos**: Si está habilitada, las pasadas de los transponders que no figuren en la base de datos son ignoradas.
-
-!!! note ""
-	Tener varias mangas de entrenamiento libre es útil porque permite resetear todos los records de los pilotos y comenzar desde cero. Un caso común es que algún piloto ataje y consiga el record absoluto de la manga, con lo cual hasta que no se inicie una nueva este valor se va a mantener.
-
-Al arrancar una manga de entrenamiento libre, la locución irá narrando los tiempos de los pilotos que estén en pista, destacando los records personales y absolutos de la manga. En cualquier momento, mientras la manga está arrancada, se puede imprimir el resultado y obtener la lista de vueltas rápidas de cada piloto.
-
-Si el transponder de un piloto no está registrado las vueltas se mostrarán mientras la manga esté activa bajo el nombre de *Coche* junto con las 3 últimas cifras del transponder del piloto y se notificarán sus tiempos por megafonía, pero las vueltas no se guardarán en la base de datos.
-
-Durante las mangas de entrenamiento se pueden modificar los apodos y transponders de los pilotos directamente desde la [lista de pilotos](../user-guide/drivers/index.html) y los cambios serán aplicados de forma inmediata.
+- **Discard unknown transponders**: If enabled, crossings made by transponders not in the database are ignored.
 
 !!! note ""
-	Al finalizar manualmente una manga de entrenamiento libre los resultados no se imprimen aunque estuviese activada la opción de *imprimir automáticamente al finalizar cada manga*.
+	Having various free practice heats is useful because it allows re-setting all the drivers records and starting from zero. A common case is a driver short cutting and getting absolute record for the heat, which means until another is started this value is maintained.
+
+When a free practice heat is started, The announcement system will narrate the drivers whom are on the tracks lap times, emphasizing personal bests and fastest lap for the heat. At any moment, the heat results up until that point may be printed and a list of fastest laps for each driver.
+
+If a drivers transponder is not registered the laps will be shown while the heat is active as the name *Car* along with the last 3 digits of the transponders of those drivers and their times will be announced, but the laps will not be saved in the database.
+
+During free practice heats, nick names and transponder numbers can be modified directly in the [Drivers list](../user-guide/drivers/index.html) and the changes will take place immediately.
+
+!!! note ""
+	When a free practice heat is finalised manually the results are not printed, even if the option *print automatically at the end of each heat* is enabled.
+
