@@ -123,7 +123,7 @@ The race format *Qualification and Finals* defines by default the practice, re-o
 
 	- **qualifying consecutive laps**: This is normally used for re-ordering heats. Each pilots starts their own chrono with the first crossing of the finishing line, the sum of the 3 fastest consecutive laps are counted.These are established as *Laps result* value.
 
-	- **Launched qualifying (points or best result)**: The system calls each driver in turn according to session ranking, with a configured time interval, indicted in the field *Launched start delay*. The option for points or best result are established in the field *Session points type* for the session.
+	- **Staggered qualifying (points or best result)**: The system calls each driver in turn according to session ranking, with a configured time interval, indicted in the field *Launched start delay*. The option for points or best result are established in the field *Session points type* for the session.
 
 	- **flying start qualifying (points or best result)**: Similar to the previous, but each driver can find their own space on the track and starts their own chrono when they cross the finishing line for the first time.
 
@@ -148,95 +148,95 @@ Allows configuring each of the parameters.
 	- **Individual**: Each driver starts their own chrono (qualifying).
 	- **shared**: The chrono start is common to all the drivers (finals).
 
-- **Cronos retrasados**: Define cuando arrancan los cronos de los pilotos que no han realizado su primera pasada por meta.
+- **Delayed chrono**: Defines when chrono starts for drivers that have not crossed the finishing line for the first time.
 
-	- **Primera vuelta completada**: El crono arranca al paso por meta del primer piloto que completa su primera vuelta.
-	- **Después del tiempo de retraso**: El crono arranca después de que pase el tiempo definido en *Tiempo cronos retrasados* desde que se inició la manga.
+	- **First lap completed**: The chrono starts when the first driver completes first lap.
+	- **After time delay**: The chrono starts after the time delay defined in *Delayed chrono time* once the heat has started.
 
-- **Tiempo cronos retrasados**: Para el modo *Después del tiempo de retraso*, indica el tiempo que transcurre hasta que se arranca el crono de los pilotos que no han realizado su primera pasada por meta.
+- **Delayed chrono time**: for the *After time delay* mode, Indicated the time delay before the chrono starts for drivers that have not crossed the finishing line.
 
-- **Modo de inicio**: Define el formato en el que los pilotos inician la manga.
+- **Start mode**: Defines the format in which drivers start the heat.
 
-	- **Parrilla**: El sistema ejecuta una cuenta atrás, y después de un tiempo aleatorio tras llegar a 3, comienza la manga.
-	- **Lanzada**: El sistema va dando la salida uno a uno a los pilotos.
-	- **Volante**: Se ejecuta una cuenta atrás completa para que cada piloto busque su espacio en la pista.
+	- **Grid**: The system executes a count down, and after the count reaches 3 a random delay is executed followed by the heat start horn.
+	- **Staggered**: The system launches the drivers one at a time.
+	- **Flying**: A full countdown is executed so that each driver can find a space in the track.
 
-- **Tiempo mínimo cuenta atrás**: Sólo para el modo de inicio *Parrilla*, tiempo mínimo de espera después del último número de cuenta atrás, antes de la bocina de salida.
+- **Minimum count down time**: Only for *Grid* mode, minimum time delay after last number in the count down, before the start horn.
 
-- **Tiempo aleatorio cuenta atrás**: Sólo para el modo de inicio *Parrilla*, tiempo aleatorio de espera después del tiempo mínimo de cuenta atrás, antes de la bocina de salida. *Por ejemplo, una configuración de tiempo mínimo de 2 segundos, y tiempo aleatorio de 3 segundos, supone que después de la cuenta atrás de 10 a 3, el programa esperará entre 2 y 5 segundos antes de dar la salida.*
+- **Random count down time**: Only for *Grid mode, random time delay after minimum count down time, before the start horn. *For example, a configured minimum count down time of 2 seconds, and a random count down time of 3 seconds, would mean that after the countdown from 10 to 3, the program will wait between 2 and 5 seconds to sound the start horn.*
 
-- **Retardo salida lanzada**: Para el modo de *Salida lanzada*, indica el espacio tiempo entre las llamadas a los pilotos.
+- **Staggered start time delay**: For *Staggered* mode only, indicates the time delay between calls to drivers.
 
-- **Orden salida lanzada**: Define si en cada tanda se recalcula el orden de salida a razón de la posición actual en la sesión.
+- **Staggered start order**: Defines if in each round the start order is recalculated depending on session results.
 
-	- **Reordenar cada tanda**: Efectúa la reordenación. Es el funcionamiento habitual cuando se usa la salida lanzada.
-	- **Orden fijo**: Mantiene el orden de salida constante en todas las tandas.
+	- **Re-order each round**: Enables re-ordering. This is the default option for staggered start.
+	- **Fixed order**: Maintains the same order in all the rounds.
 
-- **Tipo de resultado**: Define los valores que se contabilizan para el resultado de la sesión:
+- **Results type**: Defines the values which are used to calculate the session results:
 
-	- **Vueltas / Tiempo**: Se contabiliza el número de vueltas totales y el tiempo en realizarlas.
-	- **Vueltas consecutivas**: Se contabiliza el menor tiempo de suma de N vueltas consecutivas (Recolocación).
-	- **Vueltas fijas**: Se contabiliza el tiempo empleado en completar las vueltas indicadas (tipo Fórmula 1).
+	- **Laps / Time**: Total amount of laps and time are used to calculate.
+	- **Consecutive Laps**: Least amount of time to complete N consecutive laps (Re-ordering).
+	- **Fixed Laps**: Amount of time to complete a fixed number of laps (Formula 1 type).
 
-- **Vueltas resultado**: Número de vueltas a tener en cuenta para los modos de *Vueltas consecutivas* y *Vueltas fijas*.
+- **Result laps**: Number of laps to count for *consecutive laps* and *fixed laps* modes.
 
-- **Alcance de resultado**: Define el grupo de competidores para el resultado de la sesión.
+- **Results scope**: Defines the group of drivers included in session results.
 
-	- **Global**: Se tienen en cuenta los resultados de los todos los pilotos para la clasificación final (Clasificatorias).
-	- **Por serie**: Se tienen en cuenta solo los resultados de los pilotos pertenecientes a la misma serie (Finales).
+	- **Global**: All drivers are taken into account for general classification (qualifying).
+	- **Per series**: Only drivers from the same series are used (Finals).
 
-- **Tipo de puntuación**: Establece el sistema de puntuación de la sesión
+- **Points type**: Establishes the session points type
 
-	- **Puntos**: Se establece un sistema de puntos para obtener el resultado de las sesión. Por defecto se usa el sistema estándar de eléctricos según la posición obtenida en cada tanda (0, 2, 3… para clasificatorias; 1, 2, 3... para finales)
-	- **Mejor resultado**: Se elige el mejor resultado en vueltas/tiempo sin importar la posición.
+	- **Points**: A system of points is established for the session results. By default for electric vehicles position obtained in each round (0, 2, 3… for qualifying ; 1, 2, 3... for finals)
+	- **Best result**: Best result is chosen laps/time position having no bearing.
 
-- **Sistema de puntos**: Establece el sistema de puntuación de entre los soportados por el programa.
+- **Points system**: Establishes points system among those supported by the program.
 
-- **Series con tandas completas**: Establece una división en cuanto al número de mangas que puntúan para cada serie. Esto es útil para, por ejemplo en finales, permitir que la serie A corra 3 finales puntuando 2 de ellas, y las series de la B en adelante sólo una única final.
+- **Series with complete rounds**: Establishes how many heats count in each series. This is useful for, for example, finals permitting the A series to run 3 rounds of finals counting 2, leaving the series B onward to run a single final.
 
-	- **Todas las series**: Todas las series puntúan exactamente con el mismo número de mangas. No existe distinción entre series respecto al número de tandas y mangas puntuables.
+	- **All series**: All series score points with the same number of heats. There is no difference between series with respect to number of rounds and heats which score points.
 	
-	- **Primeras series**: Las primeras series puntúan el número de mangas establecido en la configuración general de la sesión y el resto el valor establecido en *Tandas en series inferiores*.
+	- **Premier series**: Only premier series score points in the heats established in the general configuration for the session, the rest the value established in *Lower series rounds*.
 	
-		- **Hasta la serie**: Define hasta que serie (inclusive) se disputan todas las mangas de forma normal. Por ejemplo si sólo se quieren 3 finales para la serie A, este valor debe ser 1.
-		- **Tandas en series inferiores**: Número de tandas que puntúan para las series inferiores. Por ejemplo 1 para que las series por debajo de la A puntúen sólo una manga.
+		- **Until series**: Defines Until what series (inclusive) all the heats are run. For example if only 3 rounds of finals are required for series A, this value should be 1.
+		- **Lower series rounds**: Number of rounds that score points for the lower series. For example series below A only score points in 1 heat.
 
 ---
 
-##### Desempates
+##### Tie breakers
 
-Permite establecer la forma de solucionar los empates, en caso de que varios pilotos obtengan exactamente la misma puntuación en el global de las mangas a contabilizar para la sesión.
+Permits establishing how to solve tie breaks, in the case that various drivers obtain the same number of global points in the computable heats for a session.
 
-- **Formato de desempate**
-	- **Por defecto**: Se utilizan únicamente las mangas válidas, comparando primero por posición, y en caso de proseguir el empate, por resultado.
-	- **Personalizado**: Permite establecer todas las propiedades de resolución de empates.
+- **Tie break format**
+	- **Default**: Only valid heats are used, first position is used, then in case of tie results.
+	- **Personalized**: Permits establishing all tie breaker properties.
 	
-##### Formato personalizado de desempates
+##### Personalized tie breaker format
 
-- **Mangas descartadas en desempate**: Cuántas mangas descartadas se utilizarán para resolver el desempate. El valor 0 indica que no se utilizará ninguna manga descartada.
-- **Uso de mangas descartadas**: Establece en qué momento se utilizan los resultados de las mangas descartadas.
-	- **Antes de la comparación individual de mangas válidas**: Se utiliza la comparación individual de las mangas descartadas ANTES de la comparación individual de las mangas válidas.
-	- **Después de la comparación individual de mangas válidas**: Se utiliza la comparación individual de las mangas descargadas DESPUÉS de la comparación individual de las mangas válidas. 
+- **Heats discarded in tie breaker**: Number of heats discarded used to resolve tie break. The value 0 indicates that no discarded heats are used.
+- **Use of discarded heats**: Establishes in which moment the results of discarded heats are used.
+	- **Before comparing individual valid heats**: The individual results of discarded heats are used BEFORE individual results of valid heats.
+	- **After comparing individual valid heats**: The individual results of discarded heats are used AFTER individual results of valid heats. 
 	
-		*Por ejemplo, en una clasificatorias de 5 tandas en donde puntúan las 3 mejores y no pudiendo resolver el desempate se utilizaría la cuarta mejor manga de los pilotos, y en caso de seguir el empate, la quinta mejor manga, antes de comparar las posiciones de las tres mejores mangas.*
+		*For example, In 5 round qualifying where the best 3 count not being able to resolve a tie breaker the 4th best round will be used if tie breaker persists the 5th, before comparing the positions of the best 3 rounds.*
 
-- **Desempate por posición**: Establece el modo de comparación individual por posición obtenida en cada una de las mangas (sólo si el resultado es por puntos)
-	- **Mejor posición**: Utiliza el modo de comparación por posición obtenida.
-	- **No usar**: No utilizar el desempate por posición.
-- **Desempate por resultado**: Establece el modo de comparación individual por resultado en vueltas/tiempo para cada una de las mangas.
-	- **Mejor resultado**: Se realiza la comparación individual de mangas por el resultado en vueltas/tiempo.
-	- **Resultados combinados**: El desempate se realiza por la suma de vueltas y tiempo de todas las mangas válidas.
+- **Tie break by position**: Establishes the mode of individual comparison by position obtained in each heat (only if results are by points)
+	- **Best position**: Uses comparison mode based on points obtained.
+	- **disabled**: Does not use position based tie breakers.
+- **Tie break by result**: Establishes individual results based comparison mode laps/time for each of the heats.
+	- **Best result**: Individual results based comparison of heats laps/time.
+	- **Combined results**: The tie-break is calculated by the sum of laps/time of all valid heats.
 	
-!!! note "Resolución de empates por comparación individual"
-	En el caso de que varios pilotos obtengan el mismo resultado en puntos (o vueltas/tiempo), se establece el siguiente proceso de resolución:
+!!! note "Tie break resolution by individual comparison"
+	In the case where several drivers obtain the same points results (or laps/time), The following tie breaker process is established:
 
-	- Gana el piloto con una mejor posición en su mejor manga. Si persiste el empate se compara la segunda mejor manga, y así sucesivamente hasta el número de mangas que puntúan (sólo si el resultado es por puntos)
-	- Si siguen empatados, gana el piloto con mejor resultado (vueltas/tiempo) en su mejor manga. Si persiste el empate se compara la segunda mejor manga, y así sucesivamente hasta el número de mangas que puntúan. 
+	- The driver with the best position in best heat wins. If the tie breaker persists the second best heat is used, and so on only valid heats (only if the result is by points)
+	- If tie break still exists, The driver with the best result (laps/time) in best heat wins. If tie break still exists the second best heat is compared, and so on only valid heats. 
 
 ---
 
-#### Etiquetas
+#### Tags
 
-Permite asignar etiquetas a la carrera. Más información en la sección de [Etiquetas](../common-tasks/tags/index.html).
+Allows assigning Tags for a race. For more information in the [Tags](../common-tasks/tags/index.html) section.
 
-- **Recalcular puntuación al filtrar resultados por etiqueta**: Si está habilitado, al generar un resultado filtrado por etiqueta se recalcula la puntuación de la sesión únicamente con los pilotos que tienen la etiqueta. El resultado podría variar con respecto a no activar la opción y hacer un filtrado sobre el resultado general, ya que al recalcular la puntuación, y dependiendo del formato de puntos, las sumas finales podrían designar posiciones de pilotos diferentes.
+- **Re-calculate points when filtering results by tag**: if enabled, when generating a filtered result based on tags points are re-calculated for the session only for the drivers with the specific tag. The results may vary compared with that of the disabled option and that of the filtered general result, since re-calculating the results depending on points format, the final sum could designate different positions to the drivers.
