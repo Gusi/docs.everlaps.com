@@ -1,55 +1,55 @@
-## Formato piramidal
+## Christmas tree format
 
-El formato piramidal se caracteriza por establecer una sistema de subfinales en forma de pirámide o árbol de navidad (*Christmas tree* en inglés) que permite que cualquier piloto pueda ascender desde las finales inferiores a la final absoluta, aún cuando haya clasificado en último lugar durante la sesión clasificatoria. 
+The christmas tree format is characterised by establishing a series of sub-finals in the form of a pyramid or *christmas tree* that permits any driver that rises from the lower finals to reach the absolute final, even if qualifying in last place during the qualifying session. 
 
-Las sesiones anteriores a las finales (entrenos, recolocación y/o clasificación) mantienen el mismo formato definido en las carreras de tipo [clasificatorias y finales](./qualify-finals/index.html), por lo que en este apartado se explicará exclusivamente el funcionamiento del formato piramidal (subfinales).
+The sessions previous to the finals (practice, re-ordering and or qualifying) maintain the same format defined in [qualifying and finals](./qualify-finals/index.html), therefore in this section explains is exclusive to the workings of christmas tree format (sub-finales).
 
-### Configuración de subfinales y final
+### Configuration of sub-finals and final
 
-![Formato piramidal](../img/subfinals.png)
+![Christmas tree](../img/subfinals.png)
 
 !!! note ""
-	El número de pilotos que se utiliza para el cálculo de la distribución de las subfinales se obtiene de la lista de inscripciones, exceptuando aquellos pilotos excluídos de la carrera o de la sesión clasificatoria. Esto es especialmente útil para afinar la distribución en el caso de existir pilotos que estén inscritos pero no vayan a disputar la carrera, o que hayan abandonado después de las clasificatorias.
+	The number of drivers used to calculate the distribution of the sub-finals is that of the registration list, except those drivers excluded from the race or qualifying session. This is useful to fine tune the distribution in case there are drivers that are registered but are not going to race, or have abandoned after qualifying.
 
-- **Nombre**: Define la subfinal o final. Se establece automáticamente.
+- **Name**: Defines the sub-final or final. It is established automatically.
 
-- **Series**: Número de series que intervienen en las subfinales, calculado automáticamente. Cada subfinal tiene siempre dos series, excepto:
+- **Series**: Number of series involved in the sub-finals, calculated automatically. Each sub-final always has two series, except:
 
-	- La final, siempre tiene una única serie.
-	- La subfinal más baja, si el número de pilotos que forman esa subfinal es igual o menor que el número de *Pilotos/Serie* y está marcada la opción de *Optimizar última subfinal*, se fusiona en una única serie.
+	- The final, always contains only one series.
+	- The last sub-final, if the number of drivers is equal to or lower than the number of *Drivers/Series* and the option *Optimise last sub-final*is enabled, it is integrated into an only series.
 
-- **Duración**: Duración de cada manga de la subfinal o final.
+- **Duration**: Duration of each heat of sub-final or final.
 
-- **Pilotos/Serie**: Número máximo de pilotos en cada serie de la subfinal o final.
+- **Drivers/Series**: Maximum number of drivers in each series of sub-final or final.
 
-- **Directos/Serie**: Número de pilotos que pasan directamente a cada subfinal o final según el resultado de las clasificatorias. En el ejemplo de la imagen superior, los dos primeros clasificados pasan directamente a la final.
+- **Direct/Series**: Number of drivers whom pass straight to each sub-final or final depending on qualifying results. In the example above, the first two qualified pass straight into the final.
 
-- **Ascienden/Serie**: Número de pilotos por serie que ascienden a la siguiente subfinal según su posición obtenida en la subfinal actual. 
+- **Promotion/Series**: Number of drivers whom promote to the next sub-final depending on result of actual sub-final. 
 
-	*En el ejemplo de la imagen, por ejemplo de la semifinal a la final pasan 4 pilotos por serie (8 en total: los 4 primeros de la semifinal A y los 4 primeros de la semifinal B).*
+	*In the above example, from the semi-final to the final 4 drivers per series promote (8 in total: The first 4 from semi-final A and the first 4 from semi-final B).*
 
-	La final tiene un tratamiento distinto ya que es el último nivel de la pirámide y no tendría sentido ascender más allá. En este caso se permite seleccionar cómo se genera la parrilla de salida de la final para los pilotos que ascienden por posición desde las subfinales.
+	The final is treated differently since it is the last level of the christmas tree and it makes no sense to promote further. In this case selecting how the final starting grid will be generated for the drivers that have promoted from the sub-finals.
 
-	- **Por tiempos**: Se ordenan todos los pilotos de las series A y B según sus *Vueltas/Tiempo* obtenidos en la semifinal y se van añadiendo a la parrilla de salida después de los ascensos directos.
-	- **Intercalada**: Se añaden los pilotos intercalando las series: primer puesto de la serie A, primer puesto de la B, segundo de la A, segundo de la B, etc...
+	- **By time**: All drivers from series A and B are ordered by their *Laps/Time* obtained in semi-finals and are added to the starting grid after those with direct access.
+	- **Interspersed**: Drivers are added interspersed from both series: first place series A, first place series B, second place series A, second place series B, etc...
 
 	!!! note ""
-		En el caso de que la suma de clasificados directos más los ascensos por posición no completen el total de pilotos por serie, se ascienden el número de pilotos necesarios para completar la/s final/es según su resultado de *Vueltas/Tiempo*.
+		In the case that the sum of drivers with direct access plus those promoted by position do not complete the total of drivers per series, The drivers necessary are promoted to complete the final/s according to results of *Laps/Time*.
 
-- **Distribución de pilotos**: Muestra un resumen de la composición de las subfinales según los pilotos inscritos en la carrera para comprobar que los datos introducidos generan la distribución deseada.
+- **Driver distribution**: Shows a summary of the composition of the sub-finals according to the drivers registered in the race to verify that the data introduced generates the desired distribution.
 
-	- **Número + número**: pilotos que participan en cada serie.
-	- **D**: Número de pilotos que se clasifican directamente por su resultado en las clasificatorias.
-	- **P**: Número de pilotos que ascienden de la subfinal anterior según su posición. 
-	- **T**: Número de pilotos que ascienden de la subfinal anterior según su resultado de *Vueltas/Tiempo*.
+	- **Number + number**: drivers that participate in each series.
+	- **D**: Number of drivers that qualify with direct access from their qualifying results.
+	- **P**: Number of drivers that promote from the previous sub-final according to position. 
+	- **T**: Number of drivers that promote from the previous sub-final according to results of *Laps/Time*.
 	
-##### Acciones adicionales
+##### Additional Actions
 
-- **Generar Subfinales**: Inicializa o actualiza la lista de subfinales según los parámetros de configuración introducidos y el número de inscripciones en la carrera.
+- **Generate Sub-finals**: Initialises or refreshes the list of sub-finals according to the configuration parameters introduced and the number of drivers registered in the race.
 
-- **Imprimir clasificados directos**: Una vez finalizadas las mangas clasificatorias, permite generar un listado con la asignación de los pilotos en sus subfinales correspondientes.
+- **Print direst access**: Once the qualifying heats are finalised, it allows the generation of the list of drivers with direct access to corresponding sub-finals.
 
-!!! warning "Generar Subfinales"
-	Después de realizar modificaciones en cualquiera de los parámetros de configuración de la pirámide que hagan variar el número de subfinales, es necesario pulsar *Generar Subfinales* para que se actualice la lista de subfinales que componen la carrera.
+!!! warning "Generate Sub-finals"
+	After modifications are made to any of the configuration parameters of the christmas tree which causes the number of sub-finals, it will be necessary to click *Generate Sub-finals* so that the list of sub-finals in the race is refreshed.
 
-	Hasta que no se pulse sobre *Generar Subfinales* al menos una vez no se generará la lista de subfinales para poder generar las series de forma correcta en el panel de [series](../user-guide/races/index.html#series)
+	Until *Generate Sub-finals* is pressed at least once the list of sub-finals will not be generated so that the series are generated correctly in the panel [series](../user-guide/races/index.html#series)
