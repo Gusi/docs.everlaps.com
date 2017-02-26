@@ -36,25 +36,25 @@ All penalties have a immediate effect and the result can be seen in the results 
 
 ---
 
-#### Sanciones a nivel de sesión
+#### Session level penalties
 
-![Sanciones sesión](../img/sessionpunishments.png)
+![Session penalties](../img/sessionpunishments.png)
 
-Se realizan desde la sección de series, para la sesión correspondiente. En la parte derecha de la lista de pilotos, existen las siguientes opciones:
+These are made in the series section, for the corresponding session. On the right of the drivers list, are the following options:
 
-- **Mejor Manga**: Sanciona al piloto con la pérdida de la mejor manga en esa sesión. Como la mejor manga del piloto no se conoce hasta que han concluido todas las tandas, según se van generando los resultados de carrera, se va seleccionando la mejor en el listado de resultados de la sesión, y esa es la que se deshecha. 
+- **Best Heat**: Penalises the driver with the loss of best heat of the session. As the drivers best heat is not known until all the rounds are concluded, as the race results are generated, the best heat is selected from the results list for that session, and that is the one that is docked. 
 
-	*Como la mejor manga puede ir variando según avanza la sesión, no se produce ascensión de posición de los pilotos que están situados por debajo del piloto sancionado. En caso de querer que sí se produzca la ascensión, habría que esperar al final de sesión y sancionar la mejor manga de forma directa (sanción a nivel de manga).*
+	*As the best heat can vary as the session advances, The drivers that are placed behind the penalised driver do not advance in the results list. In case that the advancement is required, it will be necessary to wait to the end of the session and penalise the best heat directly *(heat level penalties).*
 
-- **Excluído**: Sitúa al piloto en último lugar para esa sesión y evita que participe en la generación automática de nuevas series.
+- **Excluded**: Places the driver in last place for the session and will be excluded from automatic generation of new series.
 
 ---
 
-#### Sanciones a nivel de carrera
+#### Race level penalties
 
-![Sanciones carrera](../img/racepunishments.png)
+![Race Penalties](../img/racepunishments.png)
 
-Se realizan desde la sección de inscripciones del programa. Existe una única opción:
+These are made from the registration section of the program. A single option exists:
 
-- **Excluído**: Sitúa al piloto en último lugar en todas las sesiones en las que participe y evita que participe en la generación automática de nuevas series.
+- **Excluded**: Place a driver in last place in all sessions participated in and will be excluded from automatic generation of new series.
 
