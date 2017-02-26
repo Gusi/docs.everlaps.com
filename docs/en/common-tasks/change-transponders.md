@@ -1,35 +1,35 @@
-## &fa-bolt; Cambiar transponders
+## &fa-bolt; Change transponders
 
-A la hora de modificar el transponder de un piloto, es importante entender cómo gestiona Everlaps la asignación de transponders.
+When changing a drivers transponder, it is important to understand  how everlaps manages transponder assignments.
 
-### Transponder en la lista de pilotos (transponders y rankings)
+### Transponder in the drivers list (transponders and rankings)
 
-Por un lado, en la [lista de pilotos](../user-guide/drivers/index.html), se establecen los transponders pertenecientes a cada piloto. Estos valores se utilizan para facilitar la asignación o cambio de transponder en las inscripciones. **Modificar un transponder en esta lista no tiene ningún efecto sobre las inscripciones actuales del piloto** (excepto en el modo de [entrenamiento libre](../race-formats/free-practice/index.html), ya que en cada pasada por meta se consultan los transponders pertenecientes a cada piloto).
+On the one hand, in the [drivers list](../user-guide/drivers/index.html), The transponders belonging to a driver are established. These values are used to facilitate assigning and changing transponder in the registrations list. **Modify a transponder in the drivers list has no bearing on the drivers actual registrations** (except in [free practice](../race-formats/free-practice/index.html) mode, since every time a crossing is made the transponders belonging to each driver are verified).
 
-### Transponder en la lista de inscripciones de una carrera
+### Transponder in the race registration list
 
-El transponder asignado a un piloto en una carrera, es independiente del número asignado en la lista de pilotos y del resto de carreras. 
+The transponder assigned to a driver in a race, is independent from the number assigned in the drivers list and other races. 
 
-Se puede modificar el transponder rápidamente seleccionándolo de la lista de transponders pertenecientes al piloto, o se puede introducir manualmente un nuevo número de transponder (en cuyo caso será añadido automáticamente a la lista de transponders del piloto en la categoría a la que pertenece la carrera). 
+A transponder can be changed quickly by selecting in the list of transponder belonging to a driver, or a new transponder number can be introduced manually (In which case it will be added automatically to the list of transponders belonging to a driver in the class of the race). 
 
-Si el cambio se realiza sobre una inscripción que pertenece a la manga activa, se mostrará un diálogo para confirmar el cambio de transponder en caliente. 
+If the change is made to a registration belonging to an active heat, a dialogue will be shown asking to confirm the *on the fly* change. 
 
-Cuando la lista de inscripciones de una carrera se importa desde la web de Everlaps (donde previamente todos los participantes se han inscrito para la carrera indicando su número de transponder) los números asignados a los pilotos para esa carrera son los que ellos han introducido al inscribirse.
+When a race registration list is imported  from the Everlaps web site (where previously all the participants have registered for the race indicating their transponder number) The numbers assigned to the drivers for this race are those that they have introduced when registering.
 
-## Cambio de transponder en caliente
+## Changing a transponder on the fly
 
-Para cambiar el número de transponder de un piloto, según se ha explicado en la sección anterior, lo ideal es hacerlo desde la [lista de inscripciones](../user-guide/races/index.html#inscripciones) de esa carrera. 
+To change a drivers transponder number, as has been explained in the previous section, ideally it is done in [registrations list](../user-guide/races/index.html#inscripciones) of that race. 
 
-Sin embargo existe otro modo si la manga ya ha sido activada. Desde la vista de [situación de la manga activa](../user-guide/heats/index.html#situacion-de-la-manga-activa), en donde aparece la lista de los pilotos participantes en la manga en curso, es posible mostrar el diálogo de *Cambiar transponder* utilizando el botón derecho del ratón sobre el piloto al que se desea modificar el transponder.
+Nevertheless another way exits if the heat has been activated. In the view [active heat situation](../user-guide/heats/index.html#situacion-de-la-manga-activa), where the list of drivers participating in the active heat appears, it is possible to show the dialogue *Change transponder* using the right mouse button on the driver whose transponder will be modified.
 
-![Cambiar transponder](../img/changetransponder.png)
+![Change transponder](../img/changetransponder.png)
 
-El diálogo muestra el nombre y número de coche del piloto seleccionado, así como su transponder actual, pudiendo introducir el nuevo número de transponder. 
+The dialogue shows the name and vehicle number of the selected driver, as well as the actual transponder, being able to introduce the new transponder number. 
 
-Si el piloto ya ha **efectuado alguna pasada** por línea de meta desde que la manga se activó, en la parte inferior del diálogo aparecerán los transponders que han realizado alguna pasada y que no pertenecen a ningún piloto de la manga activa, siendo posible seleccionar el transponder correspondiente de la lista y asignárselo al piloto. La lista de transponders inválidos aparecen en color gris, excepto el último transponder que pasado por línea de meta, que aparece en color verde. De esta forma es más sencillo identificar a quién pertenecen los números de los transponders inválidos.
+If the driver has already **made a crossing** of the finishing line since the heat activation, in the lower part of the dialogue will show the transponders that have already made a crossing and does not belong to any driver in the active heat, it is possible to select any transponder in the list and assign it to a driver. The list of invalid transponders appear in grey, except the last transponder to have passed the finishing line, which appears in green. This way it is easier to identify to whom the invalid transponder number belongs to.
 
 !!! note ""
-	Durante el prólogo de la manga (desde que se activa hasta que se da la salida) a los pilotos que hayan realizado al menos una pasada por línea de meta se les marca con un &fa-check; en la vista de [situación de la manga activa](../user-guide/heats/index.html#situacion-de-la-manga-activa), indicando que el piloto está en pista. 
+	During the heat prologue (from activation until start) the drivers whom have made at least one crossing of the finishing line are marked with a &fa-check; in the view [situation of active heat](../user-guide/heats/index.html#situacion-de-la-manga-activa), indicating that the driver is on the track. 
 	
-	Si existen pilotos con un transponder incorrecto, serán aquellos que *no* tengan el &fa-check; verde.
+	It there are drivers with the incorrect transponder, it will be those that *do not* have the green &fa-check;.
 
