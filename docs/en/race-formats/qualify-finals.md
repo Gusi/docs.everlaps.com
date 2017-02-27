@@ -14,7 +14,7 @@ The race format *Qualification and Finals* defines by default the practice, re-o
 
 - **Type**: Identifies the race format. In this case it will show *Qualifying and finals*.
 
-- **Web code**: The web code is obtained at the site [Everlaps](http://everlaps.com) and permits connecting with the race published on the web site and publishing its results and enabling the sending of data to *Live Timing*.
+- **Web code**: The web code is obtained at the [Everlaps](http://everlaps.com) web site, and permits connecting with the race published on the web site and publishing its results and enabling the sending of data to *Live Timing*.
 
 - **Classes**: Identifies the race class so that the appropriate transponder can be chosen during manual driver registration.
 
@@ -27,7 +27,7 @@ The race format *Qualification and Finals* defines by default the practice, re-o
 - **Marshals**: The Announcer can call the marshals once the track is open for a heat until it starts.
 	
 	- **No call**: Does not call the marshals.
-	- **Previous Heat anterior**: Names the drivers from the previous series to marshal. Only use if drivers from the same race marshal after running their heat.
+	- **Previous Heat**: Names the drivers from the previous series to marshal. Only use if drivers from the same race marshal after running their heat.
 
 - **Names drivers**: Establishes how the drivers are to be named by the announcer to give race position, final results etc...
 	
@@ -54,7 +54,7 @@ The race format *Qualification and Finals* defines by default the practice, re-o
 
 - **Last lap**: Time allowed to complete the last lap once the heat has ended (or the end of individual qualifying time). According to some regulations, it should be 150% of the time calculated for a lap.
 
-- **Finals delay**: For finals, establishes the time from the beginning of the final during which crossings are not counted. This is useful on tracks where the starting grid crosses the finishing line, avoids drivers starting behind it getting a lap counted at the very beginning of the final.
+- **Finals delay**: For finals, establishes the time from the beginning of the final during which passings are not counted. This is useful on tracks where the starting grid crosses the finishing line, avoids drivers starting behind it getting a lap counted at the very beginning of the final.
 
 ---
 
