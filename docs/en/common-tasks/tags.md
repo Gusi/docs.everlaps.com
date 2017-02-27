@@ -12,9 +12,9 @@ The tags assigned to drivers allows finding a driver easily introducing the name
 
 Some examples of the use of tags to identify drivers could be:
 
- * Members: allows locating club members among those registered for the race
+ * Members: Allows locating club members among those registered for the race
  * Counties: In initial sessions drivers from the same county could be grouped together in series
- * Categories if the final result has any distinction as far as categories are concerned (junior, +40, etc...) these drivers can be grouped in the same series
+ * Categories: If the final result has any distinction as far as categories are concerned (junior, +40, etc...) these drivers can be grouped in the same series
 
  ---
  

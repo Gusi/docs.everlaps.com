@@ -19,7 +19,7 @@ When a driver arrives late and the race has already started, the addition is eas
 
 ### Deleting drivers that will not be participating in the session or race 
 
-Once the series are generated, it is possible to remove drivers (drag dropping into the [drivers without a series](../user-guide/races/index.html#pilotos-sin-serie)panel) as long as no results exist for none of the heats belonging to that series.
+Once the series are generated, it is possible to remove drivers (drag dropping into the [drivers without a series](../user-guide/races/index.html#pilotos-sin-serie) panel) as long as no results exist for none of the heats belonging to that series.
 
 Similarly, if de-registering a driver from the race is desired, the registration can be deleted as long as the driver does not belong to any series among the sessions of the race.
 

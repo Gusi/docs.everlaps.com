@@ -4,7 +4,7 @@ When changing a drivers transponder, it is important to understand  how everlaps
 
 ### Transponder in the drivers list (transponders and rankings)
 
-On the one hand, in the [drivers list](../user-guide/drivers/index.html), The transponders belonging to a driver are established. These values are used to facilitate assigning and changing transponder in the registrations list. **Modify a transponder in the drivers list has no bearing on the drivers actual registrations** (except in [free practice](../race-formats/free-practice/index.html) mode, since every time a crossing is made the transponders belonging to each driver are verified).
+On the one hand, in the [drivers list](../user-guide/drivers/index.html), The transponders belonging to a driver are established. These values are used to facilitate assigning and changing transponder in the registrations list. **Modify a transponder in the drivers list has no bearing on the drivers actual registrations** (except in [free practice](../race-formats/free-practice/index.html) mode, since every time a passing is made the transponders belonging to each driver are verified).
 
 ### Transponder in the race registration list
 
@@ -26,10 +26,10 @@ Nevertheless another way exits if the heat has been activated. In the view [acti
 
 The dialogue shows the name and vehicle number of the selected driver, as well as the actual transponder, being able to introduce the new transponder number. 
 
-If the driver has already **made a crossing** of the finishing line since the heat activation, in the lower part of the dialogue will show the transponders that have already made a crossing and does not belong to any driver in the active heat, it is possible to select any transponder in the list and assign it to a driver. The list of invalid transponders appear in grey, except the last transponder to have passed the finishing line, which appears in green. This way it is easier to identify to whom the invalid transponder number belongs to.
+If the driver has already **made a passing** of the finishing line since the heat activation, in the lower part of the dialogue will show the transponders that have already made a passing and does not belong to any driver in the active heat, it is possible to select any transponder in the list and assign it to a driver. The list of invalid transponders appear in grey, except the last transponder to have passed the finishing line, which appears in green. This way it is easier to identify to whom the invalid transponder number belongs to.
 
 !!! note ""
-	During the heat prologue (from activation until start) the drivers whom have made at least one crossing of the finishing line are marked with a &fa-check; in the view [situation of active heat](../user-guide/heats/index.html#situacion-de-la-manga-activa), indicating that the driver is on the track. 
+	During the heat prologue (from activation until start) the drivers whom have made at least one passing of the finishing line are marked with a &fa-check; in the view [situation of active heat](../user-guide/heats/index.html#situacion-de-la-manga-activa), indicating that the driver is on the track. 
 	
-	It there are drivers with the incorrect transponder, it will be those that *do not* have the green &fa-check;.
+	It there are drivers with the incorrect transponder, it will be one of those that *does not* have a green &fa-check;.
 
