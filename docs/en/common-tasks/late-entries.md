@@ -1,26 +1,27 @@
-## &fa-user; Inscripciones con la carrera en marcha
+## &fa-user; Late entries
 
-En Everlaps es muy sencillo modificar las inscripciones y/o series sin tener que regenerar la distribución existente.
+In Everlaps it is very easy to modify registrations and or series without having to re-generate the existing distribution.
 
 ---
 
-### Inscripción de pilotos después de haber generado las series y mangas
+### Driver registration after series and heats have been generated
 
-Cuando un piloto llega tarde a la carrera y ésta ya ha comenzado, es posible añadirlo de forma sencilla sin tener que volver a regenerar las series o las mangas.
+When a driver arrives late and the race has already started, the addition is easily possible without having to re-generate the series and heats.
 
-1. Si el piloto no existe en la base de datos, lo damos de alta en la [lista de pilotos](../user-guide/drivers/index.html)
-2. Se selecciona la [carrera](../user-guide/races/index.html) en la que se quiere inscribir al piloto
-3. Se localiza al piloto en la [lista de pilotos disponibles](../user-guide/races/index.html#pilotos-disponibles)
-4. Se [inscribe](../user-guide/races/index.html#inscripciones) al piloto en la carrera
-5. Nos situamos en la pestaña de [series](../user-guide/races/index.html#series) y elegimos la sesión en donde vamos a añadir el piloto
-6. Se localiza el piloto en el panel de [pilotos sin serie](../user-guide/races/index.html#pilotos-sin-serie)
-7. Se arrastra el piloto a la serie en la que se quiere añadir, siempre que no sea la serie a la que pertenezca la manga activa
-8. Si hubiese que inscribir a varios pilotos, también se podría generar una **nueva serie** y arrastrar allí a todos los pilotos. Luego habría que pulsar en el botón *Confirmar* para generar las mangas correspondientes a la nueva serie.
+1. If the driver does not exist in the database, a registry is made in the [drivers list](../user-guide/drivers/index.html).
+2. The race is selected [race](../user-guide/races/index.html) in which the driver wishes to be registered.
+3. Th driver is found in the [available drivers list](../user-guide/races/index.html#pilotos-disponibles).
+4. The driver is [registered](../user-guide/races/index.html#inscripciones) in the race.
+5. Go to tab [series](../user-guide/races/index.html#series) and choose the session where the driver is to be added.
+6. Find the driver in the panel [drivers without a series](../user-guide/races/index.html#pilotos-sin-serie).
+7. Drag and drop the driver into the series that is desired, as long as it is not the series of the active heat.
+8. If various drivers need to be registered, a **new series** can be generated and all the drivers can be drag and dropped into it. Next the *Confirm* button will need to be pressed to generate the heats corresponding to the new series.
 
-### Borrado de pilotos que no van a participar en la sesión o la carrera
+### Deleting drivers that will not be participating in the session or race 
 
-Una vez generada las series, es posible eliminar pilotos (arrastrándolos al panel de [pilotos sin serie](../user-guide/races/index.html#pilotos-sin-serie)) siempre que no existan resultados de ninguna manga perteneciente a esa serie.
+Once the series are generated, it is possible to remove drivers (drag dropping into the [drivers without a series](../user-guide/races/index.html#pilotos-sin-serie)panel) as long as no results exist for none of the heats belonging to that series.
 
-De forma similar, si se desea desinscribir al piloto de la carrera, se puede eliminar su inscripción siempre y cuando el piloto no pertenezca a ninguna serie de entre las sesiones de la carrera.
+Similarly, if de-registering a driver from the race is desired, the registration can be deleted as long as the driver does not belong to any series among the sessions of the race.
 
-Si algún piloto está inscrito en alguna manga que ha sido disputada, pero se desea evitar que el piloto participe en las siguientes sesiones, se puede marcar como *excluído* en la [lista de inscripciones](../user-guide/races/index.html#inscripciones).
+If a driver is registered in a heat that has already been run, but it is desired that the driver no longer participates in the following sessions, the driver can be marked as *excluded* in the [registrations list](../user-guide/races/index.html#inscripciones).
+
