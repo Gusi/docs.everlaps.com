@@ -69,7 +69,7 @@ The race format *Qualification and Finals* defines by default the practice, re-o
 
 ##### Parameters
 
-- **Drivers/Series**: Number of drivers per series when the distribution is done automatically with the *Generate* option on the [series](../user-guide/races/index.html#series) panel. On the series management tab the driver distribution can be changed with total liberty, so this value is not definitive.
+- **Drivers/Series**: Number of drivers per series when the distribution is done automatically with the *Generate* option on the [series](../user-guide/races/index.html#series) panel. In the series management tab the driver distribution can be changed with total liberty, so this value is not definitive.
 
 - **Series distribution**: Establishes how the drivers are automatically distributed into heats with the value *Drivers/Series*.
 
@@ -121,11 +121,11 @@ The race format *Qualification and Finals* defines by default the practice, re-o
 
 - **Session format**: Defines the configuration parameters most used to chrono, and also allows personalised adjustment of each parameter.
 
-	- **qualifying consecutive laps**: This is normally used for re-ordering heats. Each pilots starts their own chrono with the first crossing of the finishing line, the sum of the 3 fastest consecutive laps are counted.These are established as *Laps result* value.
+	- **qualifying consecutive laps**: This is normally used for re-ordering heats. Each pilots starts their own chrono with the first passing of the finishing line, the sum of the 3 fastest consecutive laps are counted.These are established as *Laps result* value.
 
 	- **Staggered qualifying (points or best result)**: The system calls each driver in turn according to session ranking, with a configured time interval, indicted in the field *Launched start delay*. The option for points or best result are established in the field *Session points type* for the session.
 
-	- **flying start qualifying (points or best result)**: Similar to the previous, but each driver can find their own space on the track and starts their own chrono when they cross the finishing line for the first time.
+	- **flying start qualifying (points or best result)**: Similar to the previous, but each driver can find their own space on the track and starts their own chrono when they pass the finishing line for the first time.
 
 	- **Finals**: Starting grid launch and in grid order, with the start of the chrono the instant the horn sounds.
 	
@@ -141,25 +141,25 @@ Allows configuring each of the parameters.
 - **Start chrono**: Defines when the chrono starts.
 
 	- **Start on horn**: The chrono start on the starting horn.
-	- **start on first crossing**: The chrono starts with the first crossing of the finishing line by any of the drivers in the heat.
+	- **start on first passing**: The chrono starts with the first passing of the finishing line by any of the drivers in the heat.
 	
 - **Chrono mode**: Defines individual chrono management
 
 	- **Individual**: Each driver starts their own chrono (qualifying).
 	- **shared**: The chrono start is common to all the drivers (finals).
 
-- **Delayed chrono**: Defines when chrono starts for drivers that have not crossed the finishing line for the first time.
+- **Delayed chrono**: Defines when chrono starts for drivers that have not passed the finishing line for the first time.
 
 	- **First lap completed**: The chrono starts when the first driver completes first lap.
 	- **After time delay**: The chrono starts after the time delay defined in *Delayed chrono time* once the heat has started.
 
-- **Delayed chrono time**: for the *After time delay* mode, Indicated the time delay before the chrono starts for drivers that have not crossed the finishing line.
+- **Delayed chrono time**: for the *After time delay* mode, Indicated the time delay before the chrono starts for drivers that have not passed the finishing line.
 
 - **Start mode**: Defines the format in which drivers start the heat.
 
 	- **Grid**: The system executes a count down, and after the count reaches 3 a random delay is executed followed by the heat start horn.
 	- **Staggered**: The system launches the drivers one at a time.
-	- **Flying**: A full countdown is executed so that each driver can find a space in the track.
+	- **Flying**: A full countdown is executed so that each driver can find a space on the track.
 
 - **Minimum count down time**: Only for *Grid* mode, minimum time delay after last number in the count down, before the start horn.
 

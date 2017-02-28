@@ -26,7 +26,7 @@ In free practice there is a single session and series where all the drivers that
 
 - **Type of scoring**: Identifies how to establish the general results of practice. See [qualifying and finals](./qualify-finals/index.html) for more details.
 
-- **Discard unknown transponders**: If enabled, crossings made by transponders not in the database are ignored.
+- **Discard unknown transponders**: If enabled, passings made by transponders not in the database are ignored.
 
 !!! note ""
 	Having various free practice heats is useful because it allows re-setting all the drivers records and starting from zero. A common case is a driver short cutting and getting absolute record for the heat, which means until another is started this value is maintained.
