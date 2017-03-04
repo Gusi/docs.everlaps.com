@@ -4,7 +4,11 @@
    
    <body>
       <script type="text/javascript">
-        window.location="http://docs.everlaps.com/en";
+        var lang = navigator.language || navigator.userLanguage; 
+        if (lang === "es" || lang === "es-ES")
+          window.location="http://docs.everlaps.com/es";
+        else
+          window.location="http://docs.everlaps.com/en";
       </script>
    </body>
 </html>
