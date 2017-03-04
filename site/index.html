@@ -4,8 +4,8 @@
    
    <body>
       <script type="text/javascript">
-        var lang = navigator.language || navigator.userLanguage; 
-        if (lang === "es" || lang === "es-ES")
+        var lang = (navigator.language || navigator.userLanguage || "").toLowerCase();
+        if (lang === "es" || lang.startsWith("es"))
           window.location="http://docs.everlaps.com/es";
         else
           window.location="http://docs.everlaps.com/en";
