@@ -7,6 +7,7 @@ theme: readthedocs
 #markdown_extensions: [extra, admonition, 'iconfonts(prefix=fa-,base=fa)']
 use_directory_urls: false
 site_dir: 'site/en'
+docs_dir: 'docs/en'
 strict: true
 
 # https://www.npmjs.com/package/google-fonts-offline
@@ -16,23 +17,23 @@ extra_javascript: ['js_extra/clickview.js','js_extra/imagegallery.js']
 repo_url: https://github.com/Gusi/docs.everlaps.com
 
 pages:
-- Index: en/index.md
-- Quick start: en/quick-start.md
+- Index: index.md
+- Quick start: quick-start.md
 - Manual detailed:
-    - Drivers: en/user-guide/drivers.md
-    - Races: en/user-guide/races.md
-    - Heats: en/user-guide/heats.md
-    - Config: en/user-guide/config.md
-    - Command line options: en/user-guide/commands.md
+    - Drivers: user-guide/drivers.md
+    - Races: user-guide/races.md
+    - Heats: user-guide/heats.md
+    - Config: user-guide/config.md
+    - Command line options: user-guide/commands.md
 - Race formats:
-    - Qualifying and finals: en/race-formats/qualify-finals.md
-    - Christmas tree: en/race-formats/christmas-tree.md
-    - Free practice: en/race-formats/free-practice.md
+    - Qualifying and finals: race-formats/qualify-finals.md
+    - Christmas tree: race-formats/christmas-tree.md
+    - Free practice: race-formats/free-practice.md
 - Common tasks:
-    - Penalties and corrections: en/common-tasks/punishments-corrections.md
-    - Change transponders: en/common-tasks/change-transponders.md
-    - Late entries: en/common-tasks/late-entries.md
-    - Tags: en/common-tasks/tags.md
+    - Penalties and corrections: common-tasks/punishments-corrections.md
+    - Change transponders: common-tasks/change-transponders.md
+    - Late entries: common-tasks/late-entries.md
+    - Tags: common-tasks/tags.md
 
 markdown_extensions:
     - extra:

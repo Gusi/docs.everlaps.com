@@ -7,6 +7,7 @@ theme: readthedocs
 #markdown_extensions: [extra, admonition, 'iconfonts(prefix=fa-,base=fa)']
 use_directory_urls: false
 site_dir: 'site/es'
+docs_dir: 'docs/es'
 strict: true
 
 # https://www.npmjs.com/package/google-fonts-offline
@@ -16,23 +17,23 @@ extra_javascript: ['js_extra/clickview.js','js_extra/imagegallery.js']
 repo_url: https://github.com/Gusi/docs.everlaps.com
 
 pages:
-- Índice: es/index.md
-- Inicio rápido: es/quick-start.md
+- Índice: index.md
+- Inicio rápido: quick-start.md
 - Manual detallado:
-    - Pilotos: es/user-guide/drivers.md
-    - Carreras: es/user-guide/races.md
-    - Mangas: es/user-guide/heats.md
-    - Configuración: es/user-guide/config.md
-    - Línea de comandos: es/user-guide/commands.md
+    - Pilotos: user-guide/drivers.md
+    - Carreras: user-guide/races.md
+    - Mangas: user-guide/heats.md
+    - Configuración: user-guide/config.md
+    - Línea de comandos: user-guide/commands.md
 - Formatos de carrera:
-    - Clasificatorias y finales: es/race-formats/qualify-finals.md
-    - Formato piramidal: es/race-formats/christmas-tree.md
-    - Entrenamiento libre: es/race-formats/free-practice.md
+    - Clasificatorias y finales: race-formats/qualify-finals.md
+    - Formato piramidal: race-formats/christmas-tree.md
+    - Entrenamiento libre: race-formats/free-practice.md
 - Tareas frecuentes:
-    - Sanciones y correcciones: es/common-tasks/punishments-corrections.md
-    - Cambiar transponders: es/common-tasks/change-transponders.md
-    - Inscripciones con la carrera en marcha: es/common-tasks/late-entries.md
-    - Etiquetas: es/common-tasks/tags.md
+    - Sanciones y correcciones: common-tasks/punishments-corrections.md
+    - Cambiar transponders: common-tasks/change-transponders.md
+    - Inscripciones con la carrera en marcha: common-tasks/late-entries.md
+    - Etiquetas: common-tasks/tags.md
 
 markdown_extensions:
     - extra:
