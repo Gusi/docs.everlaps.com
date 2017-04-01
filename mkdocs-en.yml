@@ -11,8 +11,8 @@ docs_dir: 'docs/en'
 strict: true
 
 # https://www.npmjs.com/package/google-fonts-offline
-extra_css: ['css_extra/tables.css','css_extra/admonitions.css','css_extra/fixes.css','css_extra/clickview.css','fonts/opensans.css']
-extra_javascript: ['js_extra/clickview.js','js_extra/imagegallery.js']
+#extra_css: ['css_extra/tables.css','css_extra/admonitions.css','css_extra/fixes.css','css_extra/clickview.css','fonts/opensans.css']
+#extra_javascript: ['js_extra/clickview.js','js_extra/imagegallery.js']
 
 repo_url: https://github.com/Gusi/docs.everlaps.com
 
