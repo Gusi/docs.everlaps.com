@@ -6,8 +6,8 @@ theme_dir: 'custom_theme'
 theme: readthedocs
 #markdown_extensions: [extra, admonition, 'iconfonts(prefix=fa-,base=fa)']
 use_directory_urls: false
-site_dir: 'site/en'
-docs_dir: 'docs/en'
+site_dir: 'site/de'
+docs_dir: 'docs/de'
 strict: true
 
 # https://www.npmjs.com/package/google-fonts-offline
