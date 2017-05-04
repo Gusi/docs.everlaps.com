@@ -1,0 +1,41 @@
+site_name: Everlaps
+site_url: http://docs.everlaps.com
+site_description: Documentation for Everlaps
+site_author: The Everlaps Team
+theme_dir: 'custom_theme'
+theme: readthedocs
+#markdown_extensions: [extra, admonition, 'iconfonts(prefix=fa-,base=fa)']
+use_directory_urls: false
+site_dir: 'site/en'
+docs_dir: 'docs/en'
+strict: true
+
+# https://www.npmjs.com/package/google-fonts-offline
+#extra_css: ['css_extra/tables.css','css_extra/admonitions.css','css_extra/fixes.css','css_extra/clickview.css','fonts/opensans.css']
+#extra_javascript: ['js_extra/clickview.js','js_extra/imagegallery.js']
+
+repo_url: https://github.com/Gusi/docs.everlaps.com
+
+pages:
+- Index: index.md
+- Quick start: quick-start.md
+- Manual detailed:
+    - Drivers: user-guide/drivers.md
+    - Races: user-guide/races.md
+    - Heats: user-guide/heats.md
+    - Config: user-guide/config.md
+    - Command line options: user-guide/commands.md
+- Race formats:
+    - Qualifying and finals: race-formats/qualify-finals.md
+    - Christmas tree: race-formats/christmas-tree.md
+    - Free practice: race-formats/free-practice.md
+- Common tasks:
+    - Penalties and corrections: common-tasks/punishments-corrections.md
+    - Change transponders: common-tasks/change-transponders.md
+    - Late entries: common-tasks/late-entries.md
+    - Tags: common-tasks/tags.md
+
+markdown_extensions:
+    - extra:
+    - iconfonts(prefix=fa-,base=fa):
+    - admonition:
