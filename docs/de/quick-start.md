@@ -37,7 +37,7 @@ Systemvoraussetzungen
 
 - TTS kompatible Sprachausgabe SAPI 5 kompatibel (z.B. Ivona, Loquendo, ...)
 
-- Decoder AMB/MyLaps kompatibel mit serial / USB / Netzwerk
+- Decoder AMB/MyLaps kompatibel mit seriellen / USB / Netzwerk - Anschluss
 
 - PDF-Reader ([Foxit Reader](http://www.foxitsoftware.com/Secure_PDF_Reader/), [Adobe Reader](http://get.adobe.com/reader/), ...)
 
@@ -50,11 +50,12 @@ Während des Timings ist es wichtig, dass alle Computer-Energiesparoptionen ausg
 
 Die Sprachausgabe erfordert die Installation eines TTS-Stimmpaketes (Dieses ist nicht in der Everlaps Lizenz enthalten). Die Empfehlung sind Stimmpakete von [Ivona](http://www.ivona.com).
 
-Sind die Stimmen  [&fa-gear; **Optionen in der Konfiguration**](./user-guide/config/index.html)
+Sind die Stimmen installiert konnen Sie eingestellt werden unter [&fa-gear; **Optionen in der Konfiguration**](./user-guide/config/index.html)
 
 ---
 
 ### Decoder anbinden
+
 Schliessen sie den AMB/MyLaps Decoder entsprechend der Anweisungen des Herstellers an. 
 
 Abhängig von der Art der Verbindung müssen die korrekten Werte eingestellt werden unter [&fa-gear; **Optionen in der Konfiguration**](./user-guide/config/index.html)
@@ -68,7 +69,7 @@ Abhängig von der Art der Verbindung müssen die korrekten Werte eingestellt wer
 	
 	- Wenn Sie den Decoder direkt an einen Computer anschließen, kann es sein, dass Sie ein [Crossover-Kabel] (https://en.wikipedia.org/wiki/Ethernet_crossover_cable) benötigen. Wenn es einen Hub, Switch oder Router dazwischen gibt ist dies nicht notwendig.
 	
-	- Decoder und der Rechner müssen sich im gleichen Subnetz befinden (z.B. Rechner 192.168.0.1 ist und Decoder 192.168.0.2). Wenn Sie keine Verbindung zum Decoder bekommen, müssen Sie möglicherweise das automatische DHCP auf dem Decoder deaktivieren und eine statische IP manuell auf dem LCD-Bildschirm des Decoders eingeben. Beachten Sie hier die Anweisungen im Handbauch des Decoderherstellers. 
+	- Decoder und der Rechner müssen sich im gleichen Subnetz befinden (z.B. Rechner 192.168.0.1 ist und Decoder 192.168.0.2). Wenn Sie keine Verbindung zum Decoder bekommen, müssen Sie möglicherweise das automatische DHCP auf dem Decoder deaktivieren und eine statische IP manuell auf dem LCD-Bildschirm des Decoders eingeben. Beachten Sie hier die Anweisungen im Handbuch des Decoderherstellers. 
 	
 	
 	
