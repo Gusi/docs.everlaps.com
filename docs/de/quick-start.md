@@ -1,75 +1,74 @@
-## Quick start
+## Schnellstartanleitung
 
-Here are described the basic steps to install and start a race in Everlaps. For more Detailed information see the rest of the documentation.
+Hier werden die grundlegenden Schritte zum Installieren und Starten eines Rennens in Everlaps beschrieben. Für weitere Details schauen Sie bitte in der Dokumentation.
 
 ---
 
-### Basic actions
+### grundlegende Tätigkeiten
 
-1.  Input the driver data in [&fa-users; **Drivers**](./user-guide/drivers/index.html)
+1.  Fahrerdaten eingeben unter [&fa-users; **Fahrer**](./user-guide/drivers/index.html)
 
-2.  Create a new race in [&fa-road; **Races**](./user-guide/races/index.html), configure general and [&fa-flag; **Session**](./race-formats/qualify-finals/index.html) options
+2.  ein neues Rennen anlegen unter [&fa-road; **Rennen**](./user-guide/races/index.html), vorkunfigurieren durch die [&fa-flag; **Session**](./race-formats/qualify-finals/index.html) Optionen
 
-3.  Register participating drivers in [&fa-user; **Registrations**](./user-guide/races/index.html#inscripciones)
+3.  teilnehmende Fahrer eintragen unter [&fa-user; **Nennung**](./user-guide/races/index.html#inscripciones)
 
-4.  &fa-check-circle; **Generate** and &fa-print; **Print** driver series in [&fa-th; **Series**](./user-guide/races/index.html#series)
+4.  &fa-check-circle; **Generieren** und &fa-print; **Drucken** der Fahrergruppen unter [&fa-th; **Gruppen**](./user-guide/races/index.html#series)
 
-	*Returns here at the end of each session to generate the series for the next. For example, to generate finals series after completing qualifying*
+	*nach jeder Session gehen Sie hierhin zurück um die Gruppen für die nächsten Sessions zu generieren. z.B. um die Final-Gruppen nach Abschluss der Vorläufe zu generieren*
 
-5.  &fa-check-circle-o; **Confirm** The drivers series in [&fa-th; **Series**](./user-guide/races/index.html#series)
+5.  zum Abschluss &fa-check-circle-o; **Bestätigen** der Fahrer in [&fa-th; **Gruppen**](./user-guide/races/index.html#series)
 
-	*The race Heats are generated*
+	*Die Gruppen wurden erzeugt*
 
-6.  [&fa-upload; **Activate**](./user-guide/heats/index.html#mangas_1) and start ([&fa-check-circle; **Start**](./user-guide/heats/index.html#control-de-la-manga-activa)) The heats one after another in [&fa-clock-o; **Heats
+6.  [&fa-upload; **Aktivieren**](./user-guide/heats/index.html#mangas_1) und starten ([&fa-check-circle; **Start**](./user-guide/heats/index.html#control-de-la-manga-activa)) der Läufe nacheinander [&fa-clock-o; **Läufe
 **](./user-guide/heats/index.html)
 
-7.  Penalise and correct if necessary, and &fa-print; **Print** the results
+7.  Korregieren und Bestrafen wenn nötig und &fa-print; **Drucken** der Ergebnisse
 
 ---
 
-### Installation of program
+### Installation des Programmes
 
-System requirements
+Systemvoraussetzungen
 
 - Windows Vista / 7 / 8 / 10
 
-- Microsoft .NET Framework 4.5 or above
+- Microsoft .NET Framework 4.5 oder höher
 
-- Text to speech compatible with SAPI 5 (Ivona, Loquendo, ...)
+- TTS kompatible Sprachausgabe SAPI 5 kompatibel (z.B. Ivona, Loquendo, ...)
 
-- Decoder compatible with AMB/MyLaps with Serial or Ethernet connection
+- Decoder AMB/MyLaps kompatibel mit serial / USB / Netzwerk
 
-- Recommended: PDF file reader ([Foxit Reader](http://www.foxitsoftware.com/Secure_PDF_Reader/), [Adobe Reader](http://get.adobe.com/reader/), ...)
+- PDF-Reader ([Foxit Reader](http://www.foxitsoftware.com/Secure_PDF_Reader/), [Adobe Reader](http://get.adobe.com/reader/), ...)
 
-!!! Warning "Windows energy saving options"
-	During timing it is important that all the computers energy saving options are turned off (suspend, hard disk drive idle, etc...), as these can interrupt the proper working during periods of inactivity.  
-
----
-
-### Installing the voices
-
-Requires the installation of a text to speech module (The cost is not included in the Everlaps license). The recommended is [Ivona](http://www.ivona.com).
-
-Once the voices are installed they can be selected in [&fa-gear; **Configuration options**](./user-guide/config/index.html)
+!!! Warnung !!!  "Windows Energiesparoptionen"
+Während des Timings ist es wichtig, dass alle Computer-Energiesparoptionen ausgeschaltet sind (Ruhezustand, Festplattenlaufwerk im Leerlauf usw.), da diese die ordnungsgemäße Funktion während der Perioden der persönlichen Inaktivität am Rechner aber laufender Zeitnahme unterbrechen können.  
 
 ---
 
-### Connecting the decoder
+### Sprachausgabe installieren
 
-Connect the amb/MyLaps decoder to the computer following the instructions provided by the manufacturer. 
+Die Sprachausgabe erfordert die Installation eines TTS-Stimmpaketes (Dieses ist nicht in der Everlaps Lizenz enthalten). Die Empfehlung sind Stimmpakete von [Ivona](http://www.ivona.com).
 
-Depending on the type of connection, the correct values will need to be configured in [&fa-gear; **Configuration options**](./user-guide/config/index.html)
+Sind die Stimmen  [&fa-gear; **Optionen in der Konfiguration**](./user-guide/config/index.html)
 
-- Serial connection: input the computers serial port that the decoder is connected to (COM1, COM2, ...)
+---
 
-- Ethernet connection: input the decoders IP address (example: 192.168.1.2)
+### Decoder anbinden
+Schliessen sie den AMB/MyLaps Decoder entsprechend der Anweisungen des Herstellers an. 
+
+Abhängig von der Art der Verbindung müssen die korrekten Werte eingestellt werden unter [&fa-gear; **Optionen in der Konfiguration**](./user-guide/config/index.html)
+
+- serielle oder USB Anbingung: geben Sie den Port an durch den der Decoder verbunden ist (Beispiel: COM1, COM2, ...)
+
+- Netzwerkanbindung: geben Sie die IP Adresse des Decoders ein (Beispiel: 192.168.1.2)
 
 
-!!! warning "(Ethernet) cable connection"
+!!! Warnung!!! "Netzwerkverbindung"
 	
-	- If you connect the decoder directly to a computer, it is possible that you will need a [crossover cable](https://en.wikipedia.org/wiki/Ethernet_crossover_cable). If there is a switch or router in the middle it will not be necessary.
+	- Wenn Sie den Decoder direkt an einen Computer anschließen, kann es sein, dass Sie ein [Crossover-Kabel] (https://en.wikipedia.org/wiki/Ethernet_crossover_cable) benötigen. Wenn es einen Hub, Switch oder Router dazwischen gibt ist dies nicht notwendig.
 	
-	- The decoder and the computer must be on the **same subnet** (for example if the computer is 192.168.0.1 and the decoder is 192.168.0.2). If you cannot get the connection to work you may need to disable automatic DHCP on the decoder and input a static IP manually on the LCD screen of the decoder.
+	- Decoder und der Rechner müssen sich im gleichen Subnetz befinden (z.B. Rechner 192.168.0.1 ist und Decoder 192.168.0.2). Wenn Sie keine Verbindung zum Decoder bekommen, müssen Sie möglicherweise das automatische DHCP auf dem Decoder deaktivieren und eine statische IP manuell auf dem LCD-Bildschirm des Decoders eingeben. Beachten Sie hier die Anweisungen im Handbauch des Decoderherstellers. 
 	
 	
 	
