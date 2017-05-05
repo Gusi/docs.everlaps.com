@@ -1,8 +1,8 @@
-## &fa-info-circle; Command line options
+## &fa-info-circle; Befehlszeilenoptionen
 
-These are the available command line options for Everlaps.exe
+Die verfügbaren Parameter für den Befehlszeilenaufruf der Everlaps.exe sind:
 
-	-a, --auto      Creates and activates a free practice session on program start.  
-	-d, --delete    Removes all existing free practice heats.
-	-s, --shrink    Shrinks the database file.
+	-a, --auto      erstellt und aktiviert ein freies Training  (LW/Pfad/Everlaps.exe -a)
+	-d, --delete    löscht alle Daten freier Trainings          (LW/Pfad/Everlaps.exe -d)
+	-s, --shrink    komprimiert die Datenbank                   (LW/Pfad/Everlaps.exe -s)
 
