@@ -2,72 +2,71 @@
 
 Allows configuring general application parameters.
 
-## Optionen der Knfiguration
+## Optionen der Konfiguration
 
 --- 
 
-#### &fa-microphone; Voices
+#### &fa-microphone; Stimmen
 
-Everlaps benötigt zur vollen funktionsbereitschaft synthetische Stimmen *TTS (Text To Speech)*. Zwei der bekanntesten Anbieter sind *Ivona* und *Loquendo*, darüberhinaus kann Everlaps mit jedem *TTS* SAPI5 kompatiblen System zusammenarbeiten.
+Everlaps benötigt für vollen Funktionsumfang die Installation synthetische Stimmen *TTS (Text To Speech)*. Zwei der bekanntesten Anbieter sind *Ivona* und *Loquendo*, darüberhinaus kann Everlaps mit jedem *TTS* SAPI5 kompatiblen System zusammenarbeiten.
 
 - **Erststimme/Zweitstimme**: Allows selecting the desired voice among those available in the system. For a better experience a female voice is recommended as primary, and a male voice as secondary (Marianne und Hans mit Ivona, oder Kate and Simon mit Loquendo).
 
-- **Geschwindigkeit**: Controls the speed of diction of the individual voices. Adjust at will according to chosen voices behavior.
+- **Geschwindigkeit**: der Schieberegler steuert die Geschwindigkeit der einzelnen Stimmen. Je nach Stimmbild sollte durch justieren und Testen das Stimmenverhalten angepasst werden.
 
-- **Lautstärke**: Controls the voices volume individually.
+- **Lautstärke**: der Schieberegler steuert die individuelle Stimmlautstärke der Ansagen.
 
-- **Test**: Allows the introduction of any text for the voice to pronounce when enter key is pressed. *very useful for making personal announcements on the track speakers*.
+- **Test**: jeder hier eingegebene Text wird nach drücken der ENTER Taste automatisch ausgegeben. *diese Funktion ist nicht nur zum Testen wichtig sondern auch sehr nützlich für Ansagen über die Streckenlautsprecher*.
 
-- **Voice compatibility mode**: enable  ***only*** if the voices stay silent. *See note further down*.
+- **Stimm-Kompatibilitätsmodus**: aktiv  ***nur*** wenn anderweitig keine Stimme zu hören ist. *siehe weiter unten*.
 
-	!!! warning "Compatibility of voices: Loquendo 6.5"
-		If an old version of Loquendo (6.5 o earlier) there is a bug in the voices that block the announcements due to an advanced use that Everlaps makes of voice control. Only in this case should *Voice compatibility mode* be selected. 
+	!!! Achtung !!! "Stimmkompatibilität: Loquendo 6.5"
+		bei älteren Versionen von Loquendo (6.5 oder früher) gibt es einen Fehler bei der Sprachkontrolle durch Drittprogramme wie Everlaps. Nur in diesem Fall sollte der *Stimm-Kompatibilitätsmodus* aktiviert werden. 
 	
-		This bug can be tested by selecting the corresponding Loquendo voice and writing the following in the test box:
+		Dieser Fehler kann getestet werden, indem man die entsprechende Loquendo-Stimme auswählt und in der Testbox folgendes schreibt:
 	
-			One <silence msec="1000"/> Two
+			Eins <Stille msec="1000"/> Zwei
 	
-		If you here *One Two* with a 1 second pause in between, the bug is not present and selecting compatibility mode will not be necessary; if only *One* is heard then it will be necessary to select it.
-
+		Wenn Sie hier *Eins Zwei* mit einer 1 Sekunde Pause dazwischen hören, ist der Fehler nicht vorhanden und die Auswahl des Kompatibilitätsmodus ist nicht notwendig; Wenn nur *Eins* gehört wird, dann ist es notwendig, den *Stimm-Kompatibilitätsmodus* zu aktivieren.
 ---
 
-#### &fa-bell-o; Sounds
+#### &fa-bell-o; Töne
 
-It is possible to adjust the volume individually for each systems sound according to the needs of the track.
+Jeder Systemklang kann durch diesen Regler einzeln entsprechend den Bedürfnissen eingestellt werden.
 
-- **Crossing**: Sounds when a valid crossing is detected across the finishing line (except if it is the vehicle with the most amount of laps, or if the heat has finalised)
+- **Überfahrt**: erklingt bei einer gültigen Überfahrt über die Meßschleife (außer wenn es das Fahrzeug das des Führenden ist oder wenn der Lauf beendet ist)
 
-- **Race leader**: When the vehicle with the most amount of laps crosses the finishing line, a sharper sound is received, which can help the race director and the public identify who is the driver with the most laps. 
+- **Führender**: Wenn das Fahrzeug mit den meisten Runden die Ziellinie kreuzt, wird ein intensiverer Klang ausgegeben, der dem Rennleiter und dem Publikum helfen kann, zu erkennen wer der Fahrer mit den meisten Runden ist. 
 
 	!!! note ""
-		In a *final*, the race leader sound is equivalent to the first place driver.
+		In einem * Finale * ist der Sound vom Führenden gleichbedeutend mit dem des schnellsten Fahrers.
 	
 		In a *qualifying heat*, Since each driver carries their own chrono, it does not imply that the driver is in the lead, only who is across the finishing line first.
 
-- **Heat start/Heat finish**: Indicates start and finish of a heat.
+- **Lauf Start/Lauf Ende**: signalisiert den Start bzw. das Ende des Laufes.
 
-	!!! note ""
-		In a *final*, The heat start sound generally implies the start of the chrono. The heat finish sound implies that all the vehicles finish on their next crossing of the finish line.
+	!!! beachte ""
+		In einem * Finale * bedeutet der Laufstart-Sound im Allgemeinen den Beginn der Zeitmessung. Der Klang für das Laufende signalisiert jedoch, dass für alle Fahrzeuge nach ihrer DARAUFFOLGENDEN Überfahrt der Mess-Schleife der Lauf endet.
 	
-		In a *qualifying heat*, The heat start sound indicates that the track is open, but the chrono will start when the first driver crosses first across the finishing line after the sound. The heat finish sound doesn't imply that all vehicles finish on their next crossing of the finishing line; the announcements will announce which vehicles have finished according to their individual chrono.
+		In eine * Vorlauf * signalisiert der Laufstart-Sound dass die Strecke offen ist - aber die Zeitmessung erfolgt erst wenn der erste Fahrer die Mess-Schleife überfährt. Der Klang für das Laufende signalisiert NICHT das allgemeine Laufende sondern die Phase des individuellen Laufendes. Das Rennen wird fortgesetzt bis jeder Fahrer entsprechend seiner Rennzeit eine persönliche Ankündigung des Laufendes gesagt bekommt. (Bsp: Max fertig...) 
 
-- **Invalid transponder**: Sounds when a crossing is made by a transponder that does not belong to a driver in the active heat.
+- **ungültige Trasponder**: wird ausgegeben wenn eine Überfahrtmit einem Transponder erkatt wird der zu keinem Fahrer im aktiven Rennen zugeordnet werden kann.
 
 ---
 
-#### &fa-bolt; Transponders
+#### &fa-bolt; Transponder
 
-The system supports the connection to different lap counting systems.
+Das System unterstützt verschiedene Transponder und ihre Decoder-Systeme
 
-- **Decoder/Parameters**: Allows selecting the decoder and or its connection. The available options are:
+- **Decoder/Parametes**: Ermöglicht die Auswahl des Decoders und seiner Verbindung. Die verfügbaren Optionen sind:
 
-	- **IPDecoder**: Connection to AMB/MyLaps devices using a IP protocol connection (Connection via Ethernet cable). In the field **Parameters** It is necessary to indicate the decoders IP address (for example, 192.168.0.10)
+	- **IPDecoder**: Anschluss von AMB/MyLaps oder alternativen Decodern über das Netzwerk via IP-Protokoll. Im Feld ** Einstellungen ** istes erforderlich, die Decoder-IP-Adresse anzugeben (zB 192.168.0.10)
 
-	- **SerialDecoder**: Connection to AMB/MyLaps devices using serial port. In the field **Parameters** It is necessary to indicate which serial port the decoder is connected to (COM1, COM2, etc...)
+	- **seriellerDecoder**: Anschluss von AMB/MyLaps oder alternativen Decodern über die serielle Schnittstelle. Im Feld ** Parameter ** ist es erforderlich, anzugeben an welchem seriellen Port der Decoder angeschlossen ist (COM1, COM2, etc ...)
 	
-	- **SimulatorDecoder**: Crossings simulator that allows testing the program by generating drivers crossings by clicking on the corresponding transponder buttons or by configuring it in automatic with a corresponding gap of time between crossings.
+	- **SimulatorDecoder**: startet nach Auswahl und Programmneustart einen Überfahrts-Simulator im Zusatzfenster. Mit diesem Tool kann man testweise Fahrerüberfahrten erzeugen, indem man die entsprechenden Transpondernummern aktiviert und die Zeitspanne zwischen den Überfahrten konfiguriert. (beachte: auf die passende minimale Rundenzeit in den Einstellungen des Testlaufes achten) 
 	
-	- **NullDecoder**: No decoder connection is established.
+	- **NullDecoder**: wenn keine Decoderverbindung eingerichtet ist, wird mit dieser Einstellung keine Schnittstelle abgefragt.
 	
 - **Filter if hits/signal lower than...**: For connections to AMB/MyLaps devices, ignores crossings with hit/signal values lower than indicated.
 
