@@ -1,20 +1,20 @@
-## &fa-gears; Config
+## &fa-gears; Konfiguration
 
 Allows configuring general application parameters.
 
-## Configuration options
+## Optionen der Knfiguration
 
 --- 
 
 #### &fa-microphone; Voices
 
-Everlaps needs a voice synthesizer system *TTS (Text To Speech)* to be able to work. Two of the most well known are *Ivona* and *Loquendo*, although Everlaps can work with any *TTS* system that is SAPI5 compatible.
+Everlaps benötigt zur vollen funktionsbereitschaft synthetische Stimmen *TTS (Text To Speech)*. Zwei der bekanntesten Anbieter sind *Ivona* und *Loquendo*, darüberhinaus kann Everlaps mit jedem *TTS* SAPI5 kompatiblen System zusammenarbeiten.
 
-- **Primary/Secondary**: Allows selecting the desired voice among those available in the system. For a better experience a female voice is recommended as primary, and a male voice as secondary (Amy and Brian with Ivona, or Kate and Simon with Loquendo).
+- **Erststimme/Zweitstimme**: Allows selecting the desired voice among those available in the system. For a better experience a female voice is recommended as primary, and a male voice as secondary (Marianne und Hans mit Ivona, oder Kate and Simon mit Loquendo).
 
-- **Speed**: Controls the speed of diction of the individual voices. Adjust at will according to chosen voices behavior.
+- **Geschwindigkeit**: Controls the speed of diction of the individual voices. Adjust at will according to chosen voices behavior.
 
-- **Volume**: Controls the voices volume individually.
+- **Lautstärke**: Controls the voices volume individually.
 
 - **Test**: Allows the introduction of any text for the voice to pronounce when enter key is pressed. *very useful for making personal announcements on the track speakers*.
 
