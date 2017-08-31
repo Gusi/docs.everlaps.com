@@ -1,27 +1,26 @@
-## &fa-user; Late entries
+## &fa-user; Nachnennung
 
-In Everlaps it is very easy to modify registrations and or series without having to re-generate the existing distribution.
+In Everlaps ist es sehr einfach, Nennungen und Gruppen zu ändern ohne die bestehende Einteilung komplett neu zu generieren.
 
 ---
 
-### Driver registration after series and heats have been generated
+### Nachnennung nachdem Gruppen und Läufe bereits generiert sind
 
-When a driver arrives late and the race has already started, the addition is easily possible without having to re-generate the series and heats.
+Wenn ein Fahrer verspätet ankommt und das Rennen bereits begonnen hat, ist eine Ergänzung leicht möglich, ohne die Gruppe und Läufe neu zu erzeugen.
 
-1. If the driver does not exist in the database, a registry is made in the [drivers list](../user-guide/drivers/index.html).
-2. The race is selected [race](../user-guide/races/index.html) in which the driver wishes to be registered.
-3. Th driver is found in the [available drivers list](../user-guide/races/index.html#pilotos-disponibles).
-4. The driver is [registered](../user-guide/races/index.html#inscripciones) in the race.
-5. Go to tab [series](../user-guide/races/index.html#series) and choose the session where the driver is to be added.
-6. Find the driver in the panel [drivers without a series](../user-guide/races/index.html#pilotos-sin-serie).
-7. Drag and drop the driver into the series that is desired, as long as it is not the series of the active heat.
-8. If various drivers need to be registered, a **new series** can be generated and all the drivers can be drag and dropped into it. Next the *Confirm* button will need to be pressed to generate the heats corresponding to the new series.
+1. Wenn der Fahrer noch nicht in der Datenbank existiert, muss als erstes eine Registiertung erfolgen in der [Fahrerliste](../user-guide/drivers/index.html).
+2. Dann muss das [Rennen](../user-guide/races/index.html) gewählt werden, in dem der Fahrer teilnehmen will.
+3. Wechseln zum TAB Nennungen - Im unteren Bereich werden [verfügbare Fahrer](../user-guide/races/index.html#pilotos-disponibles) aus der Datenbank angezeigt.
+4. Den Fahrer auswählen und für das Rennen [nennen](../user-guide/races/index.html#inscripciones)
+5. Wechseln zum TAB [Gruppen](../user-guide/races/index.html#series) und die Session wählen in die der Fahrer eingefügt werden soll.
+6. Den Fahrer im rechten Panel suchen [Fahrer ohne Gruppe](../user-guide/races/index.html#pilotos-sin-serie).
+7. klicken und ziehen des Fahrers in die gewünschte Gruppe - solange es nicht die eines aktiven Laufes ist.
+8. Wenn mehrere Fahrer hinzugefügt werden sollen, kann auch eine **neue Gruppe** generiert und alle Fahrer dort reingezogen werden. Danach ist es erforderlich über den *Bestätigen* Button die Läufe der neuen Gruppe zu generieren.
 
-### Deleting drivers that will not be participating in the session or race 
+### Löschen von Fahrern, die nicht an Läufen oder dem Rennen teilnehmen werden
 
-Once the series are generated, it is possible to remove drivers (drag dropping into the [drivers without a series](../user-guide/races/index.html#pilotos-sin-serie) panel) as long as no results exist for none of the heats belonging to that series.
+Wenn die Serie generiert ist, ist es auch möglich Fahrer zu entfernen (per Drag & Drop ziehen in die [Fahrer ohne Gruppe](../user-guide/races/index.html#pilotos-sin-serie) panel) Dies geht nur solange noch keine Ergebnisse für einen der Läufe der zugehörigen Gruppe vorliegen.
 
-Similarly, if de-registering a driver from the race is desired, the registration can be deleted as long as the driver does not belong to any series among the sessions of the race.
-
-If a driver is registered in a heat that has already been run, but it is desired that the driver no longer participates in the following sessions, the driver can be marked as *excluded* in the [registrations list](../user-guide/races/index.html#inscripciones).
+Ähnlich, wie das Entfernen eines Fahrers aus den Gruppen im Rennen, kann auch seine komplette Fahrerregistrierung gelöscht werden, solange der Fahrer nicht zu einer bereits gestarteten Gruppe gehört und damit Ergebnisse vorliegen.
+Wenn ein Fahrer in einen Lauf registriert ist, die bereits ausgeführt wurde, aber nicht mehr an den darauffolgenden Läufen teilnehmen soll, kann der Fahrer als * ausgeschlossen * markiert werden in der [Nennliste](../user-guide/races/index.html#inscripciones).
 

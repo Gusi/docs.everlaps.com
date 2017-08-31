@@ -1,60 +1,60 @@
-## &fa-legal; Penalties and corrections
+## &fa-legal; Strafen und Korrekturen
 
 ---
 
-There are various types of penalties and corrections, and each needs to be applied in the appropriate section of the program.
+Es gibt verschiedene Arten von Bestrafungen und Korrekturen, jede muss in dem entsprechenden Abschnitt des Programms angewendet werden.
 
-!!! note "Frequent penalties quick view"
-	- Penalties/Corrections **specific heat**: See [heat level penalties](#sanciones-a-nivel-de-manga)
-	- Penalty **Best heat**: See [Session level penalties](#sanciones-a-nivel-de-sesion)
+!!! beachte "Häufige Strafen Übersicht"
+	- Bestrafungen/Korrekturen **spezieller Lauf**: siehe [verschiedene Bestrafungen im Lauf](#sanciones-a-nivel-de-manga)
+	- Strafen **bester Lauf**: siehe [verschiedene Bestrafungen im Rennen](#sanciones-a-nivel-de-sesion)
 
 ---
 
-#### Heat level penalties
+#### verschiedene Bestrafungen/Korrekturen im Lauf
 
-![Heat penalties](../img/heatpunishments.png)
+![Laufbestrafungen und Korrekturen](../img/heatpunishments.png)
 
-These are performed in the section [laps](../user-guide/heats/index.html#vueltas), where all the drivers laps lists appear, and a section beneath where corrections are applied. There are two types according to the heats state:
+Diese werden durchgeführt im Abschnitt [Runden](../user-guide/heats/index.html#vueltas) Dort wo alle Runden des Fahrers gelistet sind, ist unterhalb ein Abschnitt, wo die Korrekturen angewendet werden. Es gibt zwei Typen nach dem Lauf-Zustand:
 
-##### In-Race
+##### im Rennen
 
-Allows making corrections to the total number of laps for a driver while the heat is underway. This option is normally used when a passing is made that is not detected by the decoder.
+Ermöglicht die Korrektur der Gesamtzahl der Runden für einen Fahrer, während der Lauf im Gange ist. Diese Option wird normalerweise verwendet, wenn eine Überfahrt vom Decoder nicht erkannt wurde.
 
-##### Post-Race
+##### nach dem Rennen
 
-Allows making corrections once a heat has finished. The options are:
+Ermöglicht Korrekturen nachdem der Lauf beendet wurde. Die Optionen sind:
 
-- **Laps**: Allows adding or removing a drivers laps. The laps modified in the In-Race section appear here automatically once the heat finishes.
+- **Runden**: Ermöglicht das Hinzufügen oder Entfernen von Runden für einen Fahrer. Die im In-Race-Bereich modifizierten Runden erscheinen hier automatisch, sobald der Lauf beendet ist.
 
-- **Time**: Allows adding or removing total time to a drivers heat.
+- **Zeit**: Ermöglicht das Hinzufügen oder verkleinern der Gesamtzeit für den Lauf eines Fahrers.
 
-- **Penalised**: Penalises a heat with its loss for that driver. 
+- **Bestrafen**: bestraft mit dem Verlust des jeweiligen Laufresultates für den Fahrer 
 	
-	*When penalising a specific heat (generally the penalty is applied to the heat that has just finished), The drivers that finished behind the penalised driver advance in position.*
+	*Bei der Bestrafung eines bestimmten Laufes (in der Regel wird die Strafe auf den Lauf angewendet, der gerade beendet ist) rücken die Fahrer in der Position vor, die hinter dem bestraften Fahrer lagen.*
 
-All penalties have a immediate effect and the result can be seen in the results section of the program (session, round or heat) or by printing any of the results. Penalties will appear as foot notes on the printed results.
-
----
-
-#### Session level penalties
-
-![Session penalties](../img/sessionpunishments.png)
-
-These are made in the series section, for the corresponding session. On the right of the drivers list, are the following options:
-
-- **Best Heat**: Penalises the driver with the loss of best heat of the session. As the drivers best heat is not known until all the rounds are concluded, as the race results are generated, the best heat is selected from the results list for that session, and that is the one that is docked. 
-
-	*As the best heat can vary as the session advances, The drivers that are placed behind the penalised driver do not advance in the results list. In case that the advancement is required, it will be necessary to wait to the end of the session and penalise the best heat directly *(heat level penalties).*
-
-- **Excluded**: Places the driver in last place for the session and will be excluded from automatic generation of new series.
+Alle Strafen haben eine sofortige Wirkung und das Ergebnis kann im Ergebnisabschnitt des Programms (Sitzung, Runde oder Läufe) oder durch das Drucken eines der Ergebnisse gesehen werden. Strafen erscheinen als Fußnoten zu den gedruckten Ergebnissen.
 
 ---
 
-#### Race level penalties
+#### abgestufe Bestrafungen/Korrekturen für Sessions
 
-![Race Penalties](../img/racepunishments.png)
+![Strafen für Sessions](../img/sessionpunishments.png)
 
-These are made from the registration section of the program. A single option exists:
+Diese werden im Session Bereich für das entsprechende Rennen gemacht. Auf der rechten Seite der Fahrerliste stehen folgende Optionen zur Verfügung:
 
-- **Excluded**: Places a driver in last place in all sessions participated in and will be excluded from automatic generation of new series.
+- **Bester Lauf**: Bestraft den Fahrer mit dem Verlust des besten Laufes der Session. Da der beste Lauf des Fahrers nicht bekannt ist bis alle Runden abgeschlossen sind, wird dieser beim Erzeugen der Rennergebnisse ausgewählt und die Strafe darauf angewendet.
 
+	*Da der beste Lauf variieren kann, während die Session fortschreitet, werden die hinter dem bestraften Fahrer positionierten Fahrer nicht nach vorn platziert. Sollte dies gewünscht sein muss bis zum Ende der Sitzung gewartet und der beste Lauf direkt bestraft werden (Laufbestrafungen)*
+	
+
+- ** Ausgeschlossen **: Platziert einen Fahrer in letzter Stelle der Session und er wird von der automatischen Generierung neuer Gruppen ausgeschlossen.
+
+---
+
+#### Bestrafungen fürs Rennen
+
+![Rennen Bestrafungen](../img/racepunishments.png)
+
+Diese werden aus dem Registrierungsbereich des Programms erstellt - es gibt nur eine einzige Option:
+
+- ** Ausgeschlossen **: Platziert einen Fahrer in letzter Stelle in allen Sessions des Rennens und er wird von der automatischen Generierung neuer Gruppen ausgeschlossen.

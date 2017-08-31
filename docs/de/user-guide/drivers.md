@@ -1,77 +1,77 @@
-## &fa-users; Drivers
+## &fa-users; Fahrer
 
-Allows the management of all the drivers available in the programs database.
+Ermöglicht die Verwaltung aller Fahrer in der Programmdatenbank.
 
-![Pilotos](../img/drivers.png)
+![Fahrer](../img/drivers.png)
 
-Glossary of terms used to manage the drivers:
+Glossar der Begriffe, die in der Fahrerverwaltung verwendet werden
 
-- **Driver**: An Individual that can be registered in any of the configured races
-- **Classes**: Classifies The different classes according to vehicle type
-- **Transponder**: Personal transponder number used by the lap counting system to identify a driver
-- **Ranking**: A driver ability in relation to all the rest
-- **Tag**: Allows you to group drivers with a common identifier    
+- ** Fahrer **: Eine Person, die in einem der konfigurierten Rennen genannt werden kann
+- ** Klassen **: Klassifiziert Die verschiedenen Klassen nach Fahrzeugtyp
+- ** Transponder **: Persönliche Transpondernummer, die von der Zeitmessanlage verwendet wird, um einen Fahrer zu identifizieren
+- ** Rangliste **: Die Fahrerfähigkeit in Bezug auf die Gesamtheit in der entsprechenden Klasse (Jahresrangliste,Bestenliste)
+- ** Tag **: Ermöglicht es Ihnen, Treiber mit einer gemeinsamen Kennung zu gruppieren 
 
-A driver can have assigned different transponder or ranking according to the classes that will be raced in, also any tag number defined in the program.
+Einem Fahrer können verschiedene Transponder oder Ränge in den entsprechend den Klassen zugeordnet werden, sowie auch jeder in der Datenbank definierte Marker.
 
 ---
 
-### Drivers list
+### Fahrerliste
 
-Permits adding, deleting or modifying the available drivers.
+erlaubt das Hinzufügen, Löschen und Ändern aller verfügbaren Fahrer.
 
-##### Actions
+##### Aktionen
 
-- **Add**: Inserts a new line in drivers list ready to be filled out with driver data.
+- **Hinzufügen**: Fügt eine neue Zeile in die Fahrerliste ein, die dann mit Fahrerdaten gefüllt werden kann.
 
-- **Delete**: Removes selected driver or drivers from the data base. 
+- **Löschen**: löscht den markierten Fahrer aus der Datenbank. 
 
-- **Import**: loads a list of drivers from a file.
+- **Importieren**: läd eine Liste an Fahrern aus einer Datei in die Datenbank.
 
-- **Export**: saves a list of drivers to a file.
+- **Exportieren**: speichert markierten Fahrer als eine Liste in eine Datei.
 
-- &fa-search; **(Search)**: Performs a search upon the drivers visible, showing matches or partial matches (name, surname, transponder, category, tags etc...)  to the text input in the search field.
+- &fa-search; **(Suche)**: Führt eine Suche nach den Fahrern mit den im Suchfeld eingegeben Texten durch und zeigt Treffer und teilweise Treffer aus den Feldern (Name, Nachname, Transponder, Kategorie, Tags usw.)
 
-##### Fields
+##### Felder
 
-- **Name and Surname**: Will appear in the list to positively identify the driver.
+- ** Name und Nachname **: Wird in der Liste angegeben, um den Fahrer zu identifizieren.
 
-- **Nick name**: Nick names will be used by the voice announcements to narrate times and position of the drivers, as on the detailed race reports. There can be duplicate Nick names in the data base, but they are no allowed in the same heat (The program will issue a warning so that they can be modified).
+- **Kurzname**: Kurznamen werden von den Sprachansagen verwendet, um die Zeiten und die Position der Fahrer auszugeben sowie in den Livetime-Rennberichten. Doppelte Kurznamen sind in der Datenbank gestattet, aber sie sind im gleichen Lauf nicht erlaubt (Das Programm wird eine Warnung ausgeben, damit sie geändert werden können).
 
-- **email**: The email address is the means by which the program identifies the drivers between the local database and the one available in internet [Everlaps web site](http://everlaps.com), so that race registration and results can be managed for each driver bidirectionally.
+- **email**: Die E-Mail-Adresse ist dient dazu, dass das Programm den Fahrer zwischen der lokalen Datenbank und der im Internetportal der [Everlaps Website](http://everlaps.com) synchronisieren kann. Damit werden Nennung und Resultate bidirektional verwaltet.
 
-	When drivers are manually added, it is important to add the email address correctly in case they are already registered on [Everlaps](http://everlaps.com) so that the results are assigned correctly.
+	Wenn Fahrer manuell hinzugefügt werden, ist es wichtig, die E-Mail-Adresse korrekt hinzuzufügen, falls sie bereits auf [Everlaps](http://everlaps.com) registriert sind - nur so werden die Ergenisse korrekt zugeordnet.
 
-- **Tags**: Shows all the tags assigned to a driver.
+- **Marker**: Zeigt alle dem Fahrer zugeordneten Marker.
 
 ---
 	
-### Driver card
+### Fahrerkarte
 
-Shows all the information about a driver, including personal data mentioned earlier, lists of transponders and rankings per class, active races  the driver is participating in, and any tags assigned.
+Zeigt alle Informationen über einen Fahrer, einschließlich der bereits erwähnten personenbezogenen Daten wie Listen von Transpondern, Ranglisten pro Klasse und auch aktive Rennen, an denen der Fahrer teilnimmt sowie alle zugewiesenen Marker.
 
-#### Transponders, rankings and vehicle numbers
+#### Transponder, Ränge und Startnummern
 
-Manage the drivers list of transponders, rankings and vehicle numbers according to the classes that are being participated in.
+Hier verwalten Sie in der Fahrerliste die Transponder, Ranglisten und Startnummern nach den Klassen, an denen die Fahrer teilnehmen.
 
-- **Classes**: Allows selection among the available [Classes](./config/ind	ex.html#categorias), in the list.
-- **Transponder, rank and class**: Allows assignment of values corresponding to a driver in the class selected.
+- **Klassen**: erlaubt die Auswahl der [Klassen](./config/ind	ex.html#categorias), aus den Werten der Liste.
+- **Transponder, Ränge, Startnummern Kommentare**: Ermöglicht die Zuordnung von Werten, die dem Fahrer in der gewählten Klasse entsprechen.
 
-!!! note ""
-	When registering a driver manually in a race, the system compares the classes of the race with the classes assigned to the driver to assign the corresponding transponder. In case there is no match, the default transponder is assigned for that class. 
+!!! beachte ""
+	Wenn man einen Fahrer manuell in einem Rennen registriert, vergleicht das System die Klassen des Rennens mit den dem Fahrer zugeordneten Klassen um den entsprechenden Transponder zuzuordnen. Falls es keine Übereinstimmung gibt, wird der Standard-Transponder für diese Klasse zugewiesen. 
 
-#### Active registrations
+#### aktive Nennungen
 
-List of races marked as active, that a selected driver is participating in.
+Liste der als aktiv markierten Rennen, an denen ein ausgewählter Fahrer teilnimmt.
 
-Its possible to modify the transponder and rank of the selected registered driver, the same way that it would be done in [Registrations](./races/index.html#inscripciones) section.
+Es ist möglich, den Transponder und den Rang des ausgewählten registrierten Fahrers zu ändern, genauso wie in der [Nennung](./races/index.html#inscripciones).
 
-#### Tags
+#### Marker
 
-Show the tags assigned to a driver.
+Zeigen Sie die dem Fahrer zugeordneten Marker an.
 
-The tags allow the filtering and grouping together of drivers quickly within the different classes. (drivers list, registrations, heats...).
+Die Marker erlauben das schnelle Filtern und Gruppieren von Fahrern innerhalb der verschiedenen Klassen. (Fahrerliste, Nennungen, Läufe ...).
 
-Any tag can be assigned from the lower drop down, and can be removed by clicking on the *X*  that appears when the cursor is above the tag to be removed. The complete list is defined in the [Tags](./config/index.html#etiquetas) section.
+Jeder Marker kann aus dem unteren Dropdown-Feld zugewiesen werden und kann durch Klicken auf das * X * entfernt werden, das angezeigt wird, wenn der Cursor über dem zu entfernenden Tag liegt. Die vollständige Liste steht in der [Marker](./config/index.html#etiquetas) Sektion.
 
 

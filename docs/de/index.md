@@ -2,7 +2,7 @@
 <div class="bs-docs-header" id="content" style="margin-bottom:0px">
 	<div class="container">
 		<h1>Everlaps</h1>
-		<p>Professional Race Timing Solutions</p>
+		<p>Professionelle Race Timing Lösungen</p>
 	</div>
 </div>
 
@@ -16,17 +16,17 @@
 
 - **zuverlässig**: Entworfen und entwickelt wurde Everlaps mit dem Ziel, maximale Zuverlässigkeit und höchste Flexibilität während der Zeitmessung zu gewährleisten.
 	
-	*Die Software wird bei bedeutenden Rennveranstaltungen in Spanien und Deutschland eingesetzt und ist die offizielle Software der SNS (Spanish National Series).*0
+	*Die Software wird bei bedeutenden Rennveranstaltungen in Spanien und Deutschland eingesetzt und ist die offizielle Software der SNS (Spanish National Series) und der OSO (OffroadSerieOst).*0
 
 - **Einzigartig**: Everlaps nutzt mehrere Voice Synthesizer um den Fahrern und dem Publikum einen Überblick zum Streckengeschehen zu geben  (Startaufstellung, verbleibende Rennzeit, Rennstand ect...).
 
 	*Es ist als einzigstes Programm auf dem Markt in der Lage, eine vollautomatisierte Rennberichterstattung in Echtzeit durchzuführen.*
  
-- **Renn-Formate**: freies Training, Seeding Run-Zeitqualifikation, Vorläufe, Finals, Aufsteiger...
+- **Renn-Formate**: freies Training, Seeding Run - Zeitqualifikation, Vorläufe, Finals, Aufsteiger...
 
-- **Live Timing**: via WiFi stellt der integrierte Webserver auf allen eingeloggten mobilen Geräten ein Echtzeit-Rangliste zur Verfügung. Parallel dazu können die Rennstände auf Everlaps.com gestreamt werden. 
+- **Live Timing**: via WLan stellt der integrierte Webserver auf allen eingeloggten mobilen Geräten ein Echtzeit-Rangliste zur Verfügung. Parallel dazu können die Rennstände auf Everlaps.com gestreamt werden. 
 
-- **permanente Weiterentwicklung**: Im Gegensatz zur Mehrzahl bestehender Timing-Lösungen wird Everlaps ständig weiterentwickelt und mit neuen Funktionen und Möglichkeiten ausgestattet.
+- **permanente Weiterentwicklung**: Im Vergleich zur Mehrzahl bestehender Timing-Lösungen wird Everlaps ständig weiterentwickelt und mit neuen Funktionen und Möglichkeiten ausgestattet.
 
 ## Dokumentation
 

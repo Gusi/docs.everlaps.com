@@ -1,35 +1,36 @@
-## &fa-bolt; Change transponders
+## &fa-bolt; Transponder ändern
 
-When changing a drivers transponder, it is important to understand  how everlaps manages transponder assignments.
+Um den Transponder des Fahrers zu ändern ist es wichtig zu verstehen, wie everlaps Transponderaufgaben verwaltet.
 
-### Transponder in the drivers list (transponders and rankings)
+### Transponder in der Fahrerliste (Transponder und Ränge)
 
-On the one hand, in the [drivers list](../user-guide/drivers/index.html), The transponders belonging to a driver are established. These values are used to facilitate assigning and changing transponder in the registrations list. **Modify a transponder in the drivers list has no bearing on the drivers actual registrations** (except in [free practice](../race-formats/free-practice/index.html) mode, since every time a passing is made the transponders belonging to each driver are verified).
+Einserseits sind in der [Fahrerliste](../user-guide/drivers/index.html) die zu einem Fahrer gehörenden Transpondernummern abgelegt. Diese Werte dienen der Erleichterung der Zuordnung und Änderung des Transponders in der Nennungliste. ** Das Ändern eines Transponders in der Fahrerliste hat keinen Einfluss auf die vom Fahrer vorher getätigten Nennungen** (ausser im [Freien Training](../race-formats/free-practice/index.html) Hier wird bei jeder Durchfahrt die Transpondernummer direkt mit der Fahrerliste abgeglichen).
 
-### Transponder in the race registration list
+### Transponder in der Nennliste
 
-The transponder assigned to a driver in a race, is independent from the number assigned in the drivers list and other races. 
+Der dem Fahrer für ein Rennen zugeordnete Transpondernummer ist unabhängig von der Nummer, die in der Fahrerliste und anderen Rennen zugeordnet ist.
 
-A transponder can be changed quickly by selecting in the list of transponder belonging to a driver, or a new transponder number can be introduced manually (In which case it will be added automatically to the list of transponders belonging to a driver in the class of the race). 
+Ein Transponder kann schnell geändert werden, indem man in der Nennliste für den betreffenden Fahrer manuell eine neue Transpondernummer eingibt. In diesem Fall wird er automatisch auch in der Fahrerliste mit entspechender Klasse des Rennens hinzugefügt).
 
-If the change is made to a registration belonging to an active heat, a dialogue will be shown asking to confirm the *on the fly* change. 
+Wenn die Änderung an einer Nennung erfolgt, die zu einer aktiven Lauf gehört, wird ein Dialog angezeigt um die Änderung * on the fly * zu bestätigen.
 
-When a race registration list is imported  from the Everlaps web site (where previously all the participants have registered for the race indicating their transponder number) The numbers assigned to the drivers for this race are those that they have introduced when registering.
+Wenn eine Nennliste von der Everlaps-Website importiert wird (wo sich zuvor alle Teilnehmer für das Rennen angemeldet und ihre Transpondernummer angeben haben) entsprechen die Transpondernummern denen die die Fahrer in der Nennung im Portal angegeben haben - und nicht denen der lokalen Datenbank.
 
-## Changing a transponder on the fly
+## Transponder on the fly ändern
 
-To change a drivers transponder number, as has been explained in the previous section, ideally it is done in [registrations list](../user-guide/races/index.html#inscripciones) of that race. 
+Um die Transpondernummer eines Fahrers während des Rennens zu ändern, geht man idealerweise über die [Nennliste](../user-guide/races/index.html#inscripciones) des betreffenden Rennens. 
 
-Nevertheless another way exits if the heat has been activated. In the view [active heat situation](../user-guide/heats/index.html#situacion-de-la-manga-activa), where the list of drivers participating in the active heat appears, it is possible to show the dialogue *Change transponder* using the right mouse button on the driver whose transponder will be modified.
+Eine andere Vorgehensweise ist es bei einem [aktiven Lauf](../user-guide/heats/index.html#situacion-de-la-manga-activa), dort können Sie die Transpondernummer ändern indem Sie mit der Maus auf die Zeile des Fahrers gehen und über die rechte Maustaste die Transponderänderung anwählen.
+![Transponder ändern](../img/changetransponder.png)
 
-![Change transponder](../img/changetransponder.png)
+Der Dialog zeigt den Namen und die Fahrzeugnummer des ausgewählten Fahrers sowie den ursprünglichen Transponder an, der gegen in eine andere Transpondernummer geändert werden kann.
 
-The dialogue shows the name and vehicle number of the selected driver, as well as the actual transponder, being able to introduce the new transponder number. 
+Wenn ein Fahrer mit einem im aktiven Lauf ungültigem Transponder nach Aktivierung des Laufes eine **Überfahrt über die Meßschleife** gemacht hat, zeigt das Programm dies im unteren Bereich des Bildschirmes durch eine graue Markierung der Überfahrt - mit Ausnahme der letzten Überfahrt, diese wird grün dargestellt. Die grau markierte Transpondernummer kann so einfach dem entsprechenden Fahrer zugeordnet werden.
 
-If the driver has already **made a passing** of the finishing line since the heat activation, in the lower part of the dialogue will show the transponders that have already made a passing and does not belong to any driver in the active heat, it is possible to select any transponder in the list and assign it to a driver. The list of invalid transponders appear in grey, except the last transponder to have passed the finishing line, which appears in green. This way it is easier to identify to whom the invalid transponder number belongs to.
 
-!!! note ""
-	During the heat prologue (from activation until start) the drivers whom have made at least one passing of the finishing line are marked with a &fa-check; in the view [situation of active heat](../user-guide/heats/index.html#situacion-de-la-manga-activa), indicating that the driver is on the track. 
-	
-	It there are drivers with the incorrect transponder, it will be one of those that *does not* have a green &fa-check;.
+!!! beachte ""
+
+Während der Aufwärmrunden (von der Aktivierung bis zum Start) sind die Fahrer, die mindestens eine Überfahrt über die Maßschleife gemacht haben in der Ansicht des [aktiven Laufes](../user-guide/heats/index.html#situacion-de-la-manga-activa) mit einem grünen &fa-check; markiert. Dies zeigt an dass der Fahrer auf der Strecke ist und im Meßsystem erkannt wird.
+
+Wenn es einen Fahrer mit ungültiger Transpondernummer im aktiven Lauf gibt, dann ist es einer von denen, die * nicht * mit einem grünen &fa-check; markiert sind.
 
