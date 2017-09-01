@@ -1,42 +1,42 @@
-## Free practice 
+## freies Training 
 
-![Free Practice](../img/freepractice.png)
+![freies Training ](../img/freepractice.png)
 
-The free practice format works differently from the other race formats, that requires registering participating drivers previously to generate series in which to group them.
+Das freie Training funktioniert anders als die anderen Rennformate, die alle vorher eine Nennung benötigen und generierte Fahrer-Gruppen voraussetzen.
 
-In free practice there is a single session and series where all the drivers that enter the track participates in one or various heats.
+Im freien Training gibt es eine einzige Session und Gruppe, wo alle Fahrer die auf die Strecke gehen, an einem oder mehreren Läufen teilnehmen.
 
-##### General
+##### allgemein
 
-- **Name**: descriptive title for the round of free practice.
+- **Name**: Titel für die Runde des freien Trainings.
 
-- **Description**: Text that appears at the top of reports.
+- **Beschreibung**: besschreibender Text der oben auf den Listen erscheint.
 
-- **Type**: Identifies the race format. In this case it will show *Free practice*.
+- **Typ**: beschreibt das Renn-Format, in diesem Fall *Freies Training*.
 
-- **Minimum lap time**: Minimum lap time for the track. Laps inferior to this will be considered a short cut and will not be counted.
+- **minimale Rundenzeit**: Minimale Rundenzeit für die jeweilige Strecke. Schnellere Runden werden automatisch als Abkürzung betrachtet und nicht gezählt.
 
-- **Web Code**: Necessary to publish times live on [Everlaps](http://everlaps.com) web site.
+- **Web Code**: notwendig um Livezeiten im [Everlaps-Portal](http://everlaps.com) zu veröffentlichen.
 
-##### Results
+##### Ergebnisse
 
-- **Points scoring**: Number of heats that will be used to obtain final results for each driver.
+- **Punktewertung**: Anzahl der Läufe die für das Endergebnis der Fahrer herangezogen werden.
 
-- **Type of result/Laps result**: Identifies how to establish heat results. See [qualifying and finals](./qualify-finals/index.html) for more details.
+- **Ergebnisberechnung**: definiert auf welche Weise das Laufergebnis berechnet wird - siehe [Vorläufe und Finale](./qualify-finals/index.html)
 
-- **Type of scoring**: Identifies how to establish the general results of practice. See [qualifying and finals](./qualify-finals/index.html) for more details.
+- **Wertungstyp**: definiert auf welche Weise das Endergebnis aus den einzelnen Läufen berechnet wird - siehe [Vorläufe und Finale](./qualify-finals/index.html)
 
-- **Discard unknown transponders**: If enabled, passings made by transponders not in the database are ignored.
+- **unbekannte Transponder verwerfen**: Wenn die Funktion aktiviert ist, werden Überfahrten mit nicht in der Datenbank registrierten Transpondern ignoriert.
 
-!!! note ""
-	Having various free practice heats is useful because it allows re-setting all the drivers records and starting from zero. A common case is a driver short cutting and getting absolute record for the heat, which means until another is started this value is maintained.
+!!! beachte ""
+	Mehrere verschiedene freie Trainingsläufe sind in soweit nützlich, dass im Blick auf den ständigen Fahrerlistenzugriff alle Aufzeichnungen zurückgesetzt werden.
 
-When a free practice heat is started, The announcement system will narrate the drivers whom are on the tracks lap times, emphasizing personal bests and fastest lap for the heat. At any moment, the heat results up until that point may be printed and a list of fastest laps for each driver.
+Wenn freier Trainingslauf gestartet wurde, gibt das Ansage-System die aktiven Fahrer mit den Rundenzeiten sowie die persönliche Bestzeit und die schnellste Runde für den Lauf aus. Jederzeit kann dabei eine Liste mit den derzeit schnellsten Runden der Fahrer gedruckt werden.
 
-If a drivers transponder is not registered the laps will be shown while the heat is active as the name *Car* along with the last 3 digits of the transponders of those drivers and their times will be announced, but the laps will not be saved in the database.
+Wenn ein Fahrertransponder nicht registriert ist, werden die Runden während des Laufes angezeigt durch *Auto* zusammen mit den letzten 3 Ziffern des aktiven Transponders - die Runden werden aber nicht in der Datenbank gespeichert.
 
-During free practice heats, nick names and transponder numbers can be modified directly in the [Drivers list](../user-guide/drivers/index.html) and the changes will take place immediately.
+Während freier Trainingsläufe können Kurznamen und Transpondernummern direkt in der [Fahrerliste](../user-guide/drivers/index.html) angepasst werden. Diese Änderungen werden umgehend umgesetzt.
 
-!!! note ""
-	When a free practice heat is finalised manually the results are not printed, even if the option *print automatically at the end of each heat* is enabled.
+!!! beachte ""
+	Wenn eine freier Trainingslauf manuell abgeschlossen wird, werden die Ergebnisse nicht gedruckt - selbst wenn die Option *Laufergebnisse automatisch am Ende jedes Laufes drucken* gewählt ist.
 
