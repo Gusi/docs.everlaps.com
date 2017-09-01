@@ -1,55 +1,55 @@
-## Christmas tree format
+## Aufsteiger
 
-The christmas tree format is characterised by establishing a series of sub-finals in the form of a pyramid or *christmas tree* that permits any driver that rises from the lower finals to reach the absolute final, even if qualifying in last place during the qualifying session. 
+Das Aufsteigersystem ist charakterisiert durch eine Reihe an Sub-Finals in Form einer Pyramide oder eines * Weihnachtsbaumes *, das ermöglicht jedem Fahrer sich selbst bei schlechter Platzierung in den Vörläufen durch die Sub-Finals bis ins grosse Finale hochzufahren.
 
-The sessions previous to the finals (practice, re-ordering and or qualifying) maintain the same format defined in [qualifying and finals](./qualify-finals/index.html), therefore in this section explains is exclusive to the workings of christmas tree format (sub-finales).
+Die Sessions vor den Finals (Training, Zeitqualifikation und oder Vorläufe) sind von dieser Einstellung nicht betroffen und bleiben wie definiert in den [Vorläufen und Finals](./qualify-finals/index.html), diese Funktion betrifft nur die Finals - daher bezieht sich der folgende Abschnitt nur auf diese...
 
-### Configuration of sub-finals and final
+### Konfiguration von Sub-Finals und Finale
 
-![Christmas tree](../img/subfinals.png)
+![Aufsteiger](../img/subfinals.png)
 
-!!! note ""
+!!! beachte ""
 	The number of drivers used to calculate the distribution of the sub-finals is that of the registration list, except those drivers excluded from the race or qualifying session. This is useful to fine tune the distribution in case there are drivers that are registered but are not going to race, or have abandoned after qualifying.
 
-- **Name**: Defines the sub-final or final. It is established automatically.
+- **Name**: bezeichnet das Subfinale oder Finale und wird automatisch gesetzt.
 
-- **Series**: Number of series involved in the sub-finals, calculated automatically. Each sub-final always has two series, except:
+- **Gruppen**: Anzahl aller Gruppen der Sub-Finals - werden automatisch berechnet. Jedes Subfinale hat immer zwei Gruppen ausser:
 
-	- The final, always contains only one series.
-	- The last sub-final, if the number of drivers is equal to or lower than the number of *Drivers/Series* and the option *Optimise last sub-final*is enabled, it is integrated into an only series.
+	- Das Finale - es besteht immer aus einer Gruppe.
+	- Das letzte Subfinale, sofern die Anzahl Fahrer gleich oder kleiner als der Wert *Fahrer/Gruppe* und die Option *Optimieren des letzten Sub-Finals* zum Erzeugen nur einer einzelnen Gruppe aktiviert ist.
 
-- **Duration**: Duration of each heat of sub-final or final.
+- **Dauer**: Dauer jedes Laufes in Sub-Finals oder Finale.
 
-- **Drivers/Series**: Maximum number of drivers in each series of sub-final or final.
+- **Fahrer/Gruppe**: maximale Anzahl an Fahrern jeder Gruppe in Sub-Finals oder Finale.
 
-- **Direct/Series**: Number of drivers whom pass straight to each sub-final or final depending on qualifying results. In the example above, the first two qualified pass straight into the final.
+- **Direkt/Gruppe**: Anzahl der Fahrer, die je nach Qualifikationsergebnis direkt zu jedem Subfinale oder Finale aufsteigen. Im obigen Beispiel gelangen die ersten beiden qualifizierten Fahrer in das Finale.
 
-- **Promotion/Series**: Number of drivers whom promote to the next sub-final depending on result of actual sub-final. 
+- **Aufsteiger/Gruppe**: Anzahl der Fahrer, die je nach Ergebnis im aktuellen Subfinale in das nächste Subfinale oder Finale aufsteigen.
 
-	*In the above example, from the semi-final to the final 4 drivers per series promote (8 in total: The first 4 from semi-final A and the first 4 from semi-final B).*
+	* Im obigen Beispiel sind das vom Halbfinale bis zum Finale 4 Fahrer pro Gruppe (8 insgesamt: Die ersten 4 aus dem Semifinale A und die ersten 4 aus dem Semifinale B). *
 
-	The final is treated differently since it is the last level of the christmas tree and it makes no sense to promote further. In this case selecting how the final starting grid will be generated for the drivers that have promoted from the sub-finals.
+      Das Finale wird anders behandelt, da es das letzte Level des Aufstieges ist und damit kein weiterer Aufstieg erfolgen kann. Wählen Sie hier wie das Starterfeld aus den Fahrern der höchsten Subfinale generiert werden soll.
 
-	- **By time**: All drivers from series A and B are ordered by their *Laps/Time* obtained in semi-finals and are added to the starting grid after those with direct access.
-	- **Interspersed**: Drivers are added interspersed from both series: first place series A, first place series B, second place series A, second place series B, etc...
+	- **durch Zeit**: Alle Fahrer aus den Gruppen A und B sind nach ihrem *Runden/Zeiten* der Semifinals in die Startaufstellung positioniert.
+	- **verschachtelt**: Die Fahrer werden von beiden Gruppen gleichmäßig platziert: erster Platz Gruppe A, erster Platz Gruppe B, zweiter Platz Gruppe A, zweiter Platz Gruppe B, etc ...
+	!!! beachte ""
+		Für den Fall, dass die Summe der Fahrer mit direktem Aufstieg und denen, die durch Ihr Ergebnis Aufsteigen, nicht die Gesamtsumme der Fahrer pro Gruppe übereinstimmt, werden die weiteren Fahrer um die Gruppe zu komplettieren über *Runden/Zeit* hinzugefügt.
 
-	!!! note ""
-		In the case that the sum of drivers with direct access plus those promoted by position do not complete the total of drivers per series, The drivers necessary are promoted to complete the final/s according to results of *Laps/Time*.
+- **Gruppenverteilung**: Zeigt eine Zusammenfassung der Zusammenstellung der Sub-Finals nach den im Rennen registrierten Fahrern an, um zu überprüfen, ob die eingegebenen Daten die gewünschte Verteilung erzeugen.
 
-- **Driver distribution**: Shows a summary of the composition of the sub-finals according to the drivers registered in the race to verify that the data introduced generates the desired distribution.
-
-	- **Number + number**: drivers that participate in each series.
-	- **D**: Number of drivers that qualify with direct access from their qualifying results.
-	- **P**: Number of drivers that promote from the previous sub-final according to position. 
-	- **T**: Number of drivers that promote from the previous sub-final according to results of *Laps/Time*.
+	- **Nummer + Nummer**: teilnehmende Fahrer in jeder Gruppe.
+	- **D**: Anzahl der Fahrer, die je nach Qualifikationsergebnis *Direkt* zu jedem Subfinale oder Finale aufsteigen
+	- **P**: Anzahl der Fahrer, die je nach *Position* im vorhergehenden Subfinale zu weiteren Sub-Finals oder ins Finale aufsteigen
+	- **T**: Anzahl der Fahrer, die je nach Runden/Zeit (TIME)* im vorhergehenden Subfinale zu weiteren Sub-Finals oder ins Finale aufsteigen
 	
-##### Additional Actions
+##### zusätzliche Funktionen
 
-- **Generate Sub-finals**: Initialises or refreshes the list of sub-finals according to the configuration parameters introduced and the number of drivers registered in the race.
+- **Sub-Finals generieren**: Initialisiert oder aktualisiert die Liste der Sub-Finals entsprechend den eingegebenen Konfigurationsparametern und der Anzahl der im Rennen genannten Fahrer.
 
-- **Print direst access**: Once the qualifying heats are finalised, it allows the generation of the list of drivers with direct access to corresponding sub-finals.
+- **direkt qualifizierte drucken**: Sobald die Vorläufe abgeschlossen sind, kann hier eine Liste mit den direkt in die jeweiligen Finals qualifizierten Fahrern erstellt werden
 
-!!! warning "Generate Sub-finals"
-	After modifications are made to any of the configuration parameters of the christmas tree which causes the number of sub-finals, it will be necessary to click *Generate Sub-finals* so that the list of sub-finals in the race is refreshed.
+!!! Achtung "Subfinals generieren"
 
-	Until *Generate Sub-finals* is pressed at least once the list of sub-finals will not be generated so that the series are generated correctly in the panel [series](../user-guide/races/index.html#series)
+    Nachdem Änderungen an einem der Konfigurationsparameter des Aufsteigersystems vorgenommen wurden, der Einfluss auf die Anzahl der Sub-Finals hat, ist es notwendig auf *Sub-Finals erstellen* zu klicken um die Liste der Sub-Finals im Rennen zu aktualisieren.
+
+	erst nachdem *Subfinals generieren* ausgeführt wurde, werden auch die Gruppen im Panel [Gruppen](../user-guide/races/index.html#series) erzeugt.

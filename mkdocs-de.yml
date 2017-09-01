@@ -18,22 +18,22 @@ repo_url: https://github.com/Gusi/docs.everlaps.com
 
 pages:
 - Index: index.md
-- Quick start: quick-start.md
-- Manual detailed:
-    - Drivers: user-guide/drivers.md
-    - Races: user-guide/races.md
-    - Heats: user-guide/heats.md
-    - Config: user-guide/config.md
-    - Command line options: user-guide/commands.md
-- Race formats:
-    - Qualifying and finals: race-formats/qualify-finals.md
-    - Christmas tree: race-formats/christmas-tree.md
-    - Free practice: race-formats/free-practice.md
-- Common tasks:
-    - Penalties and corrections: common-tasks/punishments-corrections.md
-    - Change transponders: common-tasks/change-transponders.md
-    - Late entries: common-tasks/late-entries.md
-    - Tags: common-tasks/tags.md
+- Schnellstart: quick-start.md
+- ausführliches Handbuch:
+    - Fahrer: user-guide/drivers.md
+    - Rennen: user-guide/races.md
+    - Läufe: user-guide/heats.md
+    - Einstellungen: user-guide/config.md
+    - Befehlszeilenoptionen: user-guide/commands.md
+- Rennformate:
+    - Vorläufe und Finals: race-formats/qualify-finals.md
+    - Aufsteiger: race-formats/christmas-tree.md
+    - Freies Training: race-formats/free-practice.md
+- gemeinsame Aufgaben:
+    - Bestrafungen und Korrekturen: common-tasks/punishments-corrections.md
+    - Transponderwechsel: common-tasks/change-transponders.md
+    - Nachnennungen: common-tasks/late-entries.md
+    - Marker: common-tasks/tags.md
 
 markdown_extensions:
     - extra:
