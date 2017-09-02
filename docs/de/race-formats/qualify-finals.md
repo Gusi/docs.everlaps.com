@@ -1,91 +1,92 @@
-## Qualifying and finals
+## Vorläufe und Finale
 
-![Qualifying and finals](../img/qualy-finals.png)
+![Vorläufe und Finale](../img/qualy-finals.png)
 
-The race format *Qualification and Finals* defines by default the practice, re-ordering, qualifying and finals sessions, the first two of which can be removed if they are not going to be used in the race.
-
----
-
-##### General
-
-- **Name**: Race name. appears at the top of reports and as an identifier of the heats.
-
-- **Description**: Additional information that appears at the bottom of reports.
-
-- **Type**: Identifies the race format. In this case it will show *Qualifying and finals*.
-
-- **Web code**: The web code is obtained at the [Everlaps](http://everlaps.com) web site, and permits connecting with the race published on the web site and publishing its results and enabling the sending of data to *Live Timing*.
-
-- **Classes**: Identifies the race class so that the appropriate transponder can be chosen during manual driver registration.
+Das Rennformat * Vorläufe und Finale * definiert standardmäßig die Trainingssitzungen, Qualifikationen, Vorläufe und Finalsitzungen, die ersten beiden können entfernt werden, wenn sie nicht im Rennen eingesetzt werden.
 
 ---
 
-##### Announcements
+##### allgemeines
 
-- **Short name**: Short name that the Announcer uses to identify to what race an active heat belongs. Its use is only recommended when heats from different races are mixed. (For example when two classes are run on the same day), so that drivers can identify which of the classes the active heat  belongs to.
+- **Name**: Titel für das Rennen  der oben auf den Listen erscheint.
 
-- **Marshals**: The Announcer can call the marshals once the track is open for a heat until it starts.
-	
-	- **No call**: Does not call the marshals.
-	- **Previous Heat**: Names the drivers from the previous series to marshal. Only use if drivers from the same race marshal after running their heat.
+- **Beschreibung**: beschreibender Text der unten auf den Listen erscheint.
 
-- **Names drivers**: Establishes how the drivers are to be named by the announcer to give race position, final results etc...
-	
-	- **Nick name**: Uses the drivers nick name.
-	- **Uses vehicle number**: Uses the vehicles number assigned at registration.
-	
-- **Numbering**: Establishes the numbering system for vehicles during the race.
+- **Typ**: beschreibt das Renn-Format, in diesem Fall *Vorläufe und Finale*.
 
-	- **Re-number each session**: The vehicle numbers are modified each session depending on results obtained.
-	- **Registration number**: The same vehicle number is kept during all the race. All drivers have their own number and it is assigned on the registration panel.
+- **Web Code**: notwendig um Livezeiten und Ergebnisse im [Everlaps-Portal](http://everlaps.com) zu veröffentlichen.
 
-- **Vehicle**: Establishes vehicle type for announcer and lists (car or bike)
+- **Klassen**: Identifiziert die Rennklasse damit der entsprechende Transponder bei einer manuellen Fahrerregistrierung gewählt werden kann.
 
 ---
 
-##### Common
 
-- **Prologue**: The time that passes from when the heat (Start) button is pressed and the heat launches.
+##### Sprachansagen
 
-- **Minimum lap time**: minimum fastest lap time allowed by the race. Any time below this is interpreted as a short cut and will not be counted.
+- **Kurzname**: Kurzname, den der Ansager verwendet, um zu identifizieren, welches Rennen eine aktive Hitze gehört. Seine Verwendung wird nur empfohlen, wenn die Hitze von verschiedenen Rassen gemischt wird. (Zum Beispiel, wenn zwei Klassen am selben Tag laufen), so dass die Fahrer identifizieren können, welche der Klassen die aktive Wärme gehört.
+
+- **Streckenposten**: Die Streckenposten können hier aufgerufen werden, sobald die Strecke für den Lauf geöffnet wurde und bevor er beginnt.
+	
+	- **kein Aufruf**: ruft die Streckenposten nicht auf.
+	- **vorheriger Lauf**: ruft die Fahrer des vorangegangenen Rennens als Streckenosten auf
+
+- **Fahrer aufrufen**: legt Fest wie die Fahrer angesagt werden bei den Positionen im Rennen, Endergebnissen...etc...
+	
+	- **Kurzname**: nutzt den Kurznamen des Fahrers zum Aufruf
+	- **Startnummer**: nutzt die Starnummer des Fahrers zum Aufruf
+	
+- **Startnummern**: legt das Startnummernsystem für das aktuelle Rennen fest.
+
+	- **jede Session neu nummerieren**: abhängig vom Sessionergebnis werden die Startnummern während des Rennens neu vergeben.
+	- **feste Startnummern**: das Fahrzeug hat während des gesamten Rennens eine feste Startnummer ausgehend von der Nennung.
+
+- **Fahrzeug**: legt den Typ des Fahrzeuges fest (Auto oder Moto)
+
+---
+
+##### gemeinsames
+
+- **Warmup**: The time that passes from when the heat (Start) button is pressed and the heat launches.
+
+- **minimale Rundenzeit**: Minimale Rundenzeit für die jeweilige Strecke. Schnellere Runden werden automatisch als Abkürzung betrachtet und nicht gezählt.
  
-	!!! note ""
-		It is convenient that the minimum lap time be as tight as possible, apart from detecting shortcuts it is used by the announcement system during qualifying to calculate the race positions.
+	!!! beachte ""
+		Die minimale Rundenzeit sollte so eng wie möglich festgelegt werden, da sie neben der Abkürzungserkennung für die Sprachausgabe der Positionen während des Qualify herangezogen wird
 
-- **Last lap**: Time allowed to complete the last lap once the heat has ended (or the end of individual qualifying time). According to some regulations, it should be 150% of the time calculated for a lap.
+- **Letzte Runde**: Zeit zum Beenden der letzten Runde nachdem die Laufzeit um ist (oder das Ende der Qualify-Zeit erreicht ist). Entsprechend einiger Regelwerke sollte sie 150% der rechnerischen Rundenzeit nicht übersteigen.
 
-- **Finals delay**: For finals, establishes the time from the beginning of the final during which passings are not counted. This is useful on tracks where the starting grid crosses the finishing line, avoids drivers starting behind it getting a lap counted at the very beginning of the final.
+- **Finale Überfahrt Verzögerung**: legt die Zeit fest, in der nach Finalstart keine Überfahrten registriert werden - dies ist nützlich wenn die Maßschleife die Startaufstellung kreuzt
 
 ---
 
 #### Sessions
 
-##### Available actions
+##### mögliche Aktionen
 
-- **Add**: Allows adding a new practice session or re-ordering (if one does already not exist) or a personalised format.
-- **Delete**: Allows removing a selected session.
+- **hinzugfügen**: fügt ein neues Training, Qualify (sofern noch nicht vorhanden) oder benutzerdefiniertes Rennformat hinzu.
+- **löschen**: löscht die gewählte Session.
 
 ---
 
-##### Parameters
+##### Einstellungen
 
-- **Drivers/Series**: Number of drivers per series when the distribution is done automatically with the *Generate* option on the [series](../user-guide/races/index.html#series) panel. In the series management tab the driver distribution can be changed with total liberty, so this value is not definitive.
+- **Fahrer/Gruppe**: maximale Anzahl an Fahrern jeder Gruppe in Sub-Finals oder Finale für die automatische *Generiere* Option im Tab [Gruppen](../user-guide/races/index.html#series). Im Gruppenmanagement kann die Fahrerverteilung aber auch per drag and drop total frei erfolgen...
 
-- **Series distribution**: Establishes how the drivers are automatically distributed into heats with the value *Drivers/Series*.
+- **Gruppenaufteilung**: gibt an wie die Fahrer unter Berücksichtigung des Wertes *Fahrer/Gruppe* in die Gruppen der einzelnen Läufe verteilt werden.
 
-	- **Complete in order**: Completes the series consecutively with the value *Drivers/Series*. Its normally used in finals to guarantee all finals have minimum number of drivers except the last. 
+	- **komplett in Reihenfolge**: Füllt die Gruppen nacheinander mit dem Wert *Fahrer/Gruppe*. Dies wird normalerweise in den Finals verwendet um diese voll besetzt zu bekommen - nur die letzte Gruppe ist hier kleiner.
 	 
-		*For example, a race with 26 drivers with 10 drivers per series, 3 series are generated A, B and C with 10, 10 and 6 drivers respectively.*
+		*Bei einem Rennen mit 26 Fahrern mit z.B. 10 Fahrer/Gruppe werden 3 Gruppen generiert: A B and C with 10, 10 und 6 Fahrern.*
  
-	- **Uniform distribution**: Distributes by trying to find a even distribution of drivers in all the series without exceeding the value *Drivers/series*. It can be used in qualifying to even out the number of drivers on the track.
+	- **gleichmäßige Verteilung**: Distributes by trying to find a even distribution of drivers in all the series without exceeding the value *Drivers/series*. It can be used in qualifying to even out the number of drivers on the track.
 
 		*For example, The same race with 26 drivers with 10 per qualifying series would generate 3 series 1, 2 and 3 with 7, 7 and 8 drivers respectively.* 
 
-- **Rounds**: The number of heats each series runs.
+- **Durchgänge**: die absolute Anzahl an Läufen pro Serie.
 
-- **Counted**: The number of heats counted for the results of each session.
+- **Wertung**: die gewertete Anzahl an Läufen pro Serie.
 
-- **Duration**: Duration of each heat.
+- **Dauer**: Auer jedes Laufes.
 
 ---
 

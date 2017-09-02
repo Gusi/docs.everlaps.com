@@ -6,11 +6,11 @@ Das freie Training funktioniert anders als die anderen Rennformate, die alle vor
 
 Im freien Training gibt es eine einzige Session und Gruppe, wo alle Fahrer die auf die Strecke gehen, an einem oder mehreren Läufen teilnehmen.
 
-##### allgemein
+##### allgemeines
 
-- **Name**: Titel für die Runde des freien Trainings.
+- **Name**: Titel für die Runde des freien Trainings der oben auf den Listen erscheint.
 
-- **Beschreibung**: besschreibender Text der oben auf den Listen erscheint.
+- **Beschreibung**: beschreibender Text der unten auf den Listen erscheint.
 
 - **Typ**: beschreibt das Renn-Format, in diesem Fall *Freies Training*.
 
