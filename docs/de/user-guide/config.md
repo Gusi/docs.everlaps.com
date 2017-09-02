@@ -1,6 +1,6 @@
 ## &fa-gears; Konfiguration
 
-Allows configuring general application parameters.
+erlaubt die Einstellung der allgemeinen Programmparameter
 
 ## Optionen der Konfiguration
 
@@ -8,7 +8,7 @@ Allows configuring general application parameters.
 
 #### &fa-microphone; Stimmen
 
-Everlaps benötigt für vollen Funktionsumfang die Installation synthetische Stimmen *TTS (Text To Speech)*. Zwei der bekanntesten Anbieter sind *Ivona* und *Loquendo*, darüberhinaus kann Everlaps mit jedem *TTS* SAPI5 kompatiblen System zusammenarbeiten.
+Everlaps benötigt für vollen Funktionsumfang die Installation synthetischer Stimmen *TTS (Text To Speech)*. Zwei der bekanntesten Anbieter sind *Ivona* und *Loquendo*, darüberhinaus kann Everlaps mit jedem *TTS* SAPI5 kompatiblen System zusammenarbeiten.
 
 - **Erststimme/Zweitstimme**: Allows selecting the desired voice among those available in the system. For a better experience a female voice is recommended as primary, and a male voice as secondary (Marianne und Hans mit Ivona, oder Kate and Simon mit Loquendo).
 

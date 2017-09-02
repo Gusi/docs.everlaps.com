@@ -46,7 +46,7 @@ Das Rennformat * Vorläufe und Finale * definiert standardmäßig die Trainingss
 
 ##### gemeinsames
 
-- **Warmup**: The time that passes from when the heat (Start) button is pressed and the heat launches.
+- **Warmup**: Zwischenzeit nachdem der (Start) Knopf gedrückt wurde bis zum Beginn des Laufes.
 
 - **minimale Rundenzeit**: Minimale Rundenzeit für die jeweilige Strecke. Schnellere Runden werden automatisch als Abkürzung betrachtet und nicht gezählt.
  
@@ -76,11 +76,11 @@ Das Rennformat * Vorläufe und Finale * definiert standardmäßig die Trainingss
 
 	- **komplett in Reihenfolge**: Füllt die Gruppen nacheinander mit dem Wert *Fahrer/Gruppe*. Dies wird normalerweise in den Finals verwendet um diese voll besetzt zu bekommen - nur die letzte Gruppe ist hier kleiner.
 	 
-		*Bei einem Rennen mit 26 Fahrern mit z.B. 10 Fahrer/Gruppe werden 3 Gruppen generiert: A B and C with 10, 10 und 6 Fahrern.*
+		*Bei einem Rennen mit 26 Fahrern mit z.B. 10 Fahrer/Gruppe werden 3 Gruppen generiert: A B und C mit 10, 10 und 6 Fahrern.*
  
-	- **gleichmäßige Verteilung**: Distributes by trying to find a even distribution of drivers in all the series without exceeding the value *Drivers/series*. It can be used in qualifying to even out the number of drivers on the track.
+	- **gleichmäßige Verteilung**: Füllt die Gruppen gleichmäßig mit dem Wert *Fahrer/Gruppe*. Dies wird normalerweise in den Vorläufen verwendet in allen Gruppen gleichmäßig viele Fahrer auf der Strecke zu haben.
 
-		*For example, The same race with 26 drivers with 10 per qualifying series would generate 3 series 1, 2 and 3 with 7, 7 and 8 drivers respectively.* 
+		*Bei einem Rennen mit 26 Fahrern mit z.B. 10 Fahrer/Gruppe werden 3 Gruppen generiert: A B und C mit 7, 7 und 8 Fahrern.*
 
 - **Durchgänge**: die absolute Anzahl an Läufen pro Serie.
 
@@ -90,85 +90,85 @@ Das Rennformat * Vorläufe und Finale * definiert standardmäßig die Trainingss
 
 ---
 
-##### Announcements
+##### Sprachausgabe
 
-- **Type of narration**: Establishes the type of information the system announces during the race.
+- **Srachausgaben-Typ**: Legt die Informationen fest, die während des Rennens per Sprachausgabe durchgegeben werden.
 
-	- **Race situation**: Periodically the the race situation, drivers positions and distance between them are announced.
+	- **Rennsituation**: In regelmäßigen Abständen werden die Rennsituation, Fahrerpositionen und Abstand zwischen den Fahrern angesagt.
 	
-		!!! note ""
-			In qualifying heats, as each driver has their own chrono, it is possible that there will be slight pauses between announcements for each driver. This is completely normal and depends on the distance between the start of each drivers chrono and the reliability of the minimum lap value established for the race. 
+		!!! beachte ""
+			Da in den Vorläufen jeder Fahrer eine eigene Rennzeit hat, kann es zwischen den Sprachausgaben für jeden Fahrer in Abhängikeit des Abstandes zum nächsten Fahrer kleine Pausen geben.
 	
-	- **Position when passing finishing line**: Each time a driver crosses the finishing line the drivers position is announced. This mode is only applied to finals, since all drivers have a common chrono.
+	- **Position bei Überfahrt**: Jedes Mal, wenn ein Fahrer die Meßschleife überquert, wird die Fahrerposition ausgegeben. Dieser Modus wird nur auf das Finale angewendet, da alle Fahrer eine gemeinsame Startzeit haben.
 	
-	- **Mixed (position when passing finishing line + race situation)**: Uses the *position when passing finishing line* and, periodically *race situation* is announced.
+	- **gemischt (Position bei Überfahrt + Rennsituation)**: gibt die *Position bei Überfahrt* und regelmäßig auch die *Rennsituation* aus.
 	
-	- **No narration**: No announcements are made regarding race situation or drivers positions.
+	- **keine Sprachausgabe**: es erfolgen bezüglich der Rennsituation und Position im Rennen keine Sprachausgaben.
 
-- **First narration**: Time from the start of the heat until race situation announcements start being made (generally the announcements start once the race leader passes the finish line after the first narration time has elapsed, therefore there can be a slight delay beyond that of the set time). 
+- **erste Platzierung**: Zeit nach Start des Laufes bevor die erste Platzierung angesagt wird - das Fahrerfeld sollte bei diesem Wert mindestens eine Runde absolviert haben. 
 
-- **Narration Interval**: Time between announcements once the first has been made.
+- **Platzierung**: Intervall zwischen den einzelnen Ansagen der Platzierung nach dem die erste Ansage erfolgt ist.
 
-- **Race time interval**: Interval between race time announcements.
+- **Rennzeit**: Intervall zwischen den einzelnen Ansagen der Rennzeit nach dem die erste Ansage erfolgt ist.
 
-- **Race time mode**: Establishes the race time mode for the time used in *Race time Interval*.
+- **Rennzeit Modus**: setzt den Rennzeitmodus für die Sprachausgabe der *Rennzeit*
 
-	- **Elapsed**: Uses the time elapsed from beginning of heat.
-	- **Remaining**: Uses the time remaining until the end of heat.
+	- **abgelaufen**: gibt die abgelaufene Zeit seit Beginn des Laufes aus.
+	- **verbleibend**: gibt die verbleibende Zeit bis zum Ende des Laufes aus.
 
 ---
 
 ##### Format
 
-- **Session format**: Defines the configuration parameters most used to chrono, and also allows personalised adjustment of each parameter.
+- **Sessions-Format**: legt die Einstellung für die Zeitmessung in allen Abschnitten des Rennens fest
 
-	- **qualifying consecutive laps**: This is normally used for re-ordering heats. Each pilots starts their own chrono with the first passing of the finishing line, the sum of the 3 fastest consecutive laps are counted.These are established as *Laps result* value.
+	- **Vorläufe beste aufeinanderfolgende Runden**: Dies wird normalerweise für das Qualify zu den Läufen verwendet. Jeder Pilot startet mit dem ersten Durchgang der Ziellinie seine eigene Zeitmessung, die Summe der 3 schnellsten aufeinanderfolgenden Runden wird dann gewertet. Diese Anzahl Runden (in dem Beispiel 3) wird als Wert in *Rundenergebnis* festgelegt.
 
-	- **Staggered qualifying (points or best result)**: The system calls each driver in turn according to session ranking, with a configured time interval, indicted in the field *Launched start delay*. The option for points or best result are established in the field *Session points type* for the session.
+	- **Vorläufe gestaffelter Start (Punktewertung oder bestes Ergebnis)**: Das System ruft jeden Fahrer einzeln entsprechend seiner Session-Position nach einem im Feld *Abstand verzögerter Start* angegebenen Zeitintervall zum starten auf. Wurde die Punktewertung gewählt, so ist im Feld *Punkte-System* zusätzlich die gewünschte Punkteverteilung zu setzen.
 
-	- **flying start qualifying (points or best result)**: Similar to the previous, but each driver can find their own space on the track and starts their own chrono when they pass the finishing line for the first time.
-
-	- **Finals**: Starting grid launch and in grid order, with the start of the chrono the instant the horn sounds.
+	- **Vorläufe fliegender Start (Punktewertung oder bestes Ergebnis)**: vergleichbar zu den vorherigen Schemas, mit dem Unterschied, dass sich die Fahrer aus den Aufwärmrunden heraus direkt ins Rennen starten. Die individeuelle Zeitmessung beginnt, sobald der Fahrer das erste Mal die Meßschleife passiert.
+ 
+	- **Finale (Punktewertung oder bestes Ergebnis)**: Start aus der Startaufstellung in Reihenfolge der Rennpositionen. Die Zeitmessung beginnt mit dem Start durch einen Signalton.
 	
-	- **Practice (points or best result)**: Similar to flying start qualifying, but the chrono starts with the sound of the horn instead of waiting for the first passing of the finishing line.
+	- **Training (Punktewertung oder bestes Ergebnis))**: vergleichbar zum fliegenden Start in den Vorläufen, nur startet die Zeitmessung mit dem Signalton anstelle auf die erste Überfahrt zu warten.
 	
-!!! note ""
-	The format can be modified even thou heats of the session have already been run. The system re-calculates the results according to the new parameters and the laps recorded.
+!!! beachte ""
+	Das Format kann modifiziert werden, selbst wenn die Session bereits ausgeführt wurde! Das System berechnet dann die Ergebnisse anhand der neuen Parametern und den aufgezeichneten Runden neu.
 
-##### Personalised Format
+##### benutzerdefiniertes Format
 
-Allows configuring each of the parameters.
+dies erlaubt die freie Konfiguration jedes Rennparameters
 
-- **Start chrono**: Defines when the chrono starts.
+- **Messung starten**: definiert wann die Zeitmessung gestartet wird
 
-	- **Start on horn**: The chrono start on the starting horn.
-	- **start on first passing**: The chrono starts with the first passing of the finishing line by any of the drivers in the heat.
+	- **bei Signalton**: Die Zeitmessung startet mit dem Signalton.
+	- **bei erster Überfahrt**: Die Zeitmessung startet bei der ersten Überfahrt eines der Fahrer über die Meßschleife.
 	
-- **Chrono mode**: Defines individual chrono management
+- **Messmodus**: definiert den individuellen Meßmodus
 
-	- **Individual**: Each driver starts their own chrono (qualifying).
-	- **shared**: The chrono start is common to all the drivers (finals).
+	- **individuell**: jeder Fahrer wird einzeln gemessen (Vorläufe).
+	- **gemeinsam**: Die Zeitmessung startet für alle Fahrer gemeinsam (Finals).
 
-- **Delayed chrono**: Defines when chrono starts for drivers that have not passed the finishing line for the first time.
+- **Verzögerung Zeitmessung**: definiert den Start der Zeitmessung für Fahrer, die nach Rennstart die Meßschleife noch nicht passiert haben.
 
-	- **First lap completed**: The chrono starts when the first driver completes first lap.
-	- **After time delay**: The chrono starts after the time delay defined in *Delayed chrono time* once the heat has started.
+	- **erste komplette Runde**: die Zeitmessung startet sobald der erste Fahrer seine erste Runde abgeschlossen hat.
+	- **verzögert**: die Zeitmessung beginnt nach der bei *Verzögerung Zeitmessung* eingegebenen Zeit nachdem der Lauf gestartet wurde.
 
-- **Delayed chrono time**: for the *After time delay* mode, Indicated the time delay before the chrono starts for drivers that have not passed the finishing line.
+- **Verzögerungszeit**: gibt beim Modus *verzögert* an, nach welcher Zeitspanne die Zeitmessung für Fahrer beginnt die nach Rennstart die Meßschleife noch nicht passiert haben.
 
-- **Start mode**: Defines the format in which drivers start the heat.
+- **Start Modus**: Definiert die Art des Startes der Läufe.
 
-	- **Grid**: The system executes a count down, and after the count reaches 3 a random delay is executed followed by the heat start horn.
-	- **Staggered**: The system launches the drivers one at a time.
-	- **Flying**: A full countdown is executed so that each driver can find a space on the track.
+	- **Startreihen**: Das System führt einen Countdown aus bei dem nach Ablauf und Zufallsverzögerung der Start durch Signal erfolgt.
+	- **gestaffelt**: Das System lässt jeden Fahrer einzeln starten.
+	- **fliegend**: während der Einführungsrunden wird ein interner Countdown ausgeführt nach dem der fliegende Start für jeden Fahrer auf der Strecke erfolgt.
 
-- **Minimum count down time**: Only for *Grid* mode, minimum time delay after last number in the count down, before the start horn.
+- **minimale Countdownzeit**: Only for *Startreihen* mode, minimum time delay after last number in the count down, before the start horn.
 
-- **Random count down time**: Only for *Grid mode, random time delay after minimum count down time, before the start horn. *For example, a configured minimum count down time of 2 seconds, and a random count down time of 3 seconds, would mean that after the countdown from 10 to 3, the program will wait between 2 and 5 seconds to sound the start horn.*
+- **Zufalls-Countdown**: Only for *Startreihen* , random time delay after minimum count down time, before the start horn. *For example, a configured minimum count down time of 2 seconds, and a random count down time of 3 seconds, would mean that after the countdown from 10 to 3, the program will wait between 2 and 5 seconds to sound the start horn.*
 
-- **Staggered start time delay**: For *Staggered* mode only, indicates the time delay between calls to drivers.
+- **Verzögerung gestaffelter Start**: For *gestaffelt* mode only, indicates the time delay between calls to drivers.
 
-- **Staggered start order**: Defines if in each round the start order is recalculated depending on session results.
+- **Reihenfolge gestaffelter Start**: Defines if in each round the start order is recalculated depending on session results.
 
 	- **Re-order each round**: Enables re-ordering. This is the default option for staggered start.
 	- **Fixed order**: Maintains the same order in all the rounds.
@@ -204,40 +204,40 @@ Allows configuring each of the parameters.
 
 ---
 
-##### Tie breakers
+##### Gleichständler
 
-Permits establishing how to solve tie breaks, in the case that various drivers obtain the same number of global points in the computable heats for a session.
+Diese Funktion ermöglicht die Rangeinteilung der Fahrer bei gleichem Ergebnis / gleicher Punktzahl nach Abschluss der gültigen Läufe (Gleichstand) 
 
-- **Tie break format**
-	- **Default**: Only valid heats are used, first position is used, then in case of tie results.
-	- **Personalized**: Permits establishing all tie breaker properties.
+- **Gleichstandsformat**
+	- **standard**: nur gültige Läufe werden genutzt und es werden dort die Positionen der Gleichständler verglichen
+	- **benutzerdefiniert**: hier können benutzerdefinierte Regelungen zur Behebung des Gleichstandes festgelegt werden.
 	
-##### Personalized tie breaker format
+##### benutzerdefinierte Gleichstandsauflösung
 
-- **Heats discarded in tie breaker**: Number of heats discarded used to resolve tie break. The value 0 indicates that no discarded heats are used.
-- **Use of discarded heats**: Establishes in which moment the results of discarded heats are used.
-	- **Before comparing individual valid heats**: The individual results of discarded heats are used BEFORE individual results of valid heats.
-	- **After comparing individual valid heats**: The individual results of discarded heats are used AFTER individual results of valid heats. 
+- **verworfene Läufe bei Gleichstand**: Gibt die Anzahl an verworfenen Läufen an die zur Auflösung des Gleichstandes herangezogen werden. Der Wert 0 bedeutet keine.
+- **verworfene Läufe nutzen**: gibt an in welchem Moment die verworfenen Läufe mit herangezogen werden.
+	- **vor dem Verlauf der gültigen Läufe**: Die individuellen Ergebnisse aus den verworfenen Läufen werden VOR dem Vergleich der gültigen Läufe angewendet.
+	- **nach dem Verlauf der gültigen Läufe**: Die individuellen Ergebnisse aus den verworfenen Läufen werden NACH dem Vergleich der gültigen Läufe angewendet.
 	
-		*For example, In 5 round qualifying where the best 3 count not being able to resolve a tie breaker the 4th best round will be used if tie breaker persists the 5th, before comparing the positions of the best 3 rounds.*
+		*Wenn sich beispielsweise ein Gleichstand ergibt bei 5 Vorläufen und davon 3 gewerteten, dann werden zur Auflösung nacheinander auch der 4. Lauf und der 5. Lauf herangezogen - und dies je nach Wahl vor bzw nach dem Vergleich der Positionen in den 3 gewerteten Läufen.*    
 
-- **Tie break by position**: Establishes the mode of individual comparison by position obtained in each heat (only if results are by points)
-	- **Best position**: Uses comparison mode based on points obtained.
-	- **disabled**: Does not use position based tie breakers.
-- **Tie break by result**: Establishes individual results based comparison mode laps/time for each of the heats.
-	- **Best result**: Individual results based comparison of heats laps/time.
-	- **Combined results**: The tie-break is calculated by the sum of laps/time of all valid heats.
+- **Position Gleichstand**: Establishes the mode of individual comparison by position obtained in each heat (nur bei Punktewertung)
+	- **beste Position**: Vergleichsmodus auf der Grundlage der entsprechend der Position erhaltenen Punkte.
+	- **nicht verwenden**: keine Nutzung der Position für Gleichstände.
+- **Ergebnis Gleichstand**: setzt den Modus für die Gleichstandsauflösung auf die individuellen Ergebnisse aus Runden/Zeit für jeden der Läufe.
+	- **bestes Ergebnis**: zieht das beste Ergebniss aus Runden/Zeit zur Auflösung heran...
+	- **kombinierte Ergebnisse**: zieht die Summe der Ergebniss aus Runden/Zeit aller gültigen Läufe zur Auflösung heran...
 	
-!!! note "Tie break resolution by individual comparison"
-	In the case where several drivers obtain the same points results (or laps/time), The following tie breaker process is established:
+!!! beachte "Gleichstandsauflösung durch Einzelvergleich"
+	Für der Fall dass mehrere Fahrer die gleichen Punkte (oder Runden/Zeit) haben, ist der Modus der Gleichstandsauflösung wie folgt:
 
-	- The driver with the best position in best heat wins. If the tie breaker persists the second best heat is used, and so on only valid heats (only if the result is by points)
-	- If tie break still exists, The driver with the best result (laps/time) in best heat wins. If tie break still exists the second best heat is compared, and so on only valid heats. 
+	- Der Fahrer mit der besten Position im Lauf gewinnt. Wenn der Gleichstand anhält, wird die zweitbeste Lauf verwendet, und so weiter (nur für gültige Läufe und nur wenn das Ergebnis nach Punkten ermittelt wird)
+	- Wenn der Gleichstand weiterhin existiert, gewinnt der Fahrer mit dem besten Ergebnis (Runden/Zeit) im besten Lauf. Wenn der Gleichstand weiterhin existiert, die wird der zweitbeste Lauf verglichen, und so weiter (nur für gültige Läufe)
 
 ---
 
-#### Tags
+#### Marker
 
-Allows assigning Tags for a race. For more information in the [Tags](../common-tasks/tags/index.html) section.
+erlaubt das Hinzufügen von Markern zum Rennen - für nähere Informationen siehe [Marker](../common-tasks/tags/index.html) section.
 
-- **Re-calculate points when filtering results by tag**: if enabled, when generating a filtered result based on tags points are re-calculated for the session only for the drivers with the specific tag. The results may vary compared with that of the disabled option and that of the filtered general result, since re-calculating the results depending on points format, the final sum could designate different positions to the drivers.
+- **Neuberechnen der Ergebnisse für die nach Marker gefilterten Werte**: wenn aktiviert, werden beim darauffolgenden Erzeugen der Ergebnisse nur die Fahrer mit den angegebenen Markern zur Berechnung herangezogen - damit können z.B. Altersgruppenwertungen innerhalb des Rennens parallel erzeugt werden. 
