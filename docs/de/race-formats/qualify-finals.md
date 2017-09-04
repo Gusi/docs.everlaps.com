@@ -162,45 +162,43 @@ dies erlaubt die freie Konfiguration jedes Rennparameters
 	- **gestaffelt**: Das System lässt jeden Fahrer einzeln starten.
 	- **fliegend**: während der Einführungsrunden wird ein interner Countdown ausgeführt nach dem der fliegende Start für jeden Fahrer auf der Strecke erfolgt.
 
-- **minimale Countdownzeit**: Only for *Startreihen* mode, minimum time delay after last number in the count down, before the start horn.
+- **minimale Countdownzeit**: nur bei *Startreihen* , kleinste Verweilzeit zwischen runterzählen des CountDowns und dem Signalton
 
-- **Zufalls-Countdown**: Only for *Startreihen* , random time delay after minimum count down time, before the start horn. *For example, a configured minimum count down time of 2 seconds, and a random count down time of 3 seconds, would mean that after the countdown from 10 to 3, the program will wait between 2 and 5 seconds to sound the start horn.*
+- **Zufalls-Countdown**: nur bei *Startreihen*, zufällig bestimmte Verzögerungszeitspanne zwischen runterzählen des CountDowns und dem Signalton *Eine minimale Countdownzeit von 2 s und zufällig bestimmte Verzögerungszeitspanne von 3 s bedeutet dass nach dem CountDown von 10 bis 3 das Programm 2 s wartet und danach im Zeitraum zwischen 1 - 2 s das Startsignal gibt.*
+- **Verzögerung gestaffelter Start**: nur bei *gestaffelt*, bestimt die Zwischenzeit zwichen den Einzelnen Fahreraufrufen.
 
-- **Verzögerung gestaffelter Start**: For *gestaffelt* mode only, indicates the time delay between calls to drivers.
+- **Reihenfolge gestaffelter Start**: Legt fest, ob in jeder Runde die Startreihenfolge je nach Sitzungsergebnis neu berechnet wird.
 
-- **Reihenfolge gestaffelter Start**: Defines if in each round the start order is recalculated depending on session results.
+	- **Startreihenfolge neu**: Ermöglicht die Neuordnung. Dies ist die Standardoption für gestaffelten Start
+	- **feste Reihenfolge**: Behält die gleiche Reihenfolge in allen Runden bei
 
-	- **Re-order each round**: Enables re-ordering. This is the default option for staggered start.
-	- **Fixed order**: Maintains the same order in all the rounds.
+- **Ergebnistyp**: Defines the values which are used to calculate the session results:
 
-- **Results type**: Defines the values which are used to calculate the session results:
+	- **Runden/Zeit**: die Anzahl Runden und die entsprechende Zeit wird als Berechnungsgrundlage für das Ergebnis genommen.
+	- **aufeinanderfolgende Runden**: Mindestestzeit, um N aufeinander folgende Runden zu vervollständigen (Startreihenfolge neu).
+	- **festgelegte Runden**: Zeitspanne um eine festgelegte  Anzahl aufeinander folgende Runden zu vervollständigen (Formel 1).
 
-	- **Laps / Time**: Total amount of laps and time are used to calculate.
-	- **Consecutive Laps**: Least amount of time to complete N consecutive laps (Re-ordering).
-	- **Fixed Laps**: Amount of time to complete a fixed number of laps (Formula 1 type).
+- **Rundenergebnis**: Anzahl der Runden für *aufeinanderfolgende Runden* und *festgelegte Runden*.
 
-- **Result laps**: Number of laps to count for *consecutive laps* and *fixed laps* modes.
+- **Ergebnisbereich**: Definiert den Anwendungsbereich der Session-Ergebnisse auf die Gruppe der Fahrer.
+	- **gemeinsam**: alle Fahrer werden zusammen ausgewertet für das Ergebnis (Vorläufe).
+	- **je Gruppe**: nur Fahrer der selben Gruppe werden zum Ergebnis herangezogen (Finale).
 
-- **Results scope**: Defines the group of drivers included in session results.
+- *Wertungstyp**: Legt den Wertungstyp für die Session fest
 
-	- **Global**: All drivers are taken into account for general classification (qualifying).
-	- **Per series**: Only drivers from the same series are used (Finals).
+	- **Punkte**: die Sitzungsergebnisse werden anhand eines Punktesystemes ausgewertet. Standardmäßig ist dies z.B. bei Elektrofahrzeugen anhand der Position in jeder Runde (0, 2, 3 ... für die Vorläufe und  1, 2, 3 ... für Finale).
+	- **bestes Ergebnis**: für die Sitzungsergebnisse wird jeweils nur der beste Wert aus Runden/Zeit herangezogen, die Position hat keinen Einfluss.
 
-- **Points type**: Establishes the session points type
+- **Punktesystem**: Stellt das jeweilige Punktesystem je nach der Möglichkeiten des Programmes ein.
 
-	- **Points**: A system of points is established for the session results. By default for electric vehicles position obtained in each round (0, 2, 3… for qualifying ; 1, 2, 3... for finals)
-	- **Best result**: Best result is chosen laps/time position having no bearing.
+- **Wertungsläufe je Gruppe**: Legt fest, wie viele Läufe in jeder Gruppe gewertet werden. Dies ist zum Beispiel für Finale geeignet, um in der A-Serie 3 Finalrunden zu fahren und 2 werten zu lassen und aber in Serie B (nur) ein einziges Finale zu fahren.
 
-- **Points system**: Establishes points system among those supported by the program.
-
-- **Series with complete rounds**: Establishes how many heats count in each series. This is useful for, for example, finals permitting the A series to run 3 rounds of finals counting 2, leaving the series B onward to run a single final.
-
-	- **All series**: All series score points with the same number of heats. There is no difference between series with respect to number of rounds and heats which score points.
+	- **alle Gruppen**: Alle Serien werden mit der gleichen Anzahl an Läufe gewertet. Es gibt keinen Unterschied zwischen der Serie in Bezug auf die Anzahl der gewerteten Runden und Läufe.
 	
-	- **Premier series**: Only premier series score points in the heats established in the general configuration for the session, the rest the value established in *Lower series rounds*.
+	- **vorderste Gruppen**: Nur in der führenden Gruppen werden alle Wertungsläufe je Gruppe entsprechend der Rennkonfiguration angewendet, für die restlichen Gruppen gilt der Wert aus *Wertungsläufe niedrigere Gruppen*.
 	
-		- **Until series**: Defines Until what series (inclusive) all the heats are run. For example if only 3 rounds of finals are required for series A, this value should be 1.
-		- **Lower series rounds**: Number of rounds that score points for the lower series. For example series below A only score points in 1 heat.
+		- **bis Gruppe**: Definiert bis zu welcher Gruppe (inklusive) die Wertungsläufe nach Konfiguration angewendet werden. Zum Beispiel, wenn 3 Runden Finale nur für Gruppe A erforderlich ist, muss der Wert auf 1 gesetzt sein.
+		- **Wertungsläufe niedrigere Gruppen**: definiert die Anzahl an gewerteten Läufen für die niedrigeren Gruppen. Wenn für die Gruppen B...C...D nur 1 von 3 Läufen gewertet werden soll, dann ist der Wert 1.
 
 ---
 
@@ -238,6 +236,6 @@ Diese Funktion ermöglicht die Rangeinteilung der Fahrer bei gleichem Ergebnis /
 
 #### Marker
 
-erlaubt das Hinzufügen von Markern zum Rennen - für nähere Informationen siehe [Marker](../common-tasks/tags/index.html) section.
+erlaubt das Hinzufügen von Markern zum Rennen - für nähere Informationen siehe [Marker](../common-tasks/tags/index.html)
 
 - **Neuberechnen der Ergebnisse für die nach Marker gefilterten Werte**: wenn aktiviert, werden beim darauffolgenden Erzeugen der Ergebnisse nur die Fahrer mit den angegebenen Markern zur Berechnung herangezogen - damit können z.B. Altersgruppenwertungen innerhalb des Rennens parallel erzeugt werden. 
