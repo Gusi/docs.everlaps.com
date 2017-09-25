@@ -79,11 +79,11 @@ Der Bildschirm ist horizontal zweigeteilt:
 
 ##### Felder
 
-- **Name, Surname and Nick name**: These values are copied directly from the database. They can be modified on the [drivers](./drivers/index.html) screen. This change will affect all the races that the driver is registered in.
+- **Name, Nachname und Kurzname**: Diese Werte werden direkt aus der Datenbank kopiert über das Menue [Fahrer](./drivers/index.html). Änderungen werden in allen Rennen übernommen, in denen der Fahrer genannt ist.
 
-- **Transponder und Rang**: These fields can be changed and will only affect the selected race. If a transponder is changed, a dialog window will ask permission to change it to the default transponder in the database for future races, if the driver belongs to an active heat, a dialogue will ask permission to hot-swap the transponder number. See [transponder changes](../common-tasks/change-transponders/index.html) for more information.
+- **Transponder und Rang**: Änderungen dieser Felder wirken sich nur auf das betreffende Rennen aus. Wenn der Transponder geändert wird, erscheint ein Dialog in dem die Erlaubnis zum Ändern des Stardardtransponders für künftige Rennen des Fahrers abgefragt wird. Wenn sich der Fahrer zudem einem aktiven Lauf angehört, wird die Erlaubnis zum HotSwap (heißer Tausch) abgefragt. Siehe [Transponder ändern](../common-tasks/change-transponders/index.html) für weitere Informationen.
 
-- **Ausgeschlossen**: The penalised driver will be placed last in all race results. The excluded drivers will no longer be included in the automatic generation of new series. See [penalties and corrections](../common-tasks/punishments-corrections/index.html) for more information.
+- **Ausgeschlossen**: Der bestrafte Fahrer wird als letzter in allen Rennergebnissen gesetzt. Der ausgeschlossene Fahrer wird nicht länger beim automatischen generieren neuer Gruppen berücksichtigt. Siehe [Bestrafungen und Korrekturen](../common-tasks/punishments-corrections/index.html) für weitere Informationen.
 
 #### verfügbare Fahrer
 
@@ -108,13 +108,13 @@ Der Bildschirm in diesem Bereich ist zweigeteilt:
 
 - **Session**: Wählt die Session aus für die die Gruppen gezeigt werden sollen.
 
-- **Generieren**: Automatically generates a list of series with the number of drivers per series indicated in the session configuration, following rank order or based on the results of previous sessions, according to the parameters selected in the following dialogue:
+- **Generieren**: Automatisches Generieren der Gruppen mit der Anzahl der Fahrer pro Gruppe wie in der Konfiguration der Session angegeben, je nach den im folgenden Dialog ausgewählten Parametern etweder nach Rangordnung oder basierend auf den Ergebnissen der vorherigen Sitzungen.
 	
 	![Gruppen einteilen](../img/serie-distribution-selection.png)
 
-	- **Fahrer Rang**: Driver order is defined by ranking.
-	- **Kopiere Von Session**: Driver distribution is copied exactly the same as established in the session selected in the lower list.
-	- **Session Ergebnis**: The driver order is defined by the results of the session selected in the lower list.
+	- **Fahrer Rang**: Die Fahrerreihenfolge wird durch das Ranking definiert.
+	- **Kopiere Von Session**: Die Fahrerverteilung wird genauso wie unten in der Liste ausgewählten Session definiert.
+	- **Session Ergebnis**: Die Fahrerreihenfolge wird aus dem Ergebnis der unten in der Liste ausgewählten Session definiert.
 
 		!!! beachte ""
 			Beim Generieren von Läufen auf Basis von Ergebnissen einer vorherigen Sitzung werden ausgeschlossene Fahrer ignoriert.
@@ -128,12 +128,12 @@ Der Bildschirm in diesem Bereich ist zweigeteilt:
 - **Bestätigen**: Erzeugt die Läufe entsprechend der Gruppenverteilung aus der Konfiguration.
 
 	!!! beachte ""
-		If after creating the heats new series are added, these can be *confirmed* and the heats for the new series will be added. It is also possible to move drivers once the heats are confirmed, the program is flexible in that way.
+	Das Programm ist so flexibel, dass nach dem ersten Erstellen der Läufe noch neue Gruppen hinzugefügt werden können. Durch das anschliessende * bestätigen * werden die zusätzlichen Läufe erstellt. Es ist auch möglich, Fahrer nach dem Bestätigen zu von Gruppe zu Gruppe zu bewegen sofern noch kein betreffender Lauf gestartet wurde.
 
-- **Drucken**: Prints the list of series with the drivers that are in each series.
+- **Drucken**: Druckt die Liste der Gruppen mit den zugehörigen Fahrern.
 
 - **Werkzeuge**:
-	- **Re-order heats**: Allows manual re-order of the actual series.
+	- **Gruppen neu ordnen**: erlaubt das manuelle Neurordnen der Gruppen in der Laufreihenfolge.
 
 #### Gruppeneinteilung
 
@@ -141,11 +141,11 @@ Die Fahrer können per drag & drop von einer Gruppe in eine andere umverteilt we
 
 ##### Felder
 
-- **Name, surname and Nick name**: These are the same as appear in the database.
+- **Name, Nachname und Kurzname**: Diese Felder entsprechen denen der Datenbank.
 
-- **Bester Lauf**: Allows a driver to be penalised with the loss of *best heat*. See [penalties and corrections](../common-tasks/punishments-corrections/index.html) for more information.
+- **Bester Lauf**: erlaubt es dass ein Fahrer mit dem *Verlust des besten Laufes* bestraft werden kann. Siehe [Bestrafungen und Korrekturen](../common-tasks/punishments-corrections/index.html) für weitere Informationen.
 
-- **Excluded**: A driver can be penalised and will occupy the last place in this session. Excluded drivers will not automatically be added to new sessions. See [penalties and correctiones](../common-tasks/punishments-corrections/index.html) for more information
+- **Ausgeschlossen**: Der bestrafte Fahrer wird als letzter in allen Rennergebnissen gesetzt. Der ausgeschlossene Fahrer wird nicht länger beim automatischen generieren neuer Gruppen berücksichtigt. Siehe [Bestrafungen und Korrekturen](../common-tasks/punishments-corrections/index.html) für weitere Informationen.
 
 #### Fahrer ohne Gruppen
 
