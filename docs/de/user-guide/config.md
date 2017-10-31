@@ -10,7 +10,7 @@ erlaubt die Einstellung der allgemeinen Programmparameter
 
 Everlaps benötigt für vollen Funktionsumfang die Installation synthetischer Stimmen *TTS (Text To Speech)*. Zwei der bekanntesten Anbieter sind *Ivona* und *Loquendo*, darüberhinaus kann Everlaps mit jedem *TTS* SAPI5 kompatiblen System zusammenarbeiten.
 
-- **Erststimme/Zweitstimme**: Allows selecting the desired voice among those available in the system. For a better experience a female voice is recommended as primary, and a male voice as secondary (Marianne und Hans mit Ivona, oder Kate and Simon mit Loquendo).
+- **Erststimme/Zweitstimme**: Erlaubt die Auswahl der Stimmen aus den im Betriebssystem installierten Möglichkeiten. Für eine bessere Verständlichkeit ist eine weibliche Stimme besser als Erststimme geeignet und die männliche als Zweitstimme (Marianne und Hans mit Ivona, oder Kate and Simon mit Loquendo).
 
 - **Geschwindigkeit**: der Schieberegler steuert die Geschwindigkeit der einzelnen Stimmen. Je nach Stimmbild sollte durch justieren und Testen das Stimmenverhalten angepasst werden.
 
@@ -41,7 +41,7 @@ Jeder Systemklang kann durch diesen Regler einzeln entsprechend den Bedürfnisse
 	!!! note ""
 		In einem * Finale * ist der Sound vom Führenden gleichbedeutend mit dem des schnellsten Fahrers.
 	
-		In a *qualifying heat*, Since each driver carries their own chrono, it does not imply that the driver is in the lead, only who is across the finishing line first.
+		In einem *Vorlauf*, da hier jeder Fahrer seine eigenen Zeit hat ist der Führende nicht der, der zuerst die Ziellinie überfährt.
 
 - **Lauf Start/Lauf Ende**: signalisiert den Start bzw. das Ende des Laufes.
 
@@ -50,7 +50,7 @@ Jeder Systemklang kann durch diesen Regler einzeln entsprechend den Bedürfnisse
 	
 		In eine * Vorlauf * signalisiert der Laufstart-Sound dass die Strecke offen ist - aber die Zeitmessung erfolgt erst wenn der erste Fahrer die Mess-Schleife überfährt. Der Klang für das Laufende signalisiert NICHT das allgemeine Laufende sondern die Phase des individuellen Laufendes. Das Rennen wird fortgesetzt bis jeder Fahrer entsprechend seiner Rennzeit eine persönliche Ankündigung des Laufendes gesagt bekommt. (Bsp: Max fertig...) 
 
-- **ungültige Trasponder**: wird ausgegeben wenn eine Überfahrtmit einem Transponder erkatt wird der zu keinem Fahrer im aktiven Rennen zugeordnet werden kann.
+- **ungültige Transponder**: wird ausgegeben wenn eine Überfahrt mit einem Transponder erkannt wird der zu keinem Fahrer im aktiven Rennen zugeordnet werden kann.
 
 ---
 
@@ -68,115 +68,115 @@ Das System unterstützt verschiedene Transponder und ihre Decoder-Systeme
 	
 	- **NullDecoder**: wenn keine Decoderverbindung eingerichtet ist, wird mit dieser Einstellung keine Schnittstelle abgefragt.
 	
-- **Filter if hits/signal lower than...**: For connections to AMB/MyLaps devices, ignores crossings with hit/signal values lower than indicated.
+- **Filter wenn Hits/Signal niedriger als...**: für Verbindungen zu AMB/MyLaps Decodern oder kompatiblen Geräten ignoriert Überfahrten mit hit/signal Werten kleiner als angegeben
 
-- **Permits invalid transponders to start heat**: By defect only valid transponders are allowed to start heats that wait for the first crossing to start the chrono (generally qualifying is started with a rolling start). If this option is enabled, it will permit an invalid transponder to start the chrono. 
+- **Ungültige Transponder zum Laufstart erlauben**: wenn nicht angewählt werden nur gültige Transponder zum Start der Zeitmessung bei der ersten Überfahrt erlaubt (bei den Vorläufen über fliegenden Start). Wenn die Funktion aktiv ist, können auch ungültige Transponder diesen Lauf starten. 
+	
+	!!! beachte ""
+		Erlaubt einen ungültigen Transponder, um die Zeitmessung zu starten. Der ungültige Transponder kann nachträglich einem Fahrer zugewiesen werden und alle Runden (einschließlich der ersten Überfahrt) können automatisch wiederhergestellt werden.
 
-	!!! note ""
-		Permits an invalid transponder to start the chrono, the invalid transponder can be assigned to a driver afterwards and all the laps (including the first crossing) can be recovered automatically; otherwise, the first crossing will not be registered (since the heat has not started yet) and could not be recovered.
+- **manuelle Zählung erlauben**: Erlaubt die Programmoption des manuellen Zählens von Fahrern ohne Transponder.
 
-- **Permit manual counting**: Enables the program's manual counting option, for counting crossings of drivers without transponders manually.
+	- **Abkürzungen bei manueller Zählung erkennen**: Wenn aktiviert werden auch bei manueller Zählung Abkürzungen erkannt und die Runden dann als nicht gültig gewertet.
 
-	- **Detect short cuts when manual counting**: If enabled short cuts will be detected in crossings when manual counting and these will not be counted as valid laps.
+	- **Hot Keys erlauben**: Erlaubt die Nutzung der Hot Keys **F1 to F12** (Fahrer 1 bis 12) und **Ctrl+1, Ctrl+2 to Ctrl+0** (Fahrer von 11 bis 20) um einfach manell zu zählen ohne die Maus zu nutzen.
 
-	- **Permit hot keys**: Allows the use of hot keys **F1 to F12** (drivers 1 to 12) and **Ctrl+1, Ctrl+2 to Ctrl+0** (drivers from 11 to 20) to generate manual counting without using the mouse in the lap screen of the active heat.
-
-		!!! note "Hot Keys when manual counting"
-			The keys F1 to F12 and all the combinations of Ctrl+NUM function including when Everlaps is not in the foreground.
-
----
-
-#### &fa-print; Printing
-
-- **Print total race time in lap results**: In heat reports, total race time is included next to the lap time in the chronological information for each driver.
-
-- **Print graph with heat results**: In the heat reports, a graph will show the evolution of laps and standings for each driver over time.
-
-- **Print automatically at the end of each heat**: When each heat ends, the heat results will be printed automatically, as well as the round results (in the case that the recently completed heat has finalised the round) and also the session results (if there are 2 or more rounds completed).
-
-- **Use PDF viewer prior to printing**: When printing a report, it is opened with the default operating system PDF viewer ([Foxit Reader](http://www.foxitsoftware.com/Secure_PDF_Reader), [Adobe Reader](http://get.adobe.com/es/reader), etc...) instead of the printer.
-
-- **Printer**: Selects the system printer which the reports are sent to, as long as the *Use PDF viewer prior to printing* is not enabled.
+		!!! beachte "Hot Keys beim manuellen Zählen"
+			Die Tasten F1 bis F12 und alle Kombinationen incl. der Ctrl+NUM Funktion sind dann exklusiv genutzt auch wenn Everlaps läuft aber nicht im Vordergrund aktiv ist.
 
 ---
 
-#### &fa-gear; Default options
+#### &fa-print; Drucken
 
-- **Prologue/minimum lap/last lap/Delayed chrono time/Delayed launched start**: The values introduced in these fields are automatically assigned to new races that are generated by the program. Each field corresponds to a similar one in [Race configuration](../race-formats/qualify-finals/index.html#comun)
+- **Rennzeit in Runden Detail mit drucken**: Direkt neben der Rundenzeit wird beim Aktivieren dieser Option die entsprechende aktuelle Rennzeit mit ausgegeben.
 
-- **Invert numbering of practice and qualifying series**: By default the series where each diver has an individual chrono are numbered from 1 on-wards, 1 being the series which contains the drivers of higher ranking and is scheduled to run last in the round. If this option is enabled, The qualifying series are numbered reverse order (series 1 will contain the drivers of least ranking and will be scheduled to run in first).
+- **Ausdruck mit Positionen während des Laufes hinzufügen**: Wenn diese Funktion aktiviert ist, wird am Ende des Laufberichtes eine Grafik mit den Positionswechseln während des Rennens mit ausgegeben.
 
-	!!! note ""
-		The order of the heats execution in Everlaps does not need to be strictly followed and the time keeper can choose which heat from the current round to launch in each moment.
+- **Automatischer Ausdruck nach Lauf-Ende**: Nach Ende jedes Laufes werden die Ergebnisse automatisch gedruckt, genau wie die Ergebnisse der Runden und der Sessions (im Falle der abgeschlossen Lauf beendet die jeweilige Runde oder die jeweilige Session).
+
+- **PDF-Viewer für Vorschau und Druck**: Beim Drucken eines Berichtes wird dieser als Vorschau in dem auf dem Betriebssystem konfigurierten PDF Viewer ([Foxit Reader](http://www.foxitsoftware.com/Secure_PDF_Reader), [Adobe Reader](http://get.adobe.com/es/reader), etc...) ausgegeben.
+
+- **Drucker**: nutzt den hier gewählten Drucker für die Listen- und Ergebnissausdrucke sofern der *PDF-Viewer für Vorschau und Druck* nicht aktiv ist.
 
 ---
 
-#### &fa-signal; Network
+#### &fa-gear; Standardoptionen
 
-- **Publish results automatically in  everlaps.com**: When each heat finishes, the results are updated in [Everlaps](http://everlaps.com) as long as the *Web code* has been introduced that corresponds to that in the race configuration.
+- **Einführungszeit/minimale Rundenzeit/letzte Rundenzeit/Verzögerung Zeitmessung/Startverzögerung**: Diese Werte werden automatisch bei neu angelegten Rennen in die [Rennkonfiguration](../race-formats/qualify-finals/index.html#comun) eingelesen. 
 
-	!!! note ""
-		Once the heat has finished and corrections or penalties are applied to the race, it will be necessary to re-publish the race results manually (List of races > Right click > Publish results in everlaps.com)
+- **Nummerierung der Trainings- und Vorlaufgruppen umkehren**: Voreingestellt werden die Gruppen von 1 aufwärts nummeriert, 1 ist die Gruppe mit den Fahrern des höchsten Ranking und fährt zuerst, im der umgekehrten Nummerierung ist die erste Gruppe die mit dem geringeren Ranking und fährt zuerst.  
+
+	!!! beachte ""
+		Die Reihenfolge der Läufe in Everlaps muss nicht streng befolgt werden, der Zeitmesser kann wählen, welchen Lauf er aus der aktuellen Runde startet.
+
+---
+
+#### &fa-signal; Netzwerk
+
+- **Ergebnisse automatisch in everlaps.com veröffentlichen**: Sobald ein Lauf beendet ist, werden die Ergebnisse auf [Everlaps](http://everlaps.com) aktualisiert sofern der passende *Web code* eingetragen wurde.
+
+	!!! beachte ""
+		Wenn diese Funktion aktiv ist, und nach dem Ende des Laufes Bestrafungen und Kerrekturen angewendet wurden, müssen die Ergebnisse erneut manuell veröffentlicht werden über (Liste der Rennen > Rechtsklick auf das Rennen> Ergebnisse auf eververlaps.com veröffentlichen)
 
 ---
 
 #### &fa-rss; Live Timing 
 
-Everlaps can transmit the heat results in *Real time* via a web server, which enables the possibility to visualise the course of the race on any device with a modern web browser, like smart-phones, tablets and computers.
+Everlaps kann die Laufergebnisse *in Echtzeit* über den integrierten Webserver und WLAN zu veröffentlichen. Damit ist es möglich, das aktulle Renngeschehen auf allen mobilen browserfähigen Geräten wie SmartPhones, Tablets etc. auszugeben. 
 
-That way drivers in the pits and the public around the track or at home can follow the race, the *Live Timing* system is specially useful in the hands of the race director, since it allows a direct view of the races state, including being able to start and stop the heat in course.
+Sowohl für die Fahrer, die Boxencrew, die Zuschauer und auch die Rennleitung selber ist dieses *Live Timing* System damit äußerst informativ und nützlich.
 
-- **Publish a local server**: Enables sending the race data to a local server which is executed in the same computer where Everlaps is installed. *This is the only option available when executing the program in freeware mode*.
+- **Veröffentlichen auf lokalem Server**: erlaubt das senden der Renndaten zum einem lokalen Server der als Dienst auf dem lokalen Rechner (auf dem auch Everlaps läuft) - diese Option ist die einzig mögliche im Freeware-Modus
 
-	!!! note "Local server"
-		The local server is an independent program that needs to be running so that mobile devices can connect to Live Timing on the track WiFi. It can be found in the Everlaps folder, inside windows Program Files, as on the desktop, and is identified by a green icon labeled *Everlaps Live Timing*.
+	!!! note "lokaler Server"
+		Der lokale Server ist ein unabhängiges Programm welches parallel zum WiFi-Netz gestartet sein muss um Live Timing zu senden. Es ist im Everlaps Ordner zu finden und als Link auf dem Desktop als grünes Icon mit Beschriftung *Everlaps Live Timing*.
  
-- **Publish to everlaps.com**: Enables the sending of data to [Everlaps Live Timing](http://live.everlaps.com) web site, beneath the title that is published on the main page of [Everlaps](http://everlaps.com) during the dates of the race.
+- **Veröffentlichen auf everlaps.com**: erlaubt das Senden des [Everlaps Live Timing](http://live.everlaps.com) während des Renntermines auf der Hauptseite der Website.
 
-- **Personal servers**: Allow sending to a different IP addresses or servers indicated in this box (separated by spaces).
+- **persönliche Server**: erlaubt das Senden der Renndaten an unterschiedliche Server IP-Adressen (getrennt durch Leerzeichen).
 
-- **Show refueling clocks**: Shows in [Live Timing](http://live.everlaps.com) (remotely and locally) a list of different refueling strategies and time remaining for each pit-stop.
+- **Zeige Tanktimer**: Zeigt im [Live Timing](http://live.everlaps.com) (remote und local) eine Liste mit verschiedenen Tankstrategien und die verbleibende Zeit für jeden Boxenstop.
 
-	- **Minimum/maximum between refueling**: According to the duration of the race and the values introduced, corresponding to the time a that a vehicle can go without refueling, it generates the different refueling strategies.
+	- **minimale/maximale Zeit zwischen den Tankstopps**: Entsprechend der Renndauer, den hier angegebenen Werten und der möglichen Fahrzeit ohne Tanken werden hieraus Tankstrategien errechnet.
 
-- **Permits remote control**: Permits remote control of heats from a mobile device connected to the track local network. *This option is currently disabled in this version*.
+- **Fernsteuerung erlauben**: Erlaubt die Fernsteuerung der Läufe über einen Client des Live Timing. *Diese Option ist derzeit deaktiviert*.
 
-	- **User/Password**: Fields that must be introduced in the *Live Timing* client to give permission for remote control to a user.
-
----
-
-#### &fa-database; Files
-
-- **Database**: Shows the path to the application file where all the driver and races are stored. This file can be moved between machines, for example to configure a race on another computer (including on the freeware version), to copy the database to the track computer to start the race immediately.
-
-- **Logotype**: Allows showing a personalised logotype at the top of the reports.
+	- **User/Password**: Zugangsdaten für das *Live Timing* um dem Client die Erlaubnis zur Rennsteuerung zu geben.
 
 ---
 
-#### &fa-globe; Language
+#### &fa-database; Dateien
 
-Allows changing the interface language and announcements of Everlaps
+- **Datenbank**: Zeigt den Pfad zur Datenbank wo alle Konfigurationen, Fahrer- und Renndaten gespeichert werden. Dieser Pfad kann geändert werden, wenn z.B. die auf einem anderen Rechner erstellte und kopiert Rennkonfiguration genutzt werden soll. 
 
-!!! note ""
-	The voices will need to be configured in the same language as that is established for the program.
+- **Logo**: Zeigt den Pfad zum Logobild welchesauf den Rennreports mit gedruckt wird.
+
+---
+
+#### &fa-globe; Sprache
+
+Erlaubt das Ändern der Systemsprache von Everlaps
+
+!!! beachte ""
+	die Software der Sprachausgabe muss der konfigurierten Programmsprache entsprechen.
 
 ---
 
 #### &fa-bug; Debugging
 
-- **Show Console**: Shows the programs logs (voice announcements, actions, errors...). In case of problems, it can be useful to try and understand what has happened following the programs back-trace.
+- **Zeige Konsole**: Zeigt die Logbucheinträge des Programmes (Sprachausgabe, Aktionen, Fehler...). Im Falle eines Problems kann dies nützlich sein um die ursache für aufgetretene Probleme zu finden.
 
 
-## Classes and tags 
+## Klassen und Marker 
 
-![Classes and tags](../img/classes-tags.png)
+![Klassen und Marker](../img/classes-tags.png)
 
-#### &fa-list; Classes
+#### &fa-list; Klassen
 
-Allows adding, deleting and modifying classes. By default a list of the most common classes is created, These can be modified at will, the only restriction being that the default class cannot be removed.
+Erlaubt das hinzufügen, löschen und modifizieren der Klassen. Voreingestellt ist eine Liste mit den meistgenutzten Klassen, diese kann angepasst werden - jedoch kann die Standardklasse nicht gelöscht werden.
 
-#### &fa-list; Tags
+#### &fa-list; Marker
 
-Allows adding, deleting and modifying tags, assigning an identifying colour as well as a description.
+Erlaubt das hinzufügen, löschen und modifizieren der Marker und das Zuordnen einer Farbmarkierung und Beschreibung.
 
-The use of tags is explained in detail in the [Tags](../common-tasks/tags/index.html) section.
+Die Nutzung der Marker wird im Detail erklärt in der Sektion [Marker](../common-tasks/tags/index.html) section.

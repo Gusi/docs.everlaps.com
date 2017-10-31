@@ -16,7 +16,7 @@
 
 - **zuverlässig**: Entworfen und entwickelt wurde Everlaps mit dem Ziel, maximale Zuverlässigkeit und höchste Flexibilität während der Zeitmessung zu gewährleisten.
 	
-	*Die Software wird bei bedeutenden Rennveranstaltungen in Spanien und Deutschland eingesetzt und ist die offizielle Software der SNS (Spanish National Series) und der OSO (OffroadSerieOst).*0
+	*Die Software wird bei bedeutenden Rennveranstaltungen in Spanien und Deutschland eingesetzt und ist die offizielle Software der SNS (Spanish National Series)der OSO (OffroadSerieOst) und der RennSerieNord (RSN).*
 
 - **Einzigartig**: Everlaps nutzt mehrere Voice Synthesizer um den Fahrern und dem Publikum einen Überblick zum Streckengeschehen zu geben  (Startaufstellung, verbleibende Rennzeit, Rennstand ect...).
 

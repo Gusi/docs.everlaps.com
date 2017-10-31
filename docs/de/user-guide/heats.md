@@ -1,227 +1,226 @@
-## &fa-clock-o; Heats
+## &fa-clock-o; Läufe
 
-Heats progress is controlled from here, heats will be activated in the order established by the timekeeper, and generating the corresponding results sheets.
+Die Abwicklung der Rennläufe wird hierüber kontrolliert, Die Läufe werden in der vom Zeitmesser vorgegebenen Reihenfolge aktiviert und zugehörige Ergebnisslisten werden nach Abschluss ausgegeben und gesichert.
 
-![Heats](../img/heats.png)
+![Läufe](../img/heats.png)
 
 ---
 
-### Controlling the active heat
+### Kontrolle des aktiven Laufes
 
-Once the heat is activated, the heat can be controlled from the panel.
+Ist der Lauf aktiviert, werden alle Abläufe über dieses Panel kontrolliert.
 
 ![Control de manga](../img/heat-control.png)
 
-##### Actions
+##### Aktionen
 
-- **Start**: Starts the heat with the prologue time established in [*prologue*](../race-formats/qualify-finals/index.html#campos-de-formato), In the race options. A warning will be given every minute of time left,name of heat, drivers and marshals. The last warnings will be at 30, 20 and 10 seconds before start.
+- **Start**: startet den Lauf mit der in denn Rennoptionen angegebenen [*Einführungszeit*](../race-formats/qualify-finals/index.html#campos-de-formato), es erfolgt eine Sprachausgabe des Laufnamens, der Fahrer und wenn eingestellt der Streckenposten sowie jede volle Minute die Zeit bis zum Laufstart. Die letzten 30, 20 und 10 Skeunden bis zum Laufstart werden ebenfalls angesagt. 
 
-- **30/10**: Starts the heat with a 30 or 10 second prologue time.
+- **30/10**: startet den Lauf mit 30 or 10 Sekunden Einführungszeit.
 
-- **Go**: Immediate start.
+- **Go**: sofortiger Start.
 
-- **Grid**: When the heat is active but has not started, this forces announcement of name of heat, drivers and Marshals.
+- **Grid**:  startet eine Sprachausgabe des Laufnamens, der Fahrer und wenn eingestellt der Streckenposten solange der Lauf noch nicht gestartet ist
 
-- **Stop**: Stops a running heat. The heats results will are frozen at the moment of the halt.
+- **Stop**: Stoppt den gestarteten Lauf. Die Ergebnisse werden zum Moment des Laufstopps eingefroren.
 
-- **Finish**: Stops and finalizes a running heat. The heats results are frozen and the announcement system reports end of heat and its results, The heat become in-active and if automatic results printing is configured the corresponding data is sent to the printer.
+- **Finish**: Beendet den gestarteten Lauf und wertet ihn aus. Die Ergebnisse werden festgeschrieben und die Sprachausgabe gibt das Laufende mit seinem Resultat aus. Der Lauf wird automatisch deaktiviert und wenn der automatische Ausgruck konfiguriert ist, werden die Ergebnisse gedruckt und gespeichert.
 
-	!!! note ""
-		After the end of heat sound, the program waits the pre-configured *Last lap* time, until all drivers that have passed the finishing line at least once finish their last lap. If a driver breaks and abandons the heat, the program will keep waiting for this driver until the *Last lap* time is up. In this case the *Finish* button is useful to terminate a heat without altering the results and saving time waiting for a car no longer on the track.
+	!!! Beachte ""
+		Nach dem Signalton für das Laufende wartet das Programm bis alle Fahrer Ihren Lauf durch ein letztmaliges überfahren die Ziellinie beenden. Wenn ein Fahrer abbricht oder vorher ausscheidet, wartet das Programm bis die voreingestellte Zeit für *letzte Runde* um ist.  In diesem Fall ist der *Finish* Button nutzvoll um Zeit zu sparen und den Lauf sofern keine Autos mehr auf der Strecke unterwegs sind auch vor Ablauf dieser Zeit ohne Einfluss auf die Ergebnisse zu benenden. 
 
-- &fa-gear; (*Heat parameters*): Shows the actual parameters of the active heat (duration, minimum lap time, last lap time, etc...)
+- &fa-gear; (*Laufeinstellungen*): Zeigt die aktuellen Einstellungen für den aktiven Auf an (Dauer, Mindestrundenzeit, Zeit für die letzte Runde, etc...)
 
-!!! warning "Modifying an active heat"
-	When a heat is activated, a safe copy of the heat data is made, transponder numbers, driver names, duration, format, etc... to guarantee the integrity of the program from possible erroneous modifications during the course of the heat. 
+!!! Achtung "Modifizieren eines aktiven Laufes"
+	Wenn der Lauf aktiviert wird, erstellt das System eine Kopie der Laufdaten wie Transpondernummern, Fahrernamen, Format, etc....um die Datenintegrität während des Rennens trotz möglicher Modifikationen in den Voreinstellungen zur gewährleisten.
 	
-	To modify any of the drivers configuration values, heats to which they belong, race or session (Nick name, duration, standby time etc...) It will be necessary to deactivate the active heat, and re-activate it so that the new values are applied, except for the following data which can be **changed on the fly** even when the heat is active:
+	Um die Fahrer im aktiven Lauf und den Lauf selbst betreffende Konfigurationensdaten (Kurzname, Renndauer...) zu ändern, ist es notwendig den aktiven Lauf zu deaktivieren und ihn nach Änderung der Konfigurationen wieder zu aktivieren ausser für folgende Werte fie **on the fly** geändert werden können:  7
 	
-	- **Transponder**: Can be modified in the race registration list, or from the [Active heat situation](#situacion-de-la-manga-activa) panel, right clicking and using the change transponder option.
-	- **Minimum lap time**: Can be changed at any time.
-	- **Last lap time**: Can be changed before the heat has entered *last lap* time.
+	- **Transponder**: Kann in der Nennliste oder vom [Panel des aktiven Laufes](#situacion-de-la-manga-activa) angepasst werden durch rechtsklicken und wählen der Transponderwechseloption.
+	- **minimalste Rundenzeit**: Kann jederzeit angepasst werden.
+	- **Zeit letzte Runde**: Kann geändert werden solange der aktive Lauf noch nicht diesen Zeitbereich eingetreten ist.
 		
-	NOTE: In [free practice](../race-formats/free-practice) it is possible to add new drivers on the fly, and modify nick names since this session format can access the database directly.
+	Beachte: Bei [Freies Training](../race-formats/free-practice) ist es auch möglich neue Fahrer on the fly zuzufügen und Kurznamen anzupassen da diese Session direkt auf die Datenbank zugreift.
 
 ---
 
-### &fa-list-alt; Heats
+### &fa-list-alt; Läufe
 
-##### Actions
+##### Aktionen
 
-- &fa-upload; (*Activate selected heat*): Activates the selected heat, Showing the control panel and initialising the other panels *Heat situation* and *Results*. 
+- &fa-upload; (*den gewählten Lauf aktivieren*): aktiviert den gewählten Lauf, blendet das ControlPanel ein und initialisiert die anderen Panels *Laufsituation* und *Ergebnisse*. 
 
-	!!! note ""
-		If a heat that is activated already contains laps and results because it was started previously, a warning will be shown, and before the heat is re-started another warning will be shown, before **the saved data is deleted** completely.
+	!!! Beachte ""
+		Es wird eine Warnung ausgegeben wenn ein schonmal aktivierter Lauf mit seinen Runden und Ergebnissen wieder aktiviert werden soll, nach dem Bestätigen werden die **gespeicherten Daten gelöscht** 
 
-- &fa-download; (*De-activate the selected heat*): De-activates the active heat if it is not in progress, in which case the heat will need to run its course or by pressing *Stop* or *Finish*
+- &fa-download; (*den gewählten Lauf deaktivieren*): deaktiviert den gewählten Lauf sofern dieser noch nicht gestartet ist. In diesem Fall muss der Lauf fortgesetzt oder mit *Stop* / *Finish* beendet werden
 
-- &fa-play-circle; (*Activate/De-activate automatic mode*): Activates or de-activates [automatic mode](#auto). The icon can be in one of 3 states:
+- &fa-play-circle; (*aktivieren/deaktivieren des Automatik Modus*): aktiviert oder deaktiviert den [Automatik Modus](#auto). Das Icon hat dann einen der drei Zustände:
 	
-	- &fa-play-circle; (static): Automatic mode is disabled.
+	- &fa-play-circle; (statisch): Automatik Modus ist deaktiviert.
 	
-	- &fa-play-circle:spin; (spinning): Automatic is enabled and in standby to start the next heat. Remaining time will be shown and announcements made every minute.
+	- &fa-play-circle:spin; (kreisend): Automatik Modus ist aktiviert und im Standby für den Start des nächsten Laufes. Die verbleibende Zeit wird angezeigt und jede Minute angesagt.
 	
-	- &fa-play-circle; (blinking): The heat is active and in automatic and waiting to finalise before next heat is  started after the pre-configured prologue time.
+	- &fa-play-circle; (blinkend): Der Lauf ist aktiv und weitere Läufe im Rennen werden automatisch nach und nach mit den konfigurierten Zeiten durchgeführt.
 	
-	!!! note ""
-		With automatic enabled, if a user starts the heat manually, or stops the heat once it has been activated in automatic, it will need to be re-started **manually**. Automatic mode will continue once the active heat finishes or is de-activated manually.
+	!!! Beachte ""
+		Wenn der Lauf trotz aktivierten Automatik Modus manuell gestartet wird muss er auch manuell beendet werden bevor die Automatik wieder übernimmt. Wurde der Lauf manuell gestoppt nachdem er automatisch gestartet wurde muss er ebenfalls deaktiviert werden bevor die Automatik wieder übernimmt.
 
-- &fa-eye; (*Show/Hide finalised heats*): Shows or hides finalised active heats.
+- &fa-eye; (*zeige/verberge abgeschlossene Läufe*): Zeigt oder verbirgt abgeschlossene Läufe für eine bessere Übersicht
 		
-- &fa-print; (*Print results*): Prints the results which correspond to the selected heat.
+- &fa-print; (*Ergebnisse drucken*): Druckt die Ergebnisse des gewählten Laufes.
 
-	!!! note ""
-		It is possible to print heat, round or session, even in the middle of a heat. The results shown will correspond with the heat results up until that moment.
+	!!! Beachte ""
+		Es ist ist möglich die Ergebnisse auch als Zwischenresultate während des Rennens z.B. für Mehrstundenrennen zu drucken - Basis ist dann der Rennstand zum Druckzeitpunkt.
 	
-	- **Race**: Generates report for selected heat.
+	- **Rennen**: generiert einen Report für den gewählten Lauf.
 	
-	- **Round**: Generates report for the round to which the selected heat belongs, including all the heats which belong to that round.
+	- **Runden**:  generiert einen Report für die Runde zu der der gewählte Lauf gehört - unter Einbezug aller Läufe die zu der Runde gehören.
 	
-	- **Session**: Generates report for the session, to which the selected heat belongs, including all the rounds from the first up until the round that the heat belongs to.
+	- **Session**: generiert einen Report für die Session zu der der gewählte Lauf gehört - unter Einbezug aller Runden aller Läufe die zu der Runde gehören.
 
-- **Delete**: Removes the selected heat, including all laps and results.
+- **Löschen**: Löscht den gewählten Lauf inklusive allen Runden und Ergebnissen.
 
-##### Contextual menu
+##### Kontext Menue
 
-Right clicking on any heat except the active heat will access the contextual menu, with the following options:
+durch rechtsklicken auf jeden Lauf ausser dem jeweils aktiven gelangt man in ein Kontextmenue mit folgenden Optionen:
 
-- **Modify state...**
-	- **To be started**: Heats waiting to be started, even if they may have results registered, are not included in the session results.
-	- **Finished**: Finished heats, The heat will be included in session results. Even if they have no results can be marked as finished, which will allow heats from the next round to be activated if necessary.
-- **Generate empty lap boxes**: Generates boxes in the lap counting panel that allow result corrections to be made for the drivers in that heat. It is useful when results need to be input without running the heat, or if drivers are added to a heat after the heat has been run, and manual results need to be established for laps and time. 
+- **Status modifizieren...**
+	- **zu starten**: Läufe die noch zu fahren sind, wenn diese Läufe schon Ergebnisse durch Abbruch besitzen, werden diese mit dem Status noch zu starten nicht in den Session Ergebnissen berücksichtigt.
+	- **beendet**: beendete Läufe, die bei den Session Ergebnissen berücksichtigt werden. Auch wenn diese keine Ergebnisse beitzen können diese als beendet markiert werden - Dies erlaubt anschliessend Läufe der nächsten Runde zu starten.
+- **leere Runden Box erstellen**: dies generiert leere Runden Boxen im Runden Panel und erlaubt so, dass anschliessend manuell gezählte Fahrer mit Ihren Runden und der Zeit zum gefahrenen Lauf hinzugefügt werden können. 
 
 ---
 
-### &fa-caret-square-o-right; Auto
+### &fa-caret-square-o-right; Automatik Modus
 
 ![Auto](../img/auto.png)
 
-Controls automatic launching of heats for the active race meeting.
+Kontrolliert das automatische Starten im aktiven Rennen.
 
-#### Scheduling
+#### Zeitplanung
 
-Enables scheduling of the heats according to the following parameters:
+erlaubt das zeitliche Planen der Läufe entsprechend der folgenden Parameter:
 
-- **Start date**: Configure the start date for the race meeting. Useful if the race meeting is scheduled a few days in advance.
+- **Start Datum**: legt das Startdatum fest
 
-- **Start time**: Start time of the first heat.
+- **Start Zeit**: legt die Startzeit des ersten Laufes fest.
 
-- **Time between heats**: Start time between consecutive heats. 
+- **Zeit zwischen den Läufen**: legt die Zeit zwischen den Läufen fest. 
 
-	*For example, a 7 minute final, with a 2 minute  prologue and a  30 second last lap time has a minimum duration of 9.5 minutes. Taking into account the time drivers need to access the rostrum, an adequate time between heats could be almost 11 o 12 minutes.*
+	*Zum Beispiel bei einem Finale über 7 Minuten, mit 2 Minuten Einführung und einer Zeit für die letzte Runde von 30 Sekunden hat eine Mindestdauer von 9.5 Minuten: Unter Einbeziehung der Vorbereitungszeit für den Fahrer sollte die Zeit zwischen den Läufen dann mindestens 11 bis 12 Minuten betragen.*
 
-- **Time between rounds**: Time between the start of heat belonging to the same series but belonging to consecutive rounds. 
+- **Zeit zwischen den Runden**: Zeit zum Start des ersten Laufes für die nächste Runde. 
 
-	*For example, assuring that each series has 40 minute between heats so that batteries can be correctly charged, this is the value that should be specified. The system will use it as the minimum value, although depending on the number of heats and the time between them, the scheduled time could be greater.*
+	*beispielsweise wird dieser gesonderte Wert benutzt um jede Gruppe 40 Minuten zwischen den eigenen Läufen festzulegen um sicherzustellen dass die Batterien geladen werden  -  Das System nutzt diesen Wert als Minimum in Abhängigkeit der Anzahl an Läufen und Zeiten zwischen ihnen.*
 
-- **Time between sessions**: Time between the start of different sessions. 
+- **Zeit zwischen den Sessions**: Zeit zwischen dem Start der verschieden Sessions. 
 
-	*For example, it can be useful for establishing the minimum separation between the session of controlled practice and the session of re-ordering.*
+	*beispielsweise wird dieser gesonderte Wert benutzt unterschiedliche Pausen zwischen Freien Training und den Vorläufen bzw zwischen den Vor- und Finalläufen erzeugen zu können.*
 
-- **Scheduling heats**:Executes the scheduling of the remaining heats according to the established parameters.
+- **Zeitplanung der Läufe**: Führt die Zeitplanung der verbleibenden Läufe anhand der gesetzten Parameter aus.
 
-#### Execution
+#### Ausführung
 
-The execution parameters are applied just before launching the next heat and allows controlling, in the case that the original schedule suffers delays, how time is made up to follow the original schedule. 
+Die Ausführungsparameter werden unmittelbar vor dem nächsten Lauf gesetzt und geben zusätzliche Kontrolle um Zeit gut zu machen wenn der urspüngliche Zeitplan Verspätung hat. 
 
-- **Minimum separation between heats**: Minimum time between the end of one heat and the launching of the next. 
+- **Mindestabstand zwischen den Läufen**: Mindestzeit zwischen dem Ende eines Laufes und dem Start des nächsten Laufes. 
 
-	*Keeping in mind that the outgoing drivers need to abandon the rostrum, and those of the next heat need to access it, an adequate value could be between 1 or 2 minutes.*
+	*Hierbei muss berücksichtigt werden, dass es mindestens 1 - 2 Minuten dauert wenn die Fahrer sich auf dem Fahrerstand abwechseln und die Streckenposten position einnehmen.*
 
-- **Minimum separation between rounds**: Minimum time between the end of one heat and the launching of the next, when the heats belong to different rounds. 
+- **Mindestabstand zwischen den Runden**: Mindestzeit zwischen dem Ende des letzten Laufes der Runde und dem Start des ersten Laufes der nächsten Runde. 
 
-- **Minimum separation between sessions**: Minimum time between the end of one heat and the launching of the next, when the heats belong to different sessions.
+- **Mindestabstand zwischen den Sessions**: Mindestzeit zwischen dem Ende des letzten Laufes der Session und dem Start des ersten Laufes der nächsten Session.
 
-- **Include heats not scheduled**: If selected, when launched in automatic mode heats not previously scheduled will be included, only *Execution* values between them are upheld. It also enables launching automatic mode directly **without scheduling any heats**.
+- **nicht geplante Läufe einschliessen**: wenn gewählt, werden vorher nicht geplante Läufe eingeschlossen nur die Werte bei *Ausführung* zwischen ihnen werden aufrechterhalten. Dies erlaubt auch den Start des Automtik Modus **ohne Zeitplanung der Läufe**.
 
 ---
 
-### Situation of the active heat
+### Situation im aktiven Lauf
 
-This panel shows the actual state of the running heat, and maintains the result until the next heat is activated.
+Dieses Panel zeigt die aktuellen Situation im gestarteten Lauf und stellt anschliessend das Ergebnis dar bis der nächste Lauf aktiviert wird.
 
-The fields always maintain their names in english so that they coincide exactly the same as the visualization of the *Live Timing* in the web browser.
+Die Felder sind genau wie die Visualisierung des *Live Timing* des Webbrowsers in English benannt.
 
-- &fa-trophy; (*Position*): Drivers race position in the heat.
+- &fa-trophy; (*Position*): Die Position des Fahrers im aktuellen Lauf.
 - &fa-flag-o; (*Finalised*): If the flag appears &fa-flag-checkered; it means that the driver has finished the heat.
-- &fa-check; (*Verified*): a green tick icon &fa-check; indicates that a driver has crossed the finish line during the heats prologue time. It is useful to verify, just before the start of the chrono, that all the drivers have an correctly assigned transponder.
-- &fa-car; (*Vehicle number*): drivers vehicle number.
-- **Driver**: Drivers nick name.
-- **Laps/Time**: Drivers laps and time in any given moment.
-- **Prediction**: In qualifying heats, it indicates a predictive result for laps and time by the end of the heat.
-- **Gap**: Time difference in time or laps to the race leader.
-- **Diff**: Time difference in time or laps to previous driver.
-- **Last**: Drivers last lap time.
-- **Best**: Drivers best lap time.
-- **Progress**: Progress bar that approximately indicates drivers lap progress. When the bar is complete, the driver should be crossing the finish line if no incident has occurred.
+- &fa-check; (*Verified*): ein grünes Häkchen &fa-check; signalisiert dass der Fahrer die Meßschleife während der Einführungszeit passiert hat. Dies ist nützlich um vor der Zeitmessung die korrekte Transponderzuordnung abzugleichen.
+- &fa-car; (*Vehicle number*): Fahrzeugnummer
+- **Driver**: Kurzname des Fahrers.
+- **Laps/Time**: gefahrene Runden und benötigte Zeit.
+- **Prediction**: In den Vorläufen gibt dies anhand der zurückliegenden Rundenwerte ein voraussichtliches Ergebnis aus Runden und Zeit zum Rennende aus.
+- **Gap**: Zeitunterschied in Zeit oder Runden zum Führenden.
+- **Diff**: Zeitunterschied in Zeit oder Runden zum Vorausfahrenden.
+- **Last**: Zeit für die letzte Runde des Fahrers.
+- **Best**: Zeit für die beste Runde des Fahrers.
+- **Progress**: Fortschrittsbalken zur Anzeige der vollen Runde. Wenn der Balken gefüllt ist, sollte der Fahrer durchschnittlich die Ziellinie passieren sofern in der Runde keine Behinderung stattfand.
 
-!!! note "Transponder change on the fly"
-	Right clicking on any driver in this panel, will show the change transponder dialogue. See [Cambio de transponder](../common-tasks/change-transponders/index.html) for more information.
-
----
-
-
-### &fa-list; Crossings
-
-Shows details of each drivers crossings in chronological order. In case a crossing is not accepted, it will be shown with a different state and colour. The possible states are:
-
-- **OK**: Correct crossing and is counted in the heat.
-- **Corrected**: The crossing is counted but the time has been corrected because the drivers chrono was previously started.
-- **Prohibited**: The crossing of a transponder not belonging to any driver in the active heat.
-- **Expired**: The crossing is out of last lap time and will not be counted.
-- **short cut**: A short cut is detected (a lap time lower than is established in *minimum lap time*) and will not be counted.
-- **Finalised**: A driver already finalised will not be counted when crossing the finish line.
-- **Denied**: In relay races, if a driver does not have clearance to enter the track the crossing will be rejected.
-- **Low signal**: The crossing did not pass the signal filter or hits established in the decoders configuration.
-- **Start margin**: The crossing is not counted because the crossing has occurred in a final before end of *Finals start time*.
-
-!!! note ""
-	In the field lap time, the **orange colour** indicates that the lap time is double the minimum lap time established, which could indicate an uncounted lap for that driver for not having crossed the finishing line correctly.
-
-##### Contextual menu
-
-Once a heat finishes, it is possible to assign crossings or deny them using the right mouse button over the corresponding crossing.
-
-- **Modify state...**: Modifying the state of a crossing will cause a re-calculation of the drivers lap times and results in the corresponding heat.
-	- **OK**: The crossing is assigned to the driver whose transponder coincides with that of the crossing.
-	- **Denied**: The selected lap is marked as denied and is not counted.
-	
-- **Assign all**: Assigns all laps marked as *prohibited* o *recuperated* to the drivers whose transponder coincides with the crossing.
-
-- **Verify lap times**: Verifies that there are no *short cuts* or *out of time* counted as valid. 
-	
-	*This process occurs each time that a crossing state is modified or all of a drivers crossings are added.*
-
-- **Decoder**: Allows the recovery of all crossings directly from AMB decoder *only if it is connected via Ethernet*.
-	- **Recover lost crossings**: Analyses existing crossings and recovers those that could have been lost due to a communication error with the decoder.
-	- **Recover last 10 crossings**: Recovers 10 existing crossing just after the last recorded crossing for the heat. This action can be repeated as many times as may be necessary.
+!!! beachte "Transponderwechsel on the fly"
+	rechtsklicken auf jeden Fahrer führt in diesem Panel direkt zum Dialog des Transponderwechsels. Siehe [Transponder wechseln](../common-tasks/change-transponders/index.html) for more information.
 
 ---
 
-### &fa-mail-forward; Laps
+
+### &fa-list; Überfahrten
+
+Zeigt die Details jedes Fahrers in chronologischer Reihenfolge. Wenn eine Überfahrt nicht akzeptiert wird, hat diese einen anderen Status und eine andere Farbe. Statusmöglichkeiten sind:
+
+- **OK**: korrekte Überfahrt die im Lauf gewertet wird.
+- **korregiert**: Die Überfahrt wird gewertet, aber die Zeit wurde korregiert da die Zeit für den Fahrer vorher gestartet wurde.
+- **nicht erlaubt**: Die Überfahrt erfolgte mit einem nicht zum aktiven Lauf gehörendem Transponder und wurde abgelehnt.
+- **ausserhalb der Zeit**: Die Überfahrt ist ausserhalb der Zeit für die letzte Runde und wird nicht mehr gezählt.
+- **Abkürzung**: Eine Abkürzung wurde erkannt (durch eine geringere Rundenzeit wie die festgelegte *minimale Rundenzeit*).
+- **beendet**: Die Überfahrt wurde nicht gezählt da der Fahrer sein Rennen bereits mit einer vorherigen Überfahrt beeendet hatte.
+- **abgelehnt**: Wenn in Teamrennen ein (zweiter) Fahrer nicht die Freigabe hat, wird diese Überfahrt zurückgewiesen.
+- **Low signal**: Die Überfahrt wurde nicht gezählt da das Signal zu schwach war. Maßgeblich hierfür ist der Wert des Signalfilters der Decoderkonfiguration.
+- **Start**: Die Überfahrt wurde nicht gezählt da sie vor Ablauf der *Startverzögerung im Finale* erfolgte.
+
+!!! beachte ""
+	Im Feld Rundenzeit gibt die **orange Farbe** an dass die Rundenzeit ca. das doppelte der gesetzten minimalen Rundenzeit ist -  dies kann auf eine ungezählte Runde hindeuten.
+
+##### Kontextmenue
+
+Sobald der Lauf beendet ist, ist es mit Rechtsklick auf den entsprechenden Wert möglich die Überfahrten hinzuzufügen oder abzulehnen. 
+
+- **Status modifizieren...**: Modifizieren des Status der Überfahrten - dies bedingt anschliessend eine Neuberechnung der Ergebnisse des jeweiligen Laufes.
+	- **OK**: Die Überfahrt wird dem Fahrer mit der zugeordneten Transpondernummer als gültig zugewiesen.
+	- **verweigert**: Die gewählte Runde wird als verweigert markiert und nicht gezählt.
+	
+- **alle zuweisen**: weist alle Runden die als *verboten* oder *wiederhergestellt* markiert sind dem Fahrer mit der zugeordneten Transpondernummer zu.
+
+- **Rundenzeiten prüfen**: Überprüft dass keine als gültig markierte Überfahrten  mit dem Status *Abkürzung* oder *ausserhalb der Zeit* vorhanden sind. 
+	
+	*Dieser Prozess wird jedes Mals durchgeführt wenn der Status einer Überfahrt modifiziert wird oder Fahrern Überfahrten manuell hinzugefügt werden.*
+
+- **Decoder**: erlaubt die Wiederherstellung aller Überfahrten direkt vom AMB mylaps Decoder *nur bei Netzwerkanschluss*.
+	- **Wiederherstellen vorlorener Überfahrten**: Analysiert die existierenden Überfahrten und stellt verlorene wieder her - z.B. durch Kommunikationsfehler zum Decoder
+	- **Wiederherstellen der letzten 10 Überfahrten**: stellt die letzten 10 Überfahrten nach der letzten im Lauf gespeicherten Überfahrt wieder her. Diese Aktion kann beliebig oft wiederholt werden...
+---
+
+### &fa-mail-forward; Runden
 
 ![Vueltas](../img/laps.png)
 
-The laps screen shows the chronological order of the crossings for each driver. From here and once finalised and de-activated the heat, it is possible to make corrections on each drivers results. See [penalties and corrections](../common-tasks/punishments-corrections/index.html) for more information.
+Der Runden Screen zeigt in chronologischer Reihenfolge die Überfahrten jedes Fahrers einzeln. Von hier aus ist es möglich Korrekturen während und nach dem Beendeten Lauf durchzuführen und Strafen zu verhängen. Siehe [Bestrafungen und Korrekturen](../common-tasks/punishments-corrections/index.html) f+ür weitere Informationen.
 
-The laps can be sorted by lap time or chronological order, clicking with the mouse over the title of the corresponding column (*Crossing* or *Lap*).
+Die Runden können nach Rundenzeit oder chronologisch sortiert werden je nach Klick auf die Spalte im entsprechenden Tabellenkopf (*Überfahrten* oder *Runden*).
 
-!!! note ""
-	As in the crossings panel, In the field lap time, the **orange colour** indicates that the lap time is double the minimum lap time established, could indicate an uncounted lap for that driver for not having crossed the finishing line correctly. 
+!!! beachte ""
+	Im Feld Rundenzeit gibt die **orange Farbe** an dass die Rundenzeit ca. das doppelte der gesetzten minimalen Rundenzeit ist -  dies kann auf eine ungezählte Runde hindeuten.
 
 
 
 ---
 
-### &fa-flag; Results
+### &fa-flag; Ergebnisse
 
 ![Resultados](../img/heatresults.png)
 
-Shows the heat or round results for the selected heat. It is very useful in the case of applying corrections or penalisations for a driver, as it allows viewing the heat or round results before being printed.
+Zeigt die Lauf- oder Rundenergebnisse für den gewählten Lauf. Bei Korrekturen und Bestrafungen eines Fahrers ist dies nützlich um sich die Auswirkungen auf die Ergebnisse auf dem Bildschirm noch vor dem Ausdruck anzeigen zu lassen.  
 
-- **View results of**:
+- **Zeige Resultate von**:
 
-	- **Heats**: Shows the results for the selected heat.
-	- **Rounds**: Shows the results of the complete round for the selected heat.
+	- **Läufe**: zeigt die Ergebnisse des gewählten Laufes.
+	- **Runden**: zeigt die Ergebnisse der kompletten Runde zu der der gewählte Laufe gehört.
 	
-- **Print**: prints the results for the heat or round that is being visualized.
+- **drucken**: Druckt die Ergebnisse des gewählten Laufes oder der Runde so wie sie angezeigt wird.
