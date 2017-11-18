@@ -2,8 +2,9 @@ site_name: Everlaps
 site_url: http://docs.everlaps.com
 site_description: Documentation for Everlaps
 site_author: The Everlaps Team
-theme_dir: 'custom_theme'
-theme: readthedocs
+theme:
+    name: readthedocs
+    custom_dir: 'custom_theme'
 #markdown_extensions: [extra, admonition, 'iconfonts(prefix=fa-,base=fa)']
 use_directory_urls: false
 site_dir: 'site/en'
