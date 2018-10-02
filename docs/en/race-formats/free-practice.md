@@ -22,9 +22,9 @@ In free practice there is a single session and series where all the drivers that
 
 - **Points scoring**: Number of heats that will be used to obtain final results for each driver.
 
-- **Type of result/Laps result**: Identifies how to establish heat results. See [qualifying and finals](./qualify-finals/index.html) for more details.
+- **Type of result/Laps result**: Identifies how to establish heat results. See [qualifying and finals](./qualify-finals.md) for more details.
 
-- **Type of scoring**: Identifies how to establish the general results of practice. See [qualifying and finals](./qualify-finals/index.html) for more details.
+- **Type of scoring**: Identifies how to establish the general results of practice. See [qualifying and finals](./qualify-finals.md) for more details.
 
 - **Discard unknown transponders**: If enabled, passings made by transponders not in the database are ignored.
 
@@ -35,7 +35,7 @@ When a free practice heat is started, The announcement system will narrate the d
 
 If a drivers transponder is not registered the laps will be shown while the heat is active as the name *Car* along with the last 3 digits of the transponders of those drivers and their times will be announced, but the laps will not be saved in the database.
 
-During free practice heats, nick names and transponder numbers can be modified directly in the [Drivers list](../user-guide/drivers/index.html) and the changes will take place immediately.
+During free practice heats, nick names and transponder numbers can be modified directly in the [Drivers list](../user-guide/drivers.md) and the changes will take place immediately.
 
 !!! note ""
 	When a free practice heat is finalised manually the results are not printed, even if the option *print automatically at the end of each heat* is enabled.

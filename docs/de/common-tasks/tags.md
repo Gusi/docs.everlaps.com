@@ -8,7 +8,7 @@ Everlaps ermöglicht die Erstellung von personalisierten Markern, die Fahrern un
 
 ![Fahrer](../img/driver-tags.png)
 
-Die den Fahrern zugewiesenen Marker erlauben es, Fahrer schneller über die Suchfelder zu finden bei [Fahrer](../user-guide/drivers/index.html), [Nennungen](../user-guide/races/index.html#inscripciones) oder [Gruppen](../user-guide/races/index.html#series).
+Die den Fahrern zugewiesenen Marker erlauben es, Fahrer schneller über die Suchfelder zu finden bei [Fahrer](../user-guide/drivers.md), [Nennungen](../user-guide/races.md#inscripciones) oder [Gruppen](../user-guide/races.md#series).
 
 Einige Beispiele für die Verwendung von Markern zum finden von Fahrern:
 
@@ -24,7 +24,7 @@ Einige Beispiele für die Verwendung von Markern zum finden von Fahrern:
 
 ![Rennen](../img/inscription-tags.png)
 
-wenn Marker[Rennen](../race-formats/qualify-finals/index.html#etiquetas) zugeordnet werden, erscheint eine neue Zeile in der Ansicht der [Nennungen](../user-guide/races/index.html#inscripciones) view, Das ermöglicht es, dem jeweiligen Fahrer entsprechende Marker zuzuordnen, so dass während des Rennens unabhängige Ergebnisse durch Filtern der Marker erzeugt werden können!
+wenn Marker[Rennen](../race-formats/qualify-finals.md#etiquetas) zugeordnet werden, erscheint eine neue Zeile in der Ansicht der [Nennungen](../user-guide/races.md#inscripciones) view, Das ermöglicht es, dem jeweiligen Fahrer entsprechende Marker zuzuordnen, so dass während des Rennens unabhängige Ergebnisse durch Filtern der Marker erzeugt werden können!
 
 Dieses System ermöglicht das Einführen einer Rennkategorie, die in ein andere zur Hauptwertung abeichende Wertung gestattet.
 

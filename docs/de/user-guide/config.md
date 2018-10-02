@@ -102,7 +102,7 @@ Das System unterstützt verschiedene Transponder und ihre Decoder-Systeme
 
 #### &fa-gear; Standardoptionen
 
-- **Einführungszeit/minimale Rundenzeit/letzte Rundenzeit/Verzögerung Zeitmessung/Startverzögerung**: Diese Werte werden automatisch bei neu angelegten Rennen in die [Rennkonfiguration](../race-formats/qualify-finals/index.html#comun) eingelesen. 
+- **Einführungszeit/minimale Rundenzeit/letzte Rundenzeit/Verzögerung Zeitmessung/Startverzögerung**: Diese Werte werden automatisch bei neu angelegten Rennen in die [Rennkonfiguration](../race-formats/qualify-finals.md#comun) eingelesen. 
 
 - **Nummerierung der Trainings- und Vorlaufgruppen umkehren**: Voreingestellt werden die Gruppen von 1 aufwärts nummeriert, 1 ist die Gruppe mit den Fahrern des höchsten Ranking und fährt zuerst, im der umgekehrten Nummerierung ist die erste Gruppe die mit dem geringeren Ranking und fährt zuerst.  
 
@@ -179,4 +179,4 @@ Erlaubt das hinzufügen, löschen und modifizieren der Klassen. Voreingestellt i
 
 Erlaubt das hinzufügen, löschen und modifizieren der Marker und das Zuordnen einer Farbmarkierung und Beschreibung.
 
-Die Nutzung der Marker wird im Detail erklärt in der Sektion [Marker](../common-tasks/tags/index.html) section.
+Die Nutzung der Marker wird im Detail erklärt in der Sektion [Marker](../common-tasks/tags.md) section.

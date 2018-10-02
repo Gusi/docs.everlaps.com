@@ -13,9 +13,9 @@ Muestra las carreras disponibles hasta el momento.
 ##### Acciones disponibles
 
 - **Añadir**: Permite crear una nueva carrera según el formato elegido de entre los disponibles:
-	- **Clasificatorias y finales**: Crea una carrera con el formato de [clasificatorias y finales](../race-formats/qualify-finals/index.html)
-	- **Clasificatorias, semis y finales**: Crea una carrera con el formato de [formato piramidal](../race-formats/christmas-tree/index.html)
-	- **Entrenamiento libre**: Crea una carrera de [entrenamiento libre](../race-formats/free-practice/index.html)
+	- **Clasificatorias y finales**: Crea una carrera con el formato de [clasificatorias y finales](../race-formats/qualify-finals.md)
+	- **Clasificatorias, semis y finales**: Crea una carrera con el formato de [formato piramidal](../race-formats/christmas-tree.md)
+	- **Entrenamiento libre**: Crea una carrera de [entrenamiento libre](../race-formats/free-practice.md)
 	- **Cargar desde archivo**: Permite crear una nueva carrera a partir de un archivo generado exportando la configuración de una carrera previa.
 
 - **Eliminar**: Borra todos los datos de la carrera seleccionada, incluyendo inscripciones, mangas y resultados.
@@ -24,7 +24,7 @@ Muestra las carreras disponibles hasta el momento.
 
 - **Carrera**: Nombre identificativo de la carrera. Se usará en la lista de mangas y en todos los informes.
 
-- **Activa**: Indica si la carrera esta activa en el momento actual. Para las carreras activas se muestran sus mangas en la [lista de mangas](./heats/index.html#mangas_1) y se pueden realizar planificaciones desde el modo automático.
+- **Activa**: Indica si la carrera esta activa en el momento actual. Para las carreras activas se muestran sus mangas en la [lista de mangas](./heats.md#mangas_1) y se pueden realizar planificaciones desde el modo automático.
 
 ---
 
@@ -36,9 +36,9 @@ Muestra las carreras disponibles hasta el momento.
 
 El resto de los parámetros de configuración de la carrera dependen del tipo de carrera elegido. Consultar los formatos de carrera disponibles:
 
-- **[Clasificatorias y finales](../race-formats/qualify-finals/index.html)**
-- **[Formato piramidal](../race-formats/christmas-tree/index.html)**
-- **[Entrenamiento libre](../race-formats/free-practice/index.html)**
+- **[Clasificatorias y finales](../race-formats/qualify-finals.md)**
+- **[Formato piramidal](../race-formats/christmas-tree.md)**
+- **[Entrenamiento libre](../race-formats/free-practice.md)**
 
 ---
 
@@ -46,7 +46,7 @@ El resto de los parámetros de configuración de la carrera dependen del tipo de
 
 ![Inscripciones](../img/registrations.png)
 
-Permite gestionar las inscripciones de la carrera (excepto para [entrenamiento libre](../race-formats/free-practice/index.html) ya que los pilotos se inscriben automáticamente al pasar por línea de meta).
+Permite gestionar las inscripciones de la carrera (excepto para [entrenamiento libre](../race-formats/free-practice.md) ya que los pilotos se inscriben automáticamente al pasar por línea de meta).
 
 La pantalla se divide horizontalmente en dos partes:
 
@@ -61,7 +61,7 @@ La pantalla se divide horizontalmente en dos partes:
 
 - **Importar**: 
 	- **Desde archivo local**: Carga la lista de inscritos desde un fichero de texto descargado desde la web de [Everlaps](http://everlaps.com) conteniendo la lista de inscripciones de la carrera.
-	- **Desde la web**: Realiza la carga directamente desde la web siempre que se haya introducido el [código web](../race-formats/qualify-finals/index.html#campos-de-formato) de la carrera.
+	- **Desde la web**: Realiza la carga directamente desde la web siempre que se haya introducido el [código web](../race-formats/qualify-finals.md#campos-de-formato) de la carrera.
 	
 	!!! note ""
 		Si se importa la lista de pilotos y ya existen pilotos inscritos en la carrera, solamente se añaden aquellos pilotos que aparecen en la lista y que no estuviesen todavía inscritos. De los pilotos ya inscritos se respetan sus valores de transponder y rank.
@@ -79,11 +79,11 @@ La pantalla se divide horizontalmente en dos partes:
 
 ##### Campos
 
-- **Nombre, apellidos y apodo**: Estos campos se copian directamente de la base de datos. Si se desean modificar hay que hacerlo desde la pantalla de [pilotos](./drivers/index.html), teniendo en cuenta que el cambio afecta a todas las carreras en las que está inscrito el piloto.
+- **Nombre, apellidos y apodo**: Estos campos se copian directamente de la base de datos. Si se desean modificar hay que hacerlo desde la pantalla de [pilotos](./drivers.md), teniendo en cuenta que el cambio afecta a todas las carreras en las que está inscrito el piloto.
 
-- **Transponder y rank**: Estos campos se pueden modificar y sólo afectan a la carrera seleccionada. Si se modifica un transponder, el programa mostrará un diálogo para permitir establecer ese transponder como valor por defecto en la base de datos para próximas carreras, y si el piloto pertenece a la manga activa de carrera, se mostrará otro diálogo para permitir la modificación en caliente del valor. Ver [cambiar transponders](../common-tasks/change-transponders/index.html) para más información.
+- **Transponder y rank**: Estos campos se pueden modificar y sólo afectan a la carrera seleccionada. Si se modifica un transponder, el programa mostrará un diálogo para permitir establecer ese transponder como valor por defecto en la base de datos para próximas carreras, y si el piloto pertenece a la manga activa de carrera, se mostrará otro diálogo para permitir la modificación en caliente del valor. Ver [cambiar transponders](../common-tasks/change-transponders.md) para más información.
 
-- **Excluído**: Sanciona al piloto situándolo en último lugar en todos los resultados de la carrera. Los pilotos excluídos no intervienen en la generación automática de nuevas series. Ver [sanciones y correcciones](../common-tasks/punishments-corrections/index.html) para más información.
+- **Excluído**: Sanciona al piloto situándolo en último lugar en todos los resultados de la carrera. Los pilotos excluídos no intervienen en la generación automática de nuevas series. Ver [sanciones y correcciones](../common-tasks/punishments-corrections.md) para más información.
 
 #### Pilotos disponibles
 
@@ -143,9 +143,9 @@ Los pilotos que aparecen dentro de cada serie pueden arrastrarse dentro de la mi
 
 - **Nombre, apellidos y apodo**: Son los datos del piloto tal y como aparecen en la base de datos.
 
-- **Mejor Manga**: Permite sancionar la mejor manga del piloto en esa sesión. Ver [sanciones y correcciones](../common-tasks/punishments-corrections/index.html) para más información.
+- **Mejor Manga**: Permite sancionar la mejor manga del piloto en esa sesión. Ver [sanciones y correcciones](../common-tasks/punishments-corrections.md) para más información.
 
-- **Excluído**: Sanciona al piloto pasando a ocupar el último puesto en los resultados de esa sesión. Los pilotos excluídos no intervienen en la generación automática de nuevas series. Ver [sanciones y correcciones](../common-tasks/punishments-corrections/index.html) para más información.
+- **Excluído**: Sanciona al piloto pasando a ocupar el último puesto en los resultados de esa sesión. Los pilotos excluídos no intervienen en la generación automática de nuevas series. Ver [sanciones y correcciones](../common-tasks/punishments-corrections.md) para más información.
 
 #### Pilotos sin serie
 

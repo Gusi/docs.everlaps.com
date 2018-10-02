@@ -69,7 +69,7 @@ The race format *Qualification and Finals* defines by default the practice, re-o
 
 ##### Parameters
 
-- **Drivers/Series**: Number of drivers per series when the distribution is done automatically with the *Generate* option on the [series](../user-guide/races/index.html#series) panel. In the series management tab the driver distribution can be changed with total liberty, so this value is not definitive.
+- **Drivers/Series**: Number of drivers per series when the distribution is done automatically with the *Generate* option on the [series](../user-guide/races.md#series) panel. In the series management tab the driver distribution can be changed with total liberty, so this value is not definitive.
 
 - **Series distribution**: Establishes how the drivers are automatically distributed into heats with the value *Drivers/Series*.
 
@@ -237,6 +237,6 @@ Permits establishing how to solve tie breaks, in the case that various drivers o
 
 #### Tags
 
-Allows assigning Tags for a race. For more information in the [Tags](../common-tasks/tags/index.html) section.
+Allows assigning Tags for a race. For more information in the [Tags](../common-tasks/tags.md) section.
 
 - **Re-calculate points when filtering results by tag**: if enabled, when generating a filtered result based on tags points are re-calculated for the session only for the drivers with the specific tag. The results may vary compared with that of the disabled option and that of the filtered general result, since re-calculating the results depending on points format, the final sum could designate different positions to the drivers.

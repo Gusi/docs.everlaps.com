@@ -12,7 +12,7 @@
 
 - **Sencillez**: Everlaps ha sido diseñado para que su manejo sea extremadamente sencillo e intuitivo, sin restar funcionalidad para acometer cualquier tarea necesaria en un sistema de cronometraje profesional.
 
-	*Echando un vistazo a la guía de [inicio rápido](quick-start/index.html) se puede instalar y comenzar a manejar el programa en minutos.*
+	*Echando un vistazo a la guía de [inicio rápido](quick-start.md) se puede instalar y comenzar a manejar el programa en minutos.*
 
 - **Fiabilidad**: Diseñado y desarrollado con el objetivo de garantizar la máxima fiabilidad y flexibilidad durante el cronometraje.
 
@@ -32,26 +32,26 @@
 
 Esta documentación está estructurada de la siguiente forma:
 
-- [**Inicio rápido**](quick-start/index.html): Instala el programa y comienza a cronometrar con un vistazo general a las opciones más relevantes.
+- [**Inicio rápido**](quick-start.md): Instala el programa y comienza a cronometrar con un vistazo general a las opciones más relevantes.
 
 - **Manual detallado**: Descripción de todas las opciones del programa.
-	- [**Pilotos**](user-guide/drivers/index.html)
-	- [**Carreras**](user-guide/races/index.html)
-	- [**Mangas**](user-guide/heats/index.html)
-	- [**Configuración**](user-guide/config/index.html)
-	- [**Opciones de línea de comandos**](user-guide/commands/index.html)
+	- [**Pilotos**](user-guide/drivers.md)
+	- [**Carreras**](user-guide/races.md)
+	- [**Mangas**](user-guide/heats.md)
+	- [**Configuración**](user-guide/config.md)
+	- [**Opciones de línea de comandos**](user-guide/commands.md)
 
 - **Formatos de carrera**: Descripción de cada uno de los formatos soportados.
  
-	- [**Clasificatorias y finales**](race-formats/qualify-finals/index.html)
-	- [**Formato piramidal**](race-formats/christmas-tree/index.html)
-	- [**Entrenamiento libre**](race-formats/free-practice/index.html)
+	- [**Clasificatorias y finales**](race-formats/qualify-finals.md)
+	- [**Formato piramidal**](race-formats/christmas-tree.md)
+	- [**Entrenamiento libre**](race-formats/free-practice.md)
 
 - **Tareas frecuentes**: Descripción las tareas habituales a las que se enfrenta el cronometrador durante la carrera.
-	- [**Sanciones y correcciones**](common-tasks/punishments-corrections/index.html)
-	- [**Cambiar transponders**](common-tasks/change-transponders/index.html)
-	- [**Inscripciones con la carrera en marcha**](common-tasks/late-entries/index.html)
-	- [**Etiquetas**](common-tasks/tags/index.html)
+	- [**Sanciones y correcciones**](common-tasks/punishments-corrections.md)
+	- [**Cambiar transponders**](common-tasks/change-transponders.md)
+	- [**Inscripciones con la carrera en marcha**](common-tasks/late-entries.md)
+	- [**Etiquetas**](common-tasks/tags.md)
 
 ## Contacto
 

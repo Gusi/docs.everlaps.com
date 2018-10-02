@@ -2,7 +2,7 @@
 
 Das Aufsteigersystem ist charakterisiert durch eine Reihe an Sub-Finals in Form einer Pyramide oder eines * Weihnachtsbaumes *, das ermöglicht jedem Fahrer sich selbst bei schlechter Platzierung in den Vörläufen durch die Sub-Finals bis ins grosse Finale hochzufahren.
 
-Die Sessions vor den Finals (Training, Zeitqualifikation und oder Vorläufe) sind von dieser Einstellung nicht betroffen und bleiben wie definiert in den [Vorläufen und Finals](./qualify-finals/index.html), diese Funktion betrifft nur die Finals - daher bezieht sich der folgende Abschnitt nur auf diese...
+Die Sessions vor den Finals (Training, Zeitqualifikation und oder Vorläufe) sind von dieser Einstellung nicht betroffen und bleiben wie definiert in den [Vorläufen und Finals](./qualify-finals.md), diese Funktion betrifft nur die Finals - daher bezieht sich der folgende Abschnitt nur auf diese...
 
 ### Konfiguration von Sub-Finals und Finale
 
@@ -52,4 +52,4 @@ Die Sessions vor den Finals (Training, Zeitqualifikation und oder Vorläufe) sin
 
     Nachdem Änderungen an einem der Konfigurationsparameter des Aufsteigersystems vorgenommen wurden, der Einfluss auf die Anzahl der Sub-Finals hat, ist es notwendig auf *Sub-Finals erstellen* zu klicken um die Liste der Sub-Finals im Rennen zu aktualisieren.
 
-	erst nachdem *Subfinals generieren* ausgeführt wurde, werden auch die Gruppen im Panel [Gruppen](../user-guide/races/index.html#series) erzeugt.
+	erst nachdem *Subfinals generieren* ausgeführt wurde, werden auch die Gruppen im Panel [Gruppen](../user-guide/races.md#series) erzeugt.

@@ -12,7 +12,7 @@
 
 - **Simplicity**: Everlaps has been designed so that its use is extremely simple and intuitive, without removing the functionality to accomplish any task necessary in a professional race timing system.
 
-	*Taking a look at the [quick start guide](quick-start/index.html) the program can be installed and running in a few minutes.*
+	*Taking a look at the [quick start guide](quick-start.md) the program can be installed and running in a few minutes.*
 
 - **Reliability**: Designed and developed with the objective of guaranteeing maximum reliability and flexibility during timing.
 
@@ -32,26 +32,26 @@
 
 This documentation is structured in the following manner:
 
-- [**Quick start**](quick-start/index.html): Install the program and start timing with a glance at the most relevant options.
+- [**Quick start**](quick-start.md): Install the program and start timing with a glance at the most relevant options.
 
 - **Manual detailed**: Description of all the programs options.
-	- [**Drivers**](user-guide/drivers/index.html)
-	- [**Races**](user-guide/races/index.html)
-	- [**Heats**](user-guide/heats/index.html)
-	- [**Configuration**](user-guide/config/index.html)
-	- [**Command line options**](user-guide/commands/index.html)
+	- [**Drivers**](user-guide/drivers.md)
+	- [**Races**](user-guide/races.md)
+	- [**Heats**](user-guide/heats.md)
+	- [**Configuration**](user-guide/config.md)
+	- [**Command line options**](user-guide/commands.md)
 
 - **Race formats**: Description of all the supported formats.
  
-	- [**Qualifying and finals**](race-formats/qualify-finals/index.html)
-	- [**Christmas tree**](race-formats/christmas-tree/index.html)
-	- [**Free practice**](race-formats/free-practice/index.html)
+	- [**Qualifying and finals**](race-formats/qualify-finals.md)
+	- [**Christmas tree**](race-formats/christmas-tree.md)
+	- [**Free practice**](race-formats/free-practice.md)
 
 - **Frequent tasks**: Description of frequent tasks that the time keeper faces during a race.
-	- [**Penalties and corrections**](common-tasks/punishments-corrections/index.html)
-	- [**Transponder changes**](common-tasks/change-transponders/index.html)
-	- [**Late entries**](common-tasks/late-entries/index.html)
-	- [**Tags**](common-tasks/tags/index.html)
+	- [**Penalties and corrections**](common-tasks/punishments-corrections.md)
+	- [**Transponder changes**](common-tasks/change-transponders.md)
+	- [**Late entries**](common-tasks/late-entries.md)
+	- [**Tags**](common-tasks/tags.md)
 
 ## Contact
 

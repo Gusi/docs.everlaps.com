@@ -14,7 +14,7 @@ Existen varios tipos de sanciones y correcciones, y cada una debe realizarse en 
 
 ![Sanciones manga](../img/heatpunishments.png)
 
-Se realizan desde el apartado de [vueltas](../user-guide/heats/index.html#vueltas), en donde aparecen la lista de vueltas de cada piloto y una sección en la parte inferior en dónde realizar las correcciones. Existen dos tipos según el estado de la manga:
+Se realizan desde el apartado de [vueltas](../user-guide/heats.md#vueltas), en donde aparecen la lista de vueltas de cada piloto y una sección en la parte inferior en dónde realizar las correcciones. Existen dos tipos según el estado de la manga:
 
 ##### In-Race
 

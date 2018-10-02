@@ -54,7 +54,7 @@ Zeigt alle Informationen über einen Fahrer, einschließlich der bereits erwähn
 
 Hier verwalten Sie in der Fahrerliste die Transponder, Ranglisten und Startnummern nach den Klassen, an denen die Fahrer teilnehmen.
 
-- **Klassen**: erlaubt die Auswahl der [Klassen](./config/ind	ex.html#categorias), aus den Werten der Liste.
+- **Klassen**: erlaubt die Auswahl der [Klassen](./config.md#categorias), aus den Werten der Liste.
 - **Transponder, Ränge, Startnummern Kommentare**: Ermöglicht die Zuordnung von Werten, die dem Fahrer in der gewählten Klasse entsprechen.
 
 !!! beachte ""
@@ -64,7 +64,7 @@ Hier verwalten Sie in der Fahrerliste die Transponder, Ranglisten und Startnumme
 
 Liste der als aktiv markierten Rennen, an denen ein ausgewählter Fahrer teilnimmt.
 
-Es ist möglich, den Transponder und den Rang des ausgewählten registrierten Fahrers zu ändern, genauso wie in der [Nennung](./races/index.html#inscripciones).
+Es ist möglich, den Transponder und den Rang des ausgewählten registrierten Fahrers zu ändern, genauso wie in der [Nennung](./races.md#inscripciones).
 
 #### Marker
 
@@ -72,6 +72,6 @@ Zeigen Sie die dem Fahrer zugeordneten Marker an.
 
 Die Marker erlauben das schnelle Filtern und Gruppieren von Fahrern innerhalb der verschiedenen Klassen. (Fahrerliste, Nennungen, Läufe ...).
 
-Jeder Marker kann aus dem unteren Dropdown-Feld zugewiesen werden und kann durch Klicken auf das * X * entfernt werden, das angezeigt wird, wenn der Cursor über dem zu entfernenden Tag liegt. Die vollständige Liste steht in der [Marker](./config/index.html#etiquetas) Sektion.
+Jeder Marker kann aus dem unteren Dropdown-Feld zugewiesen werden und kann durch Klicken auf das * X * entfernt werden, das angezeigt wird, wenn der Cursor über dem zu entfernenden Tag liegt. Die vollständige Liste steht in der [Marker](./config.md#etiquetas) Sektion.
 
 

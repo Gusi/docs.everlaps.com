@@ -69,7 +69,7 @@ El formato de carrera de *Clasificatorias y Finales* define por defecto las sesi
 
 ##### Parámetros
 
-- **Pilotos/Serie**: Número de pilotos que se desea en cada serie cuando la distribución se realiza de forma automática con la opción *Generar* del panel de [series](../user-guide/races/index.html#series). En la pestaña de gestión de series se puede alterar con total libertad la distribución de pilotos, por lo cual este valor no es definitivo.
+- **Pilotos/Serie**: Número de pilotos que se desea en cada serie cuando la distribución se realiza de forma automática con la opción *Generar* del panel de [series](../user-guide/races.md#series). En la pestaña de gestión de series se puede alterar con total libertad la distribución de pilotos, por lo cual este valor no es definitivo.
 
 - **Distribución de series**: Establece cómo se distribuyen de forma automática los pilotos en las series según el valor de *Pilotos/Serie*.
 
@@ -237,6 +237,6 @@ Permite establecer la forma de solucionar los empates, en caso de que varios pil
 
 #### Etiquetas
 
-Permite asignar etiquetas a la carrera. Más información en la sección de [Etiquetas](../common-tasks/tags/index.html).
+Permite asignar etiquetas a la carrera. Más información en la sección de [Etiquetas](../common-tasks/tags.md).
 
 - **Recalcular puntuación al filtrar resultados por etiqueta**: Si está habilitado, al generar un resultado filtrado por etiqueta se recalcula la puntuación de la sesión únicamente con los pilotos que tienen la etiqueta. El resultado podría variar con respecto a no activar la opción y hacer un filtrado sobre el resultado general, ya que al recalcular la puntuación, y dependiendo del formato de puntos, las sumas finales podrían designar posiciones de pilotos diferentes.

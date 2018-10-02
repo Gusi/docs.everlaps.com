@@ -2,7 +2,7 @@
 
 The christmas tree format is characterised by establishing a series of sub-finals in the form of a pyramid or *christmas tree* that permits any driver that rises from the lower finals to reach the absolute final, even if qualifying in last place during the qualifying session. 
 
-The sessions previous to the finals (practice, re-ordering and or qualifying) maintain the same format defined in [qualifying and finals](./qualify-finals/index.html), therefore in this section explains is exclusive to the workings of christmas tree format (sub-finales).
+The sessions previous to the finals (practice, re-ordering and or qualifying) maintain the same format defined in [qualifying and finals](./qualify-finals.md), therefore in this section explains is exclusive to the workings of christmas tree format (sub-finales).
 
 ### Configuration of sub-finals and final
 
@@ -52,4 +52,4 @@ The sessions previous to the finals (practice, re-ordering and or qualifying) ma
 !!! warning "Generate Sub-finals"
 	After modifications are made to any of the configuration parameters of the christmas tree which causes the number of sub-finals, it will be necessary to click *Generate Sub-finals* so that the list of sub-finals in the race is refreshed.
 
-	Until *Generate Sub-finals* is pressed at least once the list of sub-finals will not be generated so that the series are generated correctly in the panel [series](../user-guide/races/index.html#series)
+	Until *Generate Sub-finals* is pressed at least once the list of sub-finals will not be generated so that the series are generated correctly in the panel [series](../user-guide/races.md#series)

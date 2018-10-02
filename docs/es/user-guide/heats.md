@@ -14,7 +14,7 @@ Al activar una manga, se muestra el panel que permite controlar el estado de la 
 
 ##### Acciones
 
-- **Start**: Inicia la manga con el tiempo de margen establecido en [*prólogo*](../race-formats/qualify-finals/index.html#campos-de-formato), en las opciones de carrera. Cada minuto se avisará del tiempo restante, nombre de manga, pilotos y recogecoches. Se darán los últimos avisos 30, 20 y 10 segundos antes de la salida.
+- **Start**: Inicia la manga con el tiempo de margen establecido en [*prólogo*](../race-formats/qualify-finals.md#campos-de-formato), en las opciones de carrera. Cada minuto se avisará del tiempo restante, nombre de manga, pilotos y recogecoches. Se darán los últimos avisos 30, 20 y 10 segundos antes de la salida.
 
 - **30/10**: Inicia la manga con 30 o 10 segundos de margen.
 
@@ -156,7 +156,7 @@ Los campos mantienen su nombre siempre en inglés para que coincidan exactamente
 - **Progress**: Barra de progreso que indica aproximadamente la situación de vuelta del piloto. Cuando la barra se completa, el piloto debería estar pasando por línea de meta si no ha sufrido ningún percance.
 
 !!! note "Cambio de transponder en caliente"
-	Con el botón derecho sobre cualquier piloto de este panel, es posible acceder al diálogo de cambio de transponder en caliente. Ver [Cambio de transponder](../common-tasks/change-transponders/index.html) para más información.
+	Con el botón derecho sobre cualquier piloto de este panel, es posible acceder al diálogo de cambio de transponder en caliente. Ver [Cambio de transponder](../common-tasks/change-transponders.md) para más información.
 
 ---
 
@@ -202,7 +202,7 @@ Una vez que la manga termina, es posible asignar o denegar pasadas utilizando el
 
 ![Vueltas](../img/laps.png)
 
-La pantalla de vueltas muestra el orden cronológico de las pasadas de cada piloto. Desde aquí y una vez finalizada y desactivada la manga, es posible realizar correcciones sobre el resultado de cada piloto. Ver [sanciones y correcciones](../common-tasks/punishments-corrections/index.html) para más información.
+La pantalla de vueltas muestra el orden cronológico de las pasadas de cada piloto. Desde aquí y una vez finalizada y desactivada la manga, es posible realizar correcciones sobre el resultado de cada piloto. Ver [sanciones y correcciones](../common-tasks/punishments-corrections.md) para más información.
 
 Las vueltas pueden ordenarse según el tiempo de vuelta o el orden cronológico, pulsando con el ratón sobre el título de la columna correspondiente (*Pasada* o *Vuelta*).
 

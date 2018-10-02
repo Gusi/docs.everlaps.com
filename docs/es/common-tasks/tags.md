@@ -8,7 +8,7 @@ Everlaps permite crear etiquetas personalizadas y asignarlas a pilotos y carrera
 
 ![Pilotos](../img/driver-tags.png)
 
-Las etiquetas asignadas a los pilotos permiten localizar rápidamente un piloto introduciendo el nombre de cualquier etiqueta en los campos de búsqueda de las vistas de [pilotos](../user-guide/drivers/index.html), [inscripciones](../user-guide/races/index.html#inscripciones) o [series](../user-guide/races/index.html#series).
+Las etiquetas asignadas a los pilotos permiten localizar rápidamente un piloto introduciendo el nombre de cualquier etiqueta en los campos de búsqueda de las vistas de [pilotos](../user-guide/drivers.md), [inscripciones](../user-guide/races.md#inscripciones) o [series](../user-guide/races.md#series).
 
 Algunos ejemplos de uso de las etiquetas para identificar a los pilotos pueden ser:
 
@@ -22,7 +22,7 @@ Algunos ejemplos de uso de las etiquetas para identificar a los pilotos pueden s
 
 ![Carreras](../img/inscription-tags.png)
 
-Cuando las etiquetas se asignan a una [carrera](../race-formats/qualify-finals/index.html#etiquetas), aparece una nueva columna en la vista de [inscripciones](../user-guide/races/index.html#inscripciones) que permite asignar la etiqueta correspondiente a cada piloto, de tal forma que durante la carrera se puedan generar resultados independientes filtrando por etiqueta.
+Cuando las etiquetas se asignan a una [carrera](../race-formats/qualify-finals.md#etiquetas), aparece una nueva columna en la vista de [inscripciones](../user-guide/races.md#inscripciones) que permite asignar la etiqueta correspondiente a cada piloto, de tal forma que durante la carrera se puedan generar resultados independientes filtrando por etiqueta.
 
 Este sistema permite introducir muy fácilmente en la carrera alguna categoría que deriva en una final diferente a la final principal. 
 

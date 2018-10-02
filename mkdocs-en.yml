@@ -17,7 +17,7 @@ strict: true
 
 repo_url: https://github.com/Gusi/docs.everlaps.com
 
-pages:
+nav:
 - Index: index.md
 - Quick start: quick-start.md
 - Manual detailed:

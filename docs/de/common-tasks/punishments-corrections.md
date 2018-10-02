@@ -14,7 +14,7 @@ Es gibt verschiedene Arten von Bestrafungen und Korrekturen, jede muss in dem en
 
 ![Laufbestrafungen und Korrekturen](../img/heatpunishments.png)
 
-Diese werden durchgeführt im Abschnitt [Runden](../user-guide/heats/index.html#vueltas) Dort wo alle Runden des Fahrers gelistet sind, ist unterhalb ein Abschnitt, wo die Korrekturen angewendet werden. Es gibt zwei Typen nach dem Lauf-Zustand:
+Diese werden durchgeführt im Abschnitt [Runden](../user-guide/heats.md#vueltas) Dort wo alle Runden des Fahrers gelistet sind, ist unterhalb ein Abschnitt, wo die Korrekturen angewendet werden. Es gibt zwei Typen nach dem Lauf-Zustand:
 
 ##### im Rennen
 

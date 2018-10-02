@@ -103,7 +103,7 @@ El sistema soporta la conexión a diferentes sistemas de detección de pasadas.
 
 #### &fa-gear; Opciones por defecto
 
-- **Prólogo/Vuelta mínima/Última vuelta/Tiempo cronos retrasados/Retardo salida lanzada**: Los valores introducidos en estos campos se asignan automáticamente a las nuevas carreras que se generen en el programa. Cada campo se corresponde con su homólogo en la sección de [configuración de carrera](../race-formats/qualify-finals/index.html#comun)
+- **Prólogo/Vuelta mínima/Última vuelta/Tiempo cronos retrasados/Retardo salida lanzada**: Los valores introducidos en estos campos se asignan automáticamente a las nuevas carreras que se generen en el programa. Cada campo se corresponde con su homólogo en la sección de [configuración de carrera](../race-formats/qualify-finals.md#comun)
 
 - **Invertir numeración en series de entrenos y clasificatorias**: Por defecto las series en las que el piloto lleva su cronómetro individual se numeran del 1 en adelante, siendo la serie 1 la que contiene los pilotos de mayor rank y que se planifica en último lugar dentro de su tanda. Si está marcada esta opción, las series clasificatorias se numeran en orden inverso (la serie 1 será la de pilotos con menor rank y se planificará en primer lugar).
 
@@ -180,4 +180,4 @@ Permite añadir, eliminar y modificar categorías. Por defecto se crea una lista
 
 Permite añadir, eliminar y modificar etiquetas, asignado un color identificativo junto con su descripción.
 
-El uso de las etiquetas se detalla en el apartado [Etiquetas](../common-tasks/tags/index.html)
+El uso de las etiquetas se detalla en el apartado [Etiquetas](../common-tasks/tags.md)

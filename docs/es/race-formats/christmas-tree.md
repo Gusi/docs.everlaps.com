@@ -2,7 +2,7 @@
 
 El formato piramidal se caracteriza por establecer una sistema de subfinales en forma de pirámide o árbol de navidad (*Christmas tree* en inglés) que permite que cualquier piloto pueda ascender desde las finales inferiores a la final absoluta, aún cuando haya clasificado en último lugar durante la sesión clasificatoria. 
 
-Las sesiones anteriores a las finales (entrenos, recolocación y/o clasificación) mantienen el mismo formato definido en las carreras de tipo [clasificatorias y finales](./qualify-finals/index.html), por lo que en este apartado se explicará exclusivamente el funcionamiento del formato piramidal (subfinales).
+Las sesiones anteriores a las finales (entrenos, recolocación y/o clasificación) mantienen el mismo formato definido en las carreras de tipo [clasificatorias y finales](./qualify-finals.md), por lo que en este apartado se explicará exclusivamente el funcionamiento del formato piramidal (subfinales).
 
 ### Configuración de subfinales y final
 
@@ -52,4 +52,4 @@ Las sesiones anteriores a las finales (entrenos, recolocación y/o clasificació
 !!! warning "Generar Subfinales"
 	Después de realizar modificaciones en cualquiera de los parámetros de configuración de la pirámide que hagan variar el número de subfinales, es necesario pulsar *Generar Subfinales* para que se actualice la lista de subfinales que componen la carrera.
 
-	Hasta que no se pulse sobre *Generar Subfinales* al menos una vez no se generará la lista de subfinales para poder generar las series de forma correcta en el panel de [series](../user-guide/races/index.html#series)
+	Hasta que no se pulse sobre *Generar Subfinales* al menos una vez no se generará la lista de subfinales para poder generar las series de forma correcta en el panel de [series](../user-guide/races.md#series)

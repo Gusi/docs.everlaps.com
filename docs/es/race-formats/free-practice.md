@@ -22,9 +22,9 @@ En el entrenamiento libre existe una única sesión y serie en donde participan 
 
 - **Puntúan**: Número de mangas que se utilizan para obtener el resultado final de cada piloto.
 
-- **Tipo de resultado/Vueltas resultado**: Identifica cómo establecer el resultado de las mangas. Consultar [clasificatorias y finales](./qualify-finals/index.html) para más detalle.
+- **Tipo de resultado/Vueltas resultado**: Identifica cómo establecer el resultado de las mangas. Consultar [clasificatorias y finales](./qualify-finals.md) para más detalle.
 
-- **Tipo de puntuación**: Identifica como establecer el resultado general del entrenamiento. Consulta [clasificatorias y finales](./qualify-finals/index.html) para más detalle.
+- **Tipo de puntuación**: Identifica como establecer el resultado general del entrenamiento. Consulta [clasificatorias y finales](./qualify-finals.md) para más detalle.
 
 - **Descartar transponders desconocidos**: Si está habilitada, las pasadas de los transponders que no figuren en la base de datos son ignoradas.
 
@@ -35,7 +35,7 @@ Al arrancar una manga de entrenamiento libre, la locución irá narrando los tie
 
 Si el transponder de un piloto no está registrado las vueltas se mostrarán mientras la manga esté activa bajo el nombre de *Coche* junto con las 3 últimas cifras del transponder del piloto y se notificarán sus tiempos por megafonía, pero las vueltas no se guardarán en la base de datos.
 
-Durante las mangas de entrenamiento se pueden modificar los apodos y transponders de los pilotos directamente desde la [lista de pilotos](../user-guide/drivers/index.html) y los cambios serán aplicados de forma inmediata.
+Durante las mangas de entrenamiento se pueden modificar los apodos y transponders de los pilotos directamente desde la [lista de pilotos](../user-guide/drivers.md) y los cambios serán aplicados de forma inmediata.
 
 !!! note ""
 	Al finalizar manualmente una manga de entrenamiento libre los resultados no se imprimen aunque estuviese activada la opción de *imprimir automáticamente al finalizar cada manga*.

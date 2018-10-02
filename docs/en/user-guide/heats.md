@@ -14,7 +14,7 @@ Once the heat is activated, the heat can be controlled from the panel.
 
 ##### Actions
 
-- **Start**: Starts the heat with the prologue time established in [*prologue*](../race-formats/qualify-finals/index.html#campos-de-formato), In the race options. A warning will be given every minute of time left,name of heat, drivers and marshals. The last warnings will be at 30, 20 and 10 seconds before start.
+- **Start**: Starts the heat with the prologue time established in [*prologue*](../race-formats/qualify-finals.md#campos-de-formato), In the race options. A warning will be given every minute of time left,name of heat, drivers and marshals. The last warnings will be at 30, 20 and 10 seconds before start.
 
 - **30/10**: Starts the heat with a 30 or 10 second prologue time.
 
@@ -156,7 +156,7 @@ The fields always maintain their names in english so that they coincide exactly 
 - **Progress**: Progress bar that approximately indicates drivers lap progress. When the bar is complete, the driver should be crossing the finish line if no incident has occurred.
 
 !!! note "Transponder change on the fly"
-	Right clicking on any driver in this panel, will show the change transponder dialogue. See [Cambio de transponder](../common-tasks/change-transponders/index.html) for more information.
+	Right clicking on any driver in this panel, will show the change transponder dialogue. See [Cambio de transponder](../common-tasks/change-transponders.md) for more information.
 
 ---
 
@@ -202,7 +202,7 @@ Once a heat finishes, it is possible to assign crossings or deny them using the 
 
 ![Vueltas](../img/laps.png)
 
-The laps screen shows the chronological order of the crossings for each driver. From here and once finalised and de-activated the heat, it is possible to make corrections on each drivers results. See [penalties and corrections](../common-tasks/punishments-corrections/index.html) for more information.
+The laps screen shows the chronological order of the crossings for each driver. From here and once finalised and de-activated the heat, it is possible to make corrections on each drivers results. See [penalties and corrections](../common-tasks/punishments-corrections.md) for more information.
 
 The laps can be sorted by lap time or chronological order, clicking with the mouse over the title of the corresponding column (*Crossing* or *Lap*).
 

@@ -13,9 +13,9 @@ Zeigt die Liste der aktuell verfügbaren Rennen an.
 ##### verfügbare Funktionen
 
 - **Hinzufügen**: fügt ein neues Rennen entsprechend der Auswahl des Rennformates aus folgenden Möglichkeiten aus:
-	- **Vorläufe und Finale**: erstellt ein Rennen aus [Vorläufen und Finals](../race-formats/qualify-finals/index.html)
-	- **Vorläufe, Halfinale und Finale**: erstellt ein Rennen im [Aufsteigersystem](../race-formats/christmas-tree/index.html)
-	- **Freies Training**: erstellt im Rennen ein [Freies Training](../race-formats/free-practice/index.html)
+	- **Vorläufe und Finale**: erstellt ein Rennen aus [Vorläufen und Finals](../race-formats/qualify-finals.md)
+	- **Vorläufe, Halfinale und Finale**: erstellt ein Rennen im [Aufsteigersystem](../race-formats/christmas-tree.md)
+	- **Freies Training**: erstellt im Rennen ein [Freies Training](../race-formats/free-practice.md)
 	- **aus Datei laden**: erstellt ein Rennen aus einer zuvor exportierten Rennkonfiguration.
 
 - **Löschen**: löscht alle Daten des gewählten Rennens inklusive Nennung, Läufen und Ergebnissen.
@@ -24,7 +24,7 @@ Zeigt die Liste der aktuell verfügbaren Rennen an.
 
 - **Rennen**: Titel für das Rennen, wird in der Zuordnung der Läufe und oben auf den Listen ausgegeben
 
-- **aktiv**: Zeigt ob das Rennen aktiviert ist. Aktive Läufe werden angezeigt in der [Laufliste](./heats/index.html#mangas_1) Über den AutoModus kann der zeitliche Rennablauf automatisiert werden.
+- **aktiv**: Zeigt ob das Rennen aktiviert ist. Aktive Läufe werden angezeigt in der [Laufliste](./heats.md#mangas_1) Über den AutoModus kann der zeitliche Rennablauf automatisiert werden.
 
 ---
 
@@ -36,9 +36,9 @@ Zeigt die Liste der aktuell verfügbaren Rennen an.
 
 Die weitere Rennkonfiguration hängt vom Typ Format des gewählten Rennens ab - siehe bei den möglichen Formaten: 
 
-- **[Vorläufe und Finale](../race-formats/qualify-finals/index.html)**
-- **[Aufsteiger](../race-formats/christmas-tree/index.html)**
-- **[Freies Training](../race-formats/free-practice/index.html)**
+- **[Vorläufe und Finale](../race-formats/qualify-finals.md)**
+- **[Aufsteiger](../race-formats/christmas-tree.md)**
+- **[Freies Training](../race-formats/free-practice.md)**
 
 ---
 
@@ -46,7 +46,7 @@ Die weitere Rennkonfiguration hängt vom Typ Format des gewählten Rennens ab - 
 
 ![Nennungen](../img/registrations.png)
 
-Das Nennmanagement (ausser für [Freies Training](../race-formats/free-practice/index.html) dort werden die Fahrer automatisch regisriert sobald sie die Meßschleife erstmals passieren - vorausgesetzt sie sind in der Datenbank eingepflegt).
+Das Nennmanagement (ausser für [Freies Training](../race-formats/free-practice.md) dort werden die Fahrer automatisch regisriert sobald sie die Meßschleife erstmals passieren - vorausgesetzt sie sind in der Datenbank eingepflegt).
 
 Der Bildschirm ist horizontal zweigeteilt:
 
@@ -61,7 +61,7 @@ Der Bildschirm ist horizontal zweigeteilt:
 
 - **Importieren**: 
 	- **aus einer lokalen Datei**: läde die Nennliste aus einer über die [Everlaps-Website](http://everlaps.com) heruntergeladenen Nennliste.
-	- **aus dem Internet**: läde die Nennliste direkt von der Everlaps-Website, sofern das [Rennpasswort](../race-formats/qualify-finals/index.html#campos-de-formato) gesetzt ist.
+	- **aus dem Internet**: läde die Nennliste direkt von der Everlaps-Website, sofern das [Rennpasswort](../race-formats/qualify-finals.md#campos-de-formato) gesetzt ist.
 	
 	!!! beachte ""
 		Werden Fahrer importiert die zuvor schon lokal genannt waren, werden diese nicht überschrieben - Transponder und Rang bleiben erhalten, nur zuvor nicht genannte werden importiert.
@@ -79,11 +79,11 @@ Der Bildschirm ist horizontal zweigeteilt:
 
 ##### Felder
 
-- **Name, Nachname und Kurzname**: Diese Werte werden direkt aus der Datenbank kopiert über das Menue [Fahrer](./drivers/index.html). Änderungen werden in allen Rennen übernommen, in denen der Fahrer genannt ist.
+- **Name, Nachname und Kurzname**: Diese Werte werden direkt aus der Datenbank kopiert über das Menue [Fahrer](./drivers.md). Änderungen werden in allen Rennen übernommen, in denen der Fahrer genannt ist.
 
-- **Transponder und Rang**: Änderungen dieser Felder wirken sich nur auf das betreffende Rennen aus. Wenn der Transponder geändert wird, erscheint ein Dialog in dem die Erlaubnis zum Ändern des Stardardtransponders für künftige Rennen des Fahrers abgefragt wird. Wenn sich der Fahrer zudem einem aktiven Lauf angehört, wird die Erlaubnis zum HotSwap (heißer Tausch) abgefragt. Siehe [Transponder ändern](../common-tasks/change-transponders/index.html) für weitere Informationen.
+- **Transponder und Rang**: Änderungen dieser Felder wirken sich nur auf das betreffende Rennen aus. Wenn der Transponder geändert wird, erscheint ein Dialog in dem die Erlaubnis zum Ändern des Stardardtransponders für künftige Rennen des Fahrers abgefragt wird. Wenn sich der Fahrer zudem einem aktiven Lauf angehört, wird die Erlaubnis zum HotSwap (heißer Tausch) abgefragt. Siehe [Transponder ändern](../common-tasks/change-transponders.md) für weitere Informationen.
 
-- **Ausgeschlossen**: Der bestrafte Fahrer wird als letzter in allen Rennergebnissen gesetzt. Der ausgeschlossene Fahrer wird nicht länger beim automatischen generieren neuer Gruppen berücksichtigt. Siehe [Bestrafungen und Korrekturen](../common-tasks/punishments-corrections/index.html) für weitere Informationen.
+- **Ausgeschlossen**: Der bestrafte Fahrer wird als letzter in allen Rennergebnissen gesetzt. Der ausgeschlossene Fahrer wird nicht länger beim automatischen generieren neuer Gruppen berücksichtigt. Siehe [Bestrafungen und Korrekturen](../common-tasks/punishments-corrections.md) für weitere Informationen.
 
 #### verfügbare Fahrer
 
@@ -143,9 +143,9 @@ Die Fahrer können per drag & drop von einer Gruppe in eine andere umverteilt we
 
 - **Name, Nachname und Kurzname**: Diese Felder entsprechen denen der Datenbank.
 
-- **Bester Lauf**: erlaubt es dass ein Fahrer mit dem *Verlust des besten Laufes* bestraft werden kann. Siehe [Bestrafungen und Korrekturen](../common-tasks/punishments-corrections/index.html) für weitere Informationen.
+- **Bester Lauf**: erlaubt es dass ein Fahrer mit dem *Verlust des besten Laufes* bestraft werden kann. Siehe [Bestrafungen und Korrekturen](../common-tasks/punishments-corrections.md) für weitere Informationen.
 
-- **Ausgeschlossen**: Der bestrafte Fahrer wird als letzter in allen Rennergebnissen gesetzt. Der ausgeschlossene Fahrer wird nicht länger beim automatischen generieren neuer Gruppen berücksichtigt. Siehe [Bestrafungen und Korrekturen](../common-tasks/punishments-corrections/index.html) für weitere Informationen.
+- **Ausgeschlossen**: Der bestrafte Fahrer wird als letzter in allen Rennergebnissen gesetzt. Der ausgeschlossene Fahrer wird nicht länger beim automatischen generieren neuer Gruppen berücksichtigt. Siehe [Bestrafungen und Korrekturen](../common-tasks/punishments-corrections.md) für weitere Informationen.
 
 #### Fahrer ohne Gruppen
 

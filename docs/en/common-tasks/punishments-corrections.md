@@ -14,7 +14,7 @@ There are various types of penalties and corrections, and each needs to be appli
 
 ![Heat penalties](../img/heatpunishments.png)
 
-These are performed in the section [laps](../user-guide/heats/index.html#vueltas), where all the drivers laps lists appear, and a section beneath where corrections are applied. There are two types according to the heats state:
+These are performed in the section [laps](../user-guide/heats.md#vueltas), where all the drivers laps lists appear, and a section beneath where corrections are applied. There are two types according to the heats state:
 
 ##### In-Race
 

@@ -14,7 +14,7 @@ Ist der Lauf aktiviert, werden alle Abläufe über dieses Panel kontrolliert.
 
 ##### Aktionen
 
-- **Start**: startet den Lauf mit der in denn Rennoptionen angegebenen [*Einführungszeit*](../race-formats/qualify-finals/index.html#campos-de-formato), es erfolgt eine Sprachausgabe des Laufnamens, der Fahrer und wenn eingestellt der Streckenposten sowie jede volle Minute die Zeit bis zum Laufstart. Die letzten 30, 20 und 10 Skeunden bis zum Laufstart werden ebenfalls angesagt. 
+- **Start**: startet den Lauf mit der in denn Rennoptionen angegebenen [*Einführungszeit*](../race-formats/qualify-finals.md#campos-de-formato), es erfolgt eine Sprachausgabe des Laufnamens, der Fahrer und wenn eingestellt der Streckenposten sowie jede volle Minute die Zeit bis zum Laufstart. Die letzten 30, 20 und 10 Skeunden bis zum Laufstart werden ebenfalls angesagt. 
 
 - **30/10**: startet den Lauf mit 30 or 10 Sekunden Einführungszeit.
 
@@ -156,7 +156,7 @@ Die Felder sind genau wie die Visualisierung des *Live Timing* des Webbrowsers i
 - **Progress**: Fortschrittsbalken zur Anzeige der vollen Runde. Wenn der Balken gefüllt ist, sollte der Fahrer durchschnittlich die Ziellinie passieren sofern in der Runde keine Behinderung stattfand.
 
 !!! beachte "Transponderwechsel on the fly"
-	rechtsklicken auf jeden Fahrer führt in diesem Panel direkt zum Dialog des Transponderwechsels. Siehe [Transponder wechseln](../common-tasks/change-transponders/index.html) for more information.
+	rechtsklicken auf jeden Fahrer führt in diesem Panel direkt zum Dialog des Transponderwechsels. Siehe [Transponder wechseln](../common-tasks/change-transponders.md) for more information.
 
 ---
 
@@ -201,7 +201,7 @@ Sobald der Lauf beendet ist, ist es mit Rechtsklick auf den entsprechenden Wert 
 
 ![Vueltas](../img/laps.png)
 
-Der Runden Screen zeigt in chronologischer Reihenfolge die Überfahrten jedes Fahrers einzeln. Von hier aus ist es möglich Korrekturen während und nach dem Beendeten Lauf durchzuführen und Strafen zu verhängen. Siehe [Bestrafungen und Korrekturen](../common-tasks/punishments-corrections/index.html) f+ür weitere Informationen.
+Der Runden Screen zeigt in chronologischer Reihenfolge die Überfahrten jedes Fahrers einzeln. Von hier aus ist es möglich Korrekturen während und nach dem Beendeten Lauf durchzuführen und Strafen zu verhängen. Siehe [Bestrafungen und Korrekturen](../common-tasks/punishments-corrections.md) f+ür weitere Informationen.
 
 Die Runden können nach Rundenzeit oder chronologisch sortiert werden je nach Klick auf die Spalte im entsprechenden Tabellenkopf (*Überfahrten* oder *Runden*).
 

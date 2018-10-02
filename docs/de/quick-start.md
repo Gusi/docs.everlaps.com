@@ -6,22 +6,22 @@ Hier werden die grundlegenden Schritte zum Installieren und Starten eines Rennen
 
 ### grundlegende Tätigkeiten
 
-1.  Fahrerdaten eingeben unter [&fa-users; **Fahrer**](./user-guide/drivers/index.html)
+1.  Fahrerdaten eingeben unter [&fa-users; **Fahrer**](./user-guide/drivers.md)
 
-2.  ein neues Rennen anlegen unter [&fa-road; **Rennen**](./user-guide/races/index.html), vorkunfigurieren durch die [&fa-flag; **Session**](./race-formats/qualify-finals/index.html) Optionen
+2.  ein neues Rennen anlegen unter [&fa-road; **Rennen**](./user-guide/races.md), vorkunfigurieren durch die [&fa-flag; **Session**](./race-formats/qualify-finals.md) Optionen
 
-3.  teilnehmende Fahrer eintragen unter [&fa-user; **Nennung**](./user-guide/races/index.html#inscripciones)
+3.  teilnehmende Fahrer eintragen unter [&fa-user; **Nennung**](./user-guide/races.md#inscripciones)
 
-4.  &fa-check-circle; **Generieren** und &fa-print; **Drucken** der Fahrergruppen unter [&fa-th; **Gruppen**](./user-guide/races/index.html#series)
+4.  &fa-check-circle; **Generieren** und &fa-print; **Drucken** der Fahrergruppen unter [&fa-th; **Gruppen**](./user-guide/races.md#series)
 
 	*nach jeder Session gehen Sie hierhin zurück um die Gruppen für die nächsten Sessions zu generieren. z.B. um die Final-Gruppen nach Abschluss der Vorläufe zu generieren*
 
-5.  zum Abschluss &fa-check-circle-o; **Bestätigen** der Fahrer in [&fa-th; **Gruppen**](./user-guide/races/index.html#series)
+5.  zum Abschluss &fa-check-circle-o; **Bestätigen** der Fahrer in [&fa-th; **Gruppen**](./user-guide/races.md#series)
 
 	*Die Gruppen wurden erzeugt*
 
-6.  [&fa-upload; **Aktivieren**](./user-guide/heats/index.html#mangas_1) und starten ([&fa-check-circle; **Start**](./user-guide/heats/index.html#control-de-la-manga-activa)) der Läufe nacheinander [&fa-clock-o; **Läufe
-**](./user-guide/heats/index.html)
+6.  [&fa-upload; **Aktivieren**](./user-guide/heats.md#mangas_1) und starten ([&fa-check-circle; **Start**](./user-guide/heats.md#control-de-la-manga-activa)) der Läufe nacheinander [&fa-clock-o; **Läufe
+**](./user-guide/heats.md)
 
 7.  Korregieren und Bestrafen wenn nötig und &fa-print; **Drucken** der Ergebnisse
 
@@ -50,7 +50,7 @@ Während des Timings ist es wichtig, dass alle Computer-Energiesparoptionen ausg
 
 Die Sprachausgabe erfordert die Installation eines TTS-Stimmpaketes (Dieses ist nicht in der Everlaps Lizenz enthalten). Die Empfehlung sind Stimmpakete von [Ivona](http://www.ivona.com).
 
-Sind die Stimmen installiert konnen Sie eingestellt werden unter [&fa-gear; **Optionen in der Konfiguration**](./user-guide/config/index.html)
+Sind die Stimmen installiert konnen Sie eingestellt werden unter [&fa-gear; **Optionen in der Konfiguration**](./user-guide/config.md)
 
 ---
 
@@ -58,7 +58,7 @@ Sind die Stimmen installiert konnen Sie eingestellt werden unter [&fa-gear; **Op
 
 Schliessen sie den AMB/MyLaps Decoder entsprechend der Anweisungen des Herstellers an. 
 
-Abhängig von der Art der Verbindung müssen die korrekten Werte eingestellt werden unter [&fa-gear; **Optionen in der Konfiguration**](./user-guide/config/index.html)
+Abhängig von der Art der Verbindung müssen die korrekten Werte eingestellt werden unter [&fa-gear; **Optionen in der Konfiguration**](./user-guide/config.md)
 
 - serielle oder USB Anbingung: geben Sie den Port an durch den der Decoder verbunden ist (Beispiel: COM1, COM2, ...)
 

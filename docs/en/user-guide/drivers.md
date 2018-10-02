@@ -54,7 +54,7 @@ Shows all the information about a driver, including personal data mentioned earl
 
 Manage the drivers list of transponders, rankings and vehicle numbers according to the classes that are being participated in.
 
-- **Classes**: Allows selection among the available [Classes](./config/ind	ex.html#categorias), in the list.
+- **Classes**: Allows selection among the available [Classes](./config.md#categorias), in the list.
 - **Transponder, rank and class**: Allows assignment of values corresponding to a driver in the class selected.
 
 !!! note ""
@@ -64,7 +64,7 @@ Manage the drivers list of transponders, rankings and vehicle numbers according 
 
 List of races marked as active, that a selected driver is participating in.
 
-Its possible to modify the transponder and rank of the selected registered driver, the same way that it would be done in [Registrations](./races/index.html#inscripciones) section.
+Its possible to modify the transponder and rank of the selected registered driver, the same way that it would be done in [Registrations](./races.md#inscripciones) section.
 
 #### Tags
 
@@ -72,6 +72,6 @@ Show the tags assigned to a driver.
 
 The tags allow the filtering and grouping together of drivers quickly within the different classes. (drivers list, registrations, heats...).
 
-Any tag can be assigned from the lower drop down, and can be removed by clicking on the *X*  that appears when the cursor is above the tag to be removed. The complete list is defined in the [Tags](./config/index.html#etiquetas) section.
+Any tag can be assigned from the lower drop down, and can be removed by clicking on the *X*  that appears when the cursor is above the tag to be removed. The complete list is defined in the [Tags](./config.md#etiquetas) section.
 
 

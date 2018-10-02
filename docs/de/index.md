@@ -12,7 +12,7 @@
 
 - **einfach und intuitiv**: bei der Entwicklung von Everlaps wurde besonderen Wert auf eine klar strukturierte intuitive Benutzeroberfläche gelegt, ohne dabei die notwendigen Funktionen und Aufgaben einer professionellen Rennzeitnahmesoftware einzuschränken.
 
-	*Werfen Sie einen Blick in die [Schnellstartanleitung](quick-start/index.html) das Programm kann binnen weniger Minuten installiert und startbereit sein.*
+	*Werfen Sie einen Blick in die [Schnellstartanleitung](quick-start.md) das Programm kann binnen weniger Minuten installiert und startbereit sein.*
 
 - **zuverlässig**: Entworfen und entwickelt wurde Everlaps mit dem Ziel, maximale Zuverlässigkeit und höchste Flexibilität während der Zeitmessung zu gewährleisten.
 	
@@ -32,26 +32,26 @@
 
 Die Dokumentation gliedert sich wie folgt:
 
-- [**Schnellstartanleitung**](quick-start/index.html): Installieren Sie das Programm und starten Sie das Timing mit einem Blick auf die relevantesten Optionen.
+- [**Schnellstartanleitung**](quick-start.md): Installieren Sie das Programm und starten Sie das Timing mit einem Blick auf die relevantesten Optionen.
 
 - **detailierte Bedienungsanleitung**: Beschreibung aller Möglichkeiten des Programms.
-	- [**Fahrer**](user-guide/drivers/index.html)
-	- [**Rennen***](user-guide/races/index.html)
-	- [**Läufe***](user-guide/heats/index.html)
-	- [**Einstellungen**](user-guide/config/index.html)
-	- [**Befehlszeilenoptionen**](user-guide/commands/index.html)
+	- [**Fahrer**](user-guide/drivers.md)
+	- [**Rennen***](user-guide/races.md)
+	- [**Läufe***](user-guide/heats.md)
+	- [**Einstellungen**](user-guide/config.md)
+	- [**Befehlszeilenoptionen**](user-guide/commands.md)
 
 - **Renn-Formate**: Beschreibung aller unterstützten Formate.
  
-	- [**Vorläufe und Finals**](race-formats/qualify-finals/index.html)
-	- [**Aufsteiger**](race-formats/christmas-tree/index.html)
-	- [**Freies Training**](race-formats/free-practice/index.html)
+	- [**Vorläufe und Finals**](race-formats/qualify-finals.md)
+	- [**Aufsteiger**](race-formats/christmas-tree.md)
+	- [**Freies Training**](race-formats/free-practice.md)
 
 - **häufig gestellte Fragen**: Beschreibung von häufig vorkommenden Aufgaben die der Zeitnehmer während eines Rennens erledigen muss.
-	- [**Strafen und Korrekturen**](common-tasks/punishments-corrections/index.html)
-	- [**Transponderwechsel**](common-tasks/change-transponders/index.html)
-	- [**Nachnennungen**](common-tasks/late-entries/index.html)
-	- [**Marker**](common-tasks/tags/index.html)
+	- [**Strafen und Korrekturen**](common-tasks/punishments-corrections.md)
+	- [**Transponderwechsel**](common-tasks/change-transponders.md)
+	- [**Nachnennungen**](common-tasks/late-entries.md)
+	- [**Marker**](common-tasks/tags.md)
 
 ## Kontakt
 
