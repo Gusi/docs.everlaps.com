@@ -38,5 +38,7 @@ nav:
 
 markdown_extensions:
     - extra:
-    - iconfonts(prefix=fa-,base=fa):
+    - iconfonts:
+        prefix: "fa-"
+        base: "fa"
     - admonition:
