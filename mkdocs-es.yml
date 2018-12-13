@@ -3,8 +3,10 @@ site_url: http://docs.everlaps.com
 site_description: Documentation for Everlaps
 site_author: The Everlaps Team
 theme:
-    name: readthedocs
-    custom_dir: 'custom_theme'
+    #name: readthedocs
+    #custom_dir: 'custom_theme'
+    name: material
+    custom_dir: 'custom_material'
 #markdown_extensions: [extra, admonition, 'iconfonts(prefix=fa-,base=fa)']
 use_directory_urls: false
 site_dir: 'site/es'
