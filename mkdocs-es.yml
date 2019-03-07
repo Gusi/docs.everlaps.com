@@ -18,7 +18,7 @@ strict: true
 #extra_javascript: ['js_extra/clickview.js','js_extra/imagegallery.js']
 
 extra_css:
-  - '../css_extra/material_fix.css'
+  - '../material_fix.css'
 
 repo_url: https://github.com/Gusi/docs.everlaps.com
 
