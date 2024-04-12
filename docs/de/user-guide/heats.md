@@ -1,4 +1,4 @@
-## &fa-clock-o; Läufe
+# :fontawesome-regular-clock: Läufe
 
 Die Abwicklung der Rennläufe wird hierüber kontrolliert, Die Läufe werden in der vom Zeitmesser vorgegebenen Reihenfolge aktiviert und zugehörige Ergebnisslisten werden nach Abschluss ausgegeben und gesichert.
 
@@ -26,12 +26,12 @@ Ist der Lauf aktiviert, werden alle Abläufe über dieses Panel kontrolliert.
 
 - **Finish**: Beendet den gestarteten Lauf und wertet ihn aus. Die Ergebnisse werden festgeschrieben und die Sprachausgabe gibt das Laufende mit seinem Resultat aus. Der Lauf wird automatisch deaktiviert und wenn der automatische Ausgruck konfiguriert ist, werden die Ergebnisse gedruckt und gespeichert.
 
-	!!! Beachte ""
+	!!! note
 		Nach dem Signalton für das Laufende wartet das Programm bis alle Fahrer Ihren Lauf durch ein letztmaliges überfahren die Ziellinie beenden. Wenn ein Fahrer abbricht oder vorher ausscheidet, wartet das Programm bis die voreingestellte Zeit für *letzte Runde* um ist.  In diesem Fall ist der *Finish* Button nutzvoll um Zeit zu sparen und den Lauf sofern keine Autos mehr auf der Strecke unterwegs sind auch vor Ablauf dieser Zeit ohne Einfluss auf die Ergebnisse zu benenden. 
 
-- &fa-gear; (*Laufeinstellungen*): Zeigt die aktuellen Einstellungen für den aktiven Auf an (Dauer, Mindestrundenzeit, Zeit für die letzte Runde, etc...)
+- :fontawesome-solid-gear: (*Laufeinstellungen*): Zeigt die aktuellen Einstellungen für den aktiven Auf an (Dauer, Mindestrundenzeit, Zeit für die letzte Runde, etc...)
 
-!!! Achtung "Modifizieren eines aktiven Laufes"
+!!! warning "Modifizieren eines aktiven Laufes"
 	Wenn der Lauf aktiviert wird, erstellt das System eine Kopie der Laufdaten wie Transpondernummern, Fahrernamen, Format, etc....um die Datenintegrität während des Rennens trotz möglicher Modifikationen in den Voreinstellungen zur gewährleisten.
 	
 	Um die Fahrer im aktiven Lauf und den Lauf selbst betreffende Konfigurationensdaten (Kurzname, Renndauer...) zu ändern, ist es notwendig den aktiven Lauf zu deaktivieren und ihn nach Änderung der Konfigurationen wieder zu aktivieren ausser für folgende Werte fie **on the fly** geändert werden können:  7
@@ -40,37 +40,37 @@ Ist der Lauf aktiviert, werden alle Abläufe über dieses Panel kontrolliert.
 	- **minimalste Rundenzeit**: Kann jederzeit angepasst werden.
 	- **Zeit letzte Runde**: Kann geändert werden solange der aktive Lauf noch nicht diesen Zeitbereich eingetreten ist.
 		
-	Beachte: Bei [Freies Training](../race-formats/free-practice) ist es auch möglich neue Fahrer on the fly zuzufügen und Kurznamen anzupassen da diese Session direkt auf die Datenbank zugreift.
+	Beachte: Bei [Freies Training](../race-formats/free-practice.md) ist es auch möglich neue Fahrer on the fly zuzufügen und Kurznamen anzupassen da diese Session direkt auf die Datenbank zugreift.
 
 ---
 
-### &fa-list-alt; Läufe
+### :fontawesome-solid-rectangle-list: Läufe
 
 ##### Aktionen
 
-- &fa-upload; (*den gewählten Lauf aktivieren*): aktiviert den gewählten Lauf, blendet das ControlPanel ein und initialisiert die anderen Panels *Laufsituation* und *Ergebnisse*. 
+- :fontawesome-solid-upload: (*den gewählten Lauf aktivieren*): aktiviert den gewählten Lauf, blendet das ControlPanel ein und initialisiert die anderen Panels *Laufsituation* und *Ergebnisse*. 
 
-	!!! Beachte ""
+	!!! note
 		Es wird eine Warnung ausgegeben wenn ein schonmal aktivierter Lauf mit seinen Runden und Ergebnissen wieder aktiviert werden soll, nach dem Bestätigen werden die **gespeicherten Daten gelöscht** 
 
-- &fa-download; (*den gewählten Lauf deaktivieren*): deaktiviert den gewählten Lauf sofern dieser noch nicht gestartet ist. In diesem Fall muss der Lauf fortgesetzt oder mit *Stop* / *Finish* beendet werden
+- :fontawesome-solid-download: (*den gewählten Lauf deaktivieren*): deaktiviert den gewählten Lauf sofern dieser noch nicht gestartet ist. In diesem Fall muss der Lauf fortgesetzt oder mit *Stop* / *Finish* beendet werden
 
-- &fa-play-circle; (*aktivieren/deaktivieren des Automatik Modus*): aktiviert oder deaktiviert den [Automatik Modus](#auto). Das Icon hat dann einen der drei Zustände:
+- :fontawesome-solid-circle-play: (*aktivieren/deaktivieren des Automatik Modus*): aktiviert oder deaktiviert den [Automatik Modus](#auto). Das Icon hat dann einen der drei Zustände:
 	
-	- &fa-play-circle; (statisch): Automatik Modus ist deaktiviert.
+	- :fontawesome-solid-circle-play: (statisch): Automatik Modus ist deaktiviert.
 	
-	- &fa-play-circle:spin; (kreisend): Automatik Modus ist aktiviert und im Standby für den Start des nächsten Laufes. Die verbleibende Zeit wird angezeigt und jede Minute angesagt.
+	- :fontawesome-solid-circle-play: (kreisend): Automatik Modus ist aktiviert und im Standby für den Start des nächsten Laufes. Die verbleibende Zeit wird angezeigt und jede Minute angesagt.
 	
-	- &fa-play-circle; (blinkend): Der Lauf ist aktiv und weitere Läufe im Rennen werden automatisch nach und nach mit den konfigurierten Zeiten durchgeführt.
+	- :fontawesome-solid-circle-play: (blinkend): Der Lauf ist aktiv und weitere Läufe im Rennen werden automatisch nach und nach mit den konfigurierten Zeiten durchgeführt.
 	
-	!!! Beachte ""
+	!!! note
 		Wenn der Lauf trotz aktivierten Automatik Modus manuell gestartet wird muss er auch manuell beendet werden bevor die Automatik wieder übernimmt. Wurde der Lauf manuell gestoppt nachdem er automatisch gestartet wurde muss er ebenfalls deaktiviert werden bevor die Automatik wieder übernimmt.
 
-- &fa-eye; (*zeige/verberge abgeschlossene Läufe*): Zeigt oder verbirgt abgeschlossene Läufe für eine bessere Übersicht
+- :fontawesome-solid-eye: (*zeige/verberge abgeschlossene Läufe*): Zeigt oder verbirgt abgeschlossene Läufe für eine bessere Übersicht
 		
-- &fa-print; (*Ergebnisse drucken*): Druckt die Ergebnisse des gewählten Laufes.
+- :fontawesome-solid-print: (*Ergebnisse drucken*): Druckt die Ergebnisse des gewählten Laufes.
 
-	!!! Beachte ""
+	!!! note
 		Es ist ist möglich die Ergebnisse auch als Zwischenresultate während des Rennens z.B. für Mehrstundenrennen zu drucken - Basis ist dann der Rennstand zum Druckzeitpunkt.
 	
 	- **Rennen**: generiert einen Report für den gewählten Lauf.
@@ -92,7 +92,7 @@ durch rechtsklicken auf jeden Lauf ausser dem jeweils aktiven gelangt man in ein
 
 ---
 
-### &fa-caret-square-o-right; Automatik Modus
+### :fontawesome-regular-square-caret-right: Automatik Modus
 
 ![Auto](../img/auto.png)
 
@@ -142,10 +142,10 @@ Dieses Panel zeigt die aktuellen Situation im gestarteten Lauf und stellt anschl
 
 Die Felder sind genau wie die Visualisierung des *Live Timing* des Webbrowsers in English benannt.
 
-- &fa-trophy; (*Position*): Die Position des Fahrers im aktuellen Lauf.
-- &fa-flag-o; (*Finalised*): If the flag appears &fa-flag-checkered; it means that the driver has finished the heat.
-- &fa-check; (*Verified*): ein grünes Häkchen &fa-check; signalisiert dass der Fahrer die Meßschleife während der Einführungszeit passiert hat. Dies ist nützlich um vor der Zeitmessung die korrekte Transponderzuordnung abzugleichen.
-- &fa-car; (*Vehicle number*): Fahrzeugnummer
+- :fontawesome-solid-trophy: (*Position*): Die Position des Fahrers im aktuellen Lauf.
+- :fontawesome-regular-flag: (*Finalised*): If the flag appears :fontawesome-solid-flag-checkered: it means that the driver has finished the heat.
+- :fontawesome-solid-check: (*Verified*): ein grünes Häkchen :fontawesome-solid-check: signalisiert dass der Fahrer die Meßschleife während der Einführungszeit passiert hat. Dies ist nützlich um vor der Zeitmessung die korrekte Transponderzuordnung abzugleichen.
+- :fontawesome-solid-car: (*Vehicle number*): Fahrzeugnummer
 - **Driver**: Kurzname des Fahrers.
 - **Laps/Time**: gefahrene Runden und benötigte Zeit.
 - **Prediction**: In den Vorläufen gibt dies anhand der zurückliegenden Rundenwerte ein voraussichtliches Ergebnis aus Runden und Zeit zum Rennende aus.
@@ -155,13 +155,13 @@ Die Felder sind genau wie die Visualisierung des *Live Timing* des Webbrowsers i
 - **Best**: Zeit für die beste Runde des Fahrers.
 - **Progress**: Fortschrittsbalken zur Anzeige der vollen Runde. Wenn der Balken gefüllt ist, sollte der Fahrer durchschnittlich die Ziellinie passieren sofern in der Runde keine Behinderung stattfand.
 
-!!! beachte "Transponderwechsel on the fly"
+!!! note "Transponderwechsel on the fly"
 	rechtsklicken auf jeden Fahrer führt in diesem Panel direkt zum Dialog des Transponderwechsels. Siehe [Transponder wechseln](../common-tasks/change-transponders.md) for more information.
 
 ---
 
 
-### &fa-list; Überfahrten
+### :fontawesome-solid-list: Überfahrten
 
 Zeigt die Details jedes Fahrers in chronologischer Reihenfolge. Wenn eine Überfahrt nicht akzeptiert wird, hat diese einen anderen Status und eine andere Farbe. Statusmöglichkeiten sind:
 
@@ -175,7 +175,7 @@ Zeigt die Details jedes Fahrers in chronologischer Reihenfolge. Wenn eine Überf
 - **Low signal**: Die Überfahrt wurde nicht gezählt da das Signal zu schwach war. Maßgeblich hierfür ist der Wert des Signalfilters der Decoderkonfiguration.
 - **Start**: Die Überfahrt wurde nicht gezählt da sie vor Ablauf der *Startverzögerung im Finale* erfolgte.
 
-!!! beachte ""
+!!! note
 	Im Feld Rundenzeit gibt die **orange Farbe** an dass die Rundenzeit ca. das doppelte der gesetzten minimalen Rundenzeit ist -  dies kann auf eine ungezählte Runde hindeuten.
 
 ##### Kontextmenue
@@ -197,7 +197,7 @@ Sobald der Lauf beendet ist, ist es mit Rechtsklick auf den entsprechenden Wert 
 	- **Wiederherstellen der letzten 10 Überfahrten**: stellt die letzten 10 Überfahrten nach der letzten im Lauf gespeicherten Überfahrt wieder her. Diese Aktion kann beliebig oft wiederholt werden...
 ---
 
-### &fa-mail-forward; Runden
+### :fontawesome-solid-mail-forward: Runden
 
 ![Vueltas](../img/laps.png)
 
@@ -205,14 +205,14 @@ Der Runden Screen zeigt in chronologischer Reihenfolge die Überfahrten jedes Fa
 
 Die Runden können nach Rundenzeit oder chronologisch sortiert werden je nach Klick auf die Spalte im entsprechenden Tabellenkopf (*Überfahrten* oder *Runden*).
 
-!!! beachte ""
+!!! note
 	Im Feld Rundenzeit gibt die **orange Farbe** an dass die Rundenzeit ca. das doppelte der gesetzten minimalen Rundenzeit ist -  dies kann auf eine ungezählte Runde hindeuten.
 
 
 
 ---
 
-### &fa-flag; Ergebnisse
+### :fontawesome-solid-flag: Ergebnisse
 
 ![Resultados](../img/heatresults.png)
 

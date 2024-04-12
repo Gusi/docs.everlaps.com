@@ -1,4 +1,4 @@
-## &fa-gears; Config
+# :fontawesome-solid-gears: Config
 
 Allows configuring general application parameters.
 
@@ -6,7 +6,7 @@ Allows configuring general application parameters.
 
 --- 
 
-#### &fa-microphone; Voices
+#### :fontawesome-solid-microphone: Voices
 
 Everlaps needs a voice synthesizer system *TTS (Text To Speech)* to be able to work. Two of the most well known are *Ivona* and *Loquendo*, although Everlaps can work with any *TTS* system that is SAPI5 compatible.
 
@@ -27,11 +27,11 @@ Everlaps needs a voice synthesizer system *TTS (Text To Speech)* to be able to w
 	
 			One <silence msec="1000"/> Two
 	
-		If you here *One Two* with a 1 second pause in between, the bug is not present and selecting compatibility mode will not be necessary; if only *One* is heard then it will be necessary to select it.
+		If you here *One Two* with a 1 second pause in between, the bug is not present and selecting compatibility mode will not be necessary: if only *One* is heard then it will be necessary to select it.
 
 ---
 
-#### &fa-bell-o; Sounds
+#### :fontawesome-regular-bell: Sounds
 
 It is possible to adjust the volume individually for each systems sound according to the needs of the track.
 
@@ -39,23 +39,23 @@ It is possible to adjust the volume individually for each systems sound accordin
 
 - **Race leader**: When the vehicle with the most amount of laps crosses the finishing line, a sharper sound is received, which can help the race director and the public identify who is the driver with the most laps. 
 
-	!!! note ""
+	!!! note
 		In a *final*, the race leader sound is equivalent to the first place driver.
 	
 		In a *qualifying heat*, Since each driver carries their own chrono, it does not imply that the driver is in the lead, only who is across the finishing line first.
 
 - **Heat start/Heat finish**: Indicates start and finish of a heat.
 
-	!!! note ""
+	!!! note
 		In a *final*, The heat start sound generally implies the start of the chrono. The heat finish sound implies that all the vehicles finish on their next crossing of the finish line.
 	
-		In a *qualifying heat*, The heat start sound indicates that the track is open, but the chrono will start when the first driver crosses first across the finishing line after the sound. The heat finish sound doesn't imply that all vehicles finish on their next crossing of the finishing line; the announcements will announce which vehicles have finished according to their individual chrono.
+		In a *qualifying heat*, The heat start sound indicates that the track is open, but the chrono will start when the first driver crosses first across the finishing line after the sound. The heat finish sound doesn't imply that all vehicles finish on their next crossing of the finishing line: the announcements will announce which vehicles have finished according to their individual chrono.
 
 - **Invalid transponder**: Sounds when a crossing is made by a transponder that does not belong to a driver in the active heat.
 
 ---
 
-#### &fa-bolt; Transponders
+#### :fontawesome-solid-bolt: Transponders
 
 The system supports the connection to different lap counting systems.
 
@@ -73,8 +73,8 @@ The system supports the connection to different lap counting systems.
 
 - **Permits invalid transponders to start heat**: By defect only valid transponders are allowed to start heats that wait for the first crossing to start the chrono (generally qualifying is started with a rolling start). If this option is enabled, it will permit an invalid transponder to start the chrono. 
 
-	!!! note ""
-		Permits an invalid transponder to start the chrono, the invalid transponder can be assigned to a driver afterwards and all the laps (including the first crossing) can be recovered automatically; otherwise, the first crossing will not be registered (since the heat has not started yet) and could not be recovered.
+	!!! note
+		Permits an invalid transponder to start the chrono, the invalid transponder can be assigned to a driver afterwards and all the laps (including the first crossing) can be recovered automatically: otherwise, the first crossing will not be registered (since the heat has not started yet) and could not be recovered.
 
 - **Permit manual counting**: Enables the program's manual counting option, for counting crossings of drivers without transponders manually.
 
@@ -87,7 +87,7 @@ The system supports the connection to different lap counting systems.
 
 ---
 
-#### &fa-print; Printing
+#### :fontawesome-solid-print: Printing
 
 - **Print total race time in lap results**: In heat reports, total race time is included next to the lap time in the chronological information for each driver.
 
@@ -101,27 +101,27 @@ The system supports the connection to different lap counting systems.
 
 ---
 
-#### &fa-gear; Default options
+#### :fontawesome-solid-gear: Default options
 
 - **Prologue/minimum lap/last lap/Delayed chrono time/Delayed launched start**: The values introduced in these fields are automatically assigned to new races that are generated by the program. Each field corresponds to a similar one in [Race configuration](../race-formats/qualify-finals.md#comun)
 
 - **Invert numbering of practice and qualifying series**: By default the series where each diver has an individual chrono are numbered from 1 on-wards, 1 being the series which contains the drivers of higher ranking and is scheduled to run last in the round. If this option is enabled, The qualifying series are numbered reverse order (series 1 will contain the drivers of least ranking and will be scheduled to run in first).
 
-	!!! note ""
+	!!! note
 		The order of the heats execution in Everlaps does not need to be strictly followed and the time keeper can choose which heat from the current round to launch in each moment.
 
 ---
 
-#### &fa-signal; Network
+#### :fontawesome-solid-signal: Network
 
 - **Publish results automatically in  everlaps.com**: When each heat finishes, the results are updated in [Everlaps](http://everlaps.com) as long as the *Web code* has been introduced that corresponds to that in the race configuration.
 
-	!!! note ""
+	!!! note
 		Once the heat has finished and corrections or penalties are applied to the race, it will be necessary to re-publish the race results manually (List of races > Right click > Publish results in everlaps.com)
 
 ---
 
-#### &fa-rss; Live Timing 
+#### :fontawesome-solid-rss: Live Timing 
 
 Everlaps can transmit the heat results in *Real time* via a web server, which enables the possibility to visualise the course of the race on any device with a modern web browser, like smart-phones, tablets and computers.
 
@@ -146,7 +146,7 @@ That way drivers in the pits and the public around the track or at home can foll
 
 ---
 
-#### &fa-database; Files
+#### :fontawesome-solid-database: Files
 
 - **Database**: Shows the path to the application file where all the driver and races are stored. This file can be moved between machines, for example to configure a race on another computer (including on the freeware version), to copy the database to the track computer to start the race immediately.
 
@@ -154,16 +154,16 @@ That way drivers in the pits and the public around the track or at home can foll
 
 ---
 
-#### &fa-globe; Language
+#### :fontawesome-solid-globe: Language
 
 Allows changing the interface language and announcements of Everlaps
 
-!!! note ""
+!!! note
 	The voices will need to be configured in the same language as that is established for the program.
 
 ---
 
-#### &fa-bug; Debugging
+#### :fontawesome-solid-bug: Debugging
 
 - **Show Console**: Shows the programs logs (voice announcements, actions, errors...). In case of problems, it can be useful to try and understand what has happened following the programs back-trace.
 
@@ -172,11 +172,11 @@ Allows changing the interface language and announcements of Everlaps
 
 ![Classes and tags](../img/classes-tags.png)
 
-#### &fa-list; Classes
+#### :fontawesome-solid-list: Classes
 
 Allows adding, deleting and modifying classes. By default a list of the most common classes is created, These can be modified at will, the only restriction being that the default class cannot be removed.
 
-#### &fa-list; Tags
+#### :fontawesome-solid-list: Tags
 
 Allows adding, deleting and modifying tags, assigning an identifying colour as well as a description.
 

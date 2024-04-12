@@ -1,4 +1,4 @@
-## &fa-road; Races
+# :fontawesome-solid-road: Races
 
 Here is where the available races are managed, and where the parameters are configured.
 
@@ -28,7 +28,7 @@ Shows the list of races available at the moment.
 
 ---
 
-### &fa-gear; Format
+### :fontawesome-solid-gear: Format
 
 ##### Available actions
 
@@ -42,7 +42,7 @@ The rest of the race configuration parameters depend on the type of race selecte
 
 ---
 
-### &fa-user; registrations
+### :fontawesome-solid-user: registrations
 
 ![Registrations](../img/registrations.png)
 
@@ -60,10 +60,10 @@ The screen will divide horizontally in two parts:
 - **Delete**: Removes all selected drivers from the list of those registered (they will return to *list of available drivers*).
 
 - **Import**: 
-	- **from a local file**: Loads a list of registered drivers from a text file downloaded from internet web site[Everlaps](http://everlaps.com) containing the race registration list.
+	- **from a local file**: Loads a list of registered drivers from a text file downloaded from internet web site [Everlaps](http://everlaps.com) containing the race registration list.
 	- **from internet**: Loads the list directly from internet web site, as long as the web [race password](../race-formats/qualify-finals.md#campos-de-formato) has been introduced.
 	
-	!!! note ""
+	!!! note
 		If a drivers list is imported and there are already drivers registered for the race, only those drivers that are on the list and have not been previously registered will be added. Transponder and rank values for drivers already registered will be kept.
 	
 - **Export**: Allows saving the list of registered drivers to a file.
@@ -75,7 +75,7 @@ The screen will divide horizontally in two parts:
 	- **Vehicle number to ranking**: Copies vehicle number to ranking value.
 	- **Consecutive vehicle numbers**: Re-numbers complete list of vehicles from 1 onward by order of ranking.
 
-- &fa-search; **(Search)**: Performs a search among the drivers registered showing those whose data fields (Name, Surname, Nick name, etc...) match totally or partially with the text introduced in the search field. 
+- :fontawesome-solid-magnifying-glass: **(Search)**: Performs a search among the drivers registered showing those whose data fields (Name, Surname, Nick name, etc...) match totally or partially with the text introduced in the search field. 
 
 ##### Fields
 
@@ -91,11 +91,11 @@ The database list of available drivers that are not registered can be seen in th
 
 ##### Actions
 
-- &fa-search; **(Search)**: Performs a search among the drivers not registered showing those whose data fields (Name, Surname, Nick name, etc...) match totally or partially with the text introduced in the search field.  
+- :fontawesome-solid-magnifying-glass: **(Search)**: Performs a search among the drivers not registered showing those whose data fields (Name, Surname, Nick name, etc...) match totally or partially with the text introduced in the search field.  
 
 ---
 
-### &fa-th; Series
+### :fontawesome-solid-table-cells: Series
 
 ![Series](../img/series.png)
 
@@ -116,7 +116,7 @@ The screen is divided in two vertically:
 	- **Copy from session**: Driver distribution is copied exactly the same as established in the session selected in the lower list.
 	- **Session result**: The driver order is defined by the results of the session selected in the lower list.
 
-		!!! note ""
+		!!! note
 			When generating the heats based on the results of a previous session, excluded drivers will be ignored.
 
 - **Add**: Adds an empty series.
@@ -127,7 +127,7 @@ The screen is divided in two vertically:
 
 - **Confirm**: Generates the heats according to distribution of series.
 
-	!!! note ""
+	!!! note
 		If after creating the heats new series are added, these can be *confirmed* and the heats for the new series will be added. It is also possible to move drivers once the heats are confirmed, the program is flexible in that way.
 
 - **Print**: Prints the list of series with the drivers that are in each series.
@@ -151,14 +151,14 @@ Drivers that are in each series can be dragged within a series or into another s
 
 All drivers registered in the race without a series in the selected session are shown on the right hand side of the screen. Drivers in the list can be dragged into and out of the series as needed.
 
-!!! note ""
+!!! note
 	Once the series have been generated, late entries can still register and be added to the series by dragging from the *drivers without a series * section or a new series can be created for them. In this case the *confirm* will need to be applied again to generate all the heats for the new series.
 	
 	It will not be necessary to re-generate existing series.
 	
 ---
 
-### &fa-trophy; Results
+### :fontawesome-solid-trophy: Results
 
 ![Results](../img/results.png)
 

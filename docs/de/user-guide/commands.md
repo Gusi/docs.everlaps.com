@@ -1,4 +1,4 @@
-## &fa-info-circle; Befehlszeilenoptionen
+# :fontawesome-solid-circle-info: Befehlszeilenoptionen
 
 Die verfügbaren Parameter für den Befehlszeilenaufruf der Everlaps.exe sind:
 

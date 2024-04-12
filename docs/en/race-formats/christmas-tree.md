@@ -1,4 +1,4 @@
-## Christmas tree format
+# Christmas tree format
 
 The christmas tree format is characterised by establishing a series of sub-finals in the form of a pyramid or *christmas tree* that permits any driver that rises from the lower finals to reach the absolute final, even if qualifying in last place during the qualifying session. 
 
@@ -8,7 +8,7 @@ The sessions previous to the finals (practice, re-ordering and or qualifying) ma
 
 ![Christmas tree](../img/subfinals.png)
 
-!!! note ""
+!!! note
 	The number of drivers used to calculate the distribution of the sub-finals is that of the registration list, except those drivers excluded from the race or qualifying session. This is useful to fine tune the distribution in case there are drivers that are registered but are not going to race, or have abandoned after qualifying.
 
 - **Name**: Defines the sub-final or final. It is established automatically.
@@ -33,7 +33,7 @@ The sessions previous to the finals (practice, re-ordering and or qualifying) ma
 	- **By time**: All drivers from series A and B are ordered by their *Laps/Time* obtained in semi-finals and are added to the starting grid after those with direct access.
 	- **Interspersed**: Drivers are added interspersed from both series: first place series A, first place series B, second place series A, second place series B, etc...
 
-	!!! note ""
+	!!! note
 		In the case that the sum of drivers with direct access plus those promoted by position do not complete the total of drivers per series, The drivers necessary are promoted to complete the final/s according to results of *Laps/Time*.
 
 - **Driver distribution**: Shows a summary of the composition of the sub-finals according to the drivers registered in the race to verify that the data introduced generates the desired distribution.

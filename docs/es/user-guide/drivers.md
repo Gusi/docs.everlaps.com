@@ -1,4 +1,4 @@
-## &fa-users; Pilotos
+# :fontawesome-solid-users: Pilotos
 
 Permite la gestión de todos los pilotos disponibles en la base de datos del programa.
 
@@ -30,7 +30,7 @@ Permite la introducción, modificación y borrado de los pilotos disponibles.
 
 - **Exportar**: Permite el volcado a fichero de la lista completa de pilotos.
 
-- &fa-search; **(Filtro de búsqueda)**: Realiza un filtrado de los pilotos visibles mostrando aquellos en los que alguno de sus campos (nombre, apellidos, apodo, transponder, categoría, etiquetas, etc...) coinciden total o parcialmente con el texto introducido en el campo de búsqueda. 
+- :fontawesome-solid-magnifying-glass: **(Filtro de búsqueda)**: Realiza un filtrado de los pilotos visibles mostrando aquellos en los que alguno de sus campos (nombre, apellidos, apodo, transponder, categoría, etiquetas, etc...) coinciden total o parcialmente con el texto introducido en el campo de búsqueda. 
 
 ##### Campos
 
@@ -57,7 +57,7 @@ Gestiona la lista de transponders, rankings y números de vehículo del piloto s
 - **Categoría**: Permite seleccionar entre las disponibles en la lista de [categorías](./config.md#categorias)
 - **Transponder, rank y vehículo**: Permite asignar los valores correspondientes para el piloto en la categoría seleccionada.
 
-!!! note ""
+!!! note
 	Al inscribir un piloto manualmente en una carrera, el sistema compara la categoría de la carrera con las categorías asignadas al piloto para asignar el transponder correspondiente. En caso de que no exista coincidencia, se asigna el transponder asignado a la categoría por defecto. 
 
 #### Inscripciones activas

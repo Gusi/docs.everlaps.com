@@ -1,4 +1,4 @@
-## &fa-users; Drivers
+# :fontawesome-solid-users: Drivers
 
 Allows the management of all the drivers available in the programs database.
 
@@ -30,7 +30,7 @@ Permits adding, deleting or modifying the available drivers.
 
 - **Export**: saves a list of drivers to a file.
 
-- &fa-search; **(Search)**: Performs a search upon the drivers visible, showing matches or partial matches (name, surname, transponder, category, tags etc...)  to the text input in the search field.
+- :fontawesome-solid-magnifying-glass: **(Search)**: Performs a search upon the drivers visible, showing matches or partial matches (name, surname, transponder, category, tags etc...)  to the text input in the search field.
 
 ##### Fields
 
@@ -57,7 +57,7 @@ Manage the drivers list of transponders, rankings and vehicle numbers according 
 - **Classes**: Allows selection among the available [Classes](./config.md#categorias), in the list.
 - **Transponder, rank and class**: Allows assignment of values corresponding to a driver in the class selected.
 
-!!! note ""
+!!! note
 	When registering a driver manually in a race, the system compares the classes of the race with the classes assigned to the driver to assign the corresponding transponder. In case there is no match, the default transponder is assigned for that class. 
 
 #### Active registrations

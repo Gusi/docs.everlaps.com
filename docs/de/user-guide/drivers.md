@@ -1,4 +1,4 @@
-## &fa-users; Fahrer
+# :fontawesome-solid-users: Fahrer
 
 Ermöglicht die Verwaltung aller Fahrer in der Programmdatenbank.
 
@@ -6,11 +6,11 @@ Ermöglicht die Verwaltung aller Fahrer in der Programmdatenbank.
 
 Glossar der Begriffe, die in der Fahrerverwaltung verwendet werden
 
-- ** Fahrer **: Eine Person, die in einem der konfigurierten Rennen genannt werden kann
-- ** Klassen **: Klassifiziert Die verschiedenen Klassen nach Fahrzeugtyp
-- ** Transponder **: Persönliche Transpondernummer, die von der Zeitmessanlage verwendet wird, um einen Fahrer zu identifizieren
-- ** Rangliste **: Die Fahrerfähigkeit in Bezug auf die Gesamtheit in der entsprechenden Klasse (Jahresrangliste,Bestenliste)
-- ** Tag **: Ermöglicht es Ihnen, Treiber mit einer gemeinsamen Kennung zu gruppieren 
+- **Fahrer**: Eine Person, die in einem der konfigurierten Rennen genannt werden kann
+- **Klassen**: Klassifiziert Die verschiedenen Klassen nach Fahrzeugtyp
+- **Transponder**: Persönliche Transpondernummer, die von der Zeitmessanlage verwendet wird, um einen Fahrer zu identifizieren
+- **Rangliste**: Die Fahrerfähigkeit in Bezug auf die Gesamtheit in der entsprechenden Klasse (Jahresrangliste,Bestenliste)
+- **Tag**: Ermöglicht es Ihnen, Treiber mit einer gemeinsamen Kennung zu gruppieren 
 
 Einem Fahrer können verschiedene Transponder oder Ränge in den entsprechend den Klassen zugeordnet werden, sowie auch jeder in der Datenbank definierte Marker.
 
@@ -30,11 +30,11 @@ erlaubt das Hinzufügen, Löschen und Ändern aller verfügbaren Fahrer.
 
 - **Exportieren**: speichert markierten Fahrer als eine Liste in eine Datei.
 
-- &fa-search; **(Suche)**: Führt eine Suche nach den Fahrern mit den im Suchfeld eingegeben Texten durch und zeigt Treffer und teilweise Treffer aus den Feldern (Name, Nachname, Transponder, Kategorie, Tags usw.)
+- :fontawesome-solid-magnifying-glass: **(Suche)**: Führt eine Suche nach den Fahrern mit den im Suchfeld eingegeben Texten durch und zeigt Treffer und teilweise Treffer aus den Feldern (Name, Nachname, Transponder, Kategorie, Tags usw.)
 
 ##### Felder
 
-- ** Name und Nachname **: Wird in der Liste angegeben, um den Fahrer zu identifizieren.
+- **Name und Nachname**: Wird in der Liste angegeben, um den Fahrer zu identifizieren.
 
 - **Kurzname**: Kurznamen werden von den Sprachansagen verwendet, um die Zeiten und die Position der Fahrer auszugeben sowie in den Livetime-Rennberichten. Doppelte Kurznamen sind in der Datenbank gestattet, aber sie sind im gleichen Lauf nicht erlaubt (Das Programm wird eine Warnung ausgeben, damit sie geändert werden können).
 
@@ -57,7 +57,7 @@ Hier verwalten Sie in der Fahrerliste die Transponder, Ranglisten und Startnumme
 - **Klassen**: erlaubt die Auswahl der [Klassen](./config.md#categorias), aus den Werten der Liste.
 - **Transponder, Ränge, Startnummern Kommentare**: Ermöglicht die Zuordnung von Werten, die dem Fahrer in der gewählten Klasse entsprechen.
 
-!!! beachte ""
+!!! note
 	Wenn man einen Fahrer manuell in einem Rennen registriert, vergleicht das System die Klassen des Rennens mit den dem Fahrer zugeordneten Klassen um den entsprechenden Transponder zuzuordnen. Falls es keine Übereinstimmung gibt, wird der Standard-Transponder für diese Klasse zugewiesen. 
 
 #### aktive Nennungen

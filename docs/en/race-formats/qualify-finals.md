@@ -1,4 +1,4 @@
-## Qualifying and finals
+# Qualifying and finals
 
 ![Qualifying and finals](../img/qualy-finals.png)
 
@@ -49,7 +49,7 @@ The race format *Qualification and Finals* defines by default the practice, re-o
 
 - **Minimum lap time**: minimum fastest lap time allowed by the race. Any time below this is interpreted as a short cut and will not be counted.
  
-	!!! note ""
+	!!! note
 		It is convenient that the minimum lap time be as tight as possible, apart from detecting shortcuts it is used by the announcement system during qualifying to calculate the race positions.
 
 - **Last lap**: Time allowed to complete the last lap once the heat has ended (or the end of individual qualifying time). According to some regulations, it should be 150% of the time calculated for a lap.
@@ -95,7 +95,7 @@ The race format *Qualification and Finals* defines by default the practice, re-o
 
 	- **Race situation**: Periodically the the race situation, drivers positions and distance between them are announced.
 	
-		!!! note ""
+		!!! note
 			In qualifying heats, as each driver has their own chrono, it is possible that there will be slight pauses between announcements for each driver. This is completely normal and depends on the distance between the start of each drivers chrono and the reliability of the minimum lap value established for the race. 
 	
 	- **Position when passing finishing line**: Each time a driver crosses the finishing line the drivers position is announced. This mode is only applied to finals, since all drivers have a common chrono.
@@ -131,7 +131,7 @@ The race format *Qualification and Finals* defines by default the practice, re-o
 	
 	- **Practice (points or best result)**: Similar to flying start qualifying, but the chrono starts with the sound of the horn instead of waiting for the first passing of the finishing line.
 	
-!!! note ""
+!!! note
 	The format can be modified even thou heats of the session have already been run. The system re-calculates the results according to the new parameters and the laps recorded.
 
 ##### Personalised Format
@@ -187,7 +187,7 @@ Allows configuring each of the parameters.
 
 - **Points type**: Establishes the session points type
 
-	- **Points**: A system of points is established for the session results. By default for electric vehicles position obtained in each round (0, 2, 3… for qualifying ; 1, 2, 3... for finals)
+	- **Points**: A system of points is established for the session results. By default for electric vehicles position obtained in each round (0, 2, 3… for qualifying : 1, 2, 3... for finals)
 	- **Best result**: Best result is chosen laps/time position having no bearing.
 
 - **Points system**: Establishes points system among those supported by the program.

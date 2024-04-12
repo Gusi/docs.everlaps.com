@@ -1,4 +1,4 @@
-## &fa-user; Nachnennung
+# :fontawesome-solid-user: Nachnennung
 
 In Everlaps ist es sehr einfach, Nennungen und Gruppen zu ändern ohne die bestehende Einteilung komplett neu zu generieren.
 

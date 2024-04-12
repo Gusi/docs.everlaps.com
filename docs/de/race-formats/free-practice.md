@@ -1,4 +1,4 @@
-## freies Training 
+# freies Training 
 
 ![freies Training ](../img/freepractice.png)
 
@@ -28,7 +28,7 @@ Im freien Training gibt es eine einzige Session und Gruppe, wo alle Fahrer die a
 
 - **unbekannte Transponder verwerfen**: Wenn die Funktion aktiviert ist, werden Überfahrten mit nicht in der Datenbank registrierten Transpondern ignoriert.
 
-!!! beachte ""
+!!! note
 	Mehrere verschiedene freie Trainingsläufe sind in soweit nützlich, dass im Blick auf den ständigen Fahrerlistenzugriff alle Aufzeichnungen zurückgesetzt werden.
 
 Wenn freier Trainingslauf gestartet wurde, gibt das Ansage-System die aktiven Fahrer mit den Rundenzeiten sowie die persönliche Bestzeit und die schnellste Runde für den Lauf aus. Jederzeit kann dabei eine Liste mit den derzeit schnellsten Runden der Fahrer gedruckt werden.
@@ -37,6 +37,6 @@ Wenn ein Fahrertransponder nicht registriert ist, werden die Runden während des
 
 Während freier Trainingsläufe können Kurznamen und Transpondernummern direkt in der [Fahrerliste](../user-guide/drivers.md) angepasst werden. Diese Änderungen werden umgehend umgesetzt.
 
-!!! beachte ""
+!!! note
 	Wenn eine freier Trainingslauf manuell abgeschlossen wird, werden die Ergebnisse nicht gedruckt - selbst wenn die Option *Laufergebnisse automatisch am Ende jedes Laufes drucken* gewählt ist.
 

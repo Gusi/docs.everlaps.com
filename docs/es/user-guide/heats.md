@@ -1,4 +1,4 @@
-## &fa-clock-o; Mangas
+# :fontawesome-regular-clock: Mangas
 
 Desde aquí se controla el progreso de las carreras, activando las mangas en el orden establecido por el cronometrador, y generando los informes de resultados correspondientes.
 
@@ -26,10 +26,10 @@ Al activar una manga, se muestra el panel que permite controlar el estado de la 
 
 - **Finish**: Detiene y finaliza la manga en curso. Los resultados quedan congelados y además el sistema de locución notifica el final de la manga y sus resultados, la manga se desactiva, y en caso de tener configurada la impresión automática de resultados, se envían a la impresora los datos correspondientes.
 
-	!!! note ""
+	!!! note
 		Después del sonido de fin de manga, el programa espera el tiempo configurado de *última vuelta* hasta que todos los pilotos que han pasado al menos una vez por línea de meta completan su última vuelta. Si un piloto ha roto el coche y abandonado la manga, el programa seguirá esperando por este piloto hasta que se consuma el tiempo de *última vuelta*. En este caso el botón de *Finish* es especialmente útil porque permitiría finalizar la manga sin alterar el resultado y ahorrar el tiempo de espera por un coche que ya no está en pista.
 
-- &fa-gear; (*Parámetros de manga*): Muestra los parámetros actuales de la manga activa (duración, tiempo de vuelta mínima, tiempo de última vuelta, etc...)
+- :fontawesome-solid-gear: (*Parámetros de manga*): Muestra los parámetros actuales de la manga activa (duración, tiempo de vuelta mínima, tiempo de última vuelta, etc...)
 
 !!! warning "Modificaciones sobre una manga activa"
 	Cuando una manga se activa, se realiza una copia aislada de todos los datos que intervienen en la manga, como son los transponders de los pilotos, nombres, duración, formato, etc... para garantizar la integridad del programa frente a posibles modificaciones erróneas durante el transcurso de la manga. 
@@ -40,37 +40,37 @@ Al activar una manga, se muestra el panel que permite controlar el estado de la 
 	- **Tiempo de vuelta mínima**: Se puede modificar en cualquier momento
 	- **Tiempo de última vuelta**: Se puede modificar excepto cuando la manga entra en el estado de *última vuelta*
 		
-	NOTA: En el modo de [entrenamiento libre](../race-formats/free-practice) es posible incorporar pilotos en caliente, así como modificar los apodos, ya que este formato de carrera realiza un acceso directo a la base de datos.
+	NOTA: En el modo de [entrenamiento libre](../race-formats/free-practice.md) es posible incorporar pilotos en caliente, así como modificar los apodos, ya que este formato de carrera realiza un acceso directo a la base de datos.
 
 ---
 
-### &fa-list-alt; Mangas
+### :fontawesome-solid-rectangle-list: Mangas
 
 ##### Acciones
 
-- &fa-upload; (*Activar manga seleccionada*): Activa la manga seleccionada, mostrando el panel de control e inicializando el resto de paneles de *Situación de la manga activa* y *Resultados*. 
+- :fontawesome-solid-upload: (*Activar manga seleccionada*): Activa la manga seleccionada, mostrando el panel de control e inicializando el resto de paneles de *Situación de la manga activa* y *Resultados*. 
 
-	!!! note ""
+	!!! note
 		Si la manga que se activa contiene ya vueltas y resultados porque se inició anteriormente, se mostrará un aviso notificando de la situación, y antes de iniciar la manga se volverá a mostrar otro mensaje de aviso, antes de que **los datos guardados sean eliminados** completamente.
 
-- &fa-download; (*Desactivar manga activa*): Desactiva la manga activa si no está en progreso, en cuyo caso habrá que esperar a la finalización de la manga, o detenerla con los botones de *Stop* o *Finish*
+- :fontawesome-solid-download: (*Desactivar manga activa*): Desactiva la manga activa si no está en progreso, en cuyo caso habrá que esperar a la finalización de la manga, o detenerla con los botones de *Stop* o *Finish*
 
-- &fa-play-circle; (*Activar/Desactivar modo automático*): Activa o desactiva el [modo automático](#auto). El botón puede estar en uno de estos 3 estados:
+- :fontawesome-solid-circle-play: (*Activar/Desactivar modo automático*): Activa o desactiva el [modo automático](#auto). El botón puede estar en uno de estos 3 estados:
 	
-	- &fa-play-circle; (estático): El modo automático esta desconectado.
+	- :fontawesome-solid-circle-play: (estático): El modo automático esta desconectado.
 	
-	- &fa-play-circle:spin; (rotando): Modo automático conectado y en espera de lanzar la siguiente manga. Se mostrará el tiempo restante y se avisará por megafonía cada minuto.
+	- :fontawesome-solid-circle-play: (rotando): Modo automático conectado y en espera de lanzar la siguiente manga. Se mostrará el tiempo restante y se avisará por megafonía cada minuto.
 	
-	- &fa-play-circle; (parpadeando): La manga está activada y el modo automático está a la espera de su finalización para lanzar la siguiente manga después del tiempo de espera configurado.
+	- :fontawesome-solid-circle-play: (parpadeando): La manga está activada y el modo automático está a la espera de su finalización para lanzar la siguiente manga después del tiempo de espera configurado.
 	
-	!!! note ""
+	!!! note
 		Con el modo automático activado, si el usuario activa la manga manualmente, o si detiene la manga una vez que ha sido activada automáticamente, debe iniciar la manga **de forma manual**. El modo automático continuará una vez que la manga activada finalice o se desactive manualmente.
 
-- &fa-eye; (*Mostrar/Ocultar mangas finalizadas*): Muestra u oculta las mangas finalizadas de las carreras activas en ese momento.
+- :fontawesome-solid-eye: (*Mostrar/Ocultar mangas finalizadas*): Muestra u oculta las mangas finalizadas de las carreras activas en ese momento.
 		
-- &fa-print; (*Imprimir resultados*): Imprime los resultados correspondiente a la manga seleccionada.
+- :fontawesome-solid-print: (*Imprimir resultados*): Imprime los resultados correspondiente a la manga seleccionada.
 
-	!!! note ""
+	!!! note
 		En cualquier momento es posible imprimir el resultado de manga, tanda o sesión, incluso en mitad del progreso de una manga. El resultado que se mostrará corresponderá con la situación de la manga en ese momento.
 	
 	- **Manga**: Genera el informe de la manga seleccionada.
@@ -92,7 +92,7 @@ Sobre cualquier manga, a excepción de la manga activa, se puede utilizar el bot
 
 ---
 
-### &fa-caret-square-o-right; Auto
+### :fontawesome-regular-square-caret-right: Auto
 
 ![Auto](../img/auto.png)
 
@@ -142,10 +142,10 @@ Este panel refleja el estado actual de la manga en curso, y mantiene el resultad
 
 Los campos mantienen su nombre siempre en inglés para que coincidan exactamente con la visualización del *Live Timing* en el navegador web.
 
-- &fa-trophy; (*Posición*): Posición de carrera del piloto en la manga.
-- &fa-flag-o; (*Finalizado*): Si aparece la bandera &fa-flag-checkered; significa que el piloto ha finalizado la manga.
-- &fa-check; (*Verificado*): Un icono &fa-check; verde indica que el piloto ha realizado alguna pasada por línea de meta durante el tiempo de prólogo de la manga. Es útil para verificar, justo antes del inicio del cronómetro, que todos los pilotos tienen su transponder asignado correctamente.
-- &fa-car; (*Número de coche*): Número del coche del piloto.
+- :fontawesome-solid-trophy: (*Posición*): Posición de carrera del piloto en la manga.
+- :fontawesome-regular-flag: (*Finalizado*): Si aparece la bandera :fontawesome-solid-flag-checkered: significa que el piloto ha finalizado la manga.
+- :fontawesome-solid-check: (*Verificado*): Un icono :fontawesome-solid-check: verde indica que el piloto ha realizado alguna pasada por línea de meta durante el tiempo de prólogo de la manga. Es útil para verificar, justo antes del inicio del cronómetro, que todos los pilotos tienen su transponder asignado correctamente.
+- :fontawesome-solid-car: (*Número de coche*): Número del coche del piloto.
 - **Driver**: Apodo del piloto.
 - **Laps/Time**: Vueltas y tiempo que lleva el piloto en el momento concreto.
 - **Prediction**: En mangas clasificatorias, indica el resultado previsto en vueltas y tiempo al finalizar la manga.
@@ -161,7 +161,7 @@ Los campos mantienen su nombre siempre en inglés para que coincidan exactamente
 ---
 
 
-### &fa-list; Pasadas
+### :fontawesome-solid-list: Pasadas
 
 Muestra el detalle de cada una de las pasadas de los pilotos en orden cronológico. En caso de que alguna pasada no sea aceptada, se mostrará con un color y estado distintos. Los posibles estados de una pasada pueden ser:
 
@@ -175,7 +175,7 @@ Muestra el detalle de cada una de las pasadas de los pilotos en orden cronológi
 - **Baja señal**: La pasada no pasó el filtro de señal o hits establecido en la configuración del decodificador.
 - **Margen de inicio**: No se contabiliza porque la pasada se ha producido en una final antes de que finalice el *Tiempo de demora en finales*.
 
-!!! note ""
+!!! note
 	En el campo de tiempo de vuelta, el **color naranja** indica que el tiempo de esa vuelta el mayor que el doble de tiempo mínimo por vuelta establecido, lo cual puede indicar una vuelta no contabilizada para ese piloto por no haber pasado correctamente por línea de meta.
 
 ##### Menú contextual
@@ -198,7 +198,7 @@ Una vez que la manga termina, es posible asignar o denegar pasadas utilizando el
 
 ---
 
-### &fa-mail-forward; Vueltas
+### :fontawesome-solid-mail-forward: Vueltas
 
 ![Vueltas](../img/laps.png)
 
@@ -206,12 +206,12 @@ La pantalla de vueltas muestra el orden cronológico de las pasadas de cada pilo
 
 Las vueltas pueden ordenarse según el tiempo de vuelta o el orden cronológico, pulsando con el ratón sobre el título de la columna correspondiente (*Pasada* o *Vuelta*).
 
-!!! note ""
+!!! note
 	Al igual que en el panel de pasadas, en el campo de tiempo de vuelta el color naranja indica que el tiempo de esa vuelta el mayor que el doble de tiempo mínimo por vuelta establecido, lo cual puede indicar una vuelta no contabilizada para ese piloto por no haber pasado correctamente por línea de meta.
 
 ---
 
-### &fa-flag; Resultados
+### :fontawesome-solid-flag: Resultados
 
 ![Resultados](../img/heatresults.png)
 

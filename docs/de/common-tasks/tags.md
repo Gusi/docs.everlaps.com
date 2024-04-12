@@ -1,4 +1,4 @@
-## &fa-tag; Marker
+# :fontawesome-solid-tag: Marker
 
 Everlaps ermöglicht die Erstellung von personalisierten Markern, die Fahrern und Rennen zugeordnet werden können
 
@@ -32,5 +32,5 @@ Beispiel:
 
  * Im Rennen wird eine Kategorie B * für Anfänger eingeführt. Alle Fahrer nehmen an der Qualifikation teil, aber beim Umstieg auf das Finale (oder Sub-Finale) ist es erforderlich, dass * Kategorie B * Fahrer ein unabhängiges Finale (in einer neuen Sitzung des gleichen Rennens) laufen. Bei der Erzeugung der Serie dieses Finals kann die Filterung durch den * Kategorie B * - Marker durchgeführt werden, so dass die automatische Generierung von Serien auf der Grundlage der Qualifikationsergebnisse nur die Fahrer dieser Kategorie berücksichtigt.
 
-!!! Hinweis ""
-Wenn ein Marker einem Rennen zugeordnet ist und ein Fahrer diesem Marker zugewiesen ist, wird dieses Marker automatisch in der entsprechenden Spalte in der Fahrernennung markiert.
+!!! note
+    Wenn ein Marker einem Rennen zugeordnet ist und ein Fahrer diesem Marker zugewiesen ist, wird dieses Marker automatisch in der entsprechenden Spalte in der Fahrernennung markiert.

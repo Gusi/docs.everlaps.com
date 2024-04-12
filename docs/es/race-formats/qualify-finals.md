@@ -1,4 +1,4 @@
-## Clasificatorias y finales
+# Clasificatorias y finales
 
 ![Clasificatorias y finales](../img/qualy-finals.png)
 
@@ -49,7 +49,7 @@ El formato de carrera de *Clasificatorias y Finales* define por defecto las sesi
 
 - **Vuelta mínima**: Tiempo de la vuelta más rápida permitida para la carrera. Cualquier tiempo por debajo de este valor se interpreta como un atajo y no se contabiliza.
  
-	!!! note ""
+	!!! note
 		Es conveniente que el valor de vuelta mínima sea lo más ajustado posible, ya que aparte de para detectar atajos en carrera, es utilizado por el sistema de locución durante las clasificatorias para efectuar los cálculos de situación real de carrera.
 
 - **Última vuelta**: Tiempo para dar la última vuelta desde que se marca el final de manga (o el final del tiempo individual en clasificadoras). Según algunos reglamentos, debe ser el 150% de la vuelta calculada para el trazado.
@@ -95,7 +95,7 @@ El formato de carrera de *Clasificatorias y Finales* define por defecto las sesi
 
 	- **Situación de carrera**: Cada cierto tiempo se informa de la situación de carrera con las posiciones de los pilotos y la distancia entre ellos.
 	
-		!!! note ""
+		!!! note
 			En las mangas clasificatorias, al llevar cada piloto su propio cronómetro, es posible que se efectúen ligeras pausas entre las locuciones de situación de cada piloto. Esto es perfectamente normal y depende de la distancia que haya entre el inicio del cronómetro de cada piloto y la fiabilidad del valor de vuelta mínima establecido para la carrera.
 	
 	- **Posición a paso por meta**: Cada vez que un piloto realiza un paso por meta se nombra la posición del piloto. Este modo sólo es aplicable a las finales, ya que todos los pilotos comparten el mismo cronómetro.
@@ -131,7 +131,7 @@ El formato de carrera de *Clasificatorias y Finales* define por defecto las sesi
 	
 	- **Entrenos (puntos o mejor resultado)**: Similar a la clasificatoria volante, pero el crono se inicia con el sonido de la bocina en vez de esperar a la primera pasada.
 	
-!!! note ""
+!!! note
 	Se puede modificar el formato en cualquier momento aunque ya se hayan disputado mangas de la sesión. El sistema recalcula los resultados en función de los nuevos parámetros y de las vueltas almacenadas.
 
 ##### Formato personalizado
@@ -187,7 +187,7 @@ Permite configurar cada uno de los parámetros.
 
 - **Tipo de puntuación**: Establece el sistema de puntuación de la sesión
 
-	- **Puntos**: Se establece un sistema de puntos para obtener el resultado de las sesión. Por defecto se usa el sistema estándar de eléctricos según la posición obtenida en cada tanda (0, 2, 3… para clasificatorias; 1, 2, 3... para finales)
+	- **Puntos**: Se establece un sistema de puntos para obtener el resultado de las sesión. Por defecto se usa el sistema estándar de eléctricos según la posición obtenida en cada tanda (0, 2, 3… para clasificatorias: 1, 2, 3... para finales)
 	- **Mejor resultado**: Se elige el mejor resultado en vueltas/tiempo sin importar la posición.
 
 - **Sistema de puntos**: Establece el sistema de puntuación de entre los soportados por el programa.

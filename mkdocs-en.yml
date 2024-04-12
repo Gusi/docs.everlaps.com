@@ -1,13 +1,26 @@
-site_name: Everlaps
+site_name: EVERLAPS - Documentation v1.4.x
 site_url: http://docs.everlaps.com
 site_description: Documentation for Everlaps
 site_author: The Everlaps Team
 theme:
-    #name: readthedocs
-    #custom_dir: 'custom_theme'
-    name: material
-    custom_dir: 'custom_material'
-#markdown_extensions: [extra, admonition, 'iconfonts(prefix=fa-,base=fa)']
+  #custom_dir: 'custom_theme'
+  name: material
+  palette:
+    scheme: slate
+    primary: deep orange
+  #custom_dir: docs/.overrides
+  #custom_dir: 'custom_material'
+extra:
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+    - name: Spanish
+      link: /es/
+      lang: es
+    - name: Deutsch
+      link: /de/
+      lang: de
 use_directory_urls: false
 site_dir: 'site/en'
 docs_dir: 'docs/en'
@@ -17,8 +30,8 @@ strict: true
 #extra_css: ['css_extra/tables.css','css_extra/admonitions.css','css_extra/fixes.css','css_extra/clickview.css','fonts/opensans.css']
 #extra_javascript: ['js_extra/clickview.js','js_extra/imagegallery.js']
 
-extra_css:
-  - '../material_fix.css'
+#extra_css:
+#  - '../material_fix.css'
 
 repo_url: https://github.com/Gusi/docs.everlaps.com
 
@@ -26,24 +39,25 @@ nav:
 - Index: index.md
 - Quick start: quick-start.md
 - Manual detailed:
-    - Drivers: user-guide/drivers.md
-    - Races: user-guide/races.md
-    - Heats: user-guide/heats.md
-    - Config: user-guide/config.md
-    - Command line options: user-guide/commands.md
+  - Drivers: user-guide/drivers.md
+  - Races: user-guide/races.md
+  - Heats: user-guide/heats.md
+  - Config: user-guide/config.md
+  - Command line options: user-guide/commands.md
 - Race formats:
-    - Qualifying and finals: race-formats/qualify-finals.md
-    - Christmas tree: race-formats/christmas-tree.md
-    - Free practice: race-formats/free-practice.md
+  - Qualifying and finals: race-formats/qualify-finals.md
+  - Christmas tree: race-formats/christmas-tree.md
+  - Free practice: race-formats/free-practice.md
 - Common tasks:
-    - Penalties and corrections: common-tasks/punishments-corrections.md
-    - Change transponders: common-tasks/change-transponders.md
-    - Late entries: common-tasks/late-entries.md
-    - Tags: common-tasks/tags.md
+  - Penalties and corrections: common-tasks/punishments-corrections.md
+  - Change transponders: common-tasks/change-transponders.md
+  - Late entries: common-tasks/late-entries.md
+  - Tags: common-tasks/tags.md
 
 markdown_extensions:
-    - extra:
-    - iconfonts:
-        prefix: "fa-"
-        base: "fa"
-    - admonition:
+  - extra:
+  - admonition:
+  - attr_list:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

@@ -1,4 +1,4 @@
-## &fa-info-circle; Command line options
+# :fontawesome-solid-circle-info: Command line options
 
 These are the available command line options for Everlaps.exe
 

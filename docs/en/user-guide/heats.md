@@ -1,4 +1,4 @@
-## &fa-clock-o; Heats
+# :fontawesome-regular-clock: Heats
 
 Heats progress is controlled from here, heats will be activated in the order established by the timekeeper, and generating the corresponding results sheets.
 
@@ -26,10 +26,10 @@ Once the heat is activated, the heat can be controlled from the panel.
 
 - **Finish**: Stops and finalizes a running heat. The heats results are frozen and the announcement system reports end of heat and its results, The heat become in-active and if automatic results printing is configured the corresponding data is sent to the printer.
 
-	!!! note ""
+	!!! note
 		After the end of heat sound, the program waits the pre-configured *Last lap* time, until all drivers that have passed the finishing line at least once finish their last lap. If a driver breaks and abandons the heat, the program will keep waiting for this driver until the *Last lap* time is up. In this case the *Finish* button is useful to terminate a heat without altering the results and saving time waiting for a car no longer on the track.
 
-- &fa-gear; (*Heat parameters*): Shows the actual parameters of the active heat (duration, minimum lap time, last lap time, etc...)
+- :fontawesome-solid-gear: (*Heat parameters*): Shows the actual parameters of the active heat (duration, minimum lap time, last lap time, etc...)
 
 !!! warning "Modifying an active heat"
 	When a heat is activated, a safe copy of the heat data is made, transponder numbers, driver names, duration, format, etc... to guarantee the integrity of the program from possible erroneous modifications during the course of the heat. 
@@ -40,37 +40,37 @@ Once the heat is activated, the heat can be controlled from the panel.
 	- **Minimum lap time**: Can be changed at any time.
 	- **Last lap time**: Can be changed before the heat has entered *last lap* time.
 		
-	NOTE: In [free practice](../race-formats/free-practice) it is possible to add new drivers on the fly, and modify nick names since this session format can access the database directly.
+	NOTE: In [free practice](../race-formats/free-practice.md) it is possible to add new drivers on the fly, and modify nick names since this session format can access the database directly.
 
 ---
 
-### &fa-list-alt; Heats
+### :fontawesome-solid-rectangle-list: Heats
 
 ##### Actions
 
-- &fa-upload; (*Activate selected heat*): Activates the selected heat, Showing the control panel and initialising the other panels *Heat situation* and *Results*. 
+- :fontawesome-solid-upload: (*Activate selected heat*): Activates the selected heat, Showing the control panel and initialising the other panels *Heat situation* and *Results*. 
 
-	!!! note ""
+	!!! note
 		If a heat that is activated already contains laps and results because it was started previously, a warning will be shown, and before the heat is re-started another warning will be shown, before **the saved data is deleted** completely.
 
-- &fa-download; (*De-activate the selected heat*): De-activates the active heat if it is not in progress, in which case the heat will need to run its course or by pressing *Stop* or *Finish*
+- :fontawesome-solid-download: (*De-activate the selected heat*): De-activates the active heat if it is not in progress, in which case the heat will need to run its course or by pressing *Stop* or *Finish*
 
-- &fa-play-circle; (*Activate/De-activate automatic mode*): Activates or de-activates [automatic mode](#auto). The icon can be in one of 3 states:
+- :fontawesome-solid-circle-play: (*Activate/De-activate automatic mode*): Activates or de-activates [automatic mode](#auto). The icon can be in one of 3 states:
 	
-	- &fa-play-circle; (static): Automatic mode is disabled.
+	- :fontawesome-solid-circle-play: (static): Automatic mode is disabled.
 	
-	- &fa-play-circle:spin; (spinning): Automatic is enabled and in standby to start the next heat. Remaining time will be shown and announcements made every minute.
+	- :fontawesome-solid-circle-play: (spinning): Automatic is enabled and in standby to start the next heat. Remaining time will be shown and announcements made every minute.
 	
-	- &fa-play-circle; (blinking): The heat is active and in automatic and waiting to finalise before next heat is  started after the pre-configured prologue time.
+	- :fontawesome-solid-circle-play: (blinking): The heat is active and in automatic and waiting to finalise before next heat is  started after the pre-configured prologue time.
 	
-	!!! note ""
+	!!! note
 		With automatic enabled, if a user starts the heat manually, or stops the heat once it has been activated in automatic, it will need to be re-started **manually**. Automatic mode will continue once the active heat finishes or is de-activated manually.
 
-- &fa-eye; (*Show/Hide finalised heats*): Shows or hides finalised active heats.
+- :fontawesome-solid-eye: (*Show/Hide finalised heats*): Shows or hides finalised active heats.
 		
-- &fa-print; (*Print results*): Prints the results which correspond to the selected heat.
+- :fontawesome-solid-print: (*Print results*): Prints the results which correspond to the selected heat.
 
-	!!! note ""
+	!!! note
 		It is possible to print heat, round or session, even in the middle of a heat. The results shown will correspond with the heat results up until that moment.
 	
 	- **Race**: Generates report for selected heat.
@@ -92,7 +92,7 @@ Right clicking on any heat except the active heat will access the contextual men
 
 ---
 
-### &fa-caret-square-o-right; Auto
+### :fontawesome-regular-square-caret-right: Auto
 
 ![Auto](../img/auto.png)
 
@@ -142,10 +142,10 @@ This panel shows the actual state of the running heat, and maintains the result 
 
 The fields always maintain their names in english so that they coincide exactly the same as the visualization of the *Live Timing* in the web browser.
 
-- &fa-trophy; (*Position*): Drivers race position in the heat.
-- &fa-flag-o; (*Finalised*): If the flag appears &fa-flag-checkered; it means that the driver has finished the heat.
-- &fa-check; (*Verified*): a green tick icon &fa-check; indicates that a driver has crossed the finish line during the heats prologue time. It is useful to verify, just before the start of the chrono, that all the drivers have an correctly assigned transponder.
-- &fa-car; (*Vehicle number*): drivers vehicle number.
+- :fontawesome-solid-trophy: (*Position*): Drivers race position in the heat.
+- :fontawesome-regular-flag: (*Finalised*): If the flag appears :fontawesome-solid-flag-checkered: it means that the driver has finished the heat.
+- :fontawesome-solid-check: (*Verified*): a green tick icon :fontawesome-solid-check: indicates that a driver has crossed the finish line during the heats prologue time. It is useful to verify, just before the start of the chrono, that all the drivers have an correctly assigned transponder.
+- :fontawesome-solid-car: (*Vehicle number*): drivers vehicle number.
 - **Driver**: Drivers nick name.
 - **Laps/Time**: Drivers laps and time in any given moment.
 - **Prediction**: In qualifying heats, it indicates a predictive result for laps and time by the end of the heat.
@@ -161,7 +161,7 @@ The fields always maintain their names in english so that they coincide exactly 
 ---
 
 
-### &fa-list; Crossings
+### :fontawesome-solid-list: Crossings
 
 Shows details of each drivers crossings in chronological order. In case a crossing is not accepted, it will be shown with a different state and colour. The possible states are:
 
@@ -175,7 +175,7 @@ Shows details of each drivers crossings in chronological order. In case a crossi
 - **Low signal**: The crossing did not pass the signal filter or hits established in the decoders configuration.
 - **Start margin**: The crossing is not counted because the crossing has occurred in a final before end of *Finals start time*.
 
-!!! note ""
+!!! note
 	In the field lap time, the **orange colour** indicates that the lap time is double the minimum lap time established, which could indicate an uncounted lap for that driver for not having crossed the finishing line correctly.
 
 ##### Contextual menu
@@ -198,7 +198,7 @@ Once a heat finishes, it is possible to assign crossings or deny them using the 
 
 ---
 
-### &fa-mail-forward; Laps
+### :fontawesome-solid-mail-forward: Laps
 
 ![Vueltas](../img/laps.png)
 
@@ -206,14 +206,14 @@ The laps screen shows the chronological order of the crossings for each driver. 
 
 The laps can be sorted by lap time or chronological order, clicking with the mouse over the title of the corresponding column (*Crossing* or *Lap*).
 
-!!! note ""
+!!! note
 	As in the crossings panel, In the field lap time, the **orange colour** indicates that the lap time is double the minimum lap time established, could indicate an uncounted lap for that driver for not having crossed the finishing line correctly. 
 
 
 
 ---
 
-### &fa-flag; Results
+### :fontawesome-solid-flag: Results
 
 ![Resultados](../img/heatresults.png)
 

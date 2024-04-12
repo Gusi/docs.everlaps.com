@@ -1,4 +1,4 @@
-## &fa-user; Inscripciones con la carrera en marcha
+# :fontawesome-solid-user: Inscripciones con la carrera en marcha
 
 En Everlaps es muy sencillo modificar las inscripciones y/o series sin tener que regenerar la distribución existente.
 

@@ -1,4 +1,4 @@
-## Quick start
+# Quick Start
 
 Here are described the basic steps to install and start a race in Everlaps. For more Detailed information see the rest of the documentation.
 
@@ -6,24 +6,23 @@ Here are described the basic steps to install and start a race in Everlaps. For 
 
 ### Basic actions
 
-1.  Input the driver data in [&fa-users; **Drivers**](./user-guide/drivers.md)
+1.  Input the driver data in [:fontawesome-solid-users: **Drivers**](./user-guide/drivers.md)
 
-2.  Create a new race in [&fa-road; **Races**](./user-guide/races.md), configure general and [&fa-flag; **Session**](./race-formats/qualify-finals.md) options
+2.  Create a new race in [:fontawesome-solid-road: **Races**](./user-guide/races.md), configure general and [:fontawesome-solid-flag: **Session**](./race-formats/qualify-finals.md) options
 
-3.  Register participating drivers in [&fa-user; **Registrations**](./user-guide/races.md#inscripciones)
+3.  Register participating drivers in [:fontawesome-solid-user: **Registrations**](./user-guide/races.md#inscripciones)
 
-4.  &fa-check-circle; **Generate** and &fa-print; **Print** driver series in [&fa-th; **Series**](./user-guide/races.md#series)
+4.  :fontawesome-solid-circle-check: **Generate** and :fontawesome-solid-print: **Print** driver series in [:fontawesome-solid-table-cells: **Series**](./user-guide/races.md#series)
 
 	*Returns here at the end of each session to generate the series for the next. For example, to generate finals series after completing qualifying*
 
-5.  &fa-check-circle-o; **Confirm** The drivers series in [&fa-th; **Series**](./user-guide/races.md#series)
+5.  :fontawesome-regular-circle-check: **Confirm** The drivers series in [:fontawesome-solid-table-cells: **Series**](./user-guide/races.md#series)
 
 	*The race Heats are generated*
 
-6.  [&fa-upload; **Activate**](./user-guide/heats.md#mangas_1) and start ([&fa-check-circle; **Start**](./user-guide/heats.md#control-de-la-manga-activa)) The heats one after another in [&fa-clock-o; **Heats
-**](./user-guide/heats.md)
+6.  [:fontawesome-solid-upload: **Activate**](./user-guide/heats.md#mangas_1) and start ([:fontawesome-solid-circle-check: **Start**](./user-guide/heats.md#control-de-la-manga-activa)) The heats one after another in [:fontawesome-regular-clock: **Heats**](./user-guide/heats.md)
 
-7.  Penalise and correct if necessary, and &fa-print; **Print** the results
+7.  Penalise and correct if necessary, and :fontawesome-solid-print: **Print** the results
 
 ---
 
@@ -50,7 +49,7 @@ System requirements
 
 Requires the installation of a text to speech module (The cost is not included in the Everlaps license). The recommended is [Ivona](http://www.ivona.com).
 
-Once the voices are installed they can be selected in [&fa-gear; **Configuration options**](./user-guide/config.md)
+Once the voices are installed they can be selected in [:fontawesome-solid-gear: **Configuration options**](./user-guide/config.md)
 
 ---
 
@@ -58,7 +57,7 @@ Once the voices are installed they can be selected in [&fa-gear; **Configuration
 
 Connect the amb/MyLaps decoder to the computer following the instructions provided by the manufacturer. 
 
-Depending on the type of connection, the correct values will need to be configured in [&fa-gear; **Configuration options**](./user-guide/config.md)
+Depending on the type of connection, the correct values will need to be configured in [:fontawesome-solid-gear: **Configuration options**](./user-guide/config.md)
 
 - Serial connection: input the computers serial port that the decoder is connected to (COM1, COM2, ...)
 

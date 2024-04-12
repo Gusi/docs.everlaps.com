@@ -1,4 +1,4 @@
-## &fa-legal; Sanciones y correcciones
+# :fontawesome-solid-gavel: Sanciones y correcciones
 
 ---
 

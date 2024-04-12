@@ -1,4 +1,4 @@
-## &fa-road; Rennen
+# :fontawesome-solid-road: Rennen
 
 Hier werden die Rennen verwaltet die Einstellungen dafür festgelegt.
 
@@ -28,7 +28,7 @@ Zeigt die Liste der aktuell verfügbaren Rennen an.
 
 ---
 
-### &fa-gear; Format
+### :fontawesome-solid-gear: Format
 
 ##### verfügbare Funktionen
 
@@ -42,7 +42,7 @@ Die weitere Rennkonfiguration hängt vom Typ Format des gewählten Rennens ab - 
 
 ---
 
-### &fa-user; Nennungen
+### :fontawesome-solid-user: Nennungen
 
 ![Nennungen](../img/registrations.png)
 
@@ -63,7 +63,7 @@ Der Bildschirm ist horizontal zweigeteilt:
 	- **aus einer lokalen Datei**: läde die Nennliste aus einer über die [Everlaps-Website](http://everlaps.com) heruntergeladenen Nennliste.
 	- **aus dem Internet**: läde die Nennliste direkt von der Everlaps-Website, sofern das [Rennpasswort](../race-formats/qualify-finals.md#campos-de-formato) gesetzt ist.
 	
-	!!! beachte ""
+	!!! note
 		Werden Fahrer importiert die zuvor schon lokal genannt waren, werden diese nicht überschrieben - Transponder und Rang bleiben erhalten, nur zuvor nicht genannte werden importiert.
 	
 - **Exporieren**: exportiert die Nennliste in eine Textdatei.
@@ -75,7 +75,7 @@ Der Bildschirm ist horizontal zweigeteilt:
 	- **Fahrzeugnummer zu Rang**: Kopiert die Fahrzeugnummer zum Rang.
 	- **Aufeinanderfolgende Fahrzeugnummern**: Nummeriert die Liste der Fahrzeuge entsprechend der Rangordnung beginnend mit 1 neu.
 
-- &fa-search; **(Suche)**: Führt eine Suche unter den genannten Fahrern durch, deren Datenfelder (Name, Nachname, Kurzname, usw.) ganz oder teilweise mit dem im Suchfeld eingegebenen Text übereinstimmen.
+- :fontawesome-solid-magnifying-glass: **(Suche)**: Führt eine Suche unter den genannten Fahrern durch, deren Datenfelder (Name, Nachname, Kurzname, usw.) ganz oder teilweise mit dem im Suchfeld eingegebenen Text übereinstimmen.
 
 ##### Felder
 
@@ -91,11 +91,11 @@ die *Liste verfügbarer Fahrer* zeigt die in der Datenbank gespeicherten Fahrer 
 
 ##### Aktionen
 
-- &fa-search; **(Suche)**: Führt eine Suche unter den nicht genannten Fahrern durch, deren Datenfelder (Name, Nachname, Kurzname, usw.) ganz oder teilweise mit dem im Suchfeld eingegebenen Text übereinstimmen.
+- :fontawesome-solid-magnifying-glass: **(Suche)**: Führt eine Suche unter den nicht genannten Fahrern durch, deren Datenfelder (Name, Nachname, Kurzname, usw.) ganz oder teilweise mit dem im Suchfeld eingegebenen Text übereinstimmen.
 
 ---
 
-### &fa-th; Gruppen
+### :fontawesome-solid-table-cells: Gruppen
 
 ![Gruppen](../img/series.png)
 
@@ -116,7 +116,7 @@ Der Bildschirm in diesem Bereich ist zweigeteilt:
 	- **Kopiere Von Session**: Die Fahrerverteilung wird genauso wie unten in der Liste ausgewählten Session definiert.
 	- **Session Ergebnis**: Die Fahrerreihenfolge wird aus dem Ergebnis der unten in der Liste ausgewählten Session definiert.
 
-		!!! beachte ""
+		!!! note
 			Beim Generieren von Läufen auf Basis von Ergebnissen einer vorherigen Sitzung werden ausgeschlossene Fahrer ignoriert.
 
 - **Hinzufügen**: Fügt eine leere Gruppe hinzu.
@@ -127,7 +127,7 @@ Der Bildschirm in diesem Bereich ist zweigeteilt:
 
 - **Bestätigen**: Erzeugt die Läufe entsprechend der Gruppenverteilung aus der Konfiguration.
 
-	!!! beachte ""
+	!!! note
 	Das Programm ist so flexibel, dass nach dem ersten Erstellen der Läufe noch neue Gruppen hinzugefügt werden können. Durch das anschliessende * bestätigen * werden die zusätzlichen Läufe erstellt. Es ist auch möglich, Fahrer nach dem Bestätigen zu von Gruppe zu Gruppe zu bewegen sofern noch kein betreffender Lauf gestartet wurde.
 
 - **Drucken**: Druckt die Liste der Gruppen mit den zugehörigen Fahrern.
@@ -151,14 +151,14 @@ Die Fahrer können per drag & drop von einer Gruppe in eine andere umverteilt we
 
 Alle genannten Fahrer die im Rennen noch keiner Gruppe zugeordnet sind, werden auf der rechten Seite des Bildschirms angezeigt. Die Fahrer dieser Liste können nach Bedarf in die Gruppen gezogen werden.
 
-!!! beachte ""
+!!! note
 	Wenn die Gruppen einmal generiert wurden, können Nachnennungen per drag & drop aus den *Fahrer ohne Gruppe* in die bestehenden Gruppen zugeordnet werden, werden zusätzliche Gruppen erzeugt müssen sie diese *Bestätigen* 
 	
 	Es ist nicht erforderlich bestehende Gruppen neu zu generieren
 	
 ---
 
-### &fa-trophy; Ergebnisse
+### :fontawesome-solid-trophy: Ergebnisse
 
 ![Ergebnisse](../img/results.png)
 

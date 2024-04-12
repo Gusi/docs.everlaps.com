@@ -1,4 +1,4 @@
-## &fa-user; Late entries
+# :fontawesome-solid-user: Late entries
 
 In Everlaps it is very easy to modify registrations and or series without having to re-generate the existing distribution.
 

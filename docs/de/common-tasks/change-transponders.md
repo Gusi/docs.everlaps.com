@@ -1,10 +1,10 @@
-## &fa-bolt; Transponder ändern
+# :fontawesome-solid-bolt: Transponder ändern
 
 Um den Transponder des Fahrers zu ändern ist es wichtig zu verstehen, wie everlaps Transponderaufgaben verwaltet.
 
 ### Transponder in der Fahrerliste (Transponder und Ränge)
 
-Einserseits sind in der [Fahrerliste](../user-guide/drivers.md) die zu einem Fahrer gehörenden Transpondernummern abgelegt. Diese Werte dienen der Erleichterung der Zuordnung und Änderung des Transponders in der Nennungliste. ** Das Ändern eines Transponders in der Fahrerliste hat keinen Einfluss auf die vom Fahrer vorher getätigten Nennungen** (ausser im [Freien Training](../race-formats/free-practice.md) Hier wird bei jeder Durchfahrt die Transpondernummer direkt mit der Fahrerliste abgeglichen).
+Einserseits sind in der [Fahrerliste](../user-guide/drivers.md) die zu einem Fahrer gehörenden Transpondernummern abgelegt. Diese Werte dienen der Erleichterung der Zuordnung und Änderung des Transponders in der Nennungliste. **Das Ändern eines Transponders in der Fahrerliste hat keinen Einfluss auf die vom Fahrer vorher getätigten Nennungen** (ausser im [Freien Training](../race-formats/free-practice.md) Hier wird bei jeder Durchfahrt die Transpondernummer direkt mit der Fahrerliste abgeglichen).
 
 ### Transponder in der Nennliste
 
@@ -28,9 +28,9 @@ Der Dialog zeigt den Namen und die Fahrzeugnummer des ausgewählten Fahrers sowi
 Wenn ein Fahrer mit einem im aktiven Lauf ungültigem Transponder nach Aktivierung des Laufes eine **Überfahrt über die Meßschleife** gemacht hat, zeigt das Programm dies im unteren Bereich des Bildschirmes durch eine graue Markierung der Überfahrt - mit Ausnahme der letzten Überfahrt, diese wird grün dargestellt. Die grau markierte Transpondernummer kann so einfach dem entsprechenden Fahrer zugeordnet werden.
 
 
-!!! beachte ""
+!!! note
 
-Während der Aufwärmrunden (von der Aktivierung bis zum Start) sind die Fahrer, die mindestens eine Überfahrt über die Maßschleife gemacht haben in der Ansicht des [aktiven Laufes](../user-guide/heats.md#situacion-de-la-manga-activa) mit einem grünen &fa-check; markiert. Dies zeigt an dass der Fahrer auf der Strecke ist und im Meßsystem erkannt wird.
+    Während der Aufwärmrunden (von der Aktivierung bis zum Start) sind die Fahrer, die mindestens eine Überfahrt über die Maßschleife gemacht haben in der Ansicht des [aktiven Laufes](../user-guide/heats.md#situacion-de-la-manga-activa) mit einem grünen :fontawesome-solid-check: markiert. Dies zeigt an dass der Fahrer auf der Strecke ist und im Meßsystem erkannt wird.
 
-Wenn es einen Fahrer mit ungültiger Transpondernummer im aktiven Lauf gibt, dann ist es einer von denen, die * nicht * mit einem grünen &fa-check; markiert sind.
+    Wenn es einen Fahrer mit ungültiger Transpondernummer im aktiven Lauf gibt, dann ist es einer von denen, die * nicht * mit einem grünen :fontawesome-solid-check: markiert sind.
 

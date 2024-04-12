@@ -1,4 +1,4 @@
-## Vorläufe und Finale
+# Vorläufe und Finale
 
 ![Vorläufe und Finale](../img/qualy-finals.png)
 
@@ -50,7 +50,7 @@ Das Rennformat * Vorläufe und Finale * definiert standardmäßig die Trainingss
 
 - **minimale Rundenzeit**: Minimale Rundenzeit für die jeweilige Strecke. Schnellere Runden werden automatisch als Abkürzung betrachtet und nicht gezählt.
  
-	!!! beachte ""
+	!!! note
 		Die minimale Rundenzeit sollte so eng wie möglich festgelegt werden, da sie neben der Abkürzungserkennung für die Sprachausgabe der Positionen während des Qualify herangezogen wird
 
 - **Letzte Runde**: Zeit zum Beenden der letzten Runde nachdem die Laufzeit um ist (oder das Ende der Qualify-Zeit erreicht ist). Entsprechend einiger Regelwerke sollte sie 150% der rechnerischen Rundenzeit nicht übersteigen.
@@ -96,7 +96,7 @@ Das Rennformat * Vorläufe und Finale * definiert standardmäßig die Trainingss
 
 	- **Rennsituation**: In regelmäßigen Abständen werden die Rennsituation, Fahrerpositionen und Abstand zwischen den Fahrern angesagt.
 	
-		!!! beachte ""
+		!!! note
 			Da in den Vorläufen jeder Fahrer eine eigene Rennzeit hat, kann es zwischen den Sprachausgaben für jeden Fahrer in Abhängikeit des Abstandes zum nächsten Fahrer kleine Pausen geben.
 	
 	- **Position bei Überfahrt**: Jedes Mal, wenn ein Fahrer die Meßschleife überquert, wird die Fahrerposition ausgegeben. Dieser Modus wird nur auf das Finale angewendet, da alle Fahrer eine gemeinsame Startzeit haben.
@@ -132,7 +132,7 @@ Das Rennformat * Vorläufe und Finale * definiert standardmäßig die Trainingss
 	
 	- **Training (Punktewertung oder bestes Ergebnis))**: vergleichbar zum fliegenden Start in den Vorläufen, nur startet die Zeitmessung mit dem Signalton anstelle auf die erste Überfahrt zu warten.
 	
-!!! beachte ""
+!!! note
 	Das Format kann modifiziert werden, selbst wenn die Session bereits ausgeführt wurde! Das System berechnet dann die Ergebnisse anhand der neuen Parametern und den aufgezeichneten Runden neu.
 
 ##### benutzerdefiniertes Format
@@ -226,7 +226,7 @@ Diese Funktion ermöglicht die Rangeinteilung der Fahrer bei gleichem Ergebnis /
 	- **bestes Ergebnis**: zieht das beste Ergebniss aus Runden/Zeit zur Auflösung heran...
 	- **kombinierte Ergebnisse**: zieht die Summe der Ergebniss aus Runden/Zeit aller gültigen Läufe zur Auflösung heran...
 	
-!!! beachte "Gleichstandsauflösung durch Einzelvergleich"
+!!! note "Gleichstandsauflösung durch Einzelvergleich"
 	Für der Fall dass mehrere Fahrer die gleichen Punkte (oder Runden/Zeit) haben, ist der Modus der Gleichstandsauflösung wie folgt:
 
 	- Der Fahrer mit der besten Position im Lauf gewinnt. Wenn der Gleichstand anhält, wird die zweitbeste Lauf verwendet, und so weiter (nur für gültige Läufe und nur wenn das Ergebnis nach Punkten ermittelt wird)

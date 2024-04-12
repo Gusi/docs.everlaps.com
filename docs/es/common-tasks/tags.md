@@ -1,4 +1,4 @@
-## &fa-tag; Etiquetas
+# :fontawesome-solid-tag: Etiquetas
 
 Everlaps permite crear etiquetas personalizadas y asignarlas a pilotos y carreras
 
@@ -30,5 +30,5 @@ Ejemplo:
 
  * En una carrera se introduce la *Categoría B* para aquellos pilotos que son novatos. Todos los pilotos correrían las clasificatorias conjuntamente, pero a la hora de pasar a las finales (o subfinales) se quiere que los pilotos de la *Categoría B* corran una final independiente (en una nueva sesión perteneciente a la misma carrera). A la hora de generar las series de esa final, se podría filtrar por la etiqueta de *Categoría B* para que la generación automática de las series basada en los resultados de las clasificatorias, sólamente tenga en cuenta a los pilotos de dicha categoría.
 
-!!! note ""
+!!! note
 	Cuando se asigna una etiqueta a una carrera y algún piloto tiene esa etiqueta asignada, automáticamente en la inscripción de ese piloto se marca la columna correspondiente a la etiqueta.

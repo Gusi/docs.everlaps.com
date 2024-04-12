@@ -1,4 +1,4 @@
-## &fa-bolt; Cambiar transponders
+# :fontawesome-solid-bolt: Cambiar transponders
 
 A la hora de modificar el transponder de un piloto, es importante entender cómo gestiona Everlaps la asignación de transponders.
 
@@ -28,8 +28,8 @@ El diálogo muestra el nombre y número de coche del piloto seleccionado, así c
 
 Si el piloto ya ha **efectuado alguna pasada** por línea de meta desde que la manga se activó, en la parte inferior del diálogo aparecerán los transponders que han realizado alguna pasada y que no pertenecen a ningún piloto de la manga activa, siendo posible seleccionar el transponder correspondiente de la lista y asignárselo al piloto. La lista de transponders inválidos aparecen en color gris, excepto el último transponder que pasado por línea de meta, que aparece en color verde. De esta forma es más sencillo identificar a quién pertenecen los números de los transponders inválidos.
 
-!!! note ""
-	Durante el prólogo de la manga (desde que se activa hasta que se da la salida) a los pilotos que hayan realizado al menos una pasada por línea de meta se les marca con un &fa-check; en la vista de [situación de la manga activa](../user-guide/heats.md#situacion-de-la-manga-activa), indicando que el piloto está en pista. 
+!!! note
+	Durante el prólogo de la manga (desde que se activa hasta que se da la salida) a los pilotos que hayan realizado al menos una pasada por línea de meta se les marca con un :fontawesome-solid-check: en la vista de [situación de la manga activa](../user-guide/heats.md#situacion-de-la-manga-activa), indicando que el piloto está en pista. 
 	
-	Si existen pilotos con un transponder incorrecto, serán aquellos que *no* tengan el &fa-check; verde.
+	Si existen pilotos con un transponder incorrecto, serán aquellos que *no* tengan el :fontawesome-solid-check: verde.
 

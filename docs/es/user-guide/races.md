@@ -1,4 +1,4 @@
-## &fa-road; Carreras
+# :fontawesome-solid-road: Carreras
 
 Desde aquí se gestionan las carreras disponibles, así como la configuración de todos sus parámetros.
 
@@ -28,7 +28,7 @@ Muestra las carreras disponibles hasta el momento.
 
 ---
 
-### &fa-gear; Formato
+### :fontawesome-solid-gear: Formato
 
 ##### Acciones disponibles
 
@@ -42,7 +42,7 @@ El resto de los parámetros de configuración de la carrera dependen del tipo de
 
 ---
 
-### &fa-user; Inscripciones
+### :fontawesome-solid-user: Inscripciones
 
 ![Inscripciones](../img/registrations.png)
 
@@ -63,7 +63,7 @@ La pantalla se divide horizontalmente en dos partes:
 	- **Desde archivo local**: Carga la lista de inscritos desde un fichero de texto descargado desde la web de [Everlaps](http://everlaps.com) conteniendo la lista de inscripciones de la carrera.
 	- **Desde la web**: Realiza la carga directamente desde la web siempre que se haya introducido el [código web](../race-formats/qualify-finals.md#campos-de-formato) de la carrera.
 	
-	!!! note ""
+	!!! note
 		Si se importa la lista de pilotos y ya existen pilotos inscritos en la carrera, solamente se añaden aquellos pilotos que aparecen en la lista y que no estuviesen todavía inscritos. De los pilotos ya inscritos se respetan sus valores de transponder y rank.
 	
 - **Exportar**: Permite el volcado a fichero de la lista de pilotos inscritos.
@@ -75,7 +75,7 @@ La pantalla se divide horizontalmente en dos partes:
 	- **Número de vehículo a ranking**: Copia el número de vehículo al valor de ranking.
 	- **Números de vehículo correlativos**: Renumera la lista completa de vehículos desde el número 1 en adelante, ordenados por ranking.
 
-- &fa-search; **(Filtro de búsqueda)**: Realiza un filtrado de los pilotos inscritos mostrando aquellos en los que alguno de sus campos (Nombre, Apellidos, Apodo, etc...) coinciden total o parcialmente con el texto introducido en el campo de búsqueda. 
+- :fontawesome-solid-magnifying-glass: **(Filtro de búsqueda)**: Realiza un filtrado de los pilotos inscritos mostrando aquellos en los que alguno de sus campos (Nombre, Apellidos, Apodo, etc...) coinciden total o parcialmente con el texto introducido en el campo de búsqueda. 
 
 ##### Campos
 
@@ -91,11 +91,11 @@ En la parte inferior de la pantalla se muestra la lista de pilotos disponibles e
 
 ##### Acciones
 
-- &fa-search; **(Filtro de búsqueda)**: Realiza un filtrado de los pilotos que todavía no pertenecen a la carrera mostrando aquellos en los que alguno de sus campos (Nombre, Apellidos, Apodo, etc...) coinciden total o parcialmente con el texto introducido en el campo de búsqueda. 
+- :fontawesome-solid-magnifying-glass: **(Filtro de búsqueda)**: Realiza un filtrado de los pilotos que todavía no pertenecen a la carrera mostrando aquellos en los que alguno de sus campos (Nombre, Apellidos, Apodo, etc...) coinciden total o parcialmente con el texto introducido en el campo de búsqueda. 
 
 ---
 
-### &fa-th; Series
+### :fontawesome-solid-table-cells: Series
 
 ![Series](../img/series.png)
 
@@ -116,7 +116,7 @@ La pantalla de series se divide verticalmente en dos partes:
 	- **Copiar de la sesión**: Se copia exactamente la misma distribución de pilotos establecida en la sesión seleccionada en la lista inferior.
 	- **Resultado de la sesión**: El orden de pilotos se define por el resultado de la sesión seleccionada en la lista inferior.
 
-		!!! note ""
+		!!! note
 			Al generar las mangas basándose en el resultado de una sesión anterior, se ignoran aquellos pilotos que hayan sido excluídos tanto de la carrera (panel de inscripciones) como de la sesión de la cual se obtiene el resultado para generar la nueva distribución (panel de series).
 
 - **Añadir**: Añade una serie vacía
@@ -127,7 +127,7 @@ La pantalla de series se divide verticalmente en dos partes:
 
 - **Confirmar**: Genera las mangas según la distribución de series.
 
-	!!! note ""
+	!!! note
 		Si después de confirmar las mangas se añaden nuevas series, se puede volver a *Confirmar* y se crearán las mangas pertenecientes a las nuevas series. También es posible reorganizar los pilotos una vez confirmadas las mangas, el programa es totalmente flexible en este aspecto.
 
 - **Imprimir**: Imprime la lista de series junto con los pilotos que pertenecen a cada una de ellas.
@@ -151,14 +151,14 @@ Los pilotos que aparecen dentro de cada serie pueden arrastrarse dentro de la mi
 
 Se muestra en la parte derecha de la pantalla, y contiene todos los pilotos inscritos en la carrera que todavía no pertenecen a ninguna serie en la sesión seleccionada. Los pilotos que aparecen en esta lista se pueden arrastrar a las series correspondientes y viceversa.
 
-!!! note ""
+!!! note
 	Si una vez generadas las series se inscriben nuevos pilotos, estos aparecerán en la lista de *pilotos sin serie* y se podrán arrastrar a las series existentes o crear una nueva serie para ellos. En éste último caso habría que volver a ejecutar la acción de *confirmar* para que el programa genere las mangas pertenecientes a las nuevas series.
 	
 	En cualquier caso, no es necesario volver a generar las series ya existentes.
 	
 ---
 
-### &fa-trophy; Resultados
+### :fontawesome-solid-trophy: Resultados
 
 ![Resultados](../img/results.png)
 

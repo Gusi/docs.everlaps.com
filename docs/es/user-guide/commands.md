@@ -1,4 +1,4 @@
-## &fa-info-circle; Opciones de línea de comandos
+# :fontawesome-solid-circle-info: Opciones de línea de comandos
 
 Estas son las opciones de línea de comandos que están disponibles para Everlaps.exe
 

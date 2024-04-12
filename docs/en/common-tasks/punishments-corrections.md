@@ -1,4 +1,4 @@
-## &fa-legal; Penalties and corrections
+# :fontawesome-solid-gavel: Penalties and corrections
 
 ---
 

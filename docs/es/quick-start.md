@@ -1,4 +1,4 @@
-## Inicio rápido
+# Inicio rápido
 
 Se describen a continuación los pasos básicos para poder instalar y generar una carrera en Everlaps. Para información más detallada consulta el resto de la documentación.
 
@@ -6,23 +6,23 @@ Se describen a continuación los pasos básicos para poder instalar y generar un
 
 ### Acciones básicas
 
-1.  Introduce los datos de los pilotos en [&fa-users; **Pilotos**](./user-guide/drivers.md)
+1.  Introduce los datos de los pilotos en [:fontawesome-solid-users: **Pilotos**](./user-guide/drivers.md)
 
-2.  Crea una nueva carrera en [&fa-road; **Carreras**](./user-guide/races.md), configura opciones generales y de [&fa-flag; **Sesión**](./race-formats/qualify-finals.md)
+2.  Crea una nueva carrera en [:fontawesome-solid-road: **Carreras**](./user-guide/races.md), configura opciones generales y de [:fontawesome-solid-flag: **Sesión**](./race-formats/qualify-finals.md)
 
-3.  Inscribe los pilotos participantes en [&fa-user; **Inscripciones**](./user-guide/races.md#inscripciones)
+3.  Inscribe los pilotos participantes en [:fontawesome-solid-user: **Inscripciones**](./user-guide/races.md#inscripciones)
 
-4.  &fa-check-circle; **Genera** e &fa-print; **imprime** las series de pilotos en [&fa-th; **Series**](./user-guide/races.md#series)
+4.  :fontawesome-solid-circle-check: **Genera** e :fontawesome-solid-print: **imprime** las series de pilotos en [:fontawesome-solid-table-cells: **Series**](./user-guide/races.md#series)
 
 	*Vuelve aquí al finalizar cada sesión para generar las series de la siguiente. Por ejemplo, para generar las series finales tras completar las clasificatorias*
 
-5.  &fa-check-circle-o; **Confirma** las series de pilotos en [&fa-th; **Series**](./user-guide/races.md#series)
+5.  :fontawesome-regular-circle-check: **Confirma** las series de pilotos en [:fontawesome-solid-table-cells: **Series**](./user-guide/races.md#series)
 
 	*Se generarán las mangas de la carrera*
 
-6.  [&fa-upload; **Activa**](./user-guide/heats.md#mangas_1) y arranca ([&fa-check-circle; **Start**](./user-guide/heats.md#control-de-la-manga-activa)) las mangas sucesivamente en [&fa-clock-o; **Mangas**](./user-guide/heats.md)
+6.  [:fontawesome-solid-upload: **Activa**](./user-guide/heats.md#mangas_1) y arranca ([:fontawesome-solid-circle-check: **Start**](./user-guide/heats.md#control-de-la-manga-activa)) las mangas sucesivamente en [:fontawesome-regular-clock: **Mangas**](./user-guide/heats.md)
 
-7.  Sanciona y corrige si es necesario, e &fa-print; **Imprime** los resultados
+7.  Sanciona y corrige si es necesario, e :fontawesome-solid-print: **Imprime** los resultados
 
 ---
 
@@ -49,7 +49,7 @@ Requisitos:
 
 Requiere instalar un módulo de voz externo (puede ser de pago, coste no incluído en la licencia Everlaps). Se recomienda el uso de [Ivona](http://www.ivona.com).
 
-Una vez instaladas las voces se podrán seleccionar en [&fa-gear; **Ajustes**](./user-guide/config.md)
+Una vez instaladas las voces se podrán seleccionar en [:fontawesome-solid-gear: **Ajustes**](./user-guide/config.md)
 
 ---
 
@@ -57,7 +57,7 @@ Una vez instaladas las voces se podrán seleccionar en [&fa-gear; **Ajustes**](.
 
 Conectar decodificador AMB/MyLaps al ordenador y configurarlo según las instrucciones del fabricante.
 
-Según el tipo de conexión, habrá que introducir los parámetros correctos en [&fa-gear; **Ajustes**](./user-guide/config.md)
+Según el tipo de conexión, habrá que introducir los parámetros correctos en [:fontawesome-solid-gear: **Ajustes**](./user-guide/config.md)
 
 - Conexión Serie: indicar puerto del ordenador en donde está conectado el decodificador (COM1, COM2, ...)
 

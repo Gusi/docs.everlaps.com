@@ -1,4 +1,4 @@
-## &fa-gears; Konfiguration
+# :fontawesome-solid-gears: Konfiguration
 
 erlaubt die Einstellung der allgemeinen Programmparameter
 
@@ -6,7 +6,7 @@ erlaubt die Einstellung der allgemeinen Programmparameter
 
 --- 
 
-#### &fa-microphone; Stimmen
+#### :fontawesome-solid-microphone: Stimmen
 
 Everlaps benötigt für vollen Funktionsumfang die Installation synthetischer Stimmen *TTS (Text To Speech)*. Zwei der bekanntesten Anbieter sind *Ivona* und *Loquendo*, darüberhinaus kann Everlaps mit jedem *TTS* SAPI5 kompatiblen System zusammenarbeiten.
 
@@ -20,17 +20,17 @@ Everlaps benötigt für vollen Funktionsumfang die Installation synthetischer St
 
 - **Stimm-Kompatibilitätsmodus**: aktiv  ***nur*** wenn anderweitig keine Stimme zu hören ist. *siehe weiter unten*.
 
-	!!! Achtung !!! "Stimmkompatibilität: Loquendo 6.5"
+	!!! warning "Stimmkompatibilität: Loquendo 6.5"
 		bei älteren Versionen von Loquendo (6.5 oder früher) gibt es einen Fehler bei der Sprachkontrolle durch Drittprogramme wie Everlaps. Nur in diesem Fall sollte der *Stimm-Kompatibilitätsmodus* aktiviert werden. 
 	
 		Dieser Fehler kann getestet werden, indem man die entsprechende Loquendo-Stimme auswählt und in der Testbox folgendes schreibt:
 	
 			Eins <Stille msec="1000"/> Zwei
 	
-		Wenn Sie hier *Eins Zwei* mit einer 1 Sekunde Pause dazwischen hören, ist der Fehler nicht vorhanden und die Auswahl des Kompatibilitätsmodus ist nicht notwendig; Wenn nur *Eins* gehört wird, dann ist es notwendig, den *Stimm-Kompatibilitätsmodus* zu aktivieren.
+		Wenn Sie hier *Eins Zwei* mit einer 1 Sekunde Pause dazwischen hören, ist der Fehler nicht vorhanden und die Auswahl des Kompatibilitätsmodus ist nicht notwendig: Wenn nur *Eins* gehört wird, dann ist es notwendig, den *Stimm-Kompatibilitätsmodus* zu aktivieren.
 ---
 
-#### &fa-bell-o; Töne
+#### :fontawesome-regular-bell: Töne
 
 Jeder Systemklang kann durch diesen Regler einzeln entsprechend den Bedürfnissen eingestellt werden.
 
@@ -38,14 +38,14 @@ Jeder Systemklang kann durch diesen Regler einzeln entsprechend den Bedürfnisse
 
 - **Führender**: Wenn das Fahrzeug mit den meisten Runden die Ziellinie kreuzt, wird ein intensiverer Klang ausgegeben, der dem Rennleiter und dem Publikum helfen kann, zu erkennen wer der Fahrer mit den meisten Runden ist. 
 
-	!!! note ""
+	!!! note
 		In einem * Finale * ist der Sound vom Führenden gleichbedeutend mit dem des schnellsten Fahrers.
 	
 		In einem *Vorlauf*, da hier jeder Fahrer seine eigenen Zeit hat ist der Führende nicht der, der zuerst die Ziellinie überfährt.
 
 - **Lauf Start/Lauf Ende**: signalisiert den Start bzw. das Ende des Laufes.
 
-	!!! beachte ""
+	!!! note
 		In einem * Finale * bedeutet der Laufstart-Sound im Allgemeinen den Beginn der Zeitmessung. Der Klang für das Laufende signalisiert jedoch, dass für alle Fahrzeuge nach ihrer DARAUFFOLGENDEN Überfahrt der Mess-Schleife der Lauf endet.
 	
 		In eine * Vorlauf * signalisiert der Laufstart-Sound dass die Strecke offen ist - aber die Zeitmessung erfolgt erst wenn der erste Fahrer die Mess-Schleife überfährt. Der Klang für das Laufende signalisiert NICHT das allgemeine Laufende sondern die Phase des individuellen Laufendes. Das Rennen wird fortgesetzt bis jeder Fahrer entsprechend seiner Rennzeit eine persönliche Ankündigung des Laufendes gesagt bekommt. (Bsp: Max fertig...) 
@@ -54,15 +54,15 @@ Jeder Systemklang kann durch diesen Regler einzeln entsprechend den Bedürfnisse
 
 ---
 
-#### &fa-bolt; Transponder
+#### :fontawesome-solid-bolt: Transponder
 
 Das System unterstützt verschiedene Transponder und ihre Decoder-Systeme
 
 - **Decoder/Parametes**: Ermöglicht die Auswahl des Decoders und seiner Verbindung. Die verfügbaren Optionen sind:
 
-	- **IPDecoder**: Anschluss von AMB/MyLaps oder alternativen Decodern über das Netzwerk via IP-Protokoll. Im Feld ** Einstellungen ** istes erforderlich, die Decoder-IP-Adresse anzugeben (zB 192.168.0.10)
+	- **IPDecoder**: Anschluss von AMB/MyLaps oder alternativen Decodern über das Netzwerk via IP-Protokoll. Im Feld Einstellungen** istes erforderlich, die Decoder-IP-Adresse anzugeben (zB 192.168.0.10)
 
-	- **seriellerDecoder**: Anschluss von AMB/MyLaps oder alternativen Decodern über die serielle Schnittstelle. Im Feld ** Parameter ** ist es erforderlich, anzugeben an welchem seriellen Port der Decoder angeschlossen ist (COM1, COM2, etc ...)
+	- **seriellerDecoder**: Anschluss von AMB/MyLaps oder alternativen Decodern über die serielle Schnittstelle. Im Feld **Parameter** ist es erforderlich, anzugeben an welchem seriellen Port der Decoder angeschlossen ist (COM1, COM2, etc ...)
 	
 	- **SimulatorDecoder**: startet nach Auswahl und Programmneustart einen Überfahrts-Simulator im Zusatzfenster. Mit diesem Tool kann man testweise Fahrerüberfahrten erzeugen, indem man die entsprechenden Transpondernummern aktiviert und die Zeitspanne zwischen den Überfahrten konfiguriert. (beachte: auf die passende minimale Rundenzeit in den Einstellungen des Testlaufes achten) 
 	
@@ -72,7 +72,7 @@ Das System unterstützt verschiedene Transponder und ihre Decoder-Systeme
 
 - **Ungültige Transponder zum Laufstart erlauben**: wenn nicht angewählt werden nur gültige Transponder zum Start der Zeitmessung bei der ersten Überfahrt erlaubt (bei den Vorläufen über fliegenden Start). Wenn die Funktion aktiv ist, können auch ungültige Transponder diesen Lauf starten. 
 	
-	!!! beachte ""
+	!!! note
 		Erlaubt einen ungültigen Transponder, um die Zeitmessung zu starten. Der ungültige Transponder kann nachträglich einem Fahrer zugewiesen werden und alle Runden (einschließlich der ersten Überfahrt) können automatisch wiederhergestellt werden.
 
 - **manuelle Zählung erlauben**: Erlaubt die Programmoption des manuellen Zählens von Fahrern ohne Transponder.
@@ -81,12 +81,12 @@ Das System unterstützt verschiedene Transponder und ihre Decoder-Systeme
 
 	- **Hot Keys erlauben**: Erlaubt die Nutzung der Hot Keys **F1 to F12** (Fahrer 1 bis 12) und **Ctrl+1, Ctrl+2 to Ctrl+0** (Fahrer von 11 bis 20) um einfach manell zu zählen ohne die Maus zu nutzen.
 
-		!!! beachte "Hot Keys beim manuellen Zählen"
+		!!! note "Hot Keys beim manuellen Zählen"
 			Die Tasten F1 bis F12 und alle Kombinationen incl. der Ctrl+NUM Funktion sind dann exklusiv genutzt auch wenn Everlaps läuft aber nicht im Vordergrund aktiv ist.
 
 ---
 
-#### &fa-print; Drucken
+#### :fontawesome-solid-print: Drucken
 
 - **Rennzeit in Runden Detail mit drucken**: Direkt neben der Rundenzeit wird beim Aktivieren dieser Option die entsprechende aktuelle Rennzeit mit ausgegeben.
 
@@ -100,27 +100,27 @@ Das System unterstützt verschiedene Transponder und ihre Decoder-Systeme
 
 ---
 
-#### &fa-gear; Standardoptionen
+#### :fontawesome-solid-gear: Standardoptionen
 
 - **Einführungszeit/minimale Rundenzeit/letzte Rundenzeit/Verzögerung Zeitmessung/Startverzögerung**: Diese Werte werden automatisch bei neu angelegten Rennen in die [Rennkonfiguration](../race-formats/qualify-finals.md#comun) eingelesen. 
 
 - **Nummerierung der Trainings- und Vorlaufgruppen umkehren**: Voreingestellt werden die Gruppen von 1 aufwärts nummeriert, 1 ist die Gruppe mit den Fahrern des höchsten Ranking und fährt zuerst, im der umgekehrten Nummerierung ist die erste Gruppe die mit dem geringeren Ranking und fährt zuerst.  
 
-	!!! beachte ""
+	!!! note
 		Die Reihenfolge der Läufe in Everlaps muss nicht streng befolgt werden, der Zeitmesser kann wählen, welchen Lauf er aus der aktuellen Runde startet.
 
 ---
 
-#### &fa-signal; Netzwerk
+#### :fontawesome-solid-signal: Netzwerk
 
 - **Ergebnisse automatisch in everlaps.com veröffentlichen**: Sobald ein Lauf beendet ist, werden die Ergebnisse auf [Everlaps](http://everlaps.com) aktualisiert sofern der passende *Web code* eingetragen wurde.
 
-	!!! beachte ""
+	!!! note
 		Wenn diese Funktion aktiv ist, und nach dem Ende des Laufes Bestrafungen und Kerrekturen angewendet wurden, müssen die Ergebnisse erneut manuell veröffentlicht werden über (Liste der Rennen > Rechtsklick auf das Rennen> Ergebnisse auf eververlaps.com veröffentlichen)
 
 ---
 
-#### &fa-rss; Live Timing 
+#### :fontawesome-solid-rss: Live Timing 
 
 Everlaps kann die Laufergebnisse *in Echtzeit* über den integrierten Webserver und WLAN zu veröffentlichen. Damit ist es möglich, das aktulle Renngeschehen auf allen mobilen browserfähigen Geräten wie SmartPhones, Tablets etc. auszugeben. 
 
@@ -145,7 +145,7 @@ Sowohl für die Fahrer, die Boxencrew, die Zuschauer und auch die Rennleitung se
 
 ---
 
-#### &fa-database; Dateien
+#### :fontawesome-solid-database: Dateien
 
 - **Datenbank**: Zeigt den Pfad zur Datenbank wo alle Konfigurationen, Fahrer- und Renndaten gespeichert werden. Dieser Pfad kann geändert werden, wenn z.B. die auf einem anderen Rechner erstellte und kopiert Rennkonfiguration genutzt werden soll. 
 
@@ -153,16 +153,16 @@ Sowohl für die Fahrer, die Boxencrew, die Zuschauer und auch die Rennleitung se
 
 ---
 
-#### &fa-globe; Sprache
+#### :fontawesome-solid-globe: Sprache
 
 Erlaubt das Ändern der Systemsprache von Everlaps
 
-!!! beachte ""
+!!! note
 	die Software der Sprachausgabe muss der konfigurierten Programmsprache entsprechen.
 
 ---
 
-#### &fa-bug; Debugging
+#### :fontawesome-solid-bug: Debugging
 
 - **Zeige Konsole**: Zeigt die Logbucheinträge des Programmes (Sprachausgabe, Aktionen, Fehler...). Im Falle eines Problems kann dies nützlich sein um die ursache für aufgetretene Probleme zu finden.
 
@@ -171,11 +171,11 @@ Erlaubt das Ändern der Systemsprache von Everlaps
 
 ![Klassen und Marker](../img/classes-tags.png)
 
-#### &fa-list; Klassen
+#### :fontawesome-solid-list: Klassen
 
 Erlaubt das hinzufügen, löschen und modifizieren der Klassen. Voreingestellt ist eine Liste mit den meistgenutzten Klassen, diese kann angepasst werden - jedoch kann die Standardklasse nicht gelöscht werden.
 
-#### &fa-list; Marker
+#### :fontawesome-solid-list: Marker
 
 Erlaubt das hinzufügen, löschen und modifizieren der Marker und das Zuordnen einer Farbmarkierung und Beschreibung.
 

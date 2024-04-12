@@ -1,10 +1,10 @@
-## &fa-legal; Strafen und Korrekturen
+# :fontawesome-solid-gavel: Strafen und Korrekturen
 
 ---
 
 Es gibt verschiedene Arten von Bestrafungen und Korrekturen, jede muss in dem entsprechenden Abschnitt des Programms angewendet werden.
 
-!!! beachte "Häufige Strafen Übersicht"
+!!! note "Häufige Strafen Übersicht"
 	- Bestrafungen/Korrekturen **spezieller Lauf**: siehe [verschiedene Bestrafungen im Lauf](#sanciones-a-nivel-de-manga)
 	- Strafen **bester Lauf**: siehe [verschiedene Bestrafungen im Rennen](#sanciones-a-nivel-de-sesion)
 
@@ -47,7 +47,7 @@ Diese werden im Session Bereich für das entsprechende Rennen gemacht. Auf der r
 	*Da der beste Lauf variieren kann, während die Session fortschreitet, werden die hinter dem bestraften Fahrer positionierten Fahrer nicht nach vorn platziert. Sollte dies gewünscht sein muss bis zum Ende der Sitzung gewartet und der beste Lauf direkt bestraft werden (Laufbestrafungen)*
 	
 
-- ** Ausgeschlossen **: Platziert einen Fahrer in letzter Stelle der Session und er wird von der automatischen Generierung neuer Gruppen ausgeschlossen.
+- **Ausgeschlossen**: Platziert einen Fahrer in letzter Stelle der Session und er wird von der automatischen Generierung neuer Gruppen ausgeschlossen.
 
 ---
 
@@ -57,4 +57,4 @@ Diese werden im Session Bereich für das entsprechende Rennen gemacht. Auf der r
 
 Diese werden aus dem Registrierungsbereich des Programms erstellt - es gibt nur eine einzige Option:
 
-- ** Ausgeschlossen **: Platziert einen Fahrer in letzter Stelle in allen Sessions des Rennens und er wird von der automatischen Generierung neuer Gruppen ausgeschlossen.
+- **Ausgeschlossen**: Platziert einen Fahrer in letzter Stelle in allen Sessions des Rennens und er wird von der automatischen Generierung neuer Gruppen ausgeschlossen.

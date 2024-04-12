@@ -1,4 +1,4 @@
-## Aufsteiger
+# Aufsteiger
 
 Das Aufsteigersystem ist charakterisiert durch eine Reihe an Sub-Finals in Form einer Pyramide oder eines * Weihnachtsbaumes *, das ermöglicht jedem Fahrer sich selbst bei schlechter Platzierung in den Vörläufen durch die Sub-Finals bis ins grosse Finale hochzufahren.
 
@@ -8,7 +8,7 @@ Die Sessions vor den Finals (Training, Zeitqualifikation und oder Vorläufe) sin
 
 ![Aufsteiger](../img/subfinals.png)
 
-!!! beachte ""
+!!! note
 	The number of drivers used to calculate the distribution of the sub-finals is that of the registration list, except those drivers excluded from the race or qualifying session. This is useful to fine tune the distribution in case there are drivers that are registered but are not going to race, or have abandoned after qualifying.
 
 - **Name**: bezeichnet das Subfinale oder Finale und wird automatisch gesetzt.
@@ -32,7 +32,7 @@ Die Sessions vor den Finals (Training, Zeitqualifikation und oder Vorläufe) sin
 
 	- **durch Zeit**: Alle Fahrer aus den Gruppen A und B sind nach ihrem *Runden/Zeiten* der Semifinals in die Startaufstellung positioniert.
 	- **verschachtelt**: Die Fahrer werden von beiden Gruppen gleichmäßig platziert: erster Platz Gruppe A, erster Platz Gruppe B, zweiter Platz Gruppe A, zweiter Platz Gruppe B, etc ...
-	!!! beachte ""
+	!!! note
 		Für den Fall, dass die Summe der Fahrer mit direktem Aufstieg und denen, die durch Ihr Ergebnis Aufsteigen, nicht die Gesamtsumme der Fahrer pro Gruppe übereinstimmt, werden die weiteren Fahrer um die Gruppe zu komplettieren über *Runden/Zeit* hinzugefügt.
 
 - **Gruppenverteilung**: Zeigt eine Zusammenfassung der Zusammenstellung der Sub-Finals nach den im Rennen registrierten Fahrern an, um zu überprüfen, ob die eingegebenen Daten die gewünschte Verteilung erzeugen.
@@ -48,7 +48,7 @@ Die Sessions vor den Finals (Training, Zeitqualifikation und oder Vorläufe) sin
 
 - **direkt qualifizierte drucken**: Sobald die Vorläufe abgeschlossen sind, kann hier eine Liste mit den direkt in die jeweiligen Finals qualifizierten Fahrern erstellt werden
 
-!!! Achtung "Subfinals generieren"
+!!! warning "Subfinals generieren"
 
     Nachdem Änderungen an einem der Konfigurationsparameter des Aufsteigersystems vorgenommen wurden, der Einfluss auf die Anzahl der Sub-Finals hat, ist es notwendig auf *Sub-Finals erstellen* zu klicken um die Liste der Sub-Finals im Rennen zu aktualisieren.
 

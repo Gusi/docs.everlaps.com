@@ -1,4 +1,4 @@
-## &fa-bolt; Change transponders
+# :fontawesome-solid-bolt: Change transponders
 
 When changing a drivers transponder, it is important to understand  how everlaps manages transponder assignments.
 
@@ -28,8 +28,8 @@ The dialogue shows the name and vehicle number of the selected driver, as well a
 
 If the driver has already **made a passing** of the finishing line since the heat activation, in the lower part of the dialogue will show the transponders that have already made a passing and does not belong to any driver in the active heat, it is possible to select any transponder in the list and assign it to a driver. The list of invalid transponders appear in grey, except the last transponder to have passed the finishing line, which appears in green. This way it is easier to identify to whom the invalid transponder number belongs to.
 
-!!! note ""
-	During the heat prologue (from activation until start) the drivers whom have made at least one passing of the finishing line are marked with a &fa-check; in the view [situation of active heat](../user-guide/heats.md#situacion-de-la-manga-activa), indicating that the driver is on the track. 
+!!! note
+	During the heat prologue (from activation until start) the drivers whom have made at least one passing of the finishing line are marked with a :fontawesome-solid-check: in the view [situation of active heat](../user-guide/heats.md#situacion-de-la-manga-activa), indicating that the driver is on the track. 
 	
-	It there are drivers with the incorrect transponder, it will be one of those that *does not* have a green &fa-check;.
+	It there are drivers with the incorrect transponder, it will be one of those that *does not* have a green :fontawesome-solid-check:.
 

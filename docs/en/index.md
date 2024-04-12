@@ -1,10 +1,4 @@
-
-<div class="bs-docs-header" id="content" style="margin-bottom:0px">
-	<div class="container">
-		<h1>Everlaps</h1>
-		<p>Professional Race Timing Solutions</p>
-	</div>
-</div>
+# EVERLAPS - Professional Race Timing Solutions
 
 ![Everlaps](./img/heats.png)
 

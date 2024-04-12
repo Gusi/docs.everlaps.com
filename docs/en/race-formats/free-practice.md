@@ -1,4 +1,4 @@
-## Free practice 
+# Free practice 
 
 ![Free Practice](../img/freepractice.png)
 
@@ -28,7 +28,7 @@ In free practice there is a single session and series where all the drivers that
 
 - **Discard unknown transponders**: If enabled, passings made by transponders not in the database are ignored.
 
-!!! note ""
+!!! note
 	Having various free practice heats is useful because it allows re-setting all the drivers records and starting from zero. A common case is a driver short cutting and getting absolute record for the heat, which means until another is started this value is maintained.
 
 When a free practice heat is started, The announcement system will narrate the drivers whom are on the tracks lap times, emphasizing personal bests and fastest lap for the heat. At any moment, the heat results up until that point may be printed and a list of fastest laps for each driver.
@@ -37,6 +37,6 @@ If a drivers transponder is not registered the laps will be shown while the heat
 
 During free practice heats, nick names and transponder numbers can be modified directly in the [Drivers list](../user-guide/drivers.md) and the changes will take place immediately.
 
-!!! note ""
+!!! note
 	When a free practice heat is finalised manually the results are not printed, even if the option *print automatically at the end of each heat* is enabled.
 

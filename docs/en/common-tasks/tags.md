@@ -1,4 +1,4 @@
-## &fa-tag; Tags
+# :fontawesome-solid-tag: Tags
 
 Everlaps allows the creation of personalised tags that can be assigned to drivers and races
 
@@ -30,5 +30,5 @@ Example:
 
  * In the race a *Category B* is introduced for beginners. All the drivers participate in qualifying together, but when changing to finals (or sub-finals) it is required that *Category B* drivers run an independent final (in a new session belonging to the same race). when generating the series of that final, filtering can be performed by the *Category B* tag, so that automatic generation of series based on the qualifying results, only takes into account those drivers of that category.
 
-!!! note ""
+!!! note
 	When a tag is assigned to a race and a driver has that tag assigned, That tag is automatically marked in the corresponding column in the drivers registration.
