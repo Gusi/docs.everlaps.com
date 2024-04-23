@@ -30,8 +30,8 @@ Die Dokumentation gliedert sich wie folgt:
 
 - **detailierte Bedienungsanleitung**: Beschreibung aller Möglichkeiten des Programms.
 	- [**Fahrer**](user-guide/drivers.md)
-	- [**Rennen***](user-guide/races.md)
-	- [**Läufe***](user-guide/heats.md)
+	- [**Rennen**](user-guide/races.md)
+	- [**Läufe**](user-guide/heats.md)
 	- [**Einstellungen**](user-guide/config.md)
 	- [**Befehlszeilenoptionen**](user-guide/commands.md)
 
